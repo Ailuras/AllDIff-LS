@@ -104,6 +104,9 @@ double time_limit;
 string filename;
 string outPut;
 
+int order;
+int group_size;
+int is_sat;
 int vertex_size;    		
 int edge_size;  		
 int square_length;			
@@ -192,12 +195,12 @@ int total_all;
 
 
 void set_Variable_size() {
-	square_length = sqrt(vertex_size);
+	square_length = group_size;
 	G = (int **) malloc(sizeof(int *) * (vertex_size + 2));
 	for(int i = 1; i <= vertex_size; i++) G[i] = (int *) malloc(sizeof(int) * (vertex_size + 2));
 	edge = (Edge *) malloc(sizeof(Edge) * (edge_size + 1));
 	Neighbour = (int **) malloc(sizeof(int *) * (vertex_size + 2));
-	for(int i = 1; i <= vertex_size; i++) Neighbour[i] = (int *) malloc(sizeof(int) * (2 * square_length));
+	for(int i = 1; i <= vertex_size; i++) Neighbour[i] = (int *) malloc(sizeof(int) * (3 * square_length));
 	Neighbour_length = (int *) malloc(sizeof(int) * (vertex_size + 2));
 	vertex_color = (int **) malloc(sizeof(int *) * (vertex_size + 2));
 	for(int i = 1; i <= vertex_size; i++) vertex_color[i] = (int *) malloc(sizeof(int) * (square_length + 1));
@@ -614,6 +617,15 @@ int makenumber(string str) {
 	return res;
 }
 
+int to_index(int index1, int index2, bool type) {
+	// row, col
+	if(type) return (index1-1)*group_size + index2;
+	// group, point
+	int row_low = int((index1-1)/order)*order + int((index2-1)/order);
+	int col = ((index1-1)%order)*order + (index2-1)%order + 1;
+	return row_low*group_size + col;
+}
+
 void mRead(string filename) {
 	string tempstr1;
 	string tempstr2;
@@ -621,41 +633,82 @@ void mRead(string filename) {
 	//cout << filename << endl;
 	fp = freopen(filename.c_str(), "r", stdin); 
 	//cout << ftell(fp) << endl;
-	cin >> tempstr1 >> tempstr2 >> vertex_size >> edge_size;
-	//cout << tempstr1 << " " << tempstr2 << " " << vertex_size << " " << edge_size << endl;
-	int x, y; 
+
+
+	int index = 0;
+	int** vertex;
+	
+	cin >> order;
+	cin >> is_sat;
+	group_size = order*order;
+	vertex_size = group_size*group_size;
 	set_Variable_size();
 	init();
-	for(int i = 1; i <= edge_size; i++) {
-		cin >> tempstr1 >> x >> y;
-		//cout << tempstr1 << " " << x << " " << y << " " << Neighbour_length[x] << " " << Neighbour_length[y] << endl;
-		if(x > y) swap(x, y);
-		Neighbour[x][Neighbour_length[x]++] = y;
-		Neighbour[y][Neighbour_length[y]++] = x;
-		edge[i].x = x;
-		edge[i].y = y;
-		//mapEdge.insert(pair<Edge, int>(edge[i], i));
-		G[x][y] = i;
-		G[y][x] = i;
-	}
-	cin >> tempstr1;
-	for(int i = 1; i <= vertex_size; i++) {
-		first = false;
-		while(cin >> tempstr1 && tempstr1[0] != '\n' && tempstr1[0] != '\0') {
-			if(tempstr1[0] == 'f') break;
-			else {
-				if(!first) first = true;
-				else {
-					vertex_color[i][vertex_color_length[i]] = makenumber(tempstr1); 
-					color_vertex_pos[i][makenumber(tempstr1)] = vertex_color_length[i]++;
-					vertex_can_move[i][makenumber(tempstr1)] = true;
+	vertex = (int **) malloc(sizeof(int *) * (group_size+2));
+	for (int i=1; i<=group_size; i++) vertex[i] = (int *) malloc(sizeof(int) * (group_size+2));
+	for (int i=1; i<=group_size; i++) {
+		for (int j=1; j<=group_size; j++) {
+			cin >> vertex[i][j];
+			int x = to_index(i, j, true);
+			if (vertex[i][j] == -1) {
+				for(int k=1; k<=group_size; k++) {
+					vertex_color[x][vertex_color_length[x]] = k; 
+					color_vertex_pos[x][k] = vertex_color_length[x]++;
+					vertex_can_move[x][k] = true;
 				}
+			} else {
+				vertex_color[x][vertex_color_length[x]] = vertex[i][j]; 
+				color_vertex_pos[x][vertex[i][j]] = vertex_color_length[x]++;
+				vertex_can_move[x][vertex[i][j]] = true;
 			}
 		}
 	}
-	fp = freopen("/dev/tyy", "r", stdin);
-	//cout << ftell(fp) << endl;
-	//freopen("/dev/console", "r", stdin);
+	cout<<group_size<<endl;
+	for (int row=1; row<=group_size; row++) {
+		for (int col1=1; col1<group_size; col1++) {
+			for (int col2=col1+1; col2<=group_size; col2++) {
+				int x = to_index(row, col1, true);
+				int y = to_index(row, col2, true);
+				cout << x << " || " << y << " " << Neighbour_length[x] << endl;
+				Neighbour[x][Neighbour_length[x]++] = y;
+				cout << x << "    " << y << " " << index << endl;
+				Neighbour[y][Neighbour_length[y]++] = x;
+				edge[++index].x = x;
+				edge[index].y = y;
+				G[x][y] = index;
+				G[y][x] = index;
+			}
+		}
+	}
+	for (int col=1; col<=group_size; col++) {
+		for (int row1=1; row1<group_size; row1++) {
+			for (int row2=row1+1; row2<=group_size; row2++) {
+				int x = to_index(row1, col, true);
+				int y = to_index(row2, col, true);
+				Neighbour[x][Neighbour_length[x]++] = y;
+				Neighbour[y][Neighbour_length[y]++] = x;
+				edge[++index].x = x;
+				edge[index].y = y;
+				G[x][y] = index;
+				G[y][x] = index;
+			}
+		}
+	}
+	for (int group=1; group<group_size; group++) {
+		for (int point1=1; point1<group_size; point1++) {
+			for (int point2=point1+1; point2<=group_size; point2++) {
+				int x = to_index(group, point1, false);
+				int y = to_index(group, point2, false);
+				Neighbour[x][Neighbour_length[x]++] = y;
+				Neighbour[y][Neighbour_length[y]++] = x;
+				edge[++index].x = x;
+				edge[index].y = y;
+				G[x][y] = index;
+				G[y][x] = index;
+			}
+		}
+	}
+
 	return;
 }
 
@@ -1404,28 +1457,28 @@ int main(int argc, char* argv[]) {
 	total_zero = 0;
 	//cout << filename << endl;;
 	mRead(filename);
-	//cout << "Read file finish" << endl;
-	mReduceVertexes(); 
-	mStartTime();
-	//cout << "Reduce vertexes finish" << endl;
-	mGenerate();
-	//cout << "mGenerate finish" << endl;
-	if(check_finish()) {
-		print_ans();
-		return 0;
-	}
-	steps = 1;
-	no_improve_steps = 1;
-	total_Iters = 10000;
-	bool tabuCFlag;
-	for(Iter = 0; total_time < time_limit; Iter++) {
-		mPopulationUpdate();
-		mCopy();
-		mPerturbation();
-		LocalSearch();
-		if(check_finish()) break;
-		mCurrentTime();
-	}
-	print_ans();
+	// //cout << "Read file finish" << endl;
+	// mReduceVertexes(); 
+	// mStartTime();
+	// //cout << "Reduce vertexes finish" << endl;
+	// mGenerate();
+	// //cout << "mGenerate finish" << endl;
+	// if(check_finish()) {
+	// 	print_ans();
+	// 	return 0;
+	// }
+	// steps = 1;
+	// no_improve_steps = 1;
+	// total_Iters = 10000;
+	// bool tabuCFlag;
+	// for(Iter = 0; total_time < time_limit; Iter++) {
+	// 	mPopulationUpdate();
+	// 	mCopy();
+	// 	mPerturbation();
+	// 	LocalSearch();
+	// 	if(check_finish()) break;
+	// 	mCurrentTime();
+	// }
+	// print_ans();
 	return 0;
 }
