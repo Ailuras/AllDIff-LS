@@ -148,6 +148,9 @@ int** mCol_length;
 int*** mRow;
 int*** mRow_pos;
 int** mRow_length;
+int*** mGroup;
+int*** mGroup_pos;
+int** mGroup_length;
 int** color_weight;
 int** mPopulation;
 int** mPopulationClash;
@@ -193,6 +196,14 @@ int update_Iter;
 int total_zero;
 int total_all;
 
+int to_index(int index1, int index2, bool type) {
+	// row, col
+	if(type) return (index1-1)*group_size + index2;
+	// group, point
+	int row_low = int((index1-1)/order)*order + int((index2-1)/order);
+	int col = ((index1-1)%order)*order + (index2-1)%order + 1;
+	return row_low*group_size + col;
+}
 
 void set_Variable_size() {
 	square_length = group_size;
@@ -283,6 +294,18 @@ void set_Variable_size() {
 	}
 	mRow_length = (int **) malloc(sizeof(int *) * (square_length + 3));
 	for(int i = 1; i <= square_length; i++) mRow_length[i] = (int *) malloc(sizeof(int) * (square_length + 3));
+	mGroup = (int ***) malloc(sizeof(int **) * (square_length + 3));
+	for(int i = 1; i <= square_length; i++) {
+		mGroup[i] = (int **) malloc(sizeof(int *) * (square_length + 3));
+		for(int j = 1; j <= square_length; j++) mGroup[i][j] = (int *) malloc(sizeof(int) * (square_length + 3));
+	}
+	mGroup_pos = (int ***) malloc(sizeof(int **) * (square_length + 3));
+	for(int i = 1; i <= square_length; i++) {
+		mGroup_pos[i] = (int **) malloc(sizeof(int *) * (square_length + 3));
+		for(int j = 1; j <= square_length; j++) mGroup_pos[i][j] = (int *) malloc(sizeof(int) * (vertex_size + 3));
+	}
+	mGroup_length = (int **) malloc(sizeof(int *) * (square_length + 3));
+	for(int i = 1; i <= square_length; i++) mGroup_length[i] = (int *) malloc(sizeof(int) * (square_length + 3));
 	t_array = (bool *) malloc(sizeof(bool) * (vertex_size + 2));
 	mPopulation = (int **) malloc(sizeof(int *) * population_size);
 	for(int i = 0; i < population_size; i++) {
@@ -365,6 +388,20 @@ void init() {
 	}
 	for(int i = 1; i <= square_length; i++) for(int j = 1; j <= square_length; j++) mRow_length[i][j] = square_length;
 	for(int i = 1; i <= square_length; i++) {
+		for(int j = 1; j <= square_length; j++) {
+			for(int p = 1; p <= square_length; p++) {
+				mGroup[i][j][p] = to_index(i, p, false);
+				mGroup_pos[i][j][to_index(i, p, false)] = p;
+				// cout<<"index: "<<index<<endl;
+				// cout<<"group: "<<i<<endl;
+				// cout<<"point: "<<p<<endl;
+				// cout<<"mGroup: "<<index<<endl;
+				// cout<<"mGroup_pos: "<<p<<endl;
+			}
+		}
+	}
+	for(int i = 1; i <= square_length; i++) for(int j = 1; j <= square_length; j++) mGroup_length[i][j] = square_length;
+	for(int i = 1; i <= square_length; i++) {
 		for(int j = 0; j < vertex_size; j++) {
 			color_vertex[i][j] = j + 1;
 			color_vp[i][j + 1] = j;
@@ -439,6 +476,16 @@ void swap_row(int row_id, int c_id, int id_a, int pos_b) {
 	mRow[row_id][c_id][pos_b] = id_a;
 	mRow_pos[row_id][c_id][id_a] = pos_b;
 	mRow_pos[row_id][c_id][id_b] = pos_a;
+	return;
+}
+
+void swap_group(int group_id, int c_id, int id_a, int pos_b) {
+	int id_b = mGroup[group_id][c_id][pos_b];
+	int pos_a = mGroup_pos[group_id][c_id][id_a];
+	mGroup[group_id][c_id][pos_a] = id_b;
+	mGroup[group_id][c_id][pos_b] = id_a;
+	mGroup_pos[group_id][c_id][id_a] = pos_b;
+	mGroup_pos[group_id][c_id][id_b] = pos_a;
 	return;
 }
 
@@ -589,6 +636,10 @@ int get_Row(int id) {
 	return (id - 1) % square_length + 1;
 }
 
+int get_Group(int id) {
+	return (id-1)/(group_size*order)*order + (id-1)%group_size/order + 1;
+}
+
 int calDist(int* a, int* b) {
 	int res = 0;
 	for(int i = 0; i < vertex_use_length; i++) {
@@ -617,15 +668,6 @@ int makenumber(string str) {
 	return res;
 }
 
-int to_index(int index1, int index2, bool type) {
-	// row, col
-	if(type) return (index1-1)*group_size + index2;
-	// group, point
-	int row_low = int((index1-1)/order)*order + int((index2-1)/order);
-	int col = ((index1-1)%order)*order + (index2-1)%order + 1;
-	return row_low*group_size + col;
-}
-
 void mRead(string filename) {
 	string tempstr1;
 	string tempstr2;
@@ -642,6 +684,7 @@ void mRead(string filename) {
 	cin >> is_sat;
 	group_size = order*order;
 	vertex_size = group_size*group_size;
+	edge_size = group_size*group_size*3*(group_size-1)/2;
 	set_Variable_size();
 	init();
 	vertex = (int **) malloc(sizeof(int *) * (group_size+2));
@@ -663,15 +706,12 @@ void mRead(string filename) {
 			}
 		}
 	}
-	cout<<group_size<<endl;
 	for (int row=1; row<=group_size; row++) {
 		for (int col1=1; col1<group_size; col1++) {
 			for (int col2=col1+1; col2<=group_size; col2++) {
 				int x = to_index(row, col1, true);
 				int y = to_index(row, col2, true);
-				cout << x << " || " << y << " " << Neighbour_length[x] << endl;
 				Neighbour[x][Neighbour_length[x]++] = y;
-				cout << x << "    " << y << " " << index << endl;
 				Neighbour[y][Neighbour_length[y]++] = x;
 				edge[++index].x = x;
 				edge[index].y = y;
@@ -694,7 +734,7 @@ void mRead(string filename) {
 			}
 		}
 	}
-	for (int group=1; group<group_size; group++) {
+	for (int group=1; group<=group_size; group++) {
 		for (int point1=1; point1<group_size; point1++) {
 			for (int point2=point1+1; point2<=group_size; point2++) {
 				int x = to_index(group, point1, false);
@@ -708,7 +748,7 @@ void mRead(string filename) {
 			}
 		}
 	}
-
+	// cout<<index<<endl;
 	return;
 }
 
@@ -927,11 +967,11 @@ bool check_tabuC(int id, int to) {
 	}
 	return false;
 }
-
 void mReduceVertexes() {
 	pppp_cnt = 0;
 	//cout << "mReduceVertexes start" << endl;
 	for(int i = 1; i <= vertex_size; i++) if(vertex_color_length[i] == 1) pppp_cnt++;
+	cout<<pppp_cnt<<endl;
 	for(int i = 1; i <= vertex_size; i++) {
 		if(vertex_color_length[i] == 1) {
 			int tmp_c = vertex_color[i][0];
@@ -940,28 +980,40 @@ void mReduceVertexes() {
 			vertex_color_pos[i][tmp_c] = mColorsLength[tmp_c];
 			mColors[tmp_c][mColorsLength[tmp_c]++] = i;
 			vertex_can_move[i][tmp_c] = false;
+			// i不能再选择其他颜色，因此i所在的行、列、组的其他颜色的长度都要减一
 			for(int j = 1; j <= square_length; j++) {
 				if(mCol_pos[get_Col(i)][j][i] <= mCol_length[get_Col(i)][j]) swap_col(get_Col(i), j, i, mCol_length[get_Col(i)][j]--);
 				if(mRow_pos[get_Row(i)][j][i] <= mRow_length[get_Row(i)][j]) swap_row(get_Row(i), j, i, mRow_length[get_Row(i)][j]--);
+				if(mGroup_pos[get_Group(i)][j][i] <= mGroup_length[get_Group(i)][j]) swap_group(get_Group(i), j, i, mGroup_length[get_Group(i)][j]--);
 			}
+			// cout<<"here"<<endl;
+			// i所在行、列、组的tmp_c无法再被其他点选择
 			swap_col(get_Col(i), tmp_c, i, 1);
 			mCol_length[get_Col(i)][tmp_c] = 0;
 			swap_row(get_Row(i), tmp_c, i, 1);
 			mRow_length[get_Row(i)][tmp_c] = 0;
+			swap_group(get_Group(i), tmp_c, i, 1);
+			mGroup_length[get_Group(i)][tmp_c] = 0;
 			for(int j = 0; j < Neighbour_length[i]; j++) {
 				int tmp_V = Neighbour[i][j];
+				// 删除i点的邻居的对应tmp_c
 				if(color_vertex_pos[tmp_V][tmp_c] < vertex_color_length[tmp_V]) {
-					swap_vertex_color(tmp_V, tmp_c, vertex_color_length[tmp_V] - 1);
-					vertex_color_length[tmp_V]--;
-
+					swap_vertex_color(tmp_V, tmp_c, vertex_color_length[tmp_V]--);
+					// vertex_color_length[tmp_V]--;
 				}
-				if(mCol_pos[get_Col(tmp_V)][tmp_c][tmp_V] <= mCol_length[get_Col(tmp_V)][tmp_c]) swap_col(get_Col(tmp_V), tmp_c, tmp_V, mCol_length[get_Col(tmp_V)][tmp_c]--);
-				if(mRow_pos[get_Row(tmp_V)][tmp_c][tmp_V] <= mRow_length[get_Row(tmp_V)][tmp_c]) swap_row(get_Row(tmp_V), tmp_c, tmp_V, mRow_length[get_Row(tmp_V)][tmp_c]--);
+				// i点的邻居不能再选择tmp_c
+				if(mCol_pos[get_Col(tmp_V)][tmp_c][tmp_V] <= mCol_length[get_Col(tmp_V)][tmp_c])
+					swap_col(get_Col(tmp_V), tmp_c, tmp_V, mCol_length[get_Col(tmp_V)][tmp_c]--);
+				if(mRow_pos[get_Row(tmp_V)][tmp_c][tmp_V] <= mRow_length[get_Row(tmp_V)][tmp_c])
+					swap_row(get_Row(tmp_V), tmp_c, tmp_V, mRow_length[get_Row(tmp_V)][tmp_c]--);
+				if(mGroup_pos[get_Group(tmp_V)][tmp_c][tmp_V] <= mGroup_length[get_Group(tmp_V)][tmp_c])
+					swap_group(get_Group(tmp_V), tmp_c, tmp_V, mGroup_length[get_Group(tmp_V)][tmp_c]--);
 			}
 		}
 	}
 	queue<St> q;
 	St st;
+	// 只能选择一个颜色的点
 	for(int i = 1; i <= vertex_size; i++) {
 		if(vertex_color_length[i] == 1) {
 			st.id = i;
@@ -970,6 +1022,7 @@ void mReduceVertexes() {
 			q.push(st);
 		}
 	}
+	// 只有一个点可选的颜色
 	for(int i = 1; i <= square_length; i++) {
 		for(int j = 1; j <= square_length; j++) {
 			if(mCol_length[i][j] == 1) {
@@ -977,9 +1030,15 @@ void mReduceVertexes() {
 				st.c = j;
 				//cout << "Col: " << st.id << " " << st.c << endl;
 				q.push(st);
-			}
+			}	
 			if(mRow_length[i][j] == 1) {
 				st.id = mRow[i][j][1];
+				st.c = j;
+				//cout << "Row: " << st.id << " " << st.c << endl;
+				q.push(st);
+			}
+			if(mGroup_length[i][j] == 1) {
+				st.id = mGroup[i][j][1];
 				st.c = j;
 				//cout << "Row: " << st.id << " " << st.c << endl;
 				q.push(st);
@@ -997,12 +1056,16 @@ void mReduceVertexes() {
 		vertex_color_length[tmp_v] = 0;
 		mColors[tmp_c][mColorsLength[tmp_c]] = tmp_v;
 		vertex_color_pos[tmp_v][tmp_c] = mColorsLength[tmp_c]++;
+		// 此时才开始将tmp_v赋值为tmp_c
 		mVertexesColor[tmp_v] = tmp_c;
 		vertex_can_move[tmp_v][tmp_c] = false;
 		swap_col(get_Col(tmp_v), tmp_c, tmp_v, 1);
 		mCol_length[get_Col(tmp_v)][tmp_c] = 0;
 		swap_row(get_Row(tmp_v), tmp_c, tmp_v, 1);
 		mRow_length[get_Row(tmp_v)][tmp_c] = 0;
+		swap_group(get_Group(tmp_v), tmp_c, tmp_v, 1);
+		mGroup_length[get_Group(tmp_v)][tmp_c] = 0;
+		// 传播， 颜色
 		for(int i = 1; i <= square_length; i++) {
 			if(mCol_pos[get_Col(tmp_v)][i][tmp_v] <= mCol_length[get_Col(tmp_v)][i]) {
 				swap_col(get_Col(tmp_v), i, tmp_v, mCol_length[get_Col(tmp_v)][i]--);
@@ -1020,9 +1083,18 @@ void mReduceVertexes() {
 					q.push(st);
 				}
 			}
+			if(mGroup_pos[get_Group(tmp_v)][i][tmp_v] <= mGroup_length[get_Group(tmp_v)][i]) {
+				swap_group(get_Group(tmp_v), i, tmp_v, mGroup_length[get_Group(tmp_v)][i]--);
+				if(mGroup_length[get_Group(tmp_v)][i] == 1) {
+					st.id = mGroup[get_Group(tmp_v)][i][1];
+					st.c = i;
+					q.push(st);
+				}
+			}
 		}
 		for(int i = 1; i <= square_length; i++) if(color_vp[i][tmp_v] < color_vertex_length[i]) swap_color_vertex(i, tmp_v, --color_vertex_length[i]);
 		//cout << tmp_v << " " << tmp_c << endl;
+		// 传播， 邻居
 		for(int i = 0; i < Neighbour_length[tmp_v]; i++) {
 			int tmp_V = Neighbour[tmp_v][i];
 			if(color_vertex_pos[tmp_V][tmp_c] < vertex_color_length[tmp_V]) {
@@ -1056,6 +1128,15 @@ void mReduceVertexes() {
 					q.push(st); 
 				}
 			}
+			if(mGroup_pos[get_Group(tmp_V)][tmp_c][tmp_V] <= mGroup_length[get_Group(tmp_V)][tmp_c]) {
+				if(mGroup_length[get_Group(tmp_V)][tmp_c] != 0) swap_group(get_Group(tmp_V), tmp_c, tmp_V, mGroup_length[get_Group(tmp_V)][tmp_c]--);
+				if(mGroup_length[get_Group(tmp_V)][tmp_c] == 1) {
+					st.id = mGroup[get_Group(tmp_V)][tmp_c][1];
+					st.c = tmp_c;
+					//cout << "add row: " << st.id << " " << st.c << endl;
+					q.push(st); 
+				}
+			}
 			vertex_can_move[tmp_V][tmp_c] = false;
 		}
 	}
@@ -1063,6 +1144,7 @@ void mReduceVertexes() {
 	vertex_use_length_tmp = 0;
 	edge_use_length = 0;
 	for(int i = 1; i <= vertex_size; i++) {
+		// 更新颜色可选长度
 		if(mVertexesColor[i] > 0) color_max_size[mVertexesColor[i]]--;
 		else {
 			mVertexes[vertex_use_length] = i;
@@ -1071,12 +1153,14 @@ void mReduceVertexes() {
 	}
 	for(int i = 0; i < vertex_use_length; i++) {
 		int vertex_id = mVertexes[i];
+		// 更新邻居信息，将已赋值的点从邻居中删除
 		for(int j = 0; j < Neighbour_length[vertex_id]; j++) {
 			int tmp_v = Neighbour[vertex_id][j];
 			if(mVertexesColor[tmp_v] > 0) {
 				Neighbour[vertex_id][j] = Neighbour[vertex_id][--Neighbour_length[vertex_id]];
 				j--;
 			}
+			// 更新边信息，将没用的边删除
 			else {
 				int edge_id = G[vertex_id][tmp_v];
 				if(mEdgesPosition[edge_id] > edge_use_length) swap_edge(edge_id, ++edge_use_length);
@@ -1283,7 +1367,7 @@ int tabuSearch() {
 bool LocalSearch() {
 	local_min_clash = INT_MAX;
 	int tabu_clash = tabuSearch();
-	//cout << tabu_clash << " " << best_clash << endl;
+	// cout << tabu_clash << " " << best_clash << endl;
 	if(tabu_clash == 0) return true;
 	if(tabu_clash < local_min_clash) {
 		local_min_clash = tabu_clash;
@@ -1449,36 +1533,39 @@ int main(int argc, char* argv[]) {
 	outPut = outPut.substr(2, outPut.length() - 2);
 	outPut += "Result.txt";
 	best_clash = INT_MAX;
-	filename = argv[1];
-	seed = atoi(argv[2]);
-	time_limit = atof(argv[3]);
+	// filename = argv[1];
+	// seed = atoi(argv[2]);
+	// time_limit = atof(argv[3]);
+	filename = "test.txt";
+	seed = 1;
+	time_limit = 100;
 	srand(seed);
 	total_all = 0;
 	total_zero = 0;
 	//cout << filename << endl;;
 	mRead(filename);
 	// //cout << "Read file finish" << endl;
-	// mReduceVertexes(); 
-	// mStartTime();
-	// //cout << "Reduce vertexes finish" << endl;
-	// mGenerate();
-	// //cout << "mGenerate finish" << endl;
-	// if(check_finish()) {
-	// 	print_ans();
-	// 	return 0;
-	// }
-	// steps = 1;
-	// no_improve_steps = 1;
-	// total_Iters = 10000;
-	// bool tabuCFlag;
-	// for(Iter = 0; total_time < time_limit; Iter++) {
-	// 	mPopulationUpdate();
-	// 	mCopy();
-	// 	mPerturbation();
-	// 	LocalSearch();
-	// 	if(check_finish()) break;
-	// 	mCurrentTime();
-	// }
-	// print_ans();
+	mReduceVertexes(); 
+	mStartTime();
+	//cout << "Reduce vertexes finish" << endl;
+	mGenerate();
+	// cout << "mGenerate finish" << endl;
+	if(check_finish()) {
+		print_ans();
+		return 0;
+	}
+	steps = 1;
+	no_improve_steps = 1;
+	total_Iters = 10000;
+	bool tabuCFlag;
+	for(Iter = 0; total_time < time_limit; Iter++) {
+		mPopulationUpdate();
+		mCopy();
+		mPerturbation();
+		LocalSearch();
+		if(check_finish()) break;
+		mCurrentTime();
+	}
+	print_ans();
 	return 0;
 }
