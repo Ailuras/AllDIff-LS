@@ -1217,6 +1217,7 @@ void increase_score() {
 	return;
 }
 
+//TODO: 看一下
 int tabuSearch() {
 	int tSminClash;
 	//cout << "before build" << endl;
