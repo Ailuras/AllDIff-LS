@@ -856,7 +856,7 @@ void check_clash() {
 	if(res != total_clash) {
 		cout << "total_clash wrong" << endl;
 		cout << res << " " << total_clash << endl;
-		exit(0);
+		// exit(0);
 	}
 	return;
 }
@@ -968,6 +968,8 @@ bool check_tabuC(int id, int to) {
 	}
 	return false;
 }
+
+// TODO need fixed some bugs
 void mReduceVertexes() {
 	pppp_cnt = 0;
 	// cout << "mReduceVertexes start" << endl;
@@ -1166,9 +1168,9 @@ void mReduceVertexes() {
 			}
 		}
 	}
-	// cout << "Vertex left: " << vertex_use_length << endl; 
-	// cout << "Vertex reduce: " << vertex_size - vertex_use_length << endl;
-	// print_current();
+	cout << "Vertex left: " << vertex_use_length << endl; 
+	cout << "Vertex reduce: " << vertex_size - vertex_use_length << endl;
+	print_current();
 	return; 
 }
 
@@ -1189,6 +1191,7 @@ void build() {
 		mClash[edge[mEdges[i]].x][mVertexesColor[edge[mEdges[i]].y]] += 1;
 		mClash[edge[mEdges[i]].y][mVertexesColor[edge[mEdges[i]].x]] += 1;
 		if(mVertexesColor[edge[mEdges[i]].x] == mVertexesColor[edge[mEdges[i]].y]) {
+			// cout<<edge[mEdges[i]].x<<" - "<<edge[mEdges[i]].y<<endl;
 			total_clash += 1;
 			swap_edge(mEdges[i], ++edge_clash_length);
 		}
@@ -1208,7 +1211,7 @@ void build() {
 		}
 	}
 	//check_move_vertex();
-	cout << total_clash <<endl;
+	// cout << total_clash <<endl;
 	return;
 }
 
@@ -1226,7 +1229,8 @@ int tabuSearch() {
 	//cout << "before build" << endl;
 	build();
 	tSminClash = total_clash;
-	//cout << "init: " << total_clash << endl;
+	cout << "init: " << total_clash << endl;
+	check_clash();
 	if(total_clash == 0) return tSminClash;
 	for(int i = 0; i < vertex_use_length; i++) mVertexesColorTmp[mVertexes[i]] = mVertexesColor[mVertexes[i]];
 	int min_sub_clash;
@@ -1242,7 +1246,7 @@ int tabuSearch() {
 	long long total_iters = mPopulationMaxVOld[mPopulation_id] + max_iter;
 	//long long total_iters = mPopulationMaxVOld[mPopulation_id] + INT_MAX;
 	for(long long iters = mPopulationMaxVOld[mPopulation_id] + 1; iters < total_iters; iters++) {
-		//cout << iters << " " << total_clash << " " << tSminClash << " " << vertex_clash_length << " " << population_cnt << " " << move_vertex_size << endl;
+		cout << iters << " " << total_clash << " " << tSminClash << " " << vertex_clash_length << " " << population_cnt << " " << move_vertex_size << endl;
 		min_sub_clash = INT_MAX;
 		min_sub_tabu_clash = INT_MAX;
 		//min_sub_clash = 1;
@@ -1252,6 +1256,7 @@ int tabuSearch() {
 		total_cnt = 0;
 		for(int i = 0; i < vertex_clash_length; i++) {
 			int vertex_id = ClashVertexes[i];
+			// 颜色
 			for(int j = 0; j < vertex_color_length[vertex_id]; j++) {
 				int tmp_c = vertex_color[vertex_id][j];
 				if(tmp_c == mVertexesColor[vertex_id]) continue;
@@ -1297,6 +1302,7 @@ int tabuSearch() {
 		if(cnt == 0 && tabu_cnt == 0) {
 			return tSminClash;
 		}
+		// tabu
 		else if((tabu_cnt > 0 && min_sub_tabu_clash < min_sub_clash && (total_clash + min_sub_tabu_clash < tSminClash)) || (cnt == 0 && tabu_cnt > 0)) {
 			int r;
 			min_sub_tabu_cs = LLONG_MIN;
@@ -1319,11 +1325,14 @@ int tabuSearch() {
 			tabu[move_id][old_c] = iters + rand() % tabuStep + alpha * vertex_clash_length;
 			add_vertex(move_id, move_to);
 			total_clash += min_sub_tabu_clash;
+			check_clash();
 			if(vertex_old[move_id][1] <= update_Iter) vertex_old[move_id][0] = vertex_old[move_id][1];
 			vertex_old[move_id][1] = iters;
+			// updating rule 1
 			increase_score();
 			score[move_id] = 0;
 		}
+		// not tabu
 		else {
 			int r;
 			min_sub_cs = LLONG_MIN;
@@ -1344,14 +1353,18 @@ int tabuSearch() {
 			move_to = bms_array[r].c;
 			int old_c = mVertexesColor[move_id];
 			tabu[move_id][old_c] = iters + rand() % tabuStep + alpha * vertex_clash_length;
+			cout<<move_id<<" : "<<mVertexesColor[move_id]<<" -> "<<move_to<<endl;
+			cout<<"clash nums of "<<mVertexesColor[move_id]<<": "<<mClash[move_id][mVertexesColor[move_id]]<<endl;
+			cout<<"clash nums of "<<move_to<<": "<<mClash[move_id][move_to]<<endl;
 			add_vertex(move_id, move_to);
 			total_clash += min_sub_clash;
+			print_current();
 			if(vertex_old[move_id][1] <= update_Iter) vertex_old[move_id][0] = vertex_old[move_id][1];
 			vertex_old[move_id][1] = iters;
 			increase_score();
 			score[move_id] = 0;
 		}
-		//cout << total_all << " " << total_zero << endl;
+		// cout << total_all << " " << total_zero << endl;
 		if(total_clash <= tSminClash) {
 			tSminClash = total_clash;
 			update_Iter = iters;
@@ -1371,7 +1384,6 @@ int tabuSearch() {
 bool LocalSearch() {
 	local_min_clash = INT_MAX;
 	int tabu_clash = tabuSearch();
-	cout << tabu_clash << " " << best_clash << endl;
 	if(tabu_clash == 0) return true;
 	if(tabu_clash < local_min_clash) {
 		local_min_clash = tabu_clash;
@@ -1390,6 +1402,7 @@ void mGenerate() {
 		int r = rand() % vertex_color_length[vertex_id];
 		mVertexesColor[vertex_id] = vertex_color[vertex_id][r];
 	}
+	cout<<endl;
 	print_current();
 	if(LocalSearch()) return; 
 	return;
@@ -1552,7 +1565,7 @@ int main(int argc, char* argv[]) {
 	mRead(filename);
 	// cout << "Read file finish" << endl;
 	mReduceVertexes(); 
-	mStartTime();
+	// mStartTime();
 	//cout << "Reduce vertexes finish" << endl;
 	mGenerate();
 	// cout << "mGenerate finish" << endl;
