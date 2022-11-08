@@ -969,9 +969,10 @@ bool check_tabuC(int id, int to) {
 }
 void mReduceVertexes() {
 	pppp_cnt = 0;
-	//cout << "mReduceVertexes start" << endl;
+	cout << "mReduceVertexes start" << endl;
 	for(int i = 1; i <= vertex_size; i++) if(vertex_color_length[i] == 1) pppp_cnt++;
 	cout<<pppp_cnt<<endl;
+	// 固定点处理
 	for(int i = 1; i <= vertex_size; i++) {
 		if(vertex_color_length[i] == 1) {
 			int tmp_c = vertex_color[i][0];
@@ -986,7 +987,7 @@ void mReduceVertexes() {
 				if(mRow_pos[get_Row(i)][j][i] <= mRow_length[get_Row(i)][j]) swap_row(get_Row(i), j, i, mRow_length[get_Row(i)][j]--);
 				if(mGroup_pos[get_Group(i)][j][i] <= mGroup_length[get_Group(i)][j]) swap_group(get_Group(i), j, i, mGroup_length[get_Group(i)][j]--);
 			}
-			// cout<<"here"<<endl;
+			cout<<"here"<<endl;
 			// i所在行、列、组的tmp_c无法再被其他点选择
 			swap_col(get_Col(i), tmp_c, i, 1);
 			mCol_length[get_Col(i)][tmp_c] = 0;
@@ -1011,6 +1012,7 @@ void mReduceVertexes() {
 			}
 		}
 	}
+	cout<<"here1"<<endl;
 	queue<St> q;
 	St st;
 	// 只能选择一个颜色的点
@@ -1167,9 +1169,9 @@ void mReduceVertexes() {
 			}
 		}
 	}
-	//cout << "Vertex left: " << vertex_use_length << endl; 
-	//cout << "Vertex reduce: " << vertex_size - vertex_use_length << endl;
-	//print_current();
+	cout << "Vertex left: " << vertex_use_length << endl; 
+	cout << "Vertex reduce: " << vertex_size - vertex_use_length << endl;
+	print_current();
 	return; 
 }
 
@@ -1539,34 +1541,34 @@ int main(int argc, char* argv[]) {
 	// time_limit = atof(argv[3]);
 	filename = "test.txt";
 	seed = 1;
-	time_limit = 100;
+	time_limit = 10;
 	srand(seed);
 	total_all = 0;
 	total_zero = 0;
-	//cout << filename << endl;;
+	// cout << filename << endl;
 	mRead(filename);
-	// //cout << "Read file finish" << endl;
+	// cout << "Read file finish" << endl;
 	mReduceVertexes(); 
-	mStartTime();
-	//cout << "Reduce vertexes finish" << endl;
-	mGenerate();
-	// cout << "mGenerate finish" << endl;
-	if(check_finish()) {
-		print_ans();
-		return 0;
-	}
-	steps = 1;
-	no_improve_steps = 1;
-	total_Iters = 10000;
-	bool tabuCFlag;
-	for(Iter = 0; total_time < time_limit; Iter++) {
-		mPopulationUpdate();
-		mCopy();
-		mPerturbation();
-		LocalSearch();
-		if(check_finish()) break;
-		mCurrentTime();
-	}
-	print_ans();
+	// mStartTime();
+	// //cout << "Reduce vertexes finish" << endl;
+	// mGenerate();
+	// // cout << "mGenerate finish" << endl;
+	// if(check_finish()) {
+	// 	print_ans();
+	// 	return 0;
+	// }
+	// steps = 1;
+	// no_improve_steps = 1;
+	// total_Iters = 10000;
+	// bool tabuCFlag;
+	// for(Iter = 0; total_time < time_limit; Iter++) {
+	// 	mPopulationUpdate();
+	// 	mCopy();
+	// 	mPerturbation();
+	// 	LocalSearch();
+	// 	if(check_finish()) break;
+	// 	mCurrentTime();
+	// }
+	// print_ans();
 	return 0;
 }
