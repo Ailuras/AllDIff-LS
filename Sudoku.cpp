@@ -693,6 +693,7 @@ void mRead(string filename) {
 		for (int j=1; j<=group_size; j++) {
 			cin >> vertex[i][j];
 			int x = to_index(i, j, true);
+			// cout<<"index: "<<x<<" ["<<i<<", "<<j<<"] = "<<vertex[i][j]<<endl;
 			if (vertex[i][j] == -1) {
 				for(int k=1; k<=group_size; k++) {
 					vertex_color[x][vertex_color_length[x]] = k; 
@@ -969,25 +970,24 @@ bool check_tabuC(int id, int to) {
 }
 void mReduceVertexes() {
 	pppp_cnt = 0;
-	cout << "mReduceVertexes start" << endl;
+	// cout << "mReduceVertexes start" << endl;
 	for(int i = 1; i <= vertex_size; i++) if(vertex_color_length[i] == 1) pppp_cnt++;
-	cout<<pppp_cnt<<endl;
+	// cout<<pppp_cnt<<endl;
 	// 固定点处理
-	for(int i = 1; i <= vertex_size; i++) {
-		if(vertex_color_length[i] == 1) {
+	for (int i=1; i<=vertex_size; i++) {
+		if (vertex_color_length[i] == 1) {
 			int tmp_c = vertex_color[i][0];
 			vertex_color_length[i] = 0;
 			mVertexesColor[i] = tmp_c;
 			vertex_color_pos[i][tmp_c] = mColorsLength[tmp_c];
 			mColors[tmp_c][mColorsLength[tmp_c]++] = i;
 			vertex_can_move[i][tmp_c] = false;
-			// i不能再选择其他颜色，因此i所在的行、列、组的其他颜色的长度都要减一
-			for(int j = 1; j <= square_length; j++) {
+			// i不能再选择其他颜色，因此i所在的行、列、组的其他颜色的可选点长度都要减一
+			for (int j=1; j<=square_length; j++) {
 				if(mCol_pos[get_Col(i)][j][i] <= mCol_length[get_Col(i)][j]) swap_col(get_Col(i), j, i, mCol_length[get_Col(i)][j]--);
 				if(mRow_pos[get_Row(i)][j][i] <= mRow_length[get_Row(i)][j]) swap_row(get_Row(i), j, i, mRow_length[get_Row(i)][j]--);
 				if(mGroup_pos[get_Group(i)][j][i] <= mGroup_length[get_Group(i)][j]) swap_group(get_Group(i), j, i, mGroup_length[get_Group(i)][j]--);
 			}
-			cout<<"here"<<endl;
 			// i所在行、列、组的tmp_c无法再被其他点选择
 			swap_col(get_Col(i), tmp_c, i, 1);
 			mCol_length[get_Col(i)][tmp_c] = 0;
@@ -998,10 +998,8 @@ void mReduceVertexes() {
 			for(int j = 0; j < Neighbour_length[i]; j++) {
 				int tmp_V = Neighbour[i][j];
 				// 删除i点的邻居的对应tmp_c
-				if(color_vertex_pos[tmp_V][tmp_c] < vertex_color_length[tmp_V]) {
-					swap_vertex_color(tmp_V, tmp_c, vertex_color_length[tmp_V]--);
-					// vertex_color_length[tmp_V]--;
-				}
+				if(color_vertex_pos[tmp_V][tmp_c] < vertex_color_length[tmp_V])
+					swap_vertex_color(tmp_V, tmp_c, --vertex_color_length[tmp_V]);
 				// i点的邻居不能再选择tmp_c
 				if(mCol_pos[get_Col(tmp_V)][tmp_c][tmp_V] <= mCol_length[get_Col(tmp_V)][tmp_c])
 					swap_col(get_Col(tmp_V), tmp_c, tmp_V, mCol_length[get_Col(tmp_V)][tmp_c]--);
@@ -1012,7 +1010,6 @@ void mReduceVertexes() {
 			}
 		}
 	}
-	cout<<"here1"<<endl;
 	queue<St> q;
 	St st;
 	// 只能选择一个颜色的点
@@ -1169,15 +1166,16 @@ void mReduceVertexes() {
 			}
 		}
 	}
-	cout << "Vertex left: " << vertex_use_length << endl; 
-	cout << "Vertex reduce: " << vertex_size - vertex_use_length << endl;
-	print_current();
+	// cout << "Vertex left: " << vertex_use_length << endl; 
+	// cout << "Vertex reduce: " << vertex_size - vertex_use_length << endl;
+	// print_current();
 	return; 
 }
 
 void build() {
 	total_clash = 0;
 	update_Iter = mPopulationMaxVOld[mPopulation_id];
+	// 初始化
 	for(int i = 0; i < vertex_use_length; i++) {
 		score[mVertexes[i]] = 0;
 		for(int j = 1; j <= square_length; j++) {
@@ -1186,6 +1184,7 @@ void build() {
 		}
 	}
 	edge_clash_length = 0;
+	// 计算总冲突，更新边的位置
 	for(int i = 1; i <= edge_use_length; i++) {
 		mClash[edge[mEdges[i]].x][mVertexesColor[edge[mEdges[i]].y]] += 1;
 		mClash[edge[mEdges[i]].y][mVertexesColor[edge[mEdges[i]].x]] += 1;
@@ -1200,6 +1199,7 @@ void build() {
 	}
 	vertex_clash_length = 0;
 	move_vertex_size = 0;
+	// 计算存在冲突的点
 	for(int i = 0; i < vertex_use_length; i++) {
 		int vertex_id = mVertexes[i];
 		if(mClash[vertex_id][mVertexesColor[vertex_id]] > 0) {
@@ -1208,6 +1208,7 @@ void build() {
 		}
 	}
 	//check_move_vertex();
+	cout << total_clash <<endl;
 	return;
 }
 
@@ -1219,7 +1220,7 @@ void increase_score() {
 	return;
 }
 
-//TODO: 看一下
+//TODO: main function
 int tabuSearch() {
 	int tSminClash;
 	//cout << "before build" << endl;
@@ -1370,7 +1371,7 @@ int tabuSearch() {
 bool LocalSearch() {
 	local_min_clash = INT_MAX;
 	int tabu_clash = tabuSearch();
-	// cout << tabu_clash << " " << best_clash << endl;
+	cout << tabu_clash << " " << best_clash << endl;
 	if(tabu_clash == 0) return true;
 	if(tabu_clash < local_min_clash) {
 		local_min_clash = tabu_clash;
@@ -1382,12 +1383,14 @@ bool LocalSearch() {
 	return false;
 }
 
+//
 void mGenerate() {
 	for(int i = 0; i < vertex_use_length; i++) {
 		int vertex_id = mVertexes[i];
 		int r = rand() % vertex_color_length[vertex_id];
 		mVertexesColor[vertex_id] = vertex_color[vertex_id][r];
 	}
+	print_current();
 	if(LocalSearch()) return; 
 	return;
 }
@@ -1549,10 +1552,10 @@ int main(int argc, char* argv[]) {
 	mRead(filename);
 	// cout << "Read file finish" << endl;
 	mReduceVertexes(); 
-	// mStartTime();
-	// //cout << "Reduce vertexes finish" << endl;
-	// mGenerate();
-	// // cout << "mGenerate finish" << endl;
+	mStartTime();
+	//cout << "Reduce vertexes finish" << endl;
+	mGenerate();
+	// cout << "mGenerate finish" << endl;
 	// if(check_finish()) {
 	// 	print_ans();
 	// 	return 0;
