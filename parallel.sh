@@ -13,7 +13,7 @@ function parallel() {
         if [ ! -d "$path" ];then
             mkdir -p $path
         fi
-        nohup bash run.sh $folder $time_t $solver $ > $path/result_$index.log 2>&1 &
+        nohup bash run.sh $folder $time_t $solver $seed $ > $path/result_$index.log 2>&1 &
     done
 }
 
