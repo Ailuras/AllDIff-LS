@@ -1569,8 +1569,8 @@ int main(int argc, char* argv[]) {
 	mGenerate();
 	// cout << "mGenerate finish" << endl;
 	if(check_finish()) {
-		// print_current();
-		print_ans();
+		print_current();
+		// print_ans();
 		return 0;
 	}
 	steps = 1;
@@ -1584,8 +1584,8 @@ int main(int argc, char* argv[]) {
 		LocalSearch();
 		if(check_finish()) break;
 		mCurrentTime();
-		// print_current();
 	}
-	print_ans();
+	print_current();
+	// print_ans();
 	return 0;
 }
