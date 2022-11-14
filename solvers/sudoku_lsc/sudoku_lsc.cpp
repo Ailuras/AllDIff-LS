@@ -761,26 +761,28 @@ void print_current() {
 			ans[mColors[i][j]] = i;
 		}
 	}
-	for(int i = 0; i <= square_length; i++) {
-		for(int j = 0; j <= square_length; j++) {
-			if(i == 0) {
-				if(j == 0) cout << "   ";
-				else {
-					if(j > 9) cout << " " << j;
-					else cout << "  " << j;
-				}
-			}
-			else {
-				if(j == 0) {
-					if(i > 9) cout << " " << i;
-					else cout << "  " << i;
-				}
-				else {
-					int id = square_length * (i - 1) + j;
-					if(mVertexesColor[id] > 9) cout << " " << mVertexesColor[id];
-					else cout << "  " << mVertexesColor[id];
-				}
-			}
+	for(int i = 1; i <= square_length; i++) {
+		for(int j = 1; j <= square_length; j++) {
+			// if (i == 0) {
+			// 	if(j == 0) cout << "   ";
+			// 	else {
+			// 		if(j > 9) cout << " " << j;
+			// 		else cout << "  " << j;
+			// 	}
+			// } else {
+			// 	if(j == 0) {
+			// 		if(i > 9) cout << " " << i;
+			// 		else cout << "  " << i;
+			// 	}
+			// 	else {
+			// 		int id = square_length * (i - 1) + j;
+			// 		if(mVertexesColor[id] > 9) cout << " " << mVertexesColor[id];
+			// 		else cout << "  " << mVertexesColor[id];
+			// 	}
+			// }
+			int id = square_length * (i - 1) + j;
+			if (j != 1) cout << "\t";
+			cout << mVertexesColor[id];
 		}
 		cout << endl;
 	}
@@ -951,7 +953,7 @@ bool check_finish() {
 		best_time = total_time;
 		check_answer();
 		//cout << filename << " find answer: " << best_time << endl;
-		printf("%s find answer: %lf\n", filename.c_str(), best_time);
+		// printf("%s find answer: %lf\n", filename.c_str(), best_time);
 		return true;
 	}
 	return false;
