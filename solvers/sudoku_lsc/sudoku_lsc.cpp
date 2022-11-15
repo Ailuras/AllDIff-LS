@@ -953,7 +953,7 @@ bool check_finish() {
 		best_time = total_time;
 		check_answer();
 		//cout << filename << " find answer: " << best_time << endl;
-		// printf("%s find answer: %lf\n", filename.c_str(), best_time);
+		printf("%s find answer: %lf\n", filename.c_str(), best_time);
 		return true;
 	}
 	return false;
@@ -1571,7 +1571,7 @@ int main(int argc, char* argv[]) {
 	mGenerate();
 	// cout << "mGenerate finish" << endl;
 	if(check_finish()) {
-		print_current();
+		// print_current();
 		// print_ans();
 		return 0;
 	}
@@ -1587,7 +1587,7 @@ int main(int argc, char* argv[]) {
 		if(check_finish()) break;
 		mCurrentTime();
 	}
-	print_current();
+	// print_current();
 	// print_ans();
 	return 0;
 }

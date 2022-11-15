@@ -1,0 +1,400 @@
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 124788 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_0.txt : 21 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 124863 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_10.txt : 18 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 124924 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_11.txt : 19 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 124992 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_12.txt : 17 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125044 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_13.txt : 18 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125103 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_14.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125173 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_15.txt : 19 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125242 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_16.txt : 20 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125311 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_17.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125384 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_18.txt : 19 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125440 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_19.txt : 19 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125497 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_1.txt : 17 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125558 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_20.txt : 19 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125609 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_21.txt : 19 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125667 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_22.txt : 21 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125744 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_23.txt : 20 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125814 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_24.txt : 29 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125888 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_25.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 125954 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_26.txt : 20 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126036 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_27.txt : 19 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126101 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_28.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126187 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_29.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126255 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_2.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126322 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_30.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126387 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_31.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126446 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_32.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126507 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_33.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126588 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_34.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126658 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_35.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126717 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_36.txt : 26 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126783 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_37.txt : 28 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126855 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_38.txt : 26 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 126926 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_39.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127023 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_3.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127095 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_40.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127166 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_41.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127234 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_42.txt : 23 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127306 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_43.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127381 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_44.txt : 21 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127449 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_45.txt : 28 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127538 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_46.txt : 29 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127617 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_47.txt : 29 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127688 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_48.txt : 37 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127776 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_49.txt : 28 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127848 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_4.txt : 29 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 127940 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_50.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128014 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_51.txt : 30 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128088 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_52.txt : 23 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128149 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_53.txt : 23 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128220 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_54.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128294 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_55.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128382 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_56.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128446 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_57.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128509 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_58.txt : 30 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128594 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_59.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128676 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_5.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128753 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_60.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128839 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_61.txt : 28 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128914 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_62.txt : 33 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 128994 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_63.txt : 30 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129069 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_64.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129133 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_65.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129213 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_66.txt : 21 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129284 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_67.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129345 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_68.txt : 31 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129423 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_69.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129496 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_6.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129565 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_70.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129637 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_71.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129711 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_72.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129773 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_73.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129837 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_74.txt : 28 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129903 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_75.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 129974 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_76.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130066 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_77.txt : 31 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130147 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_78.txt : 30 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130217 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_79.txt : 30 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130308 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_7.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130387 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_80.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130458 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_81.txt : 26 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130546 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_82.txt : 22 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130611 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_83.txt : 23 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130673 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_84.txt : 23 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130734 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_85.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130812 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_86.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130881 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_87.txt : 28 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 130969 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_88.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131031 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_89.txt : 29 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131103 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_8.txt : 28 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131177 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_90.txt : 31 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131259 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_91.txt : 27 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131344 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_92.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131428 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_93.txt : 26 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131497 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_94.txt : 26 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131576 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_95.txt : 25 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131648 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_96.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131709 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_97.txt : 21 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131775 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_98.txt : 24 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131851 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_99.txt : 21 ms.
+--------------------------------------------------
+wrong number of cells for a sudoku board!
+run.sh: line 11: 131900 Segmentation fault      ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+benchmarks_hard/INST_81x81/65/inst81x81_65_9.txt : 27 ms.
