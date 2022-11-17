@@ -30,6 +30,9 @@ Board::Board(const string &puzzleString)
 	case 4096:
 		order = 8;
 		break;
+	case 6561:
+		order = 9;
+		break;
 	default:
 		std::cerr << "wrong number of cells for a sudoku board!" << std::endl;
 		order = 0;
