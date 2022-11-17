@@ -4,7 +4,7 @@ index=$[ $1 + 5 ]
 path=benchmarks/INST_$[$2 * $2]x$[$2 * $2]/100/inst$[$2 * $2]x$[$2 * $2]_100_
 for((i=$1;i<$index;i++));do
     file=benchmarks/INST_$[$2 * $2]x$[$2 * $2]/0/inst$[$2 * $2]x$[$2 * $2]_0_$i.txt
-    ./solvers/sudoku_lsc/sudoku_lsc $file $i 1000 > $path$i.txt
+    ./solvers/sudoku_lsc/sudoku_gen $file $i 1000 > $path$i.txt
     # line=`cat $path$i.txt | wc -l`
     # while [ $line -lt 10 ]; do
     #     ./solvers/sudoku_lsc/sudoku_lsc --alg 0 --blank --order $2 --verbose > $path$i.txt
