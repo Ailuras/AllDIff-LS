@@ -363,7 +363,6 @@ bool Board::CheckSolution(const Board& other) const
 		if (row.Count() != numUnits || col.Count() != numUnits || box.Count() != numUnits )
 			isSolution = false;
 	}
-
 	// check consistency with this board
 	for (int i = 0; i < CellCount(); i++)
 	{
@@ -373,7 +372,6 @@ bool Board::CheckSolution(const Board& other) const
 				isConsistent = false;
 		}
 	}
-
 	return isSolution && isConsistent;
 }
 
