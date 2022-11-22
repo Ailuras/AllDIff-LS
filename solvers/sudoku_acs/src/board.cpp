@@ -75,7 +75,8 @@ Board::Board(const string &puzzleString)
 				break;
 			case 5:
 			default:
-				value = 1+(int)(puzzleString[i] - 'a');
+				value = 1+(int)(puzzleString[i] - '!');
+				// cout << value << endl;
 			}
 			SetCell( i, ValueSet(maxVal, (int64_t)1 << (value-1) ));
 		}

@@ -34,7 +34,7 @@ string ReadFile( string fileName )
 				else
 					puzString[i] = 'a' + val - 11;
 			else
-				puzString[i] = 'a' + val - 1;
+				puzString[i] = '!' + val - 1;
 		}
 		puzString[numCells] = 0;
 		inFile.close();
@@ -76,6 +76,7 @@ int main( int argc, char *argv[] )
 			exit(0);
 		}
 	}
+	// cout << puzzleString << endl;
 	Board board(puzzleString);
 
 	int algorithm = a.GetArg("alg", 0);
