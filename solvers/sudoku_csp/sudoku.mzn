@@ -7,7 +7,7 @@ int: digs = ceil(log(10.0,int2float(N))); % digits for output
 set of int: PuzzleRange = 1..N;
 set of int: SubSquareRange = 1..S;
 
-array[1..N,1..N] of 0..N: start; %% initial board 0 = empty
+array[1..N,1..N] of -1..N: start; %% initial board -1 = empty
 array[1..N,1..N] of var PuzzleRange: puzzle;
 
 % fill initial board
@@ -30,10 +30,4 @@ constraint
 
 solve satisfy;
 
-output  [ show_int(digs,puzzle[i,j]) ++ " " ++ 
-         if j mod S == 0 then " " else "" endif ++
-         if j == N then
-             if i != N then 
-                if i mod S == 0 then "\n\n" else "\n" endif 
-         else "" endif else "" endif  
-         | i,j in PuzzleRange ] ++ ["\n"];
+output  ["SAT"];

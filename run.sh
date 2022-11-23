@@ -17,6 +17,9 @@ for file in $folder/*; do
     if [ "$solver"x = "sudoku_lsc"x ]; then
         ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
     fi
+    if [ "$solver"x = "sudoku_csp"x ]; then
+        ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+    fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))
     echo $file : ${take} ms.

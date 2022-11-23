@@ -1,6 +1,6 @@
 #！/bin/bash
 # ./parallel.sh benchmarks 1000 sudoku_acs 1
-# ./parallel.sh benchmarks_hard 1000 sudoku_lsc 1
+# ./parallel.sh benchmarks_part_CP 1000 sudoku_csp 1
 benchmarks=$1
 time_t=$2
 solver=$3
