@@ -91,11 +91,11 @@ class sudoku:
                             for point_y1 in range(self.order):
                                 s1 = '-' + self.get_index(group_x*self.order + point_x1, group_y*self.order + point_y1, color) + ' '
                                 for point_x2 in range(point_x1+1, self.order):
-                                    for point_y2 in range(point_y1+1, self.order):
-                                        # if point_x1 != point_x2 or point_y2 > point_y1:
-                                        s2 = s1 + '-' + self.get_index(group_x*self.order + point_x2, group_y*self.order + point_y2, color) + ' 0\n'
-                                        self.outfile.write(s2)
-                                        self.clausN += 1
+                                    for point_y2 in range(self.order):
+                                        if point_y1 != point_y2:
+                                            s2 = s1 + '-' + self.get_index(group_x*self.order + point_x2, group_y*self.order + point_y2, color) + ' 0\n'
+                                            self.outfile.write(s2)
+                                            self.clausN += 1
         # self.outfile.write("\n")
 
     def fixed_point(self):
