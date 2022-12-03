@@ -5,6 +5,7 @@
         "iostream": "cpp",
         "variant": "cpp",
         "ostream": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "ranges": "cpp"
     }
 }
