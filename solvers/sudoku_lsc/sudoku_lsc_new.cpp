@@ -1,13 +1,3 @@
-/*================================================================
-*   Copyright (C) 2021 ******** All rights reserved.
-*   
-*   File Name     ：FastLSC.cpp
-*   Creator       ：******
-*   Creation Date ：2021/02/11
-*   Describe      ：
-*
-================================================================*/
-
 #include <bits/stdc++.h>
 #include <sys/times.h>
 #include <time.h>
@@ -22,17 +12,7 @@ struct Edge{
 	int x;
 	int y;
 	int w;
-	bool h;
-	bool operator < (const Edge& kami) const {
-		if(kami.x < x) return true;
-		else if(kami.x == x) {
-			if(kami.y < y) return true;
-		}
-		return false;
-	}
 };
-
-int pppp_cnt;
 
 struct St{
 	int id;
@@ -901,53 +881,6 @@ void print_current() {
 }
 
 void print_info() {
-
-
-	printf("----------------------------------------------------------------------\n");
-	int cnt = 0;
-	printf("Changed Map: \n");
-	cout << " \t|\t";
-	for(int i = 1; i <= square_size; i++) {
-		if (i != 1) cout << "\t";
-		cout << i;
-		if (i%order == 0) cout << "\t ";
-	}
-	cout << endl;
-	cout << "=\t#\t";
-	for(int i = 1; i <= square_size; i++) {
-		if (i != 1) cout << "\t";
-		cout << "=";
-		if (i%order == 0) cout << "\t*";
-	}
-	cout << endl;
-
-	for(int i = 1; i <= square_size; i++) {
-		cout << i << "\t|\t";
-		for(int j = 1; j <= square_size; j++) {
-			int id = square_size * (i - 1) + j;
-			if (j != 1) cout << "\t";
-			if (mVertexesColor_tmp[id] != mVertexesColorTmp[id]) {
-				cout << mVertexesColorTmp[id];
-				cnt++;
-			}
-			else cout << " ";
-			if (j%order == 0) cout << "\t|";
-		}
-		cout << endl;
-		if (i%order == 0) {
-			cout << "\t#\t";
-			for(int j = 1; j <= square_size; j++) {
-				if (j != 1) cout << "\t";
-				cout << "—";
-				if (j%order == 0) cout << "\t*";
-			}
-			cout << endl;
-		}
-	}
-	printf("num of changed vertexs: %d\n", cnt);
-
-
-
 	printf("======================================================================\n");
 	// printf("current total unfixed vertex: %d\n", vertex_use_length);
 	printf("current best clash: %d\n", current_clash);
@@ -1056,6 +989,48 @@ void print_info() {
 	// printf("num of marked vertexs: %d\n", cnt);
 
 
+	printf("----------------------------------------------------------------------\n");
+	int cnt = 0;
+	printf("Changed Map: \n");
+	cout << " \t|\t";
+	for(int i = 1; i <= square_size; i++) {
+		if (i != 1) cout << "\t";
+		cout << i;
+		if (i%order == 0) cout << "\t ";
+	}
+	cout << endl;
+	cout << "=\t#\t";
+	for(int i = 1; i <= square_size; i++) {
+		if (i != 1) cout << "\t";
+		cout << "=";
+		if (i%order == 0) cout << "\t*";
+	}
+	cout << endl;
+
+	for(int i = 1; i <= square_size; i++) {
+		cout << i << "\t|\t";
+		for(int j = 1; j <= square_size; j++) {
+			int id = square_size * (i - 1) + j;
+			if (j != 1) cout << "\t";
+			if (mVertexesColor_tmp[id] != mVertexesColorTmp[id]) {
+				cout << mVertexesColorTmp[id];
+				cnt++;
+			}
+			else cout << " ";
+			if (j%order == 0) cout << "\t|";
+		}
+		cout << endl;
+		if (i%order == 0) {
+			cout << "\t#\t";
+			for(int j = 1; j <= square_size; j++) {
+				if (j != 1) cout << "\t";
+				cout << "—";
+				if (j%order == 0) cout << "\t*";
+			}
+			cout << endl;
+		}
+	}
+	printf("num of changed vertexs: %d\n", cnt);
 
 	return;
 }
@@ -1528,8 +1503,6 @@ void mArcConsistency() {
 
 // TODO 单元传播
 void mReduceVertexes() {
-	pppp_cnt = 0;
-	for(int i = 1; i <= vertex_size; i++) if(vertex_color_length[i] == 1) pppp_cnt++;
 	// 固定点处理
 	for (int i=1; i<=vertex_size; i++) {
 		if (vertex_color_length[i] == 1) {
