@@ -61,7 +61,7 @@ St* tmp_st;
 St* tmp_tabu_st;
 int* over_color;
 St* move_vertex;
-St* bms_array;
+St* tmp_bms_st;
 int* move_vertex_array;
 int* move_vertex_position;
 int** move_vertex_id;
@@ -138,19 +138,19 @@ int** vertex_color;
 int* vertex_color_length;	
 int** vertex_color_pos;  	
 int* mVertexes;				
-int* mVertexesPosition;		
+int* mVertexes_pos;		
 int* CL_start_pos;       	
 int vertex_use_length;
-int edge_use_length;
+int mEdges_length;
 int** color_vertex;				
 int* color_vertex_length;			
 int** color_vertex_pos;		
 int* mEdges;				
-int* mEdgesPosition;		
-int edge_clash_length;		
+int* mEdges_pos;		
+int mClashEdges_length;		
 int* mVertexesColor;		
 int* mVertexesColorTmp;
-int* mVertexesColorBest;
+int* mVertexesColor_best;
 long long* score;			
 int** mClash;				
 int*** color_move;			
@@ -179,7 +179,7 @@ int population_cnt;
 int mPopulationClashLen;
 long long* mPopulationMaxVOld;
 bool mPopulationFlag;
-int* ClashVertexes;
+int* mClashVertexes;
 int* ClashVertexesPos;
 
 int maxPC;
@@ -187,7 +187,7 @@ int minPC;
 int maxDist;
 int minDist;
 int total_clash;
-int edge_clash;
+int mEdgeClash;
 int vertex_clash_length;
 int* tmp_array;
 bool* tmp_bool;
@@ -291,7 +291,7 @@ void set_Variable_size() {
 	vertex_color_pos = (int **) malloc(sizeof(int *) * (vertex_size + 2));
 	for(int i = 1; i <= vertex_size; i++) vertex_color_pos[i] = (int *) malloc(sizeof(int) * (square_size + 2));
 	mVertexes = (int *) malloc(sizeof(int) * (vertex_size + 2));
-	mVertexesPosition = (int *) malloc(sizeof(int) * (vertex_size + 2));
+	mVertexes_pos = (int *) malloc(sizeof(int) * (vertex_size + 2));
 	CL_start_pos = (int *) malloc(sizeof(int) * (square_size + 2));
 	color_vertex = (int **) malloc(sizeof(int *) * (square_size + 2));
 	for(int i = 1; i <= square_size; i++) color_vertex[i] = (int *) malloc(sizeof(int) * (vertex_size + 2));
@@ -299,10 +299,10 @@ void set_Variable_size() {
 	color_vertex_pos = (int **) malloc(sizeof(int *) * (square_size + 2));
 	for(int i = 1; i <= square_size; i++) color_vertex_pos[i] = (int *) malloc(sizeof(int) * (vertex_size + 2));
 	mEdges = (int *) malloc(sizeof(int) * (edge_size + 2));
-	mEdgesPosition = (int *) malloc(sizeof(int) * (edge_size + 2));
+	mEdges_pos = (int *) malloc(sizeof(int) * (edge_size + 2));
 	mVertexesColor = (int *) malloc(sizeof(int) * (vertex_size + 2));
 	mVertexesColorTmp = (int *) malloc(sizeof(int) * (vertex_size + 1));
-	mVertexesColorBest = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	mVertexesColor_best = (int *) malloc(sizeof(int) * (vertex_size + 1));
 	score = (long long *) malloc(sizeof(long long) * (edge_size + 2));
 	mClash = (int **) malloc(sizeof(int *) * (vertex_size + 2));
 	for(int i = 1; i <= vertex_size; i++) mClash[i] = (int *) malloc(sizeof(int) * (square_size + 2));
@@ -386,7 +386,7 @@ void set_Variable_size() {
 	for(int i = 0; i < population_size; i++) mPopulationVertexOld[i] = (long long *) malloc(sizeof(long long) * (vertex_size + 1));
 	mPopulationOld = (int *) malloc(sizeof(int) * population_size);
 	mPopulationMaxVOld = (long long *) malloc(sizeof(long long) * population_size);
-	ClashVertexes = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	mClashVertexes = (int *) malloc(sizeof(int) * (vertex_size + 1));
 	ClashVertexesPos = (int *) malloc(sizeof(int) * (vertex_size + 1));
 	tmp_clash = (int **) malloc(sizeof(int *) * (vertex_size + 2));
 	for(int i = 1; i <= vertex_size; i++) tmp_clash[i] = (int *) malloc(sizeof(int) * (square_size + 2));
@@ -395,7 +395,7 @@ void set_Variable_size() {
 	vertex_old = (long long **) malloc(sizeof(long long *) * (vertex_size + 1));
 	for(int i = 1; i <= vertex_size; i++) vertex_old[i] = (long long *) malloc(sizeof(long long) * 2);
 	move_vertex = (St *) malloc(sizeof(St) * (square_size * vertex_size + 1));
-	bms_array = (St *) malloc(sizeof(St) * (square_size * vertex_size + 1));
+	tmp_bms_st = (St *) malloc(sizeof(St) * (square_size * vertex_size + 1));
 	move_vertex_array = (int *) malloc(sizeof(int) * (square_size * vertex_size + 1));
 	move_vertex_position = (int *) malloc(sizeof(int) * (square_size * vertex_size + 1));
 	move_vertex_id = (int **) malloc(sizeof(int * ) * (vertex_size + 1));
@@ -410,7 +410,7 @@ void init() {
 	for(int i = 1; i <= vertex_size; i++) for(int j = 1; j <= square_size; j++) vertex_color_pos[i][j] = square_size + 1;
 	
 	for(int i = 1; i <= vertex_size; i++) {
-		mVertexesPosition[i] = -1;
+		mVertexes_pos[i] = -1;
 	}
 	CL_start_pos[1] = 1;
 	vertex_use_length = vertex_size;
@@ -419,13 +419,13 @@ void init() {
 	}
 	for(int i = 1; i <= edge_size; i++) {
 		mEdges[i] = i;
-		mEdgesPosition[i] = i;
+		mEdges_pos[i] = i;
 	}
 	for(int i = 1; i <= vertex_size; i++) mVertexesColor[i] = -1;
 	for(int i = 1; i <= square_size; i++) for(int j = 1; j <= square_size; j++) mSquColor[i][j] = -1;
 	for(int i = 1; i <= vertex_size; i++) for(int j = 1; j <= square_size; j++) mClash[i][j] = 0;
 	total_clash = 0;
-	edge_clash = 0;
+	mEdgeClash = 0;
 	for(int i = 1; i <= vertex_size; i++) {
 		for(int j = 1; j <= square_size; j++) tabuC[i][j] = false;
 	}
@@ -475,21 +475,21 @@ void init() {
 
 void swap_vertex(int id_a, int pos_b) {
 	int id_b = mVertexes[pos_b];
-	int pos_a = mVertexesPosition[id_a];
+	int pos_a = mVertexes_pos[id_a];
 	mVertexes[pos_a] = id_b;
-	mVertexesPosition[id_a] = pos_b;
+	mVertexes_pos[id_a] = pos_b;
 	mVertexes[pos_b] = id_a;
-	mVertexesPosition[id_b] = pos_a;
+	mVertexes_pos[id_b] = pos_a;
 	return;
 }
 
 void swap_edge(int id_a, int pos_b) {
 	int id_b = mEdges[pos_b];
-	int pos_a = mEdgesPosition[id_a];
+	int pos_a = mEdges_pos[id_a];
 	mEdges[pos_a] = id_b;
-	mEdgesPosition[id_a] = pos_b;
+	mEdges_pos[id_a] = pos_b;
 	mEdges[pos_b] = id_a;
-	mEdgesPosition[id_b] = pos_a;
+	mEdges_pos[id_b] = pos_a;
 	return;
 }
 
@@ -616,7 +616,7 @@ void check_move_vertex() noexcept {
 	set<St> test_st;
 	St h_st;
 	for(int i = 0; i < vertex_clash_length; i++) {
-		int id = ClashVertexes[i];
+		int id = mClashVertexes[i];
 		for(int j = 0; j < vertex_color_length[id]; j++) {
 			int tmp_c = vertex_color[id][j];
 			if(tmp_c == mVertexesColor[id]) continue;
@@ -690,26 +690,26 @@ void add_vertex(int id, int pos) {
 		int edge_id = G[id][tmp_v];
 		if(mVertexesColor[tmp_v] == cur_pos) {
 			if(mClash[tmp_v][cur_pos] == 0) {
-				ClashVertexes[ClashVertexesPos[tmp_v]] = ClashVertexes[--vertex_clash_length];
-				ClashVertexesPos[ClashVertexes[ClashVertexesPos[tmp_v]]] = ClashVertexesPos[tmp_v];
+				mClashVertexes[ClashVertexesPos[tmp_v]] = mClashVertexes[--vertex_clash_length];
+				ClashVertexesPos[mClashVertexes[ClashVertexesPos[tmp_v]]] = ClashVertexesPos[tmp_v];
 				ClashVertexesPos[tmp_v] = -1;
 				score[tmp_v] = 0;
 			}
-			swap_edge(edge_id, edge_clash_length--);
+			swap_edge(edge_id, mClashEdges_length--);
 		}
 		else if(mVertexesColor[tmp_v] == pos) {
 			if(ClashVertexesPos[tmp_v] == -1) {
-				ClashVertexes[vertex_clash_length] = tmp_v;
+				mClashVertexes[vertex_clash_length] = tmp_v;
 				ClashVertexesPos[tmp_v] = vertex_clash_length++;
 			}
-			swap_edge(edge_id, ++edge_clash_length);
+			swap_edge(edge_id, ++mClashEdges_length);
 		}
 	}
 	mVertexesColor[id] = pos;
 	mSquColor[get_Squ(id)][pos] = id;
 	if(mClash[id][pos] == 0 && ClashVertexesPos[id] >= 0) {
-		ClashVertexes[ClashVertexesPos[id]] = ClashVertexes[--vertex_clash_length];
-		ClashVertexesPos[ClashVertexes[ClashVertexesPos[id]]] = ClashVertexesPos[id];
+		mClashVertexes[ClashVertexesPos[id]] = mClashVertexes[--vertex_clash_length];
+		ClashVertexesPos[mClashVertexes[ClashVertexesPos[id]]] = ClashVertexesPos[id];
 		ClashVertexesPos[id] = -1;
 	}
 	return;
@@ -957,7 +957,7 @@ void check_vertex_clash() {
 	for(int i = 1; i <= edge_size; i++) {
 		tmp_x = edge[i].x;
 		tmp_y = edge[i].y;
-		if(mVertexesPosition[tmp_x] == -1 || mVertexesPosition[tmp_y] == -1) continue;
+		if(mVertexes_pos[tmp_x] == -1 || mVertexes_pos[tmp_y] == -1) continue;
 		tmp_clash[tmp_x][mVertexesColor[tmp_y]] += 1;
 		tmp_clash[tmp_y][mVertexesColor[tmp_x]] += 1;
 	}
@@ -976,7 +976,7 @@ void check_vertex_clash() {
 void check_clash() {
 	int res = 0;
 	for(int i = 1; i <= edge_size; i++) {
-		if(mVertexesPosition[edge[i].x] == -1 || mVertexesPosition[edge[i].y] == -1) continue;
+		if(mVertexes_pos[edge[i].x] == -1 || mVertexes_pos[edge[i].y] == -1) continue;
 		if(mVertexesColor[edge[i].x] == mVertexesColor[edge[i].y]) res++;
 	}
 	if(res != total_clash) {
@@ -1345,11 +1345,11 @@ void mArcConsistency() {
 		}
 	}
 
-	edge_use_length = 0;
+	mEdges_length = 0;
 	for (int i=0; i<vertex_use_length; i++) {
 		if (mVertexesColor[mVertexes[i]] > 0) {
 			mVertexes[i] = mVertexes[--vertex_use_length];
-			mVertexesPosition[mVertexes[i]] = i;
+			mVertexes_pos[mVertexes[i]] = i;
 			i--;
 		}
 	}
@@ -1363,7 +1363,7 @@ void mArcConsistency() {
 			}
 			else {
 				int edge_id = G[vertex_id][tmp_v];
-				if(mEdgesPosition[edge_id] > edge_use_length) swap_edge(edge_id, ++edge_use_length);
+				if(mEdges_pos[edge_id] > mEdges_length) swap_edge(edge_id, ++mEdges_length);
 			}
 		}
 	}
@@ -1545,12 +1545,12 @@ void mReduceVertexes() {
 	}
 
 	vertex_use_length = 0;
-	edge_use_length = 0;
+	mEdges_length = 0;
 	for(int i = 1; i <= vertex_size; i++) {
 		// 更新颜色可选长度
 		if(mVertexesColor[i] < 0) {
 			mVertexes[vertex_use_length] = i;
-			mVertexesPosition[i] = vertex_use_length++;
+			mVertexes_pos[i] = vertex_use_length++;
 		}
 	}
 	for(int i = 0; i < vertex_use_length; i++) {
@@ -1565,7 +1565,7 @@ void mReduceVertexes() {
 			// 更新边信息，将没用的边删除
 			else {
 				int edge_id = G[vertex_id][tmp_v];
-				if(mEdgesPosition[edge_id] > edge_use_length) swap_edge(edge_id, ++edge_use_length);
+				if(mEdges_pos[edge_id] > mEdges_length) swap_edge(edge_id, ++mEdges_length);
 			}
 		}
 	}
@@ -1594,9 +1594,9 @@ void build() {
 		}
 	}
 	// 存在冲突的边的个数
-	edge_clash_length = 0;
+	mClashEdges_length = 0;
 	// 计算点选择某一颜色导致的冲突个数，  
-	for(int i = 1; i <= edge_use_length; i++) {
+	for(int i = 1; i <= mEdges_length; i++) {
 		// mClash[edge[mEdges[i]].x][mVertexesColor[edge[mEdges[i]].y]] += edge[mEdges[i]].w;
 		// mClash[edge[mEdges[i]].y][mVertexesColor[edge[mEdges[i]].x]] += edge[mEdges[i]].w;
 		mClash[edge[mEdges[i]].x][mVertexesColor[edge[mEdges[i]].y]] += 1;
@@ -1604,7 +1604,7 @@ void build() {
 		if(mVertexesColor[edge[mEdges[i]].x] == mVertexesColor[edge[mEdges[i]].y]) {
 			// cout<<edge[mEdges[i]].x<<" - "<<edge[mEdges[i]].y<<endl;
 			total_clash += 1;
-			swap_edge(mEdges[i], ++edge_clash_length);
+			swap_edge(mEdges[i], ++mClashEdges_length);
 		}
 	}
 	for(int i = 0; i < vertex_use_length; i++) {
@@ -1617,7 +1617,7 @@ void build() {
 	for(int i = 0; i < vertex_use_length; i++) {
 		int vertex_id = mVertexes[i];
 		if(mClash[vertex_id][mVertexesColor[vertex_id]] > 0) {
-			ClashVertexes[vertex_clash_length] = vertex_id;
+			mClashVertexes[vertex_clash_length] = vertex_id;
 			ClashVertexesPos[vertex_id] = vertex_clash_length++;
 		}
 	}
@@ -1627,7 +1627,7 @@ void build() {
 }
 
 void increase_score() {
-	for(int i = 1; i <= edge_clash_length; i++) {
+	for(int i = 1; i <= mClashEdges_length; i++) {
 		score[edge[mEdges[i]].x]++;
 		score[edge[mEdges[i]].y]++;
 	}
@@ -1666,7 +1666,7 @@ int tabuSearch() {
 		total_cnt = 0;
 		// 遍历所有当前赋值存在冲突的点
 		for (int i = 0; i < vertex_clash_length; i++) {
-			int vertex_id = ClashVertexes[i];
+			int vertex_id = mClashVertexes[i];
 			// 遍历当前点换成其他颜色的得分（减少的冲突数 是负数，越小越好）
 			for(int j = 0; j < vertex_color_length[vertex_id]; j++) {
 				int tmp_c = vertex_color[vertex_id][j];
@@ -1740,13 +1740,13 @@ int tabuSearch() {
 				if(min_sub_tabu_cs < tmp_cs) {
 					cs_cnt == 0;
 					min_sub_tabu_cs = tmp_cs;
-					bms_array[cs_cnt++] = tmp_tabu_st[r];
+					tmp_bms_st[cs_cnt++] = tmp_tabu_st[r];
 				}	
-				else if(min_sub_tabu_cs == tmp_cs) bms_array[cs_cnt++] = tmp_tabu_st[r];
+				else if(min_sub_tabu_cs == tmp_cs) tmp_bms_st[cs_cnt++] = tmp_tabu_st[r];
 			}
 			r = rand() % cs_cnt;
-			move_id1 = bms_array[r].id;
-			move_to = bms_array[r].c;
+			move_id1 = tmp_bms_st[r].id;
+			move_to = tmp_bms_st[r].c;
 			move_from = mVertexesColor[move_id1];
 			move_id2 = mSquColor[get_Squ(move_id1)][move_to];
 			// 更新tabu表，它由三部分组成
@@ -1780,13 +1780,13 @@ int tabuSearch() {
 				if(min_sub_cs < tmp_cs) {
 					cs_cnt == 0;
 					min_sub_cs = tmp_cs;
-					bms_array[cs_cnt++] = tmp_st[r];
+					tmp_bms_st[cs_cnt++] = tmp_st[r];
 				}	
-				else if(min_sub_cs == tmp_cs) bms_array[cs_cnt++] = tmp_st[r];
+				else if(min_sub_cs == tmp_cs) tmp_bms_st[cs_cnt++] = tmp_st[r];
 			}
 			r = rand() % cs_cnt;
-			move_id1 = bms_array[r].id;
-			move_to = bms_array[r].c;
+			move_id1 = tmp_bms_st[r].id;
+			move_to = tmp_bms_st[r].c;
 			move_from = mVertexesColor[move_id1];
 			move_id2 = mSquColor[get_Squ(move_id1)][move_to];
 			tabu[move_id1][mVertexesColor[move_id1]] = iters + rand() % tabuStep + alpha * vertex_clash_length;
@@ -1813,8 +1813,8 @@ int tabuSearch() {
 			for(int i = 0; i < vertex_use_length; i++) {
 				mVertexesColorTmp[mVertexes[i]] = mVertexesColor[mVertexes[i]];
 			}
-			for(int i = 1; i <= edge_clash_length; i++) best_clash_array[i - 1].e_id = mEdges[i];
-			for(int i = 1; i <= edge_clash_length; i++) best_clash_array[i - 1].color = mVertexesColor[edge[mEdges[i]].x];
+			for(int i = 1; i <= mClashEdges_length; i++) best_clash_array[i - 1].e_id = mEdges[i];
+			for(int i = 1; i <= mClashEdges_length; i++) best_clash_array[i - 1].color = mVertexesColor[edge[mEdges[i]].x];
 			if(tSminClash == 0) return tSminClash;
 			no_improve_iters = 0;
 		} else no_improve_iters++;

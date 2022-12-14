@@ -6,6 +6,7 @@
         "variant": "cpp",
         "ostream": "cpp",
         "thread": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "random": "cpp"
     }
 }
