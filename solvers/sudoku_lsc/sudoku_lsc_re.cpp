@@ -68,11 +68,11 @@ int** move_vertex_id;
 int move_vertex_size;
 		
 const int tabuStep = 10;
-const int maxLength = 3;
+const int max_bms_length = 3;
 bool flag_TabuCC;
 const int CC = 0;
 const int population_size = 20;
-const int max_iter = 500;
+const int max_iter = 50000;
 const int max_no_iter = 10000;
 const double alpha = 0.6;
 int total_Iters;
@@ -1607,6 +1607,8 @@ void mReduceVertexes() {
 		q.pop();
 		int tmp_v = st.id;
 		int tmp_c = st.c;
+		cout << "------------------------------------------------------------" << endl;
+		cout << "tmp_v: " << tmp_v << ", tmp_c: " << tmp_c << endl;
 		if(mVertexesColor[tmp_v] > 0) continue;
 		swap_vertex_color(tmp_v, tmp_c, 0);
 		vertex_color_length[tmp_v] = 0;
@@ -1628,6 +1630,7 @@ void mReduceVertexes() {
 				if(mCol_length[get_Col(tmp_v)][i] == 1) {
 					st.id = mCol[get_Col(tmp_v)][i][1];
 					st.c = i;
+					cout << "add tmp_v: " << st.id << endl;
 					q.push(st);
 				}
 			}
@@ -1636,6 +1639,7 @@ void mReduceVertexes() {
 				if(mRow_length[get_Row(tmp_v)][i] == 1) {
 					st.id = mRow[get_Row(tmp_v)][i][1];
 					st.c = i;
+					cout << "add tmp_v: " << st.id << endl;
 					q.push(st);
 				}
 			}
@@ -1644,6 +1648,7 @@ void mReduceVertexes() {
 				if(mSqu_length[get_Squ(tmp_v)][i] == 1) {
 					st.id = mSqu[get_Squ(tmp_v)][i][1];
 					st.c = i;
+					cout << "add tmp_v: " << st.id << endl;
 					q.push(st);
 				}
 			}
@@ -1658,6 +1663,7 @@ void mReduceVertexes() {
 				if(vertex_color_length[tmp_V] == 1) {
 					st.id = tmp_V;
 					st.c = vertex_color[tmp_V][0];
+					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add vcl: " << st.id << " " << st.c << endl;
 					q.push(st);
 				}
@@ -1667,6 +1673,7 @@ void mReduceVertexes() {
 				if(mCol_length[get_Col(tmp_V)][tmp_c] == 1) {
 					st.id = mCol[get_Col(tmp_V)][tmp_c][1];
 					st.c = tmp_c;
+					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add col: " << st.id << " " << st.c << endl;
 					q.push(st);
 				}
@@ -1676,6 +1683,7 @@ void mReduceVertexes() {
 				if(mRow_length[get_Row(tmp_V)][tmp_c] == 1) {
 					st.id = mRow[get_Row(tmp_V)][tmp_c][1];
 					st.c = tmp_c;
+					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add row: " << st.id << " " << st.c << endl;
 					q.push(st); 
 				}
@@ -1685,6 +1693,7 @@ void mReduceVertexes() {
 				if(mSqu_length[get_Squ(tmp_V)][tmp_c] == 1) {
 					st.id = mSqu[get_Squ(tmp_V)][tmp_c][1];
 					st.c = tmp_c;
+					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add row: " << st.id << " " << st.c << endl;
 					q.push(st); 
 				}
@@ -1702,6 +1711,7 @@ void mReduceVertexes() {
 			mVertexes_pos[i] = vertex_use_length++;
 		}
 	}
+	cout << vertex_use_length << endl;
 	for(int i = 0; i < vertex_use_length; i++) {
 		int vertex_id = mVertexes[i];
 		// 更新邻居信息，将已赋值的点从邻居中删除
@@ -1718,6 +1728,7 @@ void mReduceVertexes() {
 			}
 		}
 	}
+	cout << mEdges_length << endl;
 	for (int i=1; i<=square_size; i++) {
 		color_length[i] = 0;
 	}
@@ -1868,10 +1879,10 @@ int tabuSearch() {
 			}
 		}
 		//check_move_vertex();
-        cout << "cnt: " << cnt << ", min_sub_clash: " << min_sub_clash << ", tabu_cnt: " << tabu_cnt << ", min_sub_tabu_clash: " << min_sub_tabu_clash << endl;
-	    for (int i=0; i<cnt; i++) {
-			cout << "v: " << tmp_st[i].id << ", c: " << tmp_st[i].c << ", cscore: " << score[tmp_st[i].id] << endl;
-		}
+        // cout << "cnt: " << cnt << ", min_sub_clash: " << min_sub_clash << ", tabu_cnt: " << tabu_cnt << ", min_sub_tabu_clash: " << min_sub_tabu_clash << endl;
+	    // for (int i=0; i<cnt; i++) {
+		// 	cout << "v: " << tmp_st[i].id << ", c: " << tmp_st[i].c << ", cscore: " << score[tmp_st[i].id] << endl;
+		// }
         //cout << total_cnt << " " << cnt << " " << min_sub_clash << " " << tabu_cnt << " " << min_sub_tabu_clash << endl;
 		if (cnt == 0 && tabu_cnt == 0) {
 			return tSminClash;
@@ -1882,7 +1893,7 @@ int tabuSearch() {
 			int r;
 			min_sub_tabu_cs = LLONG_MIN;
 			int cs_cnt = 0;
-			int s_cnt = min(maxLength, tabu_cnt);
+			int s_cnt = min(max_bms_length, tabu_cnt);
 			// 随机选择三个操作，在三个操作中选择点的score最小的操作
 			for(int i = 0; i < s_cnt; i++) {
 				r = rand() % tabu_cnt;
@@ -1897,7 +1908,7 @@ int tabuSearch() {
 			r = rand() % cs_cnt;
 			move_id = tmp_bms_st[r].id;
 			move_to = tmp_bms_st[r].c;
-            cout << "choose vertex " << move_id << " change to " << move_to << endl;
+            // cout << "choose vertex " << move_id << " change to " << move_to << endl;
 			int old_c = mVertexesColor[move_id];
 			// 更新tabu表，它由三部分组成
 			tabu[move_id][old_c] = iters + rand() % tabuStep + alpha * vertex_clash_length;
@@ -1916,7 +1927,7 @@ int tabuSearch() {
 			int r;
 			min_sub_cs = LLONG_MIN;
 			int cs_cnt = 0;
-			int s_cnt = min(maxLength, cnt);
+			int s_cnt = min(max_bms_length, cnt);
 			for(int i = 0; i < s_cnt; i++) {
 				r = rand() % cnt;
 				long long tmp_cs = score[tmp_st[r].id];
@@ -1930,7 +1941,7 @@ int tabuSearch() {
 			r = rand() % cs_cnt;
 			move_id = tmp_bms_st[r].id;
 			move_to = tmp_bms_st[r].c;
-            cout << "choose vertex " << move_id << " change to " << move_to << endl;
+            // cout << "choose vertex " << move_id << " change to " << move_to << endl;
 			int old_c = mVertexesColor[move_id];
 			tabu[move_id][old_c] = iters + rand() % tabuStep + alpha * vertex_clash_length;
 			// cout<<move_id<<" : "<<mVertexesColor[move_id]<<" -> "<<move_to<<endl;
@@ -1943,7 +1954,7 @@ int tabuSearch() {
 			increase_score();
 			score[move_id] = 0;
 		}
-        cout << "mClashEdges_length: " << mClashEdges_length << endl;
+        cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << vertex_clash_length << endl;
 		if (total_clash <= tSminClash) {
 			tSminClash = total_clash;
 			update_Iter = iters;
@@ -2179,25 +2190,25 @@ void mPerturbation() {
 
 int main(int argc, char* argv[]) {
 	best_clash = INT_MAX;
-	filename = argv[1];
-	seed = atoi(argv[2]);
-	time_limit = atof(argv[3]);
-	// filename = "inst36x36_50_0.txt";
-	// seed = 2;
-	// time_limit = 10;
+	// filename = argv[1];
+	// seed = atoi(argv[2]);
+	// time_limit = atof(argv[3]);
+	filename = "inst36x36_50_0.txt";
+	seed = 2;
+	time_limit = 10;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes(); 
 	// mArcConsistency();
 
-	mStartTime();
-	mGenerate();
-	// cout << "mGenerate finish" << endl;
-	if(check_finish()) {
-		// print_current();
-		// print_ans();
-		return 0;
-	}
+	// mStartTime();
+	// mGenerate();
+	// // cout << "mGenerate finish" << endl;
+	// if(check_finish()) {
+	// 	// print_current();
+	// 	// print_ans();
+	// 	return 0;
+	// }
 	// steps = 1;
 	// no_improve_steps = 1;
 	// total_Iters = 10000;

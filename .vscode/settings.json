@@ -7,6 +7,7 @@
         "ostream": "cpp",
         "thread": "cpp",
         "ranges": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "filesystem": "cpp"
     }
 }

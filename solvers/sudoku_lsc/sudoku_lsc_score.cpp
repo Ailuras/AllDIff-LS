@@ -69,7 +69,7 @@ int** move_vertex_id;
 int move_vertex_size;
 		
 const int tabuStep = 10;
-const int maxLength = 3;
+const int max_bms_length = 3;
 bool flag_TabuCC;
 const int CC = 0;
 const int population_size = 20;
@@ -1847,7 +1847,7 @@ int tabuSearch() {
                 }
                 else if(min_sub_tabu_cs == tmp_tabu_st[i].cscore) tmp_bms_st[cscore_cnt++] = tmp_tabu_st[i];
             }
-			int s_cnt = min(maxLength, cscore_cnt);
+			int s_cnt = min(max_bms_length, cscore_cnt);
             min_sub_tabu_cs = LLONG_MIN;
 			// 随机选择三个操作，在三个操作中选择点的score最小的操作
 			for(int i = 0; i < s_cnt; i++) {
@@ -1891,7 +1891,7 @@ int tabuSearch() {
                 }
                 else if(min_sub_cs == tmp_st[i].cscore) tmp_bms_st[cscore_cnt++] = tmp_st[i];
             }
-			int s_cnt = min(maxLength, cscore_cnt);
+			int s_cnt = min(max_bms_length, cscore_cnt);
 			min_sub_cs = LLONG_MIN;
 			for(int i = 0; i < s_cnt; i++) {
 				r = rand() % cscore_cnt;
