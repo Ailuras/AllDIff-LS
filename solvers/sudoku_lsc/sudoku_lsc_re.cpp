@@ -72,7 +72,7 @@ const int max_bms_length = 3;
 bool flag_TabuCC;
 const int CC = 0;
 const int population_size = 20;
-const int max_iter = 50000;
+const int max_iter = 100000;
 const int max_no_iter = 10000;
 const double alpha = 0.6;
 int total_Iters;
@@ -903,48 +903,48 @@ void print_current() {
 void print_info() {
 
 
-	printf("----------------------------------------------------------------------\n");
-	int cnt = 0;
-	printf("Changed Map: \n");
-	cout << " \t|\t";
-	for(int i = 1; i <= square_size; i++) {
-		if (i != 1) cout << "\t";
-		cout << i;
-		if (i%order == 0) cout << "\t ";
-	}
-	cout << endl;
-	cout << "=\t#\t";
-	for(int i = 1; i <= square_size; i++) {
-		if (i != 1) cout << "\t";
-		cout << "=";
-		if (i%order == 0) cout << "\t*";
-	}
-	cout << endl;
+	// printf("----------------------------------------------------------------------\n");
+	// int cnt = 0;
+	// printf("Changed Map: \n");
+	// cout << " \t|\t";
+	// for(int i = 1; i <= square_size; i++) {
+	// 	if (i != 1) cout << "\t";
+	// 	cout << i;
+	// 	if (i%order == 0) cout << "\t ";
+	// }
+	// cout << endl;
+	// cout << "=\t#\t";
+	// for(int i = 1; i <= square_size; i++) {
+	// 	if (i != 1) cout << "\t";
+	// 	cout << "=";
+	// 	if (i%order == 0) cout << "\t*";
+	// }
+	// cout << endl;
 
-	for(int i = 1; i <= square_size; i++) {
-		cout << i << "\t|\t";
-		for(int j = 1; j <= square_size; j++) {
-			int id = square_size * (i - 1) + j;
-			if (j != 1) cout << "\t";
-			if (mVertexesColor_tmp[id] != mVertexesColorTmp[id]) {
-				cout << mVertexesColorTmp[id];
-				cnt++;
-			}
-			else cout << " ";
-			if (j%order == 0) cout << "\t|";
-		}
-		cout << endl;
-		if (i%order == 0) {
-			cout << "\t#\t";
-			for(int j = 1; j <= square_size; j++) {
-				if (j != 1) cout << "\t";
-				cout << "—";
-				if (j%order == 0) cout << "\t*";
-			}
-			cout << endl;
-		}
-	}
-	printf("num of changed vertexs: %d\n", cnt);
+	// for(int i = 1; i <= square_size; i++) {
+	// 	cout << i << "\t|\t";
+	// 	for(int j = 1; j <= square_size; j++) {
+	// 		int id = square_size * (i - 1) + j;
+	// 		if (j != 1) cout << "\t";
+	// 		if (mVertexesColor_tmp[id] != mVertexesColorTmp[id]) {
+	// 			cout << mVertexesColorTmp[id];
+	// 			cnt++;
+	// 		}
+	// 		else cout << " ";
+	// 		if (j%order == 0) cout << "\t|";
+	// 	}
+	// 	cout << endl;
+	// 	if (i%order == 0) {
+	// 		cout << "\t#\t";
+	// 		for(int j = 1; j <= square_size; j++) {
+	// 			if (j != 1) cout << "\t";
+	// 			cout << "—";
+	// 			if (j%order == 0) cout << "\t*";
+	// 		}
+	// 		cout << endl;
+	// 	}
+	// }
+	// printf("num of changed vertexs: %d\n", cnt);
 
 
 
@@ -954,14 +954,16 @@ void print_info() {
 	// printf("----------------------------------------------------------------------\n");
 	// printf("current clash: \n");
 	// int col_cnt=0, row_cnt=0, squ_cnt=0;
-	for (int i=0; i<clash_cur; i++) {
-		int x = edge[best_clash_array[i].e_id].x;
-		int y = edge[best_clash_array[i].e_id].y;
-		printf("vertex(%d, %d) and vertex(%d, %d) same color: %d\n", get_Col(x), get_Row(x), get_Col(y), get_Row(y), best_clash_array[i].color);
-		// if (get_Col(x) == get_Col(y)) col_cnt++;
-		// else if (get_Row(x) == get_Row(y)) row_cnt++;
-		// if (get_Squ(x) == get_Squ(y)) squ_cnt++;
-	}
+
+	// for (int i=0; i<clash_cur; i++) {
+	// 	int x = edge[best_clash_array[i].e_id].x;
+	// 	int y = edge[best_clash_array[i].e_id].y;
+	// 	printf("vertex(%d, %d) and vertex(%d, %d) same color: %d\n", get_Col(x), get_Row(x), get_Col(y), get_Row(y), best_clash_array[i].color);
+	// 	// if (get_Col(x) == get_Col(y)) col_cnt++;
+	// 	// else if (get_Row(x) == get_Row(y)) row_cnt++;
+	// 	// if (get_Squ(x) == get_Squ(y)) squ_cnt++;
+	// }
+
 	// printf("----------------------------------------------------------------------\n");
 	// printf("current col clash: %d\n", col_cnt);
 	// printf("current row clash: %d\n", row_cnt);
@@ -1607,8 +1609,6 @@ void mReduceVertexes() {
 		q.pop();
 		int tmp_v = st.id;
 		int tmp_c = st.c;
-		cout << "------------------------------------------------------------" << endl;
-		cout << "tmp_v: " << tmp_v << ", tmp_c: " << tmp_c << endl;
 		if(mVertexesColor[tmp_v] > 0) continue;
 		swap_vertex_color(tmp_v, tmp_c, 0);
 		vertex_color_length[tmp_v] = 0;
@@ -1630,7 +1630,6 @@ void mReduceVertexes() {
 				if(mCol_length[get_Col(tmp_v)][i] == 1) {
 					st.id = mCol[get_Col(tmp_v)][i][1];
 					st.c = i;
-					cout << "add tmp_v: " << st.id << endl;
 					q.push(st);
 				}
 			}
@@ -1639,7 +1638,6 @@ void mReduceVertexes() {
 				if(mRow_length[get_Row(tmp_v)][i] == 1) {
 					st.id = mRow[get_Row(tmp_v)][i][1];
 					st.c = i;
-					cout << "add tmp_v: " << st.id << endl;
 					q.push(st);
 				}
 			}
@@ -1648,7 +1646,6 @@ void mReduceVertexes() {
 				if(mSqu_length[get_Squ(tmp_v)][i] == 1) {
 					st.id = mSqu[get_Squ(tmp_v)][i][1];
 					st.c = i;
-					cout << "add tmp_v: " << st.id << endl;
 					q.push(st);
 				}
 			}
@@ -1663,7 +1660,6 @@ void mReduceVertexes() {
 				if(vertex_color_length[tmp_V] == 1) {
 					st.id = tmp_V;
 					st.c = vertex_color[tmp_V][0];
-					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add vcl: " << st.id << " " << st.c << endl;
 					q.push(st);
 				}
@@ -1673,7 +1669,6 @@ void mReduceVertexes() {
 				if(mCol_length[get_Col(tmp_V)][tmp_c] == 1) {
 					st.id = mCol[get_Col(tmp_V)][tmp_c][1];
 					st.c = tmp_c;
-					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add col: " << st.id << " " << st.c << endl;
 					q.push(st);
 				}
@@ -1683,7 +1678,6 @@ void mReduceVertexes() {
 				if(mRow_length[get_Row(tmp_V)][tmp_c] == 1) {
 					st.id = mRow[get_Row(tmp_V)][tmp_c][1];
 					st.c = tmp_c;
-					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add row: " << st.id << " " << st.c << endl;
 					q.push(st); 
 				}
@@ -1693,7 +1687,6 @@ void mReduceVertexes() {
 				if(mSqu_length[get_Squ(tmp_V)][tmp_c] == 1) {
 					st.id = mSqu[get_Squ(tmp_V)][tmp_c][1];
 					st.c = tmp_c;
-					cout << "add tmp_v: " << st.id << endl;
 					//cout << "add row: " << st.id << " " << st.c << endl;
 					q.push(st); 
 				}
@@ -1711,7 +1704,6 @@ void mReduceVertexes() {
 			mVertexes_pos[i] = vertex_use_length++;
 		}
 	}
-	cout << vertex_use_length << endl;
 	for(int i = 0; i < vertex_use_length; i++) {
 		int vertex_id = mVertexes[i];
 		// 更新邻居信息，将已赋值的点从邻居中删除
@@ -1728,7 +1720,6 @@ void mReduceVertexes() {
 			}
 		}
 	}
-	cout << mEdges_length << endl;
 	for (int i=1; i<=square_size; i++) {
 		color_length[i] = 0;
 	}
@@ -1784,9 +1775,6 @@ void build() {
 		}
 	}
 	//check_move_vertex();
-	// cout << total_clash <<endl;
-    printf("current total clash vertex: %d\n", vertex_clash_length);
-    printf("current total clash edges: %d\n", mClashEdges_length);
 	return;
 }
 
@@ -1879,7 +1867,8 @@ int tabuSearch() {
 			}
 		}
 		//check_move_vertex();
-        // cout << "cnt: " << cnt << ", min_sub_clash: " << min_sub_clash << ", tabu_cnt: " << tabu_cnt << ", min_sub_tabu_clash: " << min_sub_tabu_clash << endl;
+		cout << "----------------------------------------------------" << endl;
+        cout << "cnt: " << cnt << ", min_clash: " << min_sub_clash << ", tabu_cnt: " << tabu_cnt << ", min_tabu_clash: " << min_sub_tabu_clash << endl;
 	    // for (int i=0; i<cnt; i++) {
 		// 	cout << "v: " << tmp_st[i].id << ", c: " << tmp_st[i].c << ", cscore: " << score[tmp_st[i].id] << endl;
 		// }
@@ -1890,6 +1879,9 @@ int tabuSearch() {
 		// tabu
 		// 当被禁忌的最小值比不被禁忌的最小值小、并且采用该move比当前最小值还小时，或者不存在不被禁忌的好move时，进入该循环；
 		else if ((tabu_cnt > 0 && min_sub_tabu_clash < min_sub_clash && (total_clash + min_sub_tabu_clash < tSminClash)) || (cnt == 0 && tabu_cnt > 0)) {
+			// for (int i=0; i<cnt; i++) {
+			// 	cout << "v: " << tmp_tabu_st[i].id << ", c: " << tmp_tabu_st[i].c << ", score: " << tmp_tabu_st[i].score << endl;
+			// }
 			int r;
 			min_sub_tabu_cs = LLONG_MIN;
 			int cs_cnt = 0;
@@ -1899,13 +1891,13 @@ int tabuSearch() {
 				r = rand() % tabu_cnt;
 				long long tmp_cs = score[tmp_tabu_st[r].id];
 				if(min_sub_tabu_cs < tmp_cs) {
-					cs_cnt == 0;
+					cs_cnt = 0;
 					min_sub_tabu_cs = tmp_cs;
 					tmp_bms_st[cs_cnt++] = tmp_tabu_st[r];
 				}	
 				else if(min_sub_tabu_cs == tmp_cs) tmp_bms_st[cs_cnt++] = tmp_tabu_st[r];
 			}
-			r = rand() % cs_cnt;
+			r = rand() % tabu_cnt;
 			move_id = tmp_bms_st[r].id;
 			move_to = tmp_bms_st[r].c;
             // cout << "choose vertex " << move_id << " change to " << move_to << endl;
@@ -1924,6 +1916,9 @@ int tabuSearch() {
 		// not tabu
 		// 否则就选择非禁忌的操作
 		else {
+			// for (int i=0; i<cnt; i++) {
+			// 	cout << "v: " << tmp_st[i].id << ", c: " << tmp_st[i].c << ", score: " << tmp_st[i].score << endl;
+			// }
 			int r;
 			min_sub_cs = LLONG_MIN;
 			int cs_cnt = 0;
@@ -1932,7 +1927,7 @@ int tabuSearch() {
 				r = rand() % cnt;
 				long long tmp_cs = score[tmp_st[r].id];
 				if(min_sub_cs < tmp_cs) {
-					cs_cnt == 0;
+					cs_cnt = 0;
 					min_sub_cs = tmp_cs;
 					tmp_bms_st[cs_cnt++] = tmp_st[r];
 				}	
@@ -1954,6 +1949,7 @@ int tabuSearch() {
 			increase_score();
 			score[move_id] = 0;
 		}
+		cout << "choose vertex " << move_id << " change to " << move_to << endl;
         cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << vertex_clash_length << endl;
 		if (total_clash <= tSminClash) {
 			tSminClash = total_clash;
@@ -2194,24 +2190,24 @@ int main(int argc, char* argv[]) {
 	// seed = atoi(argv[2]);
 	// time_limit = atof(argv[3]);
 	filename = "inst36x36_50_0.txt";
-	seed = 2;
-	time_limit = 10;
+	seed = 1;
+	time_limit = 50;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes(); 
 	// mArcConsistency();
 
-	// mStartTime();
-	// mGenerate();
-	// // cout << "mGenerate finish" << endl;
-	// if(check_finish()) {
-	// 	// print_current();
-	// 	// print_ans();
-	// 	return 0;
-	// }
+	mStartTime();
+	mGenerate();
+	// cout << "mGenerate finish" << endl;
+	if(check_finish()) {
+		// print_current();
+		// print_ans();
+		return 0;
+	}
 	// steps = 1;
 	// no_improve_steps = 1;
-	// total_Iters = 10000;
+	total_Iters = 10000;
 	// for(Iter = 0; total_time < time_limit; Iter++) {
 	// 	mPopulationUpdate();
 	// 	mCopy();
