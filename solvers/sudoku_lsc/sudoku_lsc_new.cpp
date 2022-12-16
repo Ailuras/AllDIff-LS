@@ -330,12 +330,8 @@ int get_score(int id, int to) {
 }
 
 int get_bscore(int id, int to) {
-    int bscore = 0;
-    if (color_vertex_length[mVertexesColor[id]]-square_size > 0) bscore++;
-    else bscore --;
-    if (color_vertex_length[to]-square_size < 0) bscore++;
-    else bscore --;
-	return bscore;
+    if (color_vertex_length[to]-square_size < 0) return 1;
+    else return -1;
 }
 
 int get_Col(int id) {
@@ -582,8 +578,8 @@ void mReduceVertexes() {
 			int tmp_c = vertex_color[i][0];
 			vertex_color_length[i] = 0;
 			mVertexesColor[i] = tmp_c;
-			color_vertex_pos[tmp_c][i] = color_vertex_length[tmp_c];
-			color_vertex[tmp_c][color_vertex_length[tmp_c]++] = i;
+			color_vertex[tmp_c][color_vertex_length[tmp_c]] = i;
+			color_vertex_pos[tmp_c][i] = color_vertex_length[tmp_c]++;
 			vertex_can_move[i][tmp_c] = false;
 			for (int j=1; j<=square_size; j++) {
 				if(mCol_pos[get_Col(i)][j][i] <= mCol_length[get_Col(i)][j]) swap_col(get_Col(i), j, i, mCol_length[get_Col(i)][j]--);
@@ -730,12 +726,20 @@ void mReduceVertexes() {
 }
 
 void build() {
-	for(int i = 0; i < mVertexes_length; i++) {
+	for(int i=0; i<mVertexes_length; i++) {
 		cscore[mVertexes[i]] = 0;
 		for(int j = 1; j <= square_size; j++) {
 			mClash[mVertexes[i]][j] = 0;
 			mTabu[mVertexes[i]][j] = 0;
 		}
+	}
+	for (int i=1; i<=square_size; i++) {
+		color_vertex_length[i] = 0;
+	}
+	for (int i=1; i<=vertex_size; i++) {
+		int tmp_c = mVertexesColor[i];
+		color_vertex[tmp_c][color_vertex_length[tmp_c]] = i;
+		color_vertex_pos[tmp_c][i] = color_vertex_length[tmp_c]++;
 	}
 	for (int i=1; i<=square_size; i++) {
         color_vertex_recent[i] = -1;
@@ -809,7 +813,7 @@ int tabuSearch() {
 		tabu_cnt = 0;
 		sub_cnt = 0;
 		sub_tabu_cnt = 0;
-		if (true) {
+		if (iters % 5 != 0) {
 			for (int i = 0; i < mClashVertexes_length; i++) {
 				int vertex_id = mClashVertexes[i];
 				for(int j = 0; j < vertex_color_length[vertex_id]; j++) {
@@ -1022,7 +1026,7 @@ int tabuSearch() {
 		// cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << endl;
 		if (mClashEdges_length <= tSminClash) {
 			tSminClash = mClashEdges_length;
-			for(int i = 0; i < mVertexes_length; i++) {
+			for (int i=0; i<mVertexes_length; i++) {
 				mVertexesColor_tmp[mVertexes[i]] = mVertexesColor[mVertexes[i]];
                 mVertexesMark_tmp[mVertexes[i]] = mVertexesMark[mVertexes[i]];
 			}
