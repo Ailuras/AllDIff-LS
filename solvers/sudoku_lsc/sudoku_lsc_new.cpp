@@ -29,6 +29,7 @@ const int max_bms_length = 3;
 const int CC = 0;
 const int max_iter = 100000;
 const int max_no_improve_iter = 10000;
+const int max_no_improve_search = 10;
 const int N = 100;
 const int alpha1 = 99;
 const double alpha2 = 0.6;
@@ -46,6 +47,7 @@ int start_time;
 double total_time;
 double best_time;
 double average_clash = 0;
+int no_improve_search;
 
 int order;
 int is_sat;
@@ -62,6 +64,7 @@ int* mEdges;
 int mEdges_length;
 int** mNeighbours;
 int* mNeighbours_length;
+int* mNeighbours_length_prime;
 
 int*** mCol;
 int*** mCol_pos;
@@ -127,6 +130,7 @@ void set_Variable_size() {
 	mNeighbours = (int **) malloc(sizeof(int *) * (vertex_size + 1));
 	for(int i = 1; i <= vertex_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (3 * square_size));
 	mNeighbours_length = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	mNeighbours_length_prime = (int *) malloc(sizeof(int) * (vertex_size + 1));
 
 	mCol = (int ***) malloc(sizeof(int **) * (square_size + 1));
 	for(int i = 1; i <= square_size; i++) {
@@ -140,6 +144,8 @@ void set_Variable_size() {
 	}
 	mCol_length = (int **) malloc(sizeof(int *) * (square_size + 1));
 	for(int i = 1; i <= square_size; i++) mCol_length[i] = (int *) malloc(sizeof(int) * (square_size + 1));
+	mCol_length_prime = (int **) malloc(sizeof(int *) * (square_size + 1));
+	for(int i = 1; i <= square_size; i++) mCol_length_prime[i] = (int *) malloc(sizeof(int) * (square_size + 1));
 	mRow = (int ***) malloc(sizeof(int **) * (square_size + 1));
 	for(int i = 1; i <= square_size; i++) {
 		mRow[i] = (int **) malloc(sizeof(int *) * (square_size + 1));
@@ -152,6 +158,8 @@ void set_Variable_size() {
 	}
 	mRow_length = (int **) malloc(sizeof(int *) * (square_size + 1));
 	for(int i = 1; i <= square_size; i++) mRow_length[i] = (int *) malloc(sizeof(int) * (square_size + 1));
+	mRow_length_prime = (int **) malloc(sizeof(int *) * (square_size + 1));
+	for(int i = 1; i <= square_size; i++) mRow_length_prime[i] = (int *) malloc(sizeof(int) * (square_size + 1));
 	mSqu = (int ***) malloc(sizeof(int **) * (square_size + 1));
 	for(int i = 1; i <= square_size; i++) {
 		mSqu[i] = (int **) malloc(sizeof(int *) * (square_size + 1));
@@ -164,6 +172,8 @@ void set_Variable_size() {
 	}
 	mSqu_length = (int **) malloc(sizeof(int *) * (square_size + 1));
 	for(int i = 1; i <= square_size; i++) mSqu_length[i] = (int *) malloc(sizeof(int) * (square_size + 1));
+	mSqu_length_prime = (int **) malloc(sizeof(int *) * (square_size + 1));
+	for(int i = 1; i <= square_size; i++) mSqu_length_prime[i] = (int *) malloc(sizeof(int) * (square_size + 1));
 	vertex_can_move = (bool **) malloc(sizeof(bool *) * (vertex_size + 1));
 	for(int i = 1; i <= vertex_size; i++) vertex_can_move[i] = (bool *) malloc(sizeof(bool) * (square_size + 1));
 	vertex_color = (int **) malloc(sizeof(int *) * (vertex_size + 1));
@@ -229,7 +239,10 @@ void init() {
 		}
 	}
 	for(int i = 1; i <= square_size; i++) for(int j = 1; j <= vertex_size; j++) color_vertex_pos[i][j] = 0;
+
 	clash_best = INT_MAX;
+	no_improve_search = 0;
+	
 	for(int i = 1; i <= square_size; i++) {
 		for(int j = 1; j <= square_size; j++) {
 			for(int p = 1; p <= square_size; p++) {
@@ -1209,25 +1222,27 @@ void mAnalysis() {
 		}
 	}
 
+	mEdges_length = 0;
 	for (int i=0; i<mVertexes_length; i++) {
-		if (mVertexesColor[i] > 0) {
-			int tmp_c = mVertexes[mVertexes_length-1];
-			mVertexes[--mVertexes_length] = mVertexes[i];
-			mVertexes[i] = tmp_c;
+		int tmp_v = mVertexes[i];
+		if (mVertexesColor[tmp_v] > 0) {
+			mVertexes[i] = mVertexes[mVertexes_length-1];
+			mVertexes[--mVertexes_length] = tmp_v;
+			i--;
 		}
 	}
-	for(int i = 0; i < mVertexes_length; i++) {
+	for (int i = 0; i < mVertexes_length; i++) {
 		int vertex_id = mVertexes[i];
-		for(int j = 0; j < mNeighbours_length[vertex_id]; j++) {
+		for (int j = 0; j < mNeighbours_length[vertex_id]; j++) {
 			int tmp_v = mNeighbours[vertex_id][j];
-			if(mVertexesColor[tmp_v] > 0) {
-				mNeighbours[vertex_id][j--] = mNeighbours[vertex_id][--mNeighbours_length[vertex_id]];
+			if (mVertexesColor[tmp_v] > 0) {
+				mNeighbours[vertex_id][j] = mNeighbours[vertex_id][mNeighbours_length[vertex_id]-1];
+				mNeighbours[vertex_id][--mNeighbours_length[vertex_id]] = tmp_v;
 			} else if (vertex_id < tmp_v) {
                 mEdges[mEdges_length++] = edge_map[vertex_id][tmp_v];
 			}
 		}
 	}
-
 	return;
 }
 
@@ -1243,6 +1258,21 @@ bool check_diff() {
 		if (!flag) return false;
 	}
 	return true;
+}
+
+void mReset() {
+	mVertexes_length = mVertexes_length_prime;
+	for (int i=1; i<=vertex_size; i++) {
+		vertex_color_length[i] = vertex_color_length_prime[i];
+		mNeighbours_length[i] = mNeighbours_length_prime[i];
+	}
+	for (int i=1; i<=square_size; i++) {
+		for (int j=1; j<=square_size; j++) {
+			mCol_length[i][j] = mCol_length_prime[i][j];
+			mRow_length[i][j] = mRow_length_prime[i][j];
+			mSqu_length[i][j] = mSqu_length_prime[i][j];
+		}
+	}
 }
 
 bool mLocalSearch() {
@@ -1263,7 +1293,12 @@ bool mLocalSearch() {
 		mPool_length++;
 		if (mPool_length >= pool_size) {
 			mAnalysis();
+			mPool_length = 0;
+			no_improve_search = 0;
 		}
+	} else if (clash_cur > clash_best) {
+		no_improve_search++;
+		if (no_improve_search > max_no_improve_search) mReset();
 	}
 	for (int i=0; i<mVertexes_length; i++) {
 		mPoolColor_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]]++;
@@ -1286,7 +1321,10 @@ void mGenerate() {
 		mVertexesColor[vertex_id] = tmp_c;
 	}
 	mVertexes_length_prime = mVertexes_length;
-	for (int i=1; i<=vertex_size; i++) vertex_color_length_prime[i] = vertex_color_length[i];
+	for (int i=1; i<=vertex_size; i++) {
+		vertex_color_length_prime[i] = vertex_color_length[i];
+		mNeighbours_length_prime[i] = mNeighbours_length[i];
+	}
 	for (int i=1; i<=square_size; i++) {
 		for (int j=1; j<=square_size; j++) {
 			mCol_length_prime[i][j] = mCol_length[i][j];
@@ -1320,11 +1358,11 @@ int main(int argc, char* argv[]) {
 		if(check_finish()) return 0;
 	}
 	cout << average_clash/50 << endl;
-	// for(int iter = 0; total_time < time_limit; iter++) {
-	// 	LocalSearch();
-	// 	if(check_finish()) break;
-	// 	mCurrentTime();
-	// }
+	for(int iter = 0; total_time < time_limit; iter++) {
+		mLocalSearch();
+		if(check_finish()) break;
+		mCurrentTime();
+	}
 
 	return 0;
 }
