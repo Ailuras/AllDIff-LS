@@ -1789,7 +1789,7 @@ void increase_score() {
 }
 
 //TODO: main function
-int tabuSearch() {
+int mTabuSearch() {
 	int tSminClash;
 	build();
 	tSminClash = total_clash;
@@ -1969,7 +1969,7 @@ int tabuSearch() {
 }
 
 bool LocalSearch() {
-	clash_cur = tabuSearch();
+	clash_cur = mTabuSearch();
 	if(clash_cur < best_clash) {
 		best_clash = clash_cur;
 		no_improve_steps = 1;
