@@ -1867,8 +1867,8 @@ int mTabuSearch() {
 			}
 		}
 		//check_move_vertex();
-		cout << "----------------------------------------------------" << endl;
-        cout << "cnt: " << cnt << ", min_clash: " << min_sub_clash << ", tabu_cnt: " << tabu_cnt << ", min_tabu_clash: " << min_sub_tabu_clash << endl;
+		// cout << "----------------------------------------------------" << endl;
+        // cout << "cnt: " << cnt << ", min_clash: " << min_sub_clash << ", tabu_cnt: " << tabu_cnt << ", min_tabu_clash: " << min_sub_tabu_clash << endl;
 	    // for (int i=0; i<cnt; i++) {
 		// 	cout << "v: " << tmp_st[i].id << ", c: " << tmp_st[i].c << ", cscore: " << score[tmp_st[i].id] << endl;
 		// }
@@ -1949,8 +1949,8 @@ int mTabuSearch() {
 			increase_score();
 			score[move_id] = 0;
 		}
-		cout << "choose vertex " << move_id << " change to " << move_to << endl;
-        cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << vertex_clash_length << endl;
+		// cout << "choose vertex " << move_id << " change to " << move_to << endl;
+        // cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << vertex_clash_length << endl;
 		if (total_clash <= tSminClash) {
 			tSminClash = total_clash;
 			update_Iter = iters;
@@ -2174,7 +2174,7 @@ void mPerturbation() {
 	//cout << cnt << " " << max_old << " " << min_old << endl;
 	// int p_cnt = cnt / 2;
     int p_cnt = 0;
-    cout << "Iter: "<< Iter << ", p_cnt: " << p_cnt << endl;
+    // cout << "Iter: "<< Iter << ", p_cnt: " << p_cnt << endl;
 	p_cnt = min(p_cnt, cnt);
 	for(int i = 0; i < p_cnt; i++) {
 		int r = rand() % cnt;
@@ -2189,7 +2189,7 @@ int main(int argc, char* argv[]) {
 	// filename = argv[1];
 	// seed = atoi(argv[2]);
 	// time_limit = atof(argv[3]);
-	filename = "inst36x36_50_0.txt";
+	filename = "inst49x49_55_0.txt";
 	seed = 1;
 	time_limit = 50;
 	srand(seed);
@@ -2208,14 +2208,14 @@ int main(int argc, char* argv[]) {
 	// steps = 1;
 	// no_improve_steps = 1;
 	total_Iters = 10000;
-	// for(Iter = 0; total_time < time_limit; Iter++) {
-	// 	mPopulationUpdate();
-	// 	mCopy();
-	// 	mPerturbation();
-	// 	LocalSearch();
-	// 	if(check_finish()) break;
-	// 	mCurrentTime();
-	// }
+	for(Iter = 0; total_time < time_limit; Iter++) {
+		mPopulationUpdate();
+		mCopy();
+		mPerturbation();
+		LocalSearch();
+		if(check_finish()) break;
+		mCurrentTime();
+	}
 
 	// print_current();
 	// print_ans();
