@@ -29,7 +29,7 @@ bool* tmp_flag;
 // const & hyper
 const int total_Iters = 10000;
 const int tabuStep = 10;
-const int max_bms_length = 3;
+const int max_bms_length = 1;
 const int CC = 0;
 const int max_iter = 100000;
 const int max_no_improve_iter = 10000;
@@ -855,6 +855,8 @@ int mTabuSearch() {
 	int move_to;
 	int move_from;
 	int flag = 0;
+	int cnt1 = 0;
+	int cnt2 = 0;
 	for (int iters = 1; iters <= mPoolMaxIter[last_id]; iters++) {
 		min_clash = INT_MAX;
 		min_tabu_clash = INT_MAX;
@@ -866,8 +868,8 @@ int mTabuSearch() {
 		tabu_cnt = 0;
 		sub_cnt = 0;
 		sub_tabu_cnt = 0;
-		// cout << "----------------" << flag << "----------------" << endl;
 		if (flag > 0) {
+			cnt1++;
 			for (int i = 0; i < mClashVertexes_length; i++) {
 				int vertex_id = mClashVertexes[i];
 				for(int j = 0; j < vertex_color_length[vertex_id]; j++) {
@@ -943,6 +945,7 @@ int mTabuSearch() {
 			cscore[move_id] = 0;
 			flag--;
 		} else {
+			cnt2++;
 			for (int i = 0; i < mClashVertexes_length; i++) {
 				int tmp_v = mClashVertexes[i];
 				int tmp_s = -mClash[tmp_v][mVertexesColor[tmp_v]];
@@ -963,10 +966,6 @@ int mTabuSearch() {
 						tmp_tabu_st[tabu_cnt++] = tmp_v;
 					}
 				}
-			}
-			if (min_clash>=0 && min_tabu_clash>=0) {
-				flag = 100;
-				continue;
 			}
 			if (cnt == 0 && tabu_cnt == 0) {
 				return tSminClash;
@@ -1099,6 +1098,7 @@ int mTabuSearch() {
 			if(tSminClash == 0) return tSminClash;
 		}
 	}
+	cout << "mode1: " << cnt1 << ", mode2: " << cnt2 << endl;
 	return tSminClash;
 }
 
@@ -1300,6 +1300,10 @@ void compare(string filename) {
 			cin >> tmp_vertex[i][j];
 		}
 	}
+	int cnt1 = 0;
+	int cnt2 = 0;
+	int cnt3 = 0;
+	int cnt4 = 0;
 	printf("======================================================================\n");
 	cout << " \t|\t";
 	for(int i = 1; i <= square_size; i++) {
@@ -1324,51 +1328,8 @@ void compare(string filename) {
 			else if (tmp_vertex[i][j] == mVertexesColor_tmp[id]) {
 				cout << mVertexesColor_tmp[id];
 			} else {
-				// if (vertex_color_length[id] <= 3) cout << "x";
-				cout << "#";
+				cout << "x";
 			}
-			if (j%order == 0) cout << "\t|";
-		}
-		cout << endl;
-		if (i%order == 0) {
-			cout << "\t#\t";
-			for(int j = 1; j <= square_size; j++) {
-				if (j != 1) cout << "\t";
-				cout << "—";
-				if (j%order == 0) cout << "\t*";
-			}
-			cout << endl;
-		}
-	}
-	printf("======================================================================\n");
-	cout << " \t|\t";
-	for(int i = 1; i <= square_size; i++) {
-		if (i != 1) cout << "\t";
-		cout << i;
-		if (i%order == 0) cout << "\t ";
-	}
-	cout << endl;
-	cout << "=\t#\t";
-	for(int i = 1; i <= square_size; i++) {
-		if (i != 1) cout << "\t";
-		cout << "=";
-		if (i%order == 0) cout << "\t*";
-	}
-	cout << endl;
-	for(int i = 1; i <= square_size; i++) {
-		cout << i << "\t|\t";
-		for(int j = 1; j <= square_size; j++) {
-			int id = square_size * (i - 1) + j;
-			if (j != 1) cout << "\t";
-			if(mVertexesColor_tmp[id] == -1) cout << " ";
-			else cout << mPoolClash_length[id][mVertexesColor_tmp[id]];
-			// else if (mPoolColor_length[id][mVertexesColor_tmp[id]] == 51) {
-			// 	// cout << mVertexesColor_tmp[id];
-			// 	cout << "#";
-			// } else {
-			// 	cout << mPoolClash_length[id][mVertexesColor_tmp[id]];
-			// 	// cout << "#";
-			// }
 			if (j%order == 0) cout << "\t|";
 		}
 		cout << endl;
@@ -1481,21 +1442,21 @@ bool mLocalSearch() {
 		}
 		
 		for (int i=0; i<clash_cur; i++) edges[mClashEdges_tmp[i]].w++;
+	// }
+	} else if (clash_cur > clash_best) {
+		no_improve_search++;
+		if (no_improve_search > max_no_improve_search) mReset();
 	}
-	// } else if (clash_cur > clash_best) {
-	// 	no_improve_search++;
-	// 	if (no_improve_search > max_no_improve_search) mReset();
-	// }
-	// for (int i=0; i<mVertexes_length; i++) {
-	// 	mPoolColor_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]]++;
-	// 	mPoolClash_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]] += mVertexesClash_tmp[mVertexes[i]];
-	// }
-	// if (mIter > 50) {
-	// 	// mAnalysis();
-	// 	compare("inst49x49_100_0.txt");
-	// 	mIter = 0;
-	// }
-	// print_info();
+	for (int i=0; i<mVertexes_length; i++) {
+		mPoolColor_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]]++;
+		mPoolClash_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]] += mVertexesClash_tmp[mVertexes[i]];
+	}
+	if (mIter > 50) {
+		// mAnalysis();
+		compare("inst49x49_100_0.txt");
+		mIter = 0;
+	}
+	print_info();
     // print_current();
 	// compare("inst49x49_100_0.txt");
 	// change_map();
@@ -1538,12 +1499,12 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	filename = argv[1];
-	seed = atoi(argv[2]);
-	time_limit = atof(argv[3]);
-	// filename = "inst49x49_55_0.txt";
-	// seed = 2;
-	// time_limit = 60;
+	// filename = argv[1];
+	// seed = atoi(argv[2]);
+	// time_limit = atof(argv[3]);
+	filename = "inst49x49_55_0.txt";
+	seed = 1;
+	time_limit = 60;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes();
