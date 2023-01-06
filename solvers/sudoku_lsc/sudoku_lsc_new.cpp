@@ -36,7 +36,8 @@ const int max_no_improve_iter = 10000;
 const int max_no_improve_search = 10;
 const double alpha1 = 0.9;
 const double alpha2 = 0.6;
-const double alpha3 = 1.0;
+const double alpha3 = 4.0;
+const int alpha4 = 5;
 const int bscore_weight = 1000;
 const int pool_size = 50;
 
@@ -855,8 +856,6 @@ int mTabuSearch() {
 	int move_to;
 	int move_from;
 	int flag = 0;
-	int cnt1 = 0;
-	int cnt2 = 0;
 	for (int iters = 1; iters <= mPoolMaxIter[last_id]; iters++) {
 		min_clash = INT_MAX;
 		min_tabu_clash = INT_MAX;
@@ -869,7 +868,6 @@ int mTabuSearch() {
 		sub_cnt = 0;
 		sub_tabu_cnt = 0;
 		if (flag > 0) {
-			cnt1++;
 			for (int i = 0; i < mClashVertexes_length; i++) {
 				int vertex_id = mClashVertexes[i];
 				for(int j = 0; j < vertex_color_length[vertex_id]; j++) {
@@ -945,7 +943,6 @@ int mTabuSearch() {
 			cscore[move_id] = 0;
 			flag--;
 		} else {
-			cnt2++;
 			for (int i = 0; i < mClashVertexes_length; i++) {
 				int tmp_v = mClashVertexes[i];
 				int tmp_s = -mClash[tmp_v][mVertexesColor[tmp_v]];
@@ -1098,7 +1095,6 @@ int mTabuSearch() {
 			if(tSminClash == 0) return tSminClash;
 		}
 	}
-	cout << "mode1: " << cnt1 << ", mode2: " << cnt2 << endl;
 	return tSminClash;
 }
 
@@ -1263,8 +1259,16 @@ void mAnalysis() {
 }
 
 bool check_diff() {
+	bool flag = false;
+	for (int j=0; j<mVertexes_length; j++) {
+		if (mPoolVertexesColor[last_id][mVertexes[j]] != mVertexesColor_tmp[mVertexes[j]]) {
+			flag = true;
+			break;
+		} 
+	}
+	if (!flag) return false;
 	for (int i=0; i<mPool_length; i++) {
-		bool flag = false;
+		flag = false;
 		for (int j=0; j<mVertexes_length; j++) {
 			if (mPoolVertexesColor[i][mVertexes[j]] != mVertexesColor_tmp[mVertexes[j]]) {
 				flag = true;
@@ -1407,7 +1411,7 @@ void mPerturbation() {
 		mVertexesColor[mVertexes[i]] = mPoolVertexesColor[last_id][mVertexes[i]];
 		// mVertexesColor[mVertexes[i]] = mVertexesColor_tmp[mVertexes[i]];
 	}
-	mPoolMaxIter[last_id] += alpha3*max_iter; 
+	mPoolMaxIter[last_id] += max_iter;
 	return;
 }
 
@@ -1441,26 +1445,34 @@ bool mLocalSearch() {
 			mPoolMaxIter[r] = max_iter;
 		}
 		
-		for (int i=0; i<clash_cur; i++) edges[mClashEdges_tmp[i]].w++;
+		for (int i=0; i<clash_cur; i++) {
+			if (rand()%alpha4 == 0) edges[mClashEdges_tmp[i]].w++;
+		}
+	} else {
+		// no_improve_search++;
+		// if (no_improve_search > max_no_improve_search) mReset();
+		mPoolMaxIter[last_id] += alpha3*max_iter;
+	}
+	// for (int i=0; i<mVertexes_length; i++) {
+	// 	mPoolColor_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]]++;
+	// 	mPoolClash_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]] += mVertexesClash_tmp[mVertexes[i]];
 	// }
-	} else if (clash_cur > clash_best) {
-		no_improve_search++;
-		if (no_improve_search > max_no_improve_search) mReset();
-	}
-	for (int i=0; i<mVertexes_length; i++) {
-		mPoolColor_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]]++;
-		mPoolClash_length[mVertexes[i]][mVertexesColor_tmp[mVertexes[i]]] += mVertexesClash_tmp[mVertexes[i]];
-	}
-	if (mIter > 50) {
-		// mAnalysis();
-		compare("inst49x49_100_0.txt");
-		mIter = 0;
-	}
-	print_info();
+	// if (mIter > 50) {
+	// 	// mAnalysis();
+	// 	compare("inst49x49_100_0.txt");
+	// 	mIter = 0;
+	// }
+	// print_info();
     // print_current();
 	// compare("inst49x49_100_0.txt");
 	// change_map();
-	mPerturbation();
+	// mPerturbation();
+
+	last_id = rand()%mPool_length;
+	for (int i=0; i<mVertexes_length; i++) {
+		mVertexesColor[mVertexes[i]] = mPoolVertexesColor[last_id][mVertexes[i]];
+	}
+
 	if(clash_best == 0) return true;
 	return false;
 }
@@ -1499,12 +1511,12 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	// filename = argv[1];
-	// seed = atoi(argv[2]);
-	// time_limit = atof(argv[3]);
-	filename = "inst49x49_55_0.txt";
-	seed = 1;
-	time_limit = 60;
+	filename = argv[1];
+	seed = atoi(argv[2]);
+	time_limit = atof(argv[3]);
+	// filename = "inst49x49_55_0.txt";
+	// seed = 1;
+	// time_limit = 60;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes();
@@ -1518,6 +1530,6 @@ int main(int argc, char* argv[]) {
 		if(check_finish()) break;
 		mCurrentTime();
 	}
-
+	print_info();
 	return 0;
 }
