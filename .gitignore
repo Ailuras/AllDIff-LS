@@ -2,3 +2,10 @@ solvers/sudoku_acs/sudoku_acs
 solvers/sudoku_lsc/sudoku_lsc
 benchmarks_CP
 benchmarks_SAT
+benchmarks_part_CP
+Sudoku-LS
+Sudoku-LS1
+Sudoku-LS2
+Sudoku-LS3
+results_new
+results_old

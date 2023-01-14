@@ -553,6 +553,7 @@ bool check_finish() {
 		best_time = total_time;
 		check_answer();
 		printf("%s find answer: %lf\n", filename.c_str(), best_time);
+		print_current();
 		return true;
 	}
 	return false;
@@ -1530,6 +1531,7 @@ int main(int argc, char* argv[]) {
 		if(check_finish()) break;
 		mCurrentTime();
 	}
-	print_info();
+	// print_current();
+	// print_info();
 	return 0;
 }
