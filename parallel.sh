@@ -1,5 +1,5 @@
 #！/bin/bash
-# ./parallel.sh benchmarks 1000 sudoku_acs 1
+# ./parallel.sh benchmarks 1000 sudoku_csp 1
 # ./parallel.sh benchmarks_SAT 1000 sudoku_sat 1
 benchmarks=$1
 time_t=$2

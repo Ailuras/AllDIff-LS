@@ -18,7 +18,8 @@ for file in $folder/*; do
         ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
     fi
     if [ "$solver"x = "sudoku_csp"x ]; then
-        ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+        minizinc --solver or-tools --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+        # ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
     fi
     if [ "$solver"x = "sudoku_sat"x ]; then
         timeout $time_t ./solvers/sudoku_sat/Kissat_MAB-HyWalk/kissat -n -q $file
