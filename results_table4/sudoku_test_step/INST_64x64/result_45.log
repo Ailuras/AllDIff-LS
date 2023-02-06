@@ -1,0 +1,282 @@
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_0.txt find answer: 680.590000
+benchmarks/INST_64x64/45/inst64x64_45_0.txt : 682573 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_10.txt find answer: 612.340000
+benchmarks/INST_64x64/45/inst64x64_45_10.txt : 614119 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_11.txt : 1070317 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_12.txt find answer: 127.100000
+benchmarks/INST_64x64/45/inst64x64_45_12.txt : 127733 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_13.txt find answer: 822.610000
+benchmarks/INST_64x64/45/inst64x64_45_13.txt : 824884 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_14.txt find answer: 285.390000
+benchmarks/INST_64x64/45/inst64x64_45_14.txt : 286410 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_15.txt : 1110399 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_16.txt find answer: 469.630000
+benchmarks/INST_64x64/45/inst64x64_45_16.txt : 471216 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_17.txt : 1054771 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_18.txt find answer: 377.470000
+benchmarks/INST_64x64/45/inst64x64_45_18.txt : 378814 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_19.txt find answer: 377.270000
+benchmarks/INST_64x64/45/inst64x64_45_19.txt : 378570 ms.
+--------------------------------------------------
+run.sh: line 11: 185051 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks/INST_64x64/45/inst64x64_45_1.txt : 551687 ms.
+--------------------------------------------------
+run.sh: line 11: 187530 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks/INST_64x64/45/inst64x64_45_20.txt : 401674 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_21.txt find answer: 305.900000
+benchmarks/INST_64x64/45/inst64x64_45_21.txt : 306960 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_22.txt find answer: 996.800000
+benchmarks/INST_64x64/45/inst64x64_45_22.txt : 999491 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_23.txt : 1013685 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_24.txt find answer: 684.850000
+benchmarks/INST_64x64/45/inst64x64_45_24.txt : 686829 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_25.txt find answer: 314.770000
+benchmarks/INST_64x64/45/inst64x64_45_25.txt : 315840 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_26.txt find answer: 786.440000
+benchmarks/INST_64x64/45/inst64x64_45_26.txt : 788650 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_27.txt find answer: 524.390000
+benchmarks/INST_64x64/45/inst64x64_45_27.txt : 525960 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_28.txt : 1023947 ms.
+--------------------------------------------------
+run.sh: line 11: 215143 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks/INST_64x64/45/inst64x64_45_29.txt : 226762 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_2.txt find answer: 147.340000
+benchmarks/INST_64x64/45/inst64x64_45_2.txt : 148002 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_30.txt find answer: 407.020000
+benchmarks/INST_64x64/45/inst64x64_45_30.txt : 408366 ms.
+--------------------------------------------------
+run.sh: line 11: 218413 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks/INST_64x64/45/inst64x64_45_31.txt : 215557 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_32.txt find answer: 791.240000
+benchmarks/INST_64x64/45/inst64x64_45_32.txt : 793539 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_33.txt : 1261811 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_34.txt : 1020206 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_35.txt find answer: 371.760000
+benchmarks/INST_64x64/45/inst64x64_45_35.txt : 372975 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_36.txt find answer: 455.960000
+benchmarks/INST_64x64/45/inst64x64_45_36.txt : 457366 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_37.txt find answer: 862.680000
+benchmarks/INST_64x64/45/inst64x64_45_37.txt : 865128 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_38.txt : 1053035 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_39.txt find answer: 637.780000
+benchmarks/INST_64x64/45/inst64x64_45_39.txt : 639633 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_3.txt find answer: 231.600000
+benchmarks/INST_64x64/45/inst64x64_45_3.txt : 232470 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_40.txt find answer: 107.500000
+benchmarks/INST_64x64/45/inst64x64_45_40.txt : 108105 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_41.txt : 1010213 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_42.txt : 1351140 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_43.txt find answer: 92.320000
+benchmarks/INST_64x64/45/inst64x64_45_43.txt : 92875 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_44.txt find answer: 727.840000
+benchmarks/INST_64x64/45/inst64x64_45_44.txt : 729906 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_45.txt find answer: 129.190000
+benchmarks/INST_64x64/45/inst64x64_45_45.txt : 129818 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_46.txt find answer: 409.210000
+benchmarks/INST_64x64/45/inst64x64_45_46.txt : 410506 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_47.txt find answer: 622.570000
+benchmarks/INST_64x64/45/inst64x64_45_47.txt : 624375 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_48.txt find answer: 328.400000
+benchmarks/INST_64x64/45/inst64x64_45_48.txt : 329548 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_49.txt find answer: 130.060000
+benchmarks/INST_64x64/45/inst64x64_45_49.txt : 130710 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_4.txt find answer: 759.150000
+benchmarks/INST_64x64/45/inst64x64_45_4.txt : 761294 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_50.txt find answer: 810.550000
+benchmarks/INST_64x64/45/inst64x64_45_50.txt : 812796 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_51.txt find answer: 659.470000
+benchmarks/INST_64x64/45/inst64x64_45_51.txt : 661331 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_52.txt find answer: 861.160000
+benchmarks/INST_64x64/45/inst64x64_45_52.txt : 863491 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_53.txt find answer: 283.560000
+benchmarks/INST_64x64/45/inst64x64_45_53.txt : 284526 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_54.txt find answer: 320.230000
+benchmarks/INST_64x64/45/inst64x64_45_54.txt : 321329 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_55.txt find answer: 210.250000
+benchmarks/INST_64x64/45/inst64x64_45_55.txt : 211041 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_56.txt : 1018718 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_57.txt find answer: 967.000000
+benchmarks/INST_64x64/45/inst64x64_45_57.txt : 969619 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_58.txt find answer: 336.340000
+benchmarks/INST_64x64/45/inst64x64_45_58.txt : 337504 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_59.txt find answer: 330.330000
+benchmarks/INST_64x64/45/inst64x64_45_59.txt : 331425 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_5.txt find answer: 478.500000
+benchmarks/INST_64x64/45/inst64x64_45_5.txt : 479975 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_60.txt find answer: 459.980000
+benchmarks/INST_64x64/45/inst64x64_45_60.txt : 461378 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_61.txt find answer: 242.100000
+benchmarks/INST_64x64/45/inst64x64_45_61.txt : 242991 ms.
+--------------------------------------------------
+run.sh: line 11: 292907 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks/INST_64x64/45/inst64x64_45_62.txt : 447350 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_63.txt : 1016920 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_64.txt find answer: 123.660000
+benchmarks/INST_64x64/45/inst64x64_45_64.txt : 124265 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_65.txt find answer: 759.840000
+benchmarks/INST_64x64/45/inst64x64_45_65.txt : 761952 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_66.txt find answer: 233.260000
+benchmarks/INST_64x64/45/inst64x64_45_66.txt : 234123 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_67.txt find answer: 561.210000
+benchmarks/INST_64x64/45/inst64x64_45_67.txt : 562860 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_68.txt find answer: 761.320000
+benchmarks/INST_64x64/45/inst64x64_45_68.txt : 763455 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_69.txt : 1007510 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_6.txt find answer: 420.440000
+benchmarks/INST_64x64/45/inst64x64_45_6.txt : 421739 ms.
+--------------------------------------------------
+run.sh: line 11: 313975 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks/INST_64x64/45/inst64x64_45_70.txt : 807959 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_71.txt find answer: 130.950000
+benchmarks/INST_64x64/45/inst64x64_45_71.txt : 131604 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_72.txt find answer: 636.300000
+benchmarks/INST_64x64/45/inst64x64_45_72.txt : 638184 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_73.txt find answer: 114.230000
+benchmarks/INST_64x64/45/inst64x64_45_73.txt : 114848 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_74.txt find answer: 499.070000
+benchmarks/INST_64x64/45/inst64x64_45_74.txt : 500590 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_75.txt find answer: 381.100000
+benchmarks/INST_64x64/45/inst64x64_45_75.txt : 382374 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_76.txt find answer: 267.580000
+benchmarks/INST_64x64/45/inst64x64_45_76.txt : 268554 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_77.txt find answer: 459.420000
+benchmarks/INST_64x64/45/inst64x64_45_77.txt : 460857 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_78.txt find answer: 343.480000
+benchmarks/INST_64x64/45/inst64x64_45_78.txt : 345132 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_79.txt find answer: 214.540000
+benchmarks/INST_64x64/45/inst64x64_45_79.txt : 216062 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_7.txt find answer: 268.260000
+benchmarks/INST_64x64/45/inst64x64_45_7.txt : 269230 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_80.txt find answer: 446.370000
+benchmarks/INST_64x64/45/inst64x64_45_80.txt : 447754 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_81.txt find answer: 556.560000
+benchmarks/INST_64x64/45/inst64x64_45_81.txt : 558205 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_82.txt find answer: 583.080000
+benchmarks/INST_64x64/45/inst64x64_45_82.txt : 584795 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_83.txt find answer: 260.050000
+benchmarks/INST_64x64/45/inst64x64_45_83.txt : 260998 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_84.txt find answer: 477.610000
+benchmarks/INST_64x64/45/inst64x64_45_84.txt : 479079 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_85.txt : 1045613 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_86.txt : 1019841 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_87.txt find answer: 373.260000
+benchmarks/INST_64x64/45/inst64x64_45_87.txt : 374460 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_88.txt : 1007829 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_89.txt : 1008737 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_8.txt find answer: 718.640000
+benchmarks/INST_64x64/45/inst64x64_45_8.txt : 720740 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_90.txt find answer: 562.730000
+benchmarks/INST_64x64/45/inst64x64_45_90.txt : 564389 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_91.txt find answer: 306.190000
+benchmarks/INST_64x64/45/inst64x64_45_91.txt : 307237 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_92.txt find answer: 387.450000
+benchmarks/INST_64x64/45/inst64x64_45_92.txt : 388683 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_93.txt find answer: 270.720000
+benchmarks/INST_64x64/45/inst64x64_45_93.txt : 271708 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_94.txt find answer: 355.430000
+benchmarks/INST_64x64/45/inst64x64_45_94.txt : 356566 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_95.txt find answer: 140.090000
+benchmarks/INST_64x64/45/inst64x64_45_95.txt : 140738 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_96.txt find answer: 648.380000
+benchmarks/INST_64x64/45/inst64x64_45_96.txt : 650235 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_97.txt find answer: 481.540000
+benchmarks/INST_64x64/45/inst64x64_45_97.txt : 482988 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_98.txt : 1014668 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_99.txt find answer: 352.170000
+benchmarks/INST_64x64/45/inst64x64_45_99.txt : 353344 ms.
+--------------------------------------------------
+benchmarks/INST_64x64/45/inst64x64_45_9.txt find answer: 307.290000
+benchmarks/INST_64x64/45/inst64x64_45_9.txt : 308375 ms.

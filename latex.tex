@@ -1,0 +1,730 @@
+%%%% ijcai22.tex
+
+% \typeout{IJCAI--22 Instructions for Authors}
+
+% These are the instructions for authors for IJCAI-22.
+
+\documentclass{article}
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
+% The file ijcai22.sty is NOT the same as previous years'
+\usepackage{ijcai22}
+
+% Use the postscript times font!
+\usepackage{times}
+\usepackage{soul}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[small]{caption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\urlstyle{same}
+
+% the following package is optional:
+%\usepackage{latexsym}
+
+% See https://www.overleaf.com/learn/latex/theorems_and_proofs
+% for a nice explanation of how to define new theorems, but keep
+% in mind that the amsthm package is already included in this
+% template and that you must *not* alter the styling.
+\newtheorem{example}{Example}
+\newtheorem{theorem}{Theorem}
+\newtheorem{Definition}{Definition}
+
+% Following comment is from ijcai97-submit.tex:
+% The preparation of these files was supported by Schlumberger Palo Alto
+% Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
+% Shirley Jowell, of Morgan Kaufmann Publishers, and Peter F.
+% Patel-Schneider, of AT\&T Bell Laboratories collaborated on their
+% preparation.
+
+% These instructions can be modified and used in other conferences as long
+% as credit to the authors and supporting agencies is retained, this notice
+% is not changed, and further modification or reuse is not restricted.
+% Neither Shirley Jowell nor Peter F. Patel-Schneider can be listed as
+% contacts for providing assistance without their prior permission.
+
+% To use for other conferences, change references to files and the
+% conference appropriate and use other authors, contacts, publishers, and
+% organizations.
+% Also change the deadline and address for returning papers and the length and
+% page charge instructions.
+% Put where the files are available in the appropriate places.
+
+% PDF Info Is REQUIRED.
+% Please **do not** include Title and Author information
+\pdfinfo{
+/TemplateVersion (IJCAI.2022.0)
+}
+
+\title{Sudoku-LS: Solving Large-Scale Sudoku Problem with Efficient Local Search}
+
+% Single author syntax
+\author{
+    Anonymous Authors
+}
+
+% Multiple author syntax (remove the single-author syntax above and the \iffalse ... \fi here)
+\iffalse
+\author{
+First Author$^1$
+\and
+Second Author$^2$\and
+Third Author$^{2,3}$\And
+Fourth Author$^4$
+\affiliations
+$^1$First Affiliation\\
+$^2$Second Affiliation\\
+$^3$Third Affiliation\\
+$^4$Fourth Affiliation
+\emails
+\{first, second\}@example.com,
+third@other.example.com,
+fourth@example.com
+}
+\fi
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    Sudoku problem is an important and challenging constraint satisfaction problem, which has numerous applications. Considering the difficulties of current methods in solving large-scale Sudoku problems, we design a novel local search algorithm in this work. Firstly, after simplifying the Sudoku problem by simplification rules, we propose a very efficient conflict selection heuristic algorithm, which selects the operation in stages. Secondly, we propose new scoring functions and forbidding strategies for vertices and edges. Finally, based on the recent search result and historical information, we propose a new initial solution restart strategy to conduct a comprehensive search of the search space. Experiments show that our proposed algorithm performs better than other state-of-art algorithms, and also show the effectiveness of our strategies.
+\end{abstract}
+
+\section{Introduction}
+
+As one of the most popular mathematical puzzle games around the world, the Sudoku problem has been played and studied by millions of people since the 20th century \cite{delahaye2006science}.
+In fact, not only as a funny game, the Sudoku problem has also served an important role in a number of real-world applications such as image steganography \cite{hsiao2021steganography}, employee scheduling \cite{musliu2017sudoku}, and experimental design \cite{sarkar2015sudoku}. 
+The classic Sudoku problem is a $9 \times 9$ grid which is divided into nine $3 \times 3$ subgrids, where each cell can be filled with one of the numbers $1\,..\,9$. The goal of the problem is that, given some prefilled cells, fill the numbers into the other blank cells, so that each number of $1\,..\,9$ appears only once in every row, every column and every subgrid. \figurename~\ref{fig:1} shows an example of the Sudoku problem and an answer of it.
+
+%The simplest variant of Sudoku uses a 9×9 grid of cells divided into nine 3×3 subgrids (Figure 1 (left)). As we later demonstrate, the problem scales to larger grids, but, for the moment, we focus on the most familiar variant. The aim of the puzzle is to fill the grid with digits such that each row, each column, and each 3×3 subgrid contains all of the digits 1-9 (Figure 1 (right)). An instance of Sudoku provides, at the outset, a partially-completed grid, but the difficulty of any grid derives more from the range of techniques required to solve it than the number of cell values that are provided for the player.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{1}
+    \caption{(Left) A Sudoku problem named `AI Escargot' that claims to be the world's most difficult puzzle \protect\cite{inkala2006aisudoku}. (Right) An answer to this Sudoku problem solved by our algorithm within 0.1s.}
+    \label{fig:1}
+\end{figure}
+
+For the generalized Sudoku problem of order $n$, the size of grid is $n^2 \times n^2$, and that of a subgrid is $n \times n$. In this case, the player needs to fill the numbers $1\,..\,n^2$ into blank cells to satisfy the same constraints as before.
+It can be found that the classic Sudoku puzzles are the special case of $n=3$. 
+From the scientific point of view, the Sudoku problem is a typical \textit{Constraint Satisfaction Problem (CSP)}, which has been proved to be an NP-complete problem via a reduction from the Latin Square Completion problem \cite{yato2003complexity}.
+
+Over the years, there have been a series of works trying to build powerful AI systems to automatically solve the Sudoku problem. Similar to most CSPs, these works can also be grouped into two categories.
+One is to model the problem as Boolean Satisfiability (SAT) \cite{lynce2006sat,pfeiffer2010sat}, Constraint Programming (CP) \cite{simonis2005sudoku,crawford2009solving}, Integer Linear Programming (ILP) \cite{bartlett2008integer}, etc., and then solve it with well-designed \textit{exact search algorithms}.
+This kind of approaches can solve the Sudoku problem, even for cases where no solution exists. However, due to the expansion of search space, they will cost too much time as the order $n$ grows larger, which makes it impossible for them to solve large-scale Sudoku problems such as $25 \times 25$, $36 \times 36$, and so on.
+The other category is designing intelligent \textit{heuristic search algorithms} to quickly find an answer. A large number of approaches have been proposed to solve the Sudoku problem with Tabu Search \cite{soto2013ac3tabu}, Genetic Algorithm \cite{mantere2007sudoku,sato2010sudoku}, Simulated Annealing \cite{lewis2007metaheuristics}, Ant Colony Algorithm \cite{lloyd2020antcolony}, Cuckoo Search \cite{soto2014prefiltered}, and Harmony Search \cite{geem2007harmony}.
+This kind of incomplete approaches can often find answers faster in practice, and are able to solve larger-scale problems successfully. Actually, some of them have been shown to perform efficiently on the Sudoku problems with an order of five \cite{musliu2017sudoku,lloyd2020antcolony}, which suggests that heuristic search algorithms are very promising on this task. 
+% Formally, a Sudoku problem of order n = 3 is made up of a grid of cells (or squares), arranged into 3×3 subgrids known as boxes. A unit is a row, column or box, each containing exactly nine cells. A problem is solved when each unit (that is, every row, column and box) contains a permutation of the digits 1. . . 9 [2]
+% Any given cell has exactly three units and 20 peers; the units are the row, column and box in which the cell resides, and the set of peers is made up of the other cells in those units (that is, 2×8=16 neighbours in the relevant row and column, plus 4 other cells occupying the same box; see Figure 2). 
+
+However, as demonstrated in this paper, for those larger and more difficult Sudoku problems, even some with an order of six, the existing works are not satisfactory enough to solve them.
+In this paper, we propose an efficient local search algorithm, Sudoku-LS, to improve the performance of solving large-scale Sudoku problems with an order of up to nine. 
+The algorithm first applies a set of inference rules to refine the search space. Meanwhile, an efficient small operation is proposed to find the optimal solution. During the search, we employ some strategies to ensure the quality of the selected operations. Finally, we also design a new restart strategy, which fully searches the solution space by increasing the maximum number of iterations and use weighted penalty strategy.
+Using this algorithm, we achieved a great solution effect on high-order Sudoku instances for the first time.
+
+% The rest of the paper is structured as follows: in Section II we briefly review closely-related recent work on the application of various algorithms to Sudoku. This motivates the description, in Section III of our own method, based on Ant Colony Optimization (ACO), which introduces a novel operator which we call Best Value Evaporation. In Section IV we present the results of experimental investigations, which confirm (1) that our algorithm out-performs existing methods, and (2) that BVE is a necessary addition to the basic ACO algorithm for solving large Sudoku instances. We conclude in Section V with a discussion of our findings, and discuss possible future work in this area.
+
+The paper is organized as follows.
+In Section~2, related definitions about the Sudoku problem are introduced.
+In Section~3, we describe our Sudoku-LS algorithm, including the simplification of Sudoku graph, efficient two-stage selection heuristics based on vertices and edges and a tie-breaking strategy for both, and a new restart strategy based on the analysis of the most recent round search performance and historical information.
+In Section~4, we present the experimental results, and in Section~5 we draw the conclusion.
+
+\section{Preliminaries}
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=2\columnwidth]{2}
+    \caption{(a) shows a 2-order Sudoku instance, (b1) denotes a Sudoku with 3 vertices fixed, (b2) denotes $V_6$ and $V_8$ are assigned to 1 and 2, (b3) denotes the Sudoku after repeated application of four rules, (c) denotes a random complete assignment of (b3).}
+    \label{fig:2}
+\end{figure*}
+
+A Sudoku problem instance $\mathcal{S}^n$ can be represented by an $n^2 \times n^2$ grid filled with numbers in the range of 1 to $n^2$, where $n$ is called the problem's {\it order}.
+The grid is divided into $n^2$ subgrids whose sizes are $n \times n$. Generally, some cells have been fixed to certain values. A Sudoku problem is solved if and only if the numbers in each grid fulfill the following three constraints:
+\begin{enumerate}
+\renewcommand{\labelenumi}{\theenumi)}
+    \item In each row, every number occurs exactly once;
+    \item In each column, every number occurs exactly once;
+    \item In each subgrid, every number occurs exactly once.
+\end{enumerate}
+
+% In the left of \figurename~\ref{fig:2}, we give a Sudoku instance of order 2. 
+
+In \cite{DBLP:journals/tec/JinH19,pan2022fast}, {Latin square graph} is proposed to represent a partial Latin square intuitively, which can also be easily transferred to the Sudoku problem.
+Define a {\it Sudoku graph} $G = (V,E)$, where $V=\{v_{i} \mid 1 \leq i \leq n^4\}$ is the vertex set and $E$ is the edge set. Each vertex in $V$ corresponds to a cell in the grid, while $(v,u) \in E$ if and only if cells $v$ and $u$ are in the same row, column or subgrid.
+Let $D(v)$ denote the {\it color domain} of vertex $v$. If vertex $v$ is prefilled with value $i$, its color domain $D(v) = \{i\}$, while the initial color domain of each remaining vertex $u$ is $D(u) = \{ 1, \dots, n \}$.
+Thus, finding a valid solution of Sudoku $\mathcal{S}^n$ is equivalent to finding a legal $n$-coloring of graph $G$, which is also known as precoloring extension problem (PEP) \cite{Bir1992PrecoloringEI}.
+
+For each color $i$, we use $V_i \subseteq V$ to denote the set of vertices assigned to $i$, and at first it is an empty set. For each vertex $v \in V$, the set of vertices located in the same row, column and subgrid as $v$ is defined as $Row(v)$, $Col(v)$ and $Sub(v)$, respectively. The neighbors of vertex $v$ is defined as $N(v) = \{ u \in V \mid (v,w) \in E \}$. For each row, let $RD_{i,j} = \{v \mid Row(v) = i, j \in D(v) \}$ denote the candidate vertices of color $j$ in the $i$th row, while $CD_{i,j} = \{v \mid Col(v) = i, j \in D(v) \}$ and $SD_{i,j} = \{v \mid Sub(v) = i, j \in D(v) \}$ denote the candidate vertices of color $j$ in the $i$th column and the $i$th subgrid, respectively.
+
+\section{Methodology}
+
+In this section, the proposed algorithm to solve the Sudoku problem is presented. First, we introduce the simplification rules applied during the preprocessing phase. Then we describe the details of the iterative process of local search algorithm and the supporting restart strategy.
+
+\subsection{Sudoku Graph Simplification}
+
+To improve the performance of the local search algorithm in large-scale instances, we apply some reduction rules to limit the color domains of vertices and simplify the Sudoku graph.
+
+To introduce the simplification rules, we first give a necessary concept. Given a vertex $v$ and color $i$, if we fix $v$ to $i$, then for $\forall u \in N(v)$ remove color $i$ from $D(u)$, meanwhile remove vertex $u$ from corresponding set $RD_{Row(v), i}$, $CD_{Col(v), i}$ and $SD_{Sub(v), i}$. After completing the above operations, remove vertex $v$ and the edges that end with it from $G(V,E)$. To get the legal vertex assignment operation, four simplification rules based on constraint propagation are proposed:
+
+\begin{itemize}
+\renewcommand{\labelenumi}{}
+    \item \textbf{Rule 1.} For $\forall v \in V$, if $|D(v)| = 1$ (i.e., $D(v)=\{i\}$), assign vertex $v$ to $i$.
+    \item \textbf{Rule 2.} For $\forall i,j \in \{1, \dots , n^2\}$, if $|RD_{i,j}| = 1$ (i.e., $RD_{i,j}=\{v\}$), assign vertex $v$ to $j$.
+    \item \textbf{Rule 3.} For $\forall i,j \in \{1, \dots, n^2\}$, if $|CD_{i,j}| = 1$ (i.e., $CD_{i,j}=\{v\}$), assign vertex $v$ to $j$.
+    \item \textbf{Rule 4.} For $\forall i,j \in \{1, \dots, n^2\}$, if $|SD_{i,j}| = 1$ (i.e., $SD_{i,j}=\{v\}$), assign vertex $v$ to $j$.
+\end{itemize}
+
+    % \textbf{Rule 1.} For $\forall v \in V$, if $|D(v)| = 1$ (i.e., $D(v)=\{i\}$), then fix vertex $v$ to $i$.
+    
+    % \textbf{Rule 2.} For $\forall i,j \in range(n^2)$, if $|RD_{i,j}| = 1$ (i.e., $RD_{i,j}=\{v\}$), then fix vertex $v$ to $j$.
+    
+    % \textbf{Rule 3.} For $\forall i,j \in range(n^2)$, if $|CD_{i,j}| = 1$ (i.e., $CD_{i,j}=\{v\}$), then fix vertex $v$ to $j$.
+    
+    % \textbf{Rule 4.} For $\forall i,j \in range(n^2)$, if $|SD_{i,j}| = 1$ (i.e., $SD_{i,j}=\{v\}$), then fix vertex $v$ to $j$.
+
+The above four rules are applied repeatedly until no vertex can be removed from the Sudoku graph. In order to facilitate the reader's understanding, we give the following example.
+
+\begin{example} \label{ex}
+    Consider the case depicted in \figurename~\ref{fig:2} (b1), where a Sudoku $\mathcal{S}^2$ with 3 cells fixed ($D(v_4) = 1$, $D(v_5) = 2$ and $D(v_{12}) = 4$). we can first assign $v_4$, $v_5$ and $v_{12}$ to 1, 2 and 4 according to rule 1, which causes $SD_{1,1}$ changes to $\{1\}$ and $D(v_8)$ changes to $\{3\}$. Thus, vertex $v_6$ is assigned to 1 according to rule 4 and vertex $v_8$ is assigned to 3 according to rule 1. By repeatedly applying the four simplification rules, we get the simplified Sudoku as shown in \figurename~\ref{fig:2} (b3). Compared with the original Sudoku instance, which additionally determines the assignment of 6 vertices compared to the original Sudoku instance.
+\end{example}
+
+% Besides, if a vertex assignment operation(i.e., assign $v$ to $i$) would cause an empty color domain or an empty set of candidate vertices of color, we call this operation {\it infeasible} and remove the color $i$ from the color domain $D(v)$. This strategy is only used on high-order difficult instances to further simplify the graph. We call a Sudoku instance {\it difficult} if it can't be solved by our algorithm in 100s. 
+
+After simplifying the Sudoku graph, the color domains of vertices will not change in the subsequent process. A local search algorithm starts from a {\it complete assignment} (all vertices are assigned colors), and we implement it by choosing for each vertex in the graph a random color in its color domain. For instance, in \figurename~\ref{fig:2}(c), we give a random complete assignment of the Sudoku problem in Example~\ref{ex}.
+
+\subsection{Move Selection}
+
+In order to decide which move operation to choose, we employ scoring functions to guide the search. We introduce a new scoring function to compare different operations, and two more scoring functions, which are used to break ties.
+
+\subsubsection{Conflict Scoring Function}
+
+In local search, an {\it operator} defines how to modify the candidate solution. For example, \cite{musliu2017sudoku} defines an operator for Sudoku which chooses two different vertices in the same subgrid and swap their assignments. In this paper, we adopted a simpler operator $mov$, which modifies the current complete assignment by changing the color of a vertex. In the following, we use $C$ to denote a complete assignment, and $C(v)$ to denote the assignment of vertex $v$ under complete assignment $C$.
+
+\begin{Definition}
+Given a vertex $v$ and color $i$, an operation that changes $v$'s color from $C(v)$ to $i$ is defined as $mov(v, i)$.
+\end{Definition}
+
+Usually, we use a scoring function to measure $mov$. For each $(u,v) \in E$, if $C(u) = C(v)$, we call $(u,v)$ {\it conflict edge}. For a Sudoku graph $G$, the cost of a complete assignment $C$, denoted as $cost(G,C)$, is the total number of conflict edges under $C$. The conflict score of a $mov$ is formally defined as%
+%
+\begin{align}
+    score(mov) = cost(G, C) - cost(G, C')
+\end{align}%
+where $C'$ is obtained from $C$ by applying $mov$. A $mov$ only changes the assignment of one vertex, so only those edges ending at that vertex are affected. We use $cost(v,i)$ to denote the cost of assigning a vertex $v$ to color $i$, which is the total number of conflict edges with $v$ as the endpoint. Thus the conflict score of a $mov(v,i)$ can be expressed by the change in the cost of vertex $v$.
+
+\begin{Definition}
+Given a Sudoku graph $G$, the conflict score of an operation $mov(v, i)$ is defined as 
+\begin{align}
+    score(mov) = cost(v, C(v)) - cost(v, i)
+\end{align}%
+\end{Definition}
+
+Typically, we reduce the number of conflict edges by iteratively selecting the biggest scoring $mov$ until a solution is found.
+
+\subsubsection{Two-Stage Heuristic}
+
+Since the conflict score of $mov$ is composed of two parts, the cost of vertex before and after performing $mov$, the $mov$ operation can be selected in two steps:
+
+\begin{enumerate}
+% \renewcommand{\labelenumi}{\theenumi)}
+    \item Select a vertex $v$ with the biggest $cost$ value under $C(v)$;
+    \item Select the color $i$ that minimizes the $cost$ of selected $v$.
+\end{enumerate}
+
+After selecting vertex $v$ and color $i$, we get a $mov(v, i)$. Selecting vertex and color separately may miss some more greedy $mov$ (vertices not selected in the first step may have better assignments). However, This can greatly reduce the time complexity of selecting a $mov$. Let $|D|$ denote the average domain size of each vertex, then the complexity required to directly select a $mov$ in two steps is $|V|\cdot |D|$, while the complexity to select a $mov$ in two steps is $|V|+|D|$. Therefore, employing a two-step selection reduces the worst-case complexity of a single step from $O(n^6)$ to $O(n^4)$, where $n$ is the order of Sudoku.
+
+In order to further improve efficiency, we limit the search space to the vertices whose $cost \neq 0$, because operating on a vertex where the current assignment does not have conflicts will certainly not reduce the total number of conflict.
+
+\subsubsection{Tie-breaking Methods}
+
+In the above two-step selection process, it is inevitable that the candidate vertex or color is not unique. Therefore, we propose two heuristic scoring functions to break ties.
+
+First, in order to break the tie situation in the first step of selecting $mov$, we define $nscore$ to score vertices, which is given according to the neighbor information of vertices. We use $CN(v) = \{u \mid u \in D(v), C(u) = C(v) \}$ to denote the set of vertices that conflict with $v$.
+
+\begin{Definition}
+Given a Sudoku graph $G$, the $nscore$ of a vertex $v$ is defined as 
+\begin{align}
+    nscore(v) = {\sum_{u \in CN(v)} {cost(u, C(u))}} - cost(v, C(v))
+\end{align}%
+\end{Definition}
+
+Intuitions underlying the $nscore$ are given below. $nscore$ represents under the current assignment the sum of the costs of vertices that conflict with vertex $v$ minus the cost of vertex $v$. The smaller the value $nscore$, the more related its neighbor's conflict is to vertex $v$. For example, consider two vertices $v$ and $u$ with the same cost of 2, where the cost of the vertices that conflicts with $v$ is 1 and 1, and the cost of the vertices that conflict with $u$ is 1 and 2. Then the $nscore$ of $v$ and $u$ are 0 and 1, respectively. 
+
+Given a Sudoku instance $\mathcal{S}^n$, we consider a complete assignment that fulfill all the constraints of Sudoku. Due to the constraints of Sudoku, the number of vertices assigned a certain value in the grid under the current assignment is all equal to $n^2$. Therefore, we define a global scoring function, which uses global information to reflect the priority of assigning a vertex to a certain color. We use $CV(i)$ to denote the number of vertices (contains vertices before and after simplifying) assigned to $i$.
+
+\begin{Definition}
+Given a Sudoku graph $G$, the $gscore$ of a color $i$ is defined as 
+\begin{align}
+    gscore(i) = sign(n^2 - CV(i))
+\end{align}%
+where $n$ is the order of the Sudoku instance, and $sign(x)$ is equal to 1 if $x$ is positive, and -1 otherwise. 
+\end{Definition}
+
+% Based on the above scoring functions, the aforementioned vertex and color selection rules are updated as follows. 
+
+When choosing $mov$, we can break ties of vertex selection through $nscore$; and break ties of color selection through $gscore$; Further ties are broken randomly. 
+
+\subsection{Local Search Algorithm}
+
+Based on the ideas in previous subsections, we develop a local search algorithm for Sudoku solving called Sudoku-LS. and we propose several strategies to improve the performance and efficiency of the algorithm.
+
+\begin{algorithm}[t]
+    \caption{Sudoku-LS algorithm}
+    \label{alg:1}
+    \textbf{Input}: A Sudoku graph $G = (V,E)$ and a time limit $T$\\
+    \textbf{Output}: A complete assignment $C_b$
+    \begin{algorithmic}[1] %[1] enables line numbers
+        \STATE Initialize a complete assignment $C$ randomly;
+        \STATE Initialize $\mathcal{AC} \leftarrow \emptyset$;
+        \STATE $maxIter \leftarrow \alpha$;
+        \REPEAT
+        \STATE Initialize a conflict vertex set $V_c$ based on $C$;
+        \STATE $mode \leftarrow 0$; $C_b \leftarrow C$;
+        \REPEAT
+        \STATE $v,i \leftarrow SelectMove(C, V_c, mode)$; 
+        \STATE $C(v) \leftarrow i$;
+        \STATE update tabu list and conflict vertex set $V_c$;
+        \IF {$cost(G, C) \leq cost(G, C_b)$}
+        \STATE $C_b \leftarrow C$;
+        \ENDIF
+        \STATE $iter \leftarrow iter + 1$; 
+        \UNTIL{$iter < maxIter$}
+        \IF {$cost(G, C_b) = 0$}
+        \RETURN $C_b$
+        \ENDIF
+        \STATE $C \leftarrow SelectSolution(G, C_b, \mathcal{AC})$;
+        \STATE $maxIter \leftarrow C.step$;
+        \UNTIL{T is reached}
+        \STATE \textbf{return} $\emptyset$
+    \end{algorithmic}
+\end{algorithm}
+
+We give a pseudo-code description of our approach in Algorithm~\ref{alg:1}, where $SelectMove$ is used to select a operation and $SelectSolution$ is used to select a complete assignment, both of which are discussed later in this section. The input of the algorithm is a Sudoku graph $G$ and a cutoff time $T$. After that, the algorithm outputs the complete assignment $C_b$ with the smallest $cost$ during the iteration. 
+
+First, we randomly generate an initial complete assignment $C$ according to the method mentioned earlier, and construct a set $AC$ to cache complete assignments, which are empty initially. Then enter the iterative part of the algorithm, which contains an outer loop and an inner loop. Note that the inner loop is controlled by the maximum number of iterations $maxIter$ (line 15), while the outer loop is controlled by the cutoff time $T$ (line 20).
+
+In each inner loop (line 7-15), the algorithm searches for a complete assignment with minimum cost. In each iteration of the inner loop, the algorithm first obtains an operation $mov$ through $SelectMove$, then implements $mov$, and updates the tabu list and the set of conflicting vertices at the same time. After each inner loop, the initial complete assignment and maximum iterations for the next round will be obtained through $SelectSolution$ (line 19-20). If a complete assignment with no conflicts is found within given time $T$, the assignment is returned, otherwise an empty set is returned.
+
+\begin{algorithm}[t]
+    \caption{$SelectMove$ function}
+    \label{alg:2}
+    \textbf{Input}: A complete assignment $C$, conflict vertex set $V_c$ and control variable $mode$\\
+    \textbf{Output}: A vertex $v$ and a color $i$
+    \begin{algorithmic}[1] %[1] enables line numbers
+        \IF {$mode = 0$}
+        \STATE Select a vertex $v$ from $V_c$ based on $cost(v, C(v))$, $nscore(v)$ and color tabu strategy; 
+        \STATE Select a color $i$ from $D(v)$ based on $cost(v, i)$, $gscore(i)$ and tabu strategy;
+        \IF {$score(mov(v,i)) < 0$}
+        \IF {$mov(v,i)$ \textbf{is not} taboo}
+        \RETURN $v, C(v)$
+        \ELSE
+        \STATE // Switch to direct $mov$ selection for $\beta$ times; 
+        \STATE $mode \leftarrow \beta$; 
+        \ENDIF
+        \ENDIF
+        \ELSE
+        \STATE Select a move $mov(v,i)$ with $Max(score(mov))$; 
+        \STATE $mode \leftarrow mode - 1$;
+        \ENDIF
+        \RETURN $v, i$
+    \end{algorithmic}
+\end{algorithm}
+
+\subsubsection{Color Tabu Strategy}
+
+Earlier, we proposed the rules for selecting vertices and colors. This part will further complete the selection method through two strategies.
+
+% \paragraph{Color Tabu Strategy.} Local search methods tend to be stuck in local optimal regions. So we employ {\it tabu strategy} \cite{glover1998tabu,wang2016two} to forbid the reverse operations in the following $tt$ iterations, where $tt$ is a parameter usually called {\it tabu tenure}. Besides, we propose a novel forbidding strategy, called the color tabu strategy, for vertex selection to further prevent periodic cyclic changes to a solution. After a vertex move to color $i$, it will be taboo until one of its neighbors also moves to color $i$.
+
+In local search algorithms, the {\it tabu strategy} \cite{glover1998tabu,wang2016two} is usually used to avoid being stuck in a local optimal region. One candidate is to apply tabu strategies on both vertex and color selection, but this is inefficient in practice. For performance considerations, we propose a new forbidding strategy for vertices, and use the tabu strategy for color selection. Details as follows:
+
+\begin{itemize}
+% \renewcommand{\labelenumi}{\theenumi)}
+    \item After a vertex $v$ is assigned the color $i$, the vertex $v$ will be prohibited from being selected until one of its neighbors is also assigned the color $i$;
+    \item After a vertex $v$ is assigned the color $i$, the operation $mov(v,i)$ will be forbidden in the following $tt$ iterations, where $tt$ is a parameter usually called {\it tabu tenure}.
+\end{itemize}
+
+% \textbf{Space Narrowing.} 
+
+The above forbidding strategy tabulates vertices according to their color, so we call it {\it color taboo strategy}. This tabu strategy ensures that a taboo vertex can be selected only after its cost under its assignment is increased.
+
+When the performance of $mov$ selected by Two-Stage selection and new forbidding strategies is poor, we will turn to select the more greedy operation Instead. Specifically, when the cost of the selected $mov(v,i)$ is less than zero, if the $mov$ is not taboo, then replace $i$ with $C(v)$ as the selected color (means no $mov$ operation is performed); otherwise, the move selection function will directly select a $mov$ based on $score(mov)$ in the subsequent $\beta$ iterations, meanwhile, only the tabu strategy will be followed. 
+
+% , while the search space will also contain vertices without conflicts.
+
+After introducing the above strategies, we propose a novel move selection method called $SelectMove$ in Algorithm~\ref{alg:2}.
+
+\subsubsection{Weighted Restart Strategy}
+
+Our algorithm adopts the idea of iterative local search (ILS) \cite{lourencco2019iterated}, that is, iteratively calls the local search algorithm by taking different initial assignments to avoid getting stuck on the local minimum. In this part, we propose a new restart strategy.
+
+\begin{algorithm}[t]
+    \caption{$SelectSolution$ function}
+    \label{alg:3}
+    \textbf{Input}: A Sudoku graph $G(V,E)$, a complete assignment $C$ and a set of complete assignment $\mathcal{AC}$\\
+    \textbf{Output}: A complete assignment $C'$
+    \begin{algorithmic}[1] %[1] enables line numbers
+        \STATE $C.step \leftarrow \alpha$;
+        \IF {$\mathcal{AC} = \emptyset$ \textbf{or} $cost(G, C) < \mathcal{AC}.cost$}
+        \STATE Reset $e.w$ for $\forall e \in E$;
+        \STATE $\mathcal{AC} \leftarrow \{C\}$;
+        \STATE $\mathcal{AC}.cost \leftarrow cost(G,C)$;
+        \STATE Update $e.w$ ($e \in E$) based on weight strategy;
+        \ELSIF {$cost(G, C) = \mathcal{AC}.cost$}
+        \IF {$C \neq C'$ \textbf{for} $\forall C' \in \mathcal{AC}$}
+        \STATE $\mathcal{AC} \leftarrow \mathcal{AC} \cup \{C\}$;
+        \STATE Update $e.w$ ($e \in E$) based on weight strategy;
+        \ELSE
+        \STATE $C'.step \leftarrow C'.step + \gamma * \alpha$;
+        \ENDIF
+        \ENDIF
+        \STATE random select a $C'$ from $\mathcal{AC}$;
+        % \STATE $C'.step \leftarrow C'.step + \alpha$;
+        % \IF {$C'.step > \alpha * \gamma$}
+        % \STATE remove $C'$ from $AC$;
+        % \ENDIF
+        \RETURN $C'$
+    \end{algorithmic}
+\end{algorithm}
+
+\paragraph{Dynamic Iteration.} The algorithm caches the current optimal solution through a data structure $\mathcal{AC}$. At the end of each inner loop, an assignment would be selected from $\mathcal{AC}$ as the initial assignment for next loop. For each assignment $C$, we define $C.step$ as the maximum number of iterations of the inner loop with that assignment as the initial assignment. $C.step$ is initialized to $\alpha$ when it is put into $\mathcal{AC}$, and then, every time an inner loop with $C$ as the initial assignment does not find a better solution, $C.step$ increases $\gamma*\alpha$, $\gamma$ and $\alpha$ are constants.  The above is the basic idea of the $SelectSolution$ function and the pseudo code for selecting initial complete assignments in is shown in Algorithm~\ref{alg:3}.
+
+% and its corresponding $step$ will also increase. In addition, if the $step$ of an assignment exceeds a certain threshold, that is, after it is selected a certain number of times, the assignment will be removed from $AC$. The motivation of algorithm is to allow the search space to be more fully explored with selected initial assignments. 
+
+\paragraph{Weight Strategy.} In order to avoid finding duplicate assignments, we also propose a weight strategy in Algorithm~\ref{alg:3}. For each edge $e$, we use $e.w$ as the weight of $e$, which is initially 1. When a new assignment is added to $\mathcal{AC}$, its weight increases by one with probability $\theta$ for each conflict edge under the assignment. When $\mathcal{AC}$ is reset (a smaller cost assignment is found), the weights of all edges in set $E$ are also reset to 1. After weighting the edges, we define a new cost as follows.
+
+\begin{Definition}
+Given a Sudoku graph $G$, The weighted cost of a vertex $v$ assigned to color $i$ is defined as
+\begin{align}
+    cost'(v, C(v)) =  \sum_{u \in CN(v)}{W(u,v)}
+\end{align}%
+where $W(u,v)$ is the weight of the edge $(u,v)$.
+\end{Definition}
+
+We replace $cost$ with $cost'$ when selecting vertices and colors. Note that the cost of the complete assignment is still unweighted.
+
+% The pseudo code for selecting initial complete assignments in is shown in Algorithm~\ref{alg:3}. If the $AC$ is empty or there is an assignment with less conflict, we will reset the AC, put the new assignment into the AC, and record the cost of the assignment in the AC. If the assignment obtained in the last round has the same cost as the assignment in the AC and is a new assignment, put it into the AC. After updating the AC, the algorithm randomly selects an assignment from the AC as the next assignment, and updates its step at the same time. If the step is too large, the assignment is deleted from the AC.
+
+\section{Evaluation}
+
+In this section, we assess the proposed algorithm through comprehensive experimental results on a set of large-scale Sudoku benchmarks, and making comparisons with state-of-the-art methods.
+
+\subsection{Experimental Setup}
+
+Sudoku-LS is implemented in C++ and compiled by g++ with `-O3' option. There are five parameters in Sudoku-LS: $\alpha$ for the initial maximum number of iterations, $\beta$ for the mode switching threshold, $tt$ for the tabu scheme, $\gamma$ for increase complete assignment's step and $\theta$ for weight strategy. The parameters are tuned according to suggestions from the literature and preliminary experiments, which are set as follows: $\alpha=100,000$, $\beta=100$, $tt=rand(10)+0.6\times cost(G,C)$, $\gamma=5$ and $\theta=0.25$ for all experiments. 
+
+% Our code, and all the instance files used for the experiments, may be downloaded from \href{https://github.com/hrcarryu/Sudoku-LS}{https://github.com/hrcarryu/Sudoku-LS}.
+
+% The binaries of all competitors are downloaded from their websites.
+
+\begin{table*}[t]
+    \centering
+    \renewcommand{\arraystretch}{1.4}
+    \resizebox{2.08\columnwidth}{!}{
+    \setlength{\tabcolsep}{0.5mm}{
+        \begin{tabular}{ccccccccccc|ccccccccccc}
+            \hline
+            Instance & \multicolumn{2}{c}{ACS} & \multicolumn{2}{c}{ILS} & \multicolumn{2}{c}{OR-Tools} & \multicolumn{2}{c}{Kissat} & \multicolumn{2}{c|}{Sudoku-LS} & 
+            Instance & \multicolumn{2}{c}{ACS} & \multicolumn{2}{c}{ILS} & \multicolumn{2}{c}{OR-Tools} & \multicolumn{2}{c}{Kissat} & \multicolumn{2}{c}{Sudoku-LS} \\
+            family  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &
+            family  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  \\
+            \hline
+            
+            4-0 & \textbf{100} & $0.04$ & \textbf{100} & $0.08$ & \textbf{100} & $1.06$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-0 & $94.1$ & $550.37$ & \textbf{100} & $51.60$ & \textbf{100} & $386.07$ & \textbf{100} & $88.60$ & \textbf{100} & \textbf{0.15} \\
+            4-10 & \textbf{100} & $0.03$ & \textbf{100} & $0.10$ & \textbf{100} & $0.81$ & \textbf{100} & $0.04$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-10 & $92.2$ & $559.82$ & $29.2$ & $544.69$ & \textbf{100} & $213.12$ & $95$ & $264.54$ & \textbf{100} & \textbf{0.15} \\
+            4-20 & \textbf{100} & $0.03$ & \textbf{100} & $0.15$ & \textbf{100} & $0.67$ & \textbf{100} & $0.04$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-20 & $24.9$ & $665.38$ & $0$ & $-$ & \textbf{100} & $216.22$ & $83$ & $307.86$ & \textbf{100} & \textbf{0.18} \\
+            4-30 & \textbf{100} & $0.03$ & \textbf{100} & $0.71$ & \textbf{100} & $0.58$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-30 & $0.3$ & $798.53$ & $0$ & $-$ & \textbf{100} & $143.73$ & $42$ & $289.48$ & \textbf{100} & \textbf{0.24} \\
+            4-40 & \textbf{100} & $0.02$ & \textbf{100} & $1.52$ & \textbf{100} & $0.51$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-40 & $0$ & $-$ & $0$ & $-$ & $76$ & $420.76$ & $0$ & $-$ & \textbf{100} & $0.63$ \\
+            4-50 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.04$ & \textbf{100} & $0.03$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-50 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{98.4} & $100.53$ \\
+            4-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-60 & $99.2$ & $8.92$ & $68.3$ & $271.46$ & \textbf{100} & $1.07$ & \textbf{100} & $2.75$ & \textbf{100} & \textbf{0.06} \\
+            4-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $3.14$ & \textbf{100} & $0.82$ & \textbf{100} & $1.75$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            4-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.52$ & \textbf{100} & $0.78$ & \textbf{100} & $1.75$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            4-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.20$ & \textbf{100} & $0.78$ & \textbf{100} & $1.75$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+    
+            5-0 & \textbf{100} & $0.75$ & \textbf{100} & $0.47$ & \textbf{100} & $8.89$ & \textbf{100} & $0.33$ & \textbf{100} & \textbf{0.01} & 8-0 & $0$ & $-$ & \textbf{100} & $238.08$ & \textbf{100} & $230.82$ & \textbf{100} & $5.05$ & \textbf{100} & \textbf{0.45} \\
+            5-10 & \textbf{100} & $1.18$ & \textbf{100} & $0.72$ & \textbf{100} & $2.64$ & \textbf{100} & $0.36$ & \textbf{100} & \textbf{0.01} & 8-10 & $0$ & $-$ & $0$ & $-$ & $98$ & $396.82$ & $0$ & $-$ & \textbf{100} & $0.56$ \\
+            5-20 & \textbf{100} & $2.25$ & \textbf{100} & $2.27$ & \textbf{100} & $1.53$ & \textbf{100} & $0.65$ & \textbf{100} & \textbf{0.01} & 8-20 & $0$ & $-$ & $0$ & $-$ & $99$ & $295.43$ & $0$ & $-$ & \textbf{100} & $0.66$ \\
+            5-30 & \textbf{100} & $3.93$ & $61.2$ & $17.20$ & \textbf{100} & $1.26$ & \textbf{100} & $0.72$ & \textbf{100} & \textbf{0.01} & 8-30 & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $229.50$ & $0$ & $-$ & \textbf{100} & \textbf{0.95} \\
+            5-40 & $98.7$ & $9.31$ & $68.9$ & $47.15$ & \textbf{100} & $1.08$ & \textbf{100} & $1.40$ & \textbf{100} & \textbf{0.01} & 8-40 & $0$ & $-$ & $0$ & $-$ & $10$ & $615.48$ & $0$ & $-$ & \textbf{100} & $3.19$ \\
+            5-50 & $96.4$ & $2.99$ & $41.2$ & $13.67$ & \textbf{100} & $0.53$ & \textbf{100} & $0.52$ & \textbf{100} & \textbf{0.25} & 8-50 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{79.4} & $168.75$ \\
+            5-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.08$ & \textbf{100} & $0.45$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-60 & $0$ & $-$ & $0$ & $-$ & $27$ & $315.44$ & $0$ & $-$ & \textbf{62} & $258.15$ \\
+            5-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.02$ & \textbf{100} & $0.42$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $18.24$ & \textbf{100} & $3.11$ & \textbf{100} & $5.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            5-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.42$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $1.62$ & \textbf{100} & $2.92$ & \textbf{100} & $5.10$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            5-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.42$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.47$ & \textbf{100} & $2.70$ & \textbf{100} & $5.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+
+            6-0 & \textbf{100} & $42.61$ & \textbf{100} & $238.08$ & \textbf{100} & $101.77$ & \textbf{100} & $3.51$ & \textbf{100} & \textbf{0.03} & 9-0 & $0$ & $-$ & $5$ & $784.62$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $1.74$ \\
+            6-10 & \textbf{100} & $45.56$ & \textbf{100} & $28.75$ & \textbf{100} & $70.36$ & \textbf{100} & $12.90$ & \textbf{100} & \textbf{0.04} & 9-10 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $2.03$ \\
+            6-20 & \textbf{100} & $67.08$ & $97.1$ & $240.98$ & \textbf{100} & $15.78$ & \textbf{100} & $12.38$ & \textbf{100} & \textbf{0.04} & 9-20 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $3.50$ \\
+            6-30 & \textbf{100} & $175.69$ & $20.7$ & $574.28$ & \textbf{100} & $7.45$ & \textbf{100} & $11.45$ & \textbf{100} & \textbf{0.06} & 9-30 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $7.60$ \\
+            6-40 & $5.4$ & $320.93$ & $3.9$ & $687.09$ & \textbf{100} & $15.71$ & \textbf{100} & $54.29$ & \textbf{100} & \textbf{0.14} & 9-40 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $23.47$ \\
+            6-50 & $0$ & $-$ & $0$ & $-$ & $80$ & $255.22$ & $32$ & $475.99$ & \textbf{99.2} & $45.76$ & 9-50 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{40.7} & $629.96$ \\
+            6-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $4.49$ & \textbf{100} & $0.55$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-60 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ \\
+            6-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.54$ & \textbf{100} & $0.51$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $109.72$ & \textbf{100} & $1.75$ & \textbf{100} & $24.34$ & \textbf{100} & $\mathbf{<}$\textbf{0.01}\\
+            6-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.16$ & \textbf{100} & $0.50$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $5.19$ & \textbf{100} & $1.53$ & \textbf{100} & $19.73$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            6-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.08$ & \textbf{100} & $0.50$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $1.18$ & \textbf{100} & $1.40$ & \textbf{100} & $19.68$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+
+            \hline
+        \end{tabular}
+    }
+    }
+    \caption{Results of Sudoku-LS and other state-of-the-art competitors on the random benchmarks.}
+    \label{tab:1}
+\end{table*}
+
+
+% \begin{table*}[t]
+%     \centering
+%     \renewcommand{\arraystretch}{1.2}
+%     \resizebox{2\columnwidth}{!}{
+%     \setlength{\tabcolsep}{0.3mm}{
+%         \begin{tabular}{ccccccccccc|ccccccccccc}
+%             \hline
+%             Instance & \multicolumn{2}{c}{ACS} & \multicolumn{2}{c}{ILS} & \multicolumn{2}{c}{OR-Tools} & \multicolumn{2}{c}{Kissat} & \multicolumn{2}{c|}{Sudoku-LS} & 
+%             Instance & \multicolumn{2}{c}{ACS} & \multicolumn{2}{c}{ILS} & \multicolumn{2}{c}{OR-Tools} & \multicolumn{2}{c}{Kissat} & \multicolumn{2}{c}{Sudoku-LS} \\
+%             family  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &
+%             family  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  \\
+%             \hline
+            
+%             4-0 & \textbf{100} & $0.04$ & \textbf{100} & $0.08$ & \textbf{100} & $1.06$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-0 & $94.1$ & $550.37$ & \textbf{100} & $51.60$ & \textbf{100} & $386.07$ & \textbf{100} & \textbf{0.15} \\
+%             4-10 & \textbf{100} & $0.03$ & \textbf{100} & $0.10$ & \textbf{100} & $0.81$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-10 & $92.2$ & $559.82$ & $29.2$ & $544.69$ & \textbf{100} & $213.12$ & \textbf{100} & \textbf{0.15} \\
+%             4-20 & \textbf{100} & $0.03$ & \textbf{100} & $0.15$ & \textbf{100} & $0.67$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-20 & $24.9$ & $665.38$ & $0$ & $-$ & \textbf{100} & $216.22$ & \textbf{100} & \textbf{0.18} \\
+%             4-30 & \textbf{100} & $0.03$ & \textbf{100} & $0.71$ & \textbf{100} & $0.58$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-30 & $0.3$ & $798.53$ & $0$ & $-$ & \textbf{100} & $143.73$ & \textbf{100} & \textbf{0.24} \\
+%             4-40 & \textbf{100} & $0.02$ & \textbf{100} & $1.52$ & \textbf{100} & $0.51$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-40 & $0$ & $-$ & $0$ & $-$ & $76$ & $420.76$ & \textbf{100} & $0.63$ \\
+%             4-50 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.04$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-50 & $0$ & $-$ & $0$ & $-$ & $1$ & $834.84$ & \textbf{98.4} & $100.53$ \\
+%             4-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-60 & $99.2$ & $8.92$ & $68.3$ & $271.46$ & \textbf{100} & $1.07$ & \textbf{100} & \textbf{0.06} \\
+%             4-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $3.14$ & \textbf{100} & $0.82$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             4-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.52$ & \textbf{100} & $0.78$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             4-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.20$ & \textbf{100} & $0.78$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+    
+%             5-0 & \textbf{100} & $0.75$ & \textbf{100} & $0.47$ & \textbf{100} & $8.89$ & \textbf{100} & \textbf{0.01} & 8-0 & $0$ & $-$ & \textbf{100} & $238.08$ & \textbf{100} & $230.82$ & \textbf{100} & \textbf{0.45} \\
+%             5-10 & \textbf{100} & $1.18$ & \textbf{100} & $0.72$ & \textbf{100} & $2.64$ & \textbf{100} & \textbf{0.01} & 8-10 & $0$ & $-$ & $0$ & $-$ & $98$ & $396.82$ & \textbf{100} & $0.56$ \\
+%             5-20 & \textbf{100} & $2.25$ & \textbf{100} & $2.27$ & \textbf{100} & $1.53$ & \textbf{100} & \textbf{0.01} & 8-20 & $0$ & $-$ & $0$ & $-$ & $99$ & $295.43$ & \textbf{100} & $0.66$ \\
+%             5-30 & \textbf{100} & $3.93$ & $61.2$ & $17.20$ & \textbf{100} & $1.26$ & \textbf{100} & \textbf{0.01} & 8-30 & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $229.50$ & \textbf{100} & \textbf{0.95} \\
+%             5-40 & $98.7$ & $9.31$ & $68.9$ & $47.15$ & \textbf{100} & $1.08$ & \textbf{100} & \textbf{0.01} & 8-40 & $0$ & $-$ & $0$ & $-$ & $10$ & $615.48$ & \textbf{100} & $3.19$ \\
+%             5-50 & $96.4$ & $2.99$ & $41.2$ & $13.67$ & \textbf{100} & $0.53$ & \textbf{100} & \textbf{0.25} & 8-50 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{79.4} & $168.75$ \\
+%             5-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.08$ & \textbf{100} & $0.45$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-60 & $0$ & $-$ & $0$ & $-$ & $27$ & $315.44$ & \textbf{62} & $258.15$ \\
+%             5-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.02$ & \textbf{100} & $0.42$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $18.24$ & \textbf{100} & $3.11$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             5-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.42$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $1.62$ & \textbf{100} & $2.92$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             5-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.42$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.47$ & \textbf{100} & $2.70$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+
+%             6-0 & \textbf{100} & $42.61$ & \textbf{100} & $238.08$ & \textbf{100} & $101.77$ & \textbf{100} & \textbf{0.03} & 9-0 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & \textbf{100} & \textbf{1.74} \\
+%             6-10 & \textbf{100} & $45.56$ & \textbf{100} & $28.75$ & \textbf{100} & $70.36$ & \textbf{100} & \textbf{0.04} & 9-10 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & \textbf{100} & \textbf{2.03} \\
+%             6-20 & \textbf{100} & $67.08$ & $97.1$ & $240.98$ & \textbf{100} & $15.78$ & \textbf{100} & \textbf{0.04} & 9-20 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & \textbf{100} & \textbf{3.50} \\
+%             6-30 & \textbf{100} & $175.69$ & $20.7$ & $574.28$ & \textbf{100} & $7.45$ & \textbf{100} & \textbf{0.06} & 9-30 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & \textbf{100} & \textbf{7.60} \\
+%             6-40 & $5.4$ & $320.93$ & $3.9$ & $687.09$ & \textbf{100} & $15.71$ & \textbf{100} & \textbf{0.14} & 9-40 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & \textbf{100} & $23.47$ \\
+%             6-50 & $0$ & $-$ & $0$ & $-$ & $80$ & $255.22$ & \textbf{99.2} & $45.76$ & 9-50 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & \textbf{40.7} & $629.96$ \\
+%             6-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $4.49$ & \textbf{100} & $0.55$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-60 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & $0$ & $-$ \\
+%             6-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.54$ & \textbf{100} & $0.51$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-70 & $0$ & $-$ & $-$ & $-$ & $-$ & $-$ & \textbf{100} & \textbf{0.82}\\
+%             6-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.16$ & \textbf{100} & $0.50$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & $-$ & $-$ & $-$ & $-$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             6-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.08$ & \textbf{100} & $0.50$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 9-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & $-$ & $-$ & $-$ & $-$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+
+%             \hline
+%         \end{tabular}
+%     }
+%     }
+%     \caption{Results of Sudoku-LS and all competitors on the random benchmark.}
+%     \label{tab:1}
+% \end{table*}
+
+
+% \begin{table*}[t]
+%     \centering
+%     \renewcommand{\arraystretch}{1.2}
+%     \resizebox{2\columnwidth}{!}{
+%     \setlength{\tabcolsep}{0.3mm}{
+%         \begin{tabular}{ccccccccc|ccccccccc}
+%             \hline
+%             Instance & \multicolumn{2}{c}{ACS} & \multicolumn{2}{c}{OR-Tools} & \multicolumn{2}{c}{Kissat} & \multicolumn{2}{c|}{Sudoku-LS} & 
+%             Instance & \multicolumn{2}{c}{ACS} & \multicolumn{2}{c}{OR-Tools} & \multicolumn{2}{c}{Kissat} & \multicolumn{2}{c}{Sudoku-LS} \\
+%             family  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &
+%             family  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  \\
+%             \hline
+    
+%             3-0 & \textbf{100} & \textbf{$\mathbf{<}$0.01} & \textbf{100} & $0.16$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-0 & \textbf{100} & $42.61$ & $0$ & $-$ & \textbf{100} & $3.51$ & \textbf{100} & \textbf{0.03} \\
+%             3-10 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.15$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-10 & \textbf{100} & $45.56$ & $0$ & $-$ & \textbf{100} & $12.90$ & \textbf{100} & \textbf{0.04} \\
+%             3-20 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.15$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-20 & \textbf{100} & $67.08$ & $0$ & $-$ & \textbf{100} & $12.38$ & \textbf{100} & \textbf{0.04} \\
+%             3-30 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.15$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-30 & \textbf{100} & $175.69$ & $0$ & $-$ & \textbf{100} & $11.45$ & \textbf{100} & \textbf{0.06} \\
+%             3-40 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.14$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-40 & $5.4$ & $320.93$ & $0$ & $-$ & \textbf{100} & $54.29$ & \textbf{100} & \textbf{0.14} \\
+%             3-50 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.14$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-50 & $0$ & $-$ & $0$ & $-$ & $32$ & $475.99$ & \textbf{99.2} & $45.76$ \\
+%             3-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.14$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $2.05$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             3-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.13$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.23$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             3-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.13$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.22$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             3-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.12$ & \textbf{100} & $0.01$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 6-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.22$ & \textbf{100} & $0.52$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            
+%             4-0 & \textbf{100} & $0.04$ & \textbf{100} & $0.40$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-0 & $94.1$ & $550.37$ & $0$ & $-$ & \textbf{100} & $88.60$ & \textbf{100} & \textbf{0.15} \\
+%             4-10 & \textbf{100} & $0.03$ & \textbf{100} & $4.45$ & \textbf{100} & $0.04$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-10 & $92.2$ & $559.82$ & $0$ & $-$ & $95$ & $264.54$ & \textbf{100} & $0.15$ \\
+%             4-20 & \textbf{100} & $0.03$ & \textbf{100} & $9.32$ & \textbf{100} & $0.04$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-20 & $24.9$ & $665.38$ & $0$ & $-$ & $83$ & $307.86$ & \textbf{100} & $0.18$ \\
+%             4-30 & \textbf{100} & $0.03$ & $95$ & $8.89$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-30 & $0.3$ & $798.53$ & $0$ & $-$ & $42$ & $289.48$ & \textbf{100} & $0.24$ \\
+%             4-40 & \textbf{100} & $0.02$ & \textbf{100} & $0.72$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-40 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $0.63$ \\
+%             4-50 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.26$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-50 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{98.4} & $100.53$ \\
+%             4-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.23$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-60 & $99.2$ & $8.92$ & $0$ & $-$ & \textbf{100} & $2.75$ & \textbf{100} & $0.06$ \\
+%             4-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.22$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.28$ & \textbf{100} & $1.75$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             4-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.22$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.28$ & \textbf{100} & $1.75$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             4-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.20$ & \textbf{100} & $0.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 7-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.28$ & \textbf{100} & $1.75$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+    
+%             5-0 & \textbf{100} & $0.75$ & \textbf{100} & $0.56$ & \textbf{100} & $0.33$ & \textbf{100} & \textbf{0.01} & 8-0 & $0$ & $-$ & \textbf{100} & $32.25$ & \textbf{100} & $5.05$ & \textbf{100} & \textbf{0.45} \\
+%             5-10 & \textbf{100} & $1.18$ & $70$ & $84.28$ & \textbf{100} & $0.36$ & \textbf{100} & \textbf{0.01} & 8-10 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $0.56$ \\
+%             5-20 & \textbf{100} & $2.25$ & $42$ & $128.05$ & \textbf{100} & $0.65$ & \textbf{100} & \textbf{0.01} & 8-20 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $0.66$ \\
+%             5-30 & \textbf{100} & $3.93$ & $61$ & $64.86$ & \textbf{100} & $0.72$ & \textbf{100} & \textbf{0.01} & 8-30 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $0.95$ \\
+%             5-40 & $98.7$ & $9.31$ & $37$ & $294.96$ & \textbf{100} & $1.40$ & \textbf{100} & \textbf{0.01} & 8-40 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{100} & $3.19$ \\
+%             5-50 & $96.4$ & $2.99$ & \textbf{100} & $39.46$ & \textbf{100} & $0.52$ & \textbf{100} & \textbf{0.25} & 8-50 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{79.4} & $168.75$ \\
+%             5-60 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.23$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-60 & $0$ & $-$ & $0$ & $-$ & $0$ & $-$ & \textbf{62} & $258.15$ \\
+%             5-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.20$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-70 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.31$ & \textbf{100} & $5.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             5-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.20$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-80 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.31$ & \textbf{100} & $5.10$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+%             5-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.20$ & \textbf{100} & $0.13$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} & 8-90 & \textbf{100} & $\mathbf{<}$\textbf{0.01} & \textbf{100} & $0.30$ & \textbf{100} & $5.03$ & \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            
+%             \hline
+%         \end{tabular}
+%     }
+%     }
+%     \caption{Results of Sudoku-LS and all competitors on the random benchmark.}
+%     \label{tab:1}
+% \end{table*}
+
+\paragraph{Baselines.} We compare Sudoku-LS with two heuristic algorithms and two complete approaches. The heuristic algorithms are the ant colony algorithm (ACS) from \cite{lloyd2020antcolony} and the iterated local search algorithm (ILS) from \cite{musliu2017sudoku}. We made a small modification to the source code of ACS so that it can accept Sudoku instances of order greater than 5 as input, without changing other parts. The latter two algorithms are constraint programming (CP) solver OR-Tools (V9.5)\footnote{\href{https://developers.google.com/optimization/}{https://developers.google.com/optimization/}} and Boolean satisfiability (SAT) solver Kissat (3.0.0)\footnote{\href{http://fmv.jku.at/kissat/}{http://fmv.jku.at/kissat/}} \cite{fleury2020cadical}, which are the champions of CP and SAT competitions in 2022, respectively. For OR-Tools, we encode the Sudoku instances as CP models using `alldifferent' constraints, and employ the CP-SAT solver provided by OR-Tools to solve them. For Kissat, we encode the Sudoku instances as CNF formulas using the same method in \cite{lynce2006sat}. 
+
+\paragraph{Benchmarks.} We considered a set of crafted $9 \times 9$ Sudoku instances from \cite{mantere2008solving}, as well as generating large-scale random instances for experiment. Since the $9 \times 9$ instances are very easy to solve for all the algorithms, we focus on comparing the performance of algorithms on random benchmarks. Using the same method in \cite{lewis2007metaheuristics} and \cite{musliu2017sudoku}, we generate Sudoku instances of orders from 4 to 9 (i.e., sizes from $16 \times 16$ to $81 \times 81$). We generated 100 instances for each fixed cell ratio in steps of 0.1 from 0 to 0.9, giving a total of 6000 individual instances. In the following, we use `$n$-$r$' to represent the instance family of Sudoku of order $n$ with fixed cell ratio $r$.
+
+All experiments are carried out on a server with Intel Xeon Platinum 8153 (2.00GHz) and 2048G RAM under the system Centos 7.7.1908. Every algorithm is executed with a time limit $T$ of 1000s for an instance, respectively. For the heuristic algorithms (Sudoku-LS, ACS and ILS), they are executed 10 runs for each instance, and each run uses a different random seed (from 1 to 10). The complete solver (OR-Tools and Kissat) is executed only once for each instance. For every algorithm, we use $rate$ to denote the percentage of successful runs of a Sudoku family, and use $time$ (in seconds) to denote the average success time of a Sudoku family.
+
+\subsection{Comparison with Baseline Methods}
+
+We run the above four algorithms on random benchmark under the same time limit of 1000s, and the experimental results are shown in \tablename~\ref{tab:1}.
+
+It can be seen that when the cell filling ratio of Sudoku instances is more than 80\%, all four algorithms can find the solution quickly. On the $16 \times 16$ Sudoku instances, the four algorithms can solve all the instances. The Sudoku-LS algorithm performs better than the other three algorithms on almost all instances. And the average solving time of Sudoku-LS algorithm on each instance family is less than 30 seconds except for 6-50, 7-50, 8-50, 8-60, 9-50 and 9-60.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=2\columnwidth]{3log}
+    \caption{Average instance running time of Sudoku-LS and other three Sudoku-LS versions on hard instance families under $T$ = 1000s}
+    \label{fig:3}
+\end{figure*}
+
+The success rate of heuristic algorithms ILS and ACS begins to deteriorate when the order is higher than 4 and 5, respectively. And when the order is higher than 6, the success rate of complete algorithms OR-tools and Kissat begin to deteriorate. Particularly, on 7 instance families, ACS, ILS, OR-Tools and Kissat cannot solve any instances, while Sudoku-LS can achieve 100\% success rate on 4 of them, and the success rates of the remaining three are 98.4\%, 79.4\% and 40.7\%. Besides, for all instances in instance family 9-60, none of the five algorithms can solve. Except 9 instances in 8-60, 21 instances in 9-50, and all instances in 9-60, all instances in the benchmark can be solved by Sudoku-LS algorithm by changing random seeds (from 1 to 10) within 1000s.
+
+In addition, it needs to be mentioned that the algorithm OR-Tools will take up a lot of memory when solving Sudoku, and encoding high-order Sudoku instances into SAT models will take up a lot of disk space.
+
+% We first introduce the experimental results on Sudoku examples of order 3 to order 5, in which each Sudoku family has an instance that can be solved by four algorithms. Among the four algorithms, Kissat and sudoku-ls can solve all samples, and the average solving time is less than 2s; while acs algorithm can solve all samples within 10 seconds except for a small number of samples on 5-40 and 5-50; or-tools performs worst, there are unsolvable samples in the 4th and 5th order Sudoku samples, and the average solving time on some samples is more than 100s. In addition, in terms of solution time, the sudoku-ls algorithm outperforms the other three algorithms in almost all samples.
+
+% \begin{table}[t]
+%     \centering
+%     % \renewcommand{\arraystretch}{1.5}
+%     % \setlength{\tabcolsep}{3pt}
+%     \resizebox{\columnwidth}{!}{
+%     \setlength{\tabcolsep}{0.5mm}{
+%         \begin{tabular}{c|cc|cc|cc|cc}
+%             \hline
+%             Instance & \multicolumn{2}{c|}{Sudoku-LS} & \multicolumn{2}{c|}{Sudoku-LS1} & \multicolumn{2}{c|}{Sudoku-LS2} & \multicolumn{2}{c}{Sudoku-LS3}\\
+%             family   &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$ \\
+%             \hline
+    
+%             6-0  &  \textbf{100} & \textbf{0.03}  &  \textbf{100} & $0.46$  &  \textbf{100} & $0.04$  &  \textbf{100} & $0.04$ \\
+%             6-10  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & $0.35$  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & \textbf{0.04} \\
+%             6-20  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & $0.37$  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & \textbf{0.04} \\
+%             6-30  &  \textbf{100} & \textbf{0.06}  &  \textbf{100} & $0.58$  &  \textbf{100} & \textbf{0.06}  &  \textbf{100} & \textbf{0.06} \\
+%             6-40  &  \textbf{100} & $0.14$  &  \textbf{100} & $1.87$  &  \textbf{100} & $0.19$  &  \textbf{100} & \textbf{0.09} \\
+%             6-50  &  \textbf{92.6} & $17.11$  &  42.7 & $34.54$  &  60.5 & $19.38$  &  91.2 & $18.74$ \\
+%             6-60  &  \textbf{100} & $\mathbf{<}$\textbf{0.01}  &  \textbf{100} & $\mathbf{<}$\textbf{0.01}  &  \textbf{100} & $\mathbf{<}$\textbf{0.01}  &  \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            
+%             7-0  &  \textbf{100} & $0.15$  &  \textbf{100} & $1.42$  &  \textbf{100} & \textbf{0.13}  &  \textbf{100} & $0.17$ \\
+%             7-10  &  \textbf{100} & \textbf{0.15}  &  \textbf{100} & $1.96$  &  \textbf{100} & \textbf{0.15}  &  \textbf{100} & $0.16$ \\
+%             7-20  &  \textbf{100} & \textbf{0.18}  &  \textbf{100} & $2.58$  &  \textbf{100} & \textbf{0.18}  &  \textbf{100} & $0.19$ \\
+%             7-30  &  \textbf{100} & \textbf{0.24}  &  \textbf{100} & $5.97$  &  \textbf{100} & $0.31$  &  \textbf{100} & $0.32$ \\
+%             7-40  &  \textbf{100} & \textbf{0.63}  &  97.8 & $24.36$  &  \textbf{100} & $1.03$  &  \textbf{100} & $1.26$ \\
+%             7-50  &  \textbf{76.4} & $32.04$  &  7.8 & $55.14$  &  37.4 & $35.32$  &  65.3 & $39.39$ \\
+%             7-60  &  \textbf{100} & \textbf{0.06}  &  \textbf{100} & $0.21$  &  \textbf{100} & \textbf{0.06}  &  \textbf{100} & \textbf{0.06} \\
+
+%             8-0  &  \textbf{100} & \textbf{0.45}  &  \textbf{100} & $8.28$  &  \textbf{100} & $0.50$  &  \textbf{100} & $0.58$ \\
+%             8-10  &  \textbf{100} & $0.56$  &  \textbf{100} & $9.72$  &  \textbf{100} & \textbf{0.55}  &  \textbf{100} & $0.61$ \\
+%             8-20  &  \textbf{100} & \textbf{0.66}  &  \textbf{100} & $16.12$  &  \textbf{100} & $0.69$  &  \textbf{100} & $0.76$ \\
+%             8-30  &  \textbf{100} & \textbf{0.95}  &  98.3 & $54.83$  &  \textbf{100} & $1.60$  &  \textbf{100} & $1.79$ \\
+%             8-40  &  \textbf{100} & \textbf{3.19}  &  92.6 & $265.27$  &  \textbf{100} & $4.93$  &  \textbf{100} & $5.88$ \\
+%             8-50  &  \textbf{31.4} & $55.21$  &  0.4 & $73.22$  &  9.5 & $59.12$  &  24.3 & $61.19$ \\
+%             8-60  &  \textbf{26.1} & $50.05$  &  6.6 & $69.61$  &  0.7 & $19.31$  &  23.3 & $41.61$ \\
+            
+%             \hline
+%         \end{tabular}
+%     }
+%     }
+%     \caption{Comparing Sudoku-LS with Sudoku-LS1, Sudoku-LS2 and Sudoku-LS3 on part random benchmark under T = 100s}
+%     \label{tab:2}
+% \end{table}
+
+\subsection{Analysis of Proposed Ideas}
+
+In order to demonstrate the efficiency of move selection method, color tabu strategy and weighted restart strategy, we create three new algorithms named Sudoku-LS1, Sudoku-LS2 and Sudoku-LS3. Sudoku-LS1 replaces the Two-Stage move selection with direct move selection method without tie-breaking methods; Sudoku-LS2 replaces the color tabu strategy with tabu strategy (use $0.5*tt$ as tabu tenure) and removes the corresponding mode conversion in Algorithm~\ref{alg:2}; in Sudoku-LS3, a fixed number of inner loop iterations is used instead of dynamic iteration, and the weight strategy is removed from Algorithm~\ref{alg:3}. Because some instances are simple, we selected some instances from the random benchmark (Sudoku instances with more than 70\% cell filling ratio removed from order 6, 7, 8 and 9) as the benchmark for control experiment. and the experiment was carried out under the time limits of 1000s.
+
+\tablename~\ref{tab:2} shows the comparison results between Sudoku-LS and other three Sudoku-LS versions. Among the four algorithms, the Sudoku-LS1 algorithm is the worst on almost all instance families. The Sudoku-LS2 algorithm performs poorly on some more difficult instance families, while Sudoku-LS and Sudoku-LS3 can still maintain a success rate of more than 50\% on them. On instance families 6-50, 7-50, 8-50 and 8-60, Sudoku-LS shows superiority to Sudoku-LS3 in terms of both success rate and run time when time limit is 100s, and is only inferior to Sudoku-LS3 on 8-60 when time limited is 1000s. 
+
+\begin{table}[t]
+    \centering
+    % \renewcommand{\arraystretch}{1.5}
+    % \setlength{\tabcolsep}{3pt}
+    \resizebox{\columnwidth}{!}{
+    \setlength{\tabcolsep}{1.5mm}{
+        \begin{tabular}{c|cc|cc|cc|cc}
+            \hline
+            Instance & \multicolumn{2}{c|}{Sudoku-LS} & \multicolumn{2}{c|}{Sudoku-LS1} & \multicolumn{2}{c|}{Sudoku-LS2} & \multicolumn{2}{c}{Sudoku-LS3}\\
+            family   &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$  &  $R(\%)$ & $time$ \\
+            \hline
+    
+            6-0  &  \textbf{100} & \textbf{0.03}  &  \textbf{100} & $0.46$  &  \textbf{100} & $0.04$  &  \textbf{100} & $0.04$ \\
+            6-10  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & $0.35$  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & \textbf{0.04} \\
+            6-20  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & $0.37$  &  \textbf{100} & \textbf{0.04}  &  \textbf{100} & \textbf{0.04} \\
+            6-30  &  \textbf{100} & \textbf{0.06}  &  \textbf{100} & $0.58$  &  \textbf{100} & \textbf{0.06}  &  \textbf{100} & \textbf{0.06} \\
+            6-40  &  \textbf{100} & \textbf{0.14}  &  \textbf{100} & $1.87$  &  \textbf{100} & \textbf{0.09}  &  \textbf{100} & $0.19$ \\
+            6-50  &  \textbf{99.2} & \textbf{45.76}  &  71.7 & $148.32$  &  97.6 & $40.19$  &  74.6 & $105.80$ \\
+            6-60  &  \textbf{100} & $\mathbf{<}$\textbf{0.01}  &  \textbf{100} & $\mathbf{<}$\textbf{0.01}  &  \textbf{100} & $\mathbf{<}$\textbf{0.01}  &  \textbf{100} & $\mathbf{<}$\textbf{0.01} \\
+            
+            7-0  &  \textbf{100} & $0.15$  &  \textbf{100} & $1.42$  &  \textbf{100} & $0.17$  &  \textbf{100} & \textbf{0.13} \\
+            7-10  &  \textbf{100} & \textbf{0.15}  &  \textbf{100} & $1.96$  &  \textbf{100} & $0.17$  &  \textbf{100} & \textbf{0.15} \\
+            7-20  &  \textbf{100} & \textbf{0.18}  &  \textbf{100} & $2.58$  &  \textbf{100} & $0.17$  &  \textbf{100} & \textbf{0.18} \\
+            7-30  &  \textbf{100} & \textbf{0.24}  &  \textbf{100} & $5.97$  &  \textbf{100} & $0.17$  &  \textbf{100} & $0.31$ \\
+            7-40  &  \textbf{100} & \textbf{0.63}  &  97.8 & $24.36$  &  \textbf{100} & $0.17$  &  \textbf{100} & $1.03$ \\
+            7-50  &  \textbf{98.4} & \textbf{100.53}  &  51.1 & $367.37$  &  \textbf{100} & $0.17$  &  57.2 & $160.53$ \\
+            7-60  &  \textbf{100} & \textbf{0.06}  &  \textbf{100} & $0.21$  &  \textbf{100} & $0.17$  &  \textbf{100} & \textbf{0.06} \\
+
+            8-0  &  \textbf{100} & \textbf{0.45}  &  \textbf{100} & $8.28$  &  \textbf{100} & $0.17$  &  \textbf{100} & $0.50$ \\
+            8-10  &  \textbf{100} & $0.56$  &  \textbf{100} & $9.72$  &  \textbf{100} & $0.17$  &  \textbf{100} & \textbf{0.55} \\
+            8-20  &  \textbf{100} & \textbf{0.66}  &  \textbf{100} & $16.12$  &  \textbf{100} & $0.17$  &  \textbf{100} & $0.69$ \\
+            8-30  &  \textbf{100} & \textbf{0.95}  &  98.3 & $54.83$  &  \textbf{100} & $0.17$  &  \textbf{100} & $1.60$ \\
+            8-40  &  \textbf{100} & \textbf{3.19}  &  92.6 & $265.27$  &  \textbf{100} & $0.17$  &  \textbf{100} & $4.93$ \\
+            8-50  &  \textbf{79.4} & $168.75$  &  4.9 & $651.91$  &  \textbf{100} & $0.17$  &  35.7 & $351.61$ \\
+            8-60  &  \textbf{62} & $258.15$  &  48.7 & $430.72$  &  \textbf{100} & $0.17$  &  3 & $120.11$ \\
+
+            9-0  &  \textbf{100} & \textbf{1.74}  &  \textbf{100} & $8.28$  &  \textbf{100} & $0.17$  &  \textbf{100} & $0.50$ \\
+            9-10  &  \textbf{100} & \textbf{2.03}  &  \textbf{100} & $9.72$  &  \textbf{100} & $0.17$  &  \textbf{100} & \textbf{0.55} \\
+            9-20  &  \textbf{100} & \textbf{3.50}  &  \textbf{100} & $16.12$  &  \textbf{100} & $0.17$  &  \textbf{100} & $0.69$ \\
+            9-30  &  \textbf{100} & \textbf{7.60}  &  98.3 & $54.83$  &  \textbf{100} & $0.17$  &  \textbf{100} & $1.60$ \\
+            9-40  &  \textbf{100} & \textbf{23.47}  &  92.6 & $265.27$  &  \textbf{100} & $0.17$  &  \textbf{100} & $4.93$ \\
+            9-50  &  \textbf{40.7} & $629.96$  &  4.9 & $651.91$  &  \textbf{100} & $0.17$  &  35.7 & $351.61$ \\
+            9-60  &  $0$ & $-$  &  $0$ & $-$  &  $0$ & $-$  &  $0$ & $-$ \\
+            
+            \hline
+        \end{tabular}
+    }
+    }
+    \caption{Comparing Sudoku-LS with Sudoku-LS1, Sudoku-LS2 and Sudoku-LS3 on part random benchmark under T = 1000s}
+    \label{tab:2}
+\end{table}
+
+In \figurename~\ref{fig:3}, we present a comparison of the average instance running time of Sudoku-LS and the other three Sudoku-LS versions on four hard instance families (6-50, 7-50, 8-50 and 8-60).
+
+\section{Conclusion}
+
+We propose a new scoring function and, accordingly, a new method for selection operations. Furthermore, we propose a new method of ties-breaking and a new restarting strategy. The local search algorithm using these methods is effective, which can solve the Sudoku instances of order 8.
+
+In the future, we would like to enhance our algorithm by improving the performance on difficult $81 \times 81$ Sudoku instances, as well as higher order instances.
+
+%% The file named.bst is a bibliography style file for BibTeX 0.99c
+\bibliographystyle{named}
+\bibliography{ijcai22}
+
+\end{document}

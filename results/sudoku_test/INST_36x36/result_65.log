@@ -1,0 +1,360 @@
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_0.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_0.txt : 80 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_10.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_10.txt : 93 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_11.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_11.txt : 80 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_12.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_12.txt : 96 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_13.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_13.txt : 96 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_14.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_14.txt : 97 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_15.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_15.txt : 105 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_16.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_16.txt : 113 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_17.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_17.txt : 113 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_18.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_18.txt : 105 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_19.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_19.txt : 99 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_1.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_1.txt : 140 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_20.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_20.txt : 114 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_21.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_21.txt : 112 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_22.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_22.txt : 109 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_23.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_23.txt : 103 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_24.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_24.txt : 114 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_25.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_25.txt : 99 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_26.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_26.txt : 98 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_27.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_27.txt : 124 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_28.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_28.txt : 103 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_29.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_29.txt : 111 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_2.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_2.txt : 113 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_30.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_30.txt : 102 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_31.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_31.txt : 90 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_32.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_32.txt : 102 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_33.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_33.txt : 112 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_34.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_34.txt : 107 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_35.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_35.txt : 104 ms.
+--------------------------------------------------
+answer wrong same color 585 599 -1 -1
+answer wrong same color 621 635 -1 -1
+answer wrong same color 585 621 -1 -1
+answer wrong same color 599 635 -1 -1
+answer wrong no color: 585 -1
+answer wrong position wrong 585 -1
+1 2 3 10 15 17 19 20 24 30 33 35 36 
+answer wrong no color: 599 -1
+answer wrong position wrong 599 -1
+1 9 10 11 13 17 18 19 22 23 24 26 30 31 
+answer wrong no color: 621 -1
+answer wrong position wrong 621 -1
+2 10 12 16 19 20 24 29 30 32 33 36 
+answer wrong no color: 635 -1
+answer wrong position wrong 635 -1
+8 9 10 11 13 16 18 19 21 22 23 24 26 27 28 30 31 
+benchmarks/INST_36x36/65/inst36x36_65_36.txt : 111 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_37.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_37.txt : 124 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_38.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_38.txt : 100 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_39.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_39.txt : 112 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_3.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_3.txt : 104 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_40.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_40.txt : 100 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_41.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_41.txt : 98 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_42.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_42.txt : 109 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_43.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_43.txt : 105 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_44.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_44.txt : 100 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_45.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_45.txt : 105 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_46.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_46.txt : 102 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_47.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_47.txt : 118 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_48.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_48.txt : 115 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_49.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_49.txt : 107 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_4.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_4.txt : 115 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_50.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_50.txt : 107 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_51.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_51.txt : 105 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_52.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_52.txt : 101 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_53.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_53.txt : 86 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_54.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_54.txt : 100 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_55.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_55.txt : 103 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_56.txt find answer: 0.010000
+benchmarks/INST_36x36/65/inst36x36_65_56.txt : 103 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_57.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_57.txt : 109 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_58.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_58.txt : 96 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_59.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_59.txt : 89 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_5.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_5.txt : 96 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_60.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_60.txt : 105 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_61.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_61.txt : 93 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_62.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_62.txt : 75 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_63.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_63.txt : 82 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_64.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_64.txt : 66 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_65.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_65.txt : 75 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_66.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_66.txt : 63 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_67.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_67.txt : 65 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_68.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_68.txt : 65 ms.
+--------------------------------------------------
+answer wrong same color 60 71 -1 -1
+answer wrong same color 132 143 -1 -1
+answer wrong same color 60 132 -1 -1
+answer wrong same color 71 143 -1 -1
+answer wrong no color: 60 -1
+answer wrong position wrong 60 -1
+1 10 11 14 18 24 29 32 33 35 36 
+answer wrong no color: 71 -1
+answer wrong position wrong 71 -1
+1 3 10 11 18 24 25 27 32 33 35 
+answer wrong no color: 132 -1
+answer wrong position wrong 132 -1
+1 10 13 15 16 18 20 24 26 29 31 32 33 35 36 
+answer wrong no color: 143 -1
+answer wrong position wrong 143 -1
+1 3 10 13 15 16 17 18 24 25 32 33 35 
+benchmarks/INST_36x36/65/inst36x36_65_69.txt : 68 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_6.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_6.txt : 69 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_70.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_70.txt : 65 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_71.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_71.txt : 61 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_72.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_72.txt : 63 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_73.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_73.txt : 66 ms.
+--------------------------------------------------
+answer wrong same color 469 478 -1 -1
+answer wrong same color 541 550 -1 -1
+answer wrong same color 469 541 -1 -1
+answer wrong same color 478 550 -1 -1
+answer wrong no color: 469 -1
+answer wrong position wrong 469 -1
+4 5 8 10 11 12 13 17 19 26 27 28 29 31 36 
+answer wrong no color: 478 -1
+answer wrong position wrong 478 -1
+8 10 12 13 14 18 22 25 31 32 
+answer wrong no color: 541 -1
+answer wrong position wrong 541 -1
+4 5 8 10 11 13 17 19 27 28 29 36 
+answer wrong no color: 550 -1
+answer wrong position wrong 550 -1
+8 10 13 16 18 25 
+benchmarks/INST_36x36/65/inst36x36_65_74.txt : 67 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_75.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_75.txt : 92 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_76.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_76.txt : 66 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_77.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_77.txt : 62 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_78.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_78.txt : 62 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_79.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_79.txt : 62 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_7.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_7.txt : 67 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_80.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_80.txt : 70 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_81.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_81.txt : 69 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_82.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_82.txt : 62 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_83.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_83.txt : 62 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_84.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_84.txt : 71 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_85.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_85.txt : 66 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_86.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_86.txt : 71 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_87.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_87.txt : 70 ms.
+--------------------------------------------------
+answer wrong same color 1064 1066 -1 -1
+answer wrong same color 1280 1282 -1 -1
+answer wrong same color 1064 1280 -1 -1
+answer wrong same color 1066 1282 -1 -1
+answer wrong no color: 1064 -1
+answer wrong position wrong 1064 -1
+3 8 11 13 15 17 19 20 25 35 
+answer wrong no color: 1066 -1
+answer wrong position wrong 1066 -1
+3 4 8 11 15 16 18 19 20 22 25 28 35 
+answer wrong no color: 1280 -1
+answer wrong position wrong 1280 -1
+1 3 5 7 8 11 14 15 25 27 36 
+answer wrong no color: 1282 -1
+answer wrong position wrong 1282 -1
+1 3 8 11 15 25 27 28 29 32 
+benchmarks/INST_36x36/65/inst36x36_65_88.txt : 69 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_89.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_89.txt : 65 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_8.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_8.txt : 64 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_90.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_90.txt : 68 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_91.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_91.txt : 64 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_92.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_92.txt : 67 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_93.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_93.txt : 64 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_94.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_94.txt : 64 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_95.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_95.txt : 64 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_96.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_96.txt : 64 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_97.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_97.txt : 66 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_98.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_98.txt : 58 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_99.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_99.txt : 66 ms.
+--------------------------------------------------
+benchmarks/INST_36x36/65/inst36x36_65_9.txt find answer: 0.000000
+benchmarks/INST_36x36/65/inst36x36_65_9.txt : 63 ms.

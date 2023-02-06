@@ -18,7 +18,7 @@ for file in $folder/*; do
         ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
     fi
     if [ "$solver"x = "sudoku_ort"x ]; then
-        timeout ./solvers/sudoku_ort/sudoku.py $file
+        timeout $time_t python solvers/sudoku_ort/sudoku.py $file
     fi
     if [ "$solver"x = "sudoku_csp"x ]; then
         minizinc --solver or-tools --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
@@ -31,3 +31,4 @@ for file in $folder/*; do
     take=$(( end - start ))
     echo $file : ${take} ms.
 done
+    Sudoku problem is an important and challenging constraint satisfaction problem, which has numerous applications. Considering the difficulties for existing approaches in solving large-scale Sudoku problems, we propose a novel local search algorithm called Sudoku-LS in this work. Firstly, we use Sudoku graph to represent the problem, and refine the Sudoku graph through four simplification rules. Secondly, we propose an efficient two-step move selection method, and two heuristics based on the neighbor and global information, respectively, to break the ties. Finally, we introduce a new color forbidding strategy and a new weight restart strategy to improve the search efficiency. Experiments show that our proposed algorithm performs better than other state-of-art approaches, and also analyze the effectiveness of the proposed strategies.
