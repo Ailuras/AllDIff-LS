@@ -554,7 +554,7 @@ bool check_finish() {
 		check_answer();
 		// printf("%s find answer: %lf\n", filename.c_str(), best_time);
 
-
+		
         cout << order << endl;
         cout << is_sat << endl;
         for(int i = 1; i <= square_size; i++) {
