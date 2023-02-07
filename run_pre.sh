@@ -1,6 +1,10 @@
 # ./solvers/sudoku_acs/sudoku_acs --alg 0 --blank --order 7 --verbose > out.log
 
 index=$[ $1 + 5 ]
+path=benchmarks/INST_$[$2 * $2]x$[$2 * $2]/100
+if [ ! -d "$path" ];then
+    mkdir -p $path
+fi
 path=benchmarks/INST_$[$2 * $2]x$[$2 * $2]/100/inst$[$2 * $2]x$[$2 * $2]_100_
 for((i=$1;i<$index;i++));do
     file=benchmarks/INST_$[$2 * $2]x$[$2 * $2]/0/inst$[$2 * $2]x$[$2 * $2]_0_$i.txt

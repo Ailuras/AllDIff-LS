@@ -31,4 +31,3 @@ for file in $folder/*; do
     take=$(( end - start ))
     echo $file : ${take} ms.
 done
-    Sudoku problem is an important and challenging constraint satisfaction problem, which has numerous applications. Considering the difficulties for existing approaches in solving large-scale Sudoku problems, we propose a novel local search algorithm called Sudoku-LS in this work. Firstly, we use Sudoku graph to represent the problem, and refine the Sudoku graph through four simplification rules. Secondly, we propose an efficient two-step move selection method, and two heuristics based on the neighbor and global information, respectively, to break the ties. Finally, we introduce a new color forbidding strategy and a new weight restart strategy to improve the search efficiency. Experiments show that our proposed algorithm performs better than other state-of-art approaches, and also analyze the effectiveness of the proposed strategies.
