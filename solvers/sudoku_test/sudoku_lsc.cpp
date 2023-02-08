@@ -1497,8 +1497,8 @@ void mGenerate() {
 		}
 	}
 	for (int i=1; i<=vertex_size; i++) {
-		mVertexesColor_tmp[i] = -1;
-		// mVertexesColor_tmp[i] = mVertexesColor[i];
+		// mVertexesColor_tmp[i] = -1;
+		mVertexesColor_tmp[i] = mVertexesColor[i];
 	}
 	mIter = 0;
 	last_id = 0;

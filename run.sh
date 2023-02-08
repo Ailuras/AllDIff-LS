@@ -14,8 +14,8 @@ for file in $folder/*; do
     if [ "$solver"x = "sudoku_acs"x ]; then
         ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
     fi
-    if [ "$solver"x = "sudoku_lsc"x ]; then
-        ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
+    if [ "$solver"x = "sudoku_ils"x ]; then
+        ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
     fi
     if [ "$solver"x = "sudoku_ort"x ]; then
         timeout $time_t python solvers/sudoku_ort/sudoku.py $file
@@ -26,6 +26,12 @@ for file in $folder/*; do
     fi
     if [ "$solver"x = "sudoku_sat"x ]; then
         timeout $time_t ./solvers/sudoku_sat/Kissat_MAB-HyWalk/kissat -n -q $file
+    fi
+    if [ "$solver"x = "sudoku_lsc"x ]; then
+        ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
+    fi
+    if [ "$solver"x = "sudoku_test"x ]; then
+        ./solvers/sudoku_test/sudoku_lsc $file $seed $time_t
     fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))

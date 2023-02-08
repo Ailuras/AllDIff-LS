@@ -1,0 +1,2280 @@
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 259945 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_0.txt : 38 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_10.txt : 18 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_11.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_12.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_13.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 260233 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_14.txt : 53 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 260347 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_15.txt : 46 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_16.txt : 19 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_17.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_18.txt : 18 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_19.txt : 19 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_1.txt : 25 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 260711 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_20.txt : 46 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_21.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 260864 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_22.txt : 28 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_23.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_24.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 261037 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_25.txt : 26 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_26.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_27.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 261200 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_28.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_29.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 261299 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_2.txt : 49 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 261403 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_30.txt : 27 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_31.txt : 18 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 261508 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_32.txt : 52 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 261620 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_33.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 261674 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_34.txt : 27 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 261736 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_35.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 261792 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_36.txt : 40 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_37.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_38.txt : 25 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_39.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 262040 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_3.txt : 47 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_40.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 262198 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_41.txt : 50 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 262301 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_42.txt : 26 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_43.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_44.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 262467 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_45.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_46.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 262577 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_47.txt : 45 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_48.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 262728 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_49.txt : 55 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_4.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_50.txt : 25 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_51.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_52.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_53.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_54.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 263156 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_55.txt : 58 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_56.txt : 26 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_57.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 263386 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_58.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_59.txt : 19 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_5.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_60.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_61.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 263648 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_62.txt : 51 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_63.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_64.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_65.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_66.txt : 17 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 263962 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_67.txt : 47 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 264064 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_68.txt : 43 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 264155 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_69.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+54: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 264211 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_6.txt : 25 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_70.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_71.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_72.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_73.txt : 18 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_74.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 264544 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_75.txt : 27 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 264605 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_76.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 264660 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_77.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_78.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_79.txt : 25 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_7.txt : 23 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 264876 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_80.txt : 49 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+38: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 264972 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_81.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_82.txt : 17 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+41: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 265059 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_83.txt : 46 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+42: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+64: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+69: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+72: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_84.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+48: Invalid order. Reason: Must be between 1 and 9.
+49: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 265186 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_85.txt : 47 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+94: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_86.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 265310 Floating point exception./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_87.txt : 27 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 265363 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_88.txt : 51 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+30: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+96: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_89.txt : 24 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+26: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+35: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+60: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+63: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+97: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+102: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_8.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+27: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+85: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+88: Invalid order. Reason: Must be between 1 and 9.
+89: Invalid order. Reason: Must be between 1 and 9.
+90: Invalid order. Reason: Must be between 1 and 9.
+92: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_90.txt : 16 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+17: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+32: Invalid order. Reason: Must be between 1 and 9.
+39: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+44: Invalid order. Reason: Must be between 1 and 9.
+47: Invalid order. Reason: Must be between 1 and 9.
+50: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+68: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+71: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 265573 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_91.txt : 41 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+24: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+36: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+45: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_92.txt : 22 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+run.sh: line 11: 265682 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_93.txt : 43 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+16: Invalid order. Reason: Must be between 1 and 9.
+18: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+23: Invalid order. Reason: Must be between 1 and 9.
+28: Invalid order. Reason: Must be between 1 and 9.
+29: Invalid order. Reason: Must be between 1 and 9.
+31: Invalid order. Reason: Must be between 1 and 9.
+33: Invalid order. Reason: Must be between 1 and 9.
+34: Invalid order. Reason: Must be between 1 and 9.
+37: Invalid order. Reason: Must be between 1 and 9.
+40: Invalid order. Reason: Must be between 1 and 9.
+43: Invalid order. Reason: Must be between 1 and 9.
+46: Invalid order. Reason: Must be between 1 and 9.
+51: Invalid order. Reason: Must be between 1 and 9.
+52: Invalid order. Reason: Must be between 1 and 9.
+53: Invalid order. Reason: Must be between 1 and 9.
+55: Invalid order. Reason: Must be between 1 and 9.
+56: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+62: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_94.txt : 18 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+57: Invalid order. Reason: Must be between 1 and 9.
+58: Invalid order. Reason: Must be between 1 and 9.
+59: Invalid order. Reason: Must be between 1 and 9.
+61: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_95.txt : 20 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+12: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+14: Invalid order. Reason: Must be between 1 and 9.
+20: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+25: Invalid order. Reason: Must be between 1 and 9.
+82: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_96.txt : 21 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+5: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+15: Invalid order. Reason: Must be between 1 and 9.
+19: Invalid order. Reason: Must be between 1 and 9.
+21: Invalid order. Reason: Must be between 1 and 9.
+22: Invalid order. Reason: Must be between 1 and 9.
+70: Invalid order. Reason: Must be between 1 and 9.
+73: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+87: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+99: Invalid order. Reason: Must be between 1 and 9.
+101: Invalid order. Reason: Must be between 1 and 9.
+0
+benchmarks/INST_100x100/40/inst100x100_40_97.txt : 17 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+4: Invalid order. Reason: Must be between 1 and 9.
+6: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+11: Invalid order. Reason: Must be between 1 and 9.
+13: Invalid order. Reason: Must be between 1 and 9.
+65: Invalid order. Reason: Must be between 1 and 9.
+66: Invalid order. Reason: Must be between 1 and 9.
+67: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+75: Invalid order. Reason: Must be between 1 and 9.
+77: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+83: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_98.txt : 18 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+74: Invalid order. Reason: Must be between 1 and 9.
+76: Invalid order. Reason: Must be between 1 and 9.
+78: Invalid order. Reason: Must be between 1 and 9.
+79: Invalid order. Reason: Must be between 1 and 9.
+80: Invalid order. Reason: Must be between 1 and 9.
+81: Invalid order. Reason: Must be between 1 and 9.
+84: Invalid order. Reason: Must be between 1 and 9.
+86: Invalid order. Reason: Must be between 1 and 9.
+91: Invalid order. Reason: Must be between 1 and 9.
+93: Invalid order. Reason: Must be between 1 and 9.
+95: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+102: Incomplete Sudoku!
+0
+benchmarks/INST_100x100/40/inst100x100_40_99.txt : 19 ms.
+--------------------------------------------------
+1: Invalid order. Reason: Must be between 1 and 9.
+7: Invalid order. Reason: Must be between 1 and 9.
+8: Invalid order. Reason: Must be between 1 and 9.
+9: Invalid order. Reason: Must be between 1 and 9.
+10: Invalid order. Reason: Must be between 1 and 9.
+98: Invalid order. Reason: Must be between 1 and 9.
+100: Invalid order. Reason: Must be between 1 and 9.
+run.sh: line 11: 265933 Floating point exception(core dumped) ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+benchmarks/INST_100x100/40/inst100x100_40_9.txt : 47 ms.

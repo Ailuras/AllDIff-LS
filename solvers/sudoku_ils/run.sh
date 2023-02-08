@@ -1,1 +1,1 @@
-./ilsSolver --instanceFile ../../../benchmarks/INST_25x25/40/inst25x25_40_0.txt --timeLimit 5 --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+./ilsSolver --instanceFile ../../../benchmarks/INST_25x25/40/inst25x25_40_0.txt --timeLimit 5
