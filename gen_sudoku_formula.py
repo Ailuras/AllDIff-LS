@@ -6,18 +6,30 @@ import pickle
 import sys
 
 class sudoku:
-    def __init__(self, file):
-        self.path = file
-        info = file.split('/')
-        self.n = int(info[-1].split('_')[0].split('x')[-1])
-        self.order = int(math.sqrt(self.n))
-        self.fixed_prop = int(info[-1].split('_')[1])
-        info[0] = 'benchmarks_SAT'
-        info[-1] = info[-1].split('.')[0] + '.cnf'
-        self.filename = '/'.join(info)
-        self.outfile = open(self.filename, "w")
-        self.clausN = 0
-        self.varN = self.n*self.n*self.n
+    def __init__(self, file, type=1):
+        if type == 1:
+            self.path = file
+            info = file.split('/')
+            self.n = int(info[-1].split('_')[0].split('x')[-1])
+            self.order = int(math.sqrt(self.n))
+            self.fixed_prop = int(info[-1].split('_')[1])
+            info[0] = 'benchmarks_SAT'
+            info[-1] = info[-1].split('.')[0] + '.cnf'
+            self.filename = '/'.join(info)
+            self.outfile = open(self.filename, "w")
+            self.clausN = 0
+            self.varN = self.n*self.n*self.n
+        else:
+            self.path = file
+            info = file.split('/')
+            self.n = 9
+            self.order = 3
+            info[0] = 'benchmarks_SAT'
+            info[-1] = info[-1].split('.')[0] + '.cnf'
+            self.filename = '/'.join(info)
+            self.outfile = open(self.filename, "w")
+            self.clausN = 0
+            self.varN = self.n*self.n*self.n
 
 
     def finite_domain(self):
@@ -128,7 +140,7 @@ class sudoku:
 
 if __name__ == "__main__":
     file = sys.argv[1]
-    la = sudoku(file)
+    la = sudoku(file, type=2)
     la.finite_domain()
     la.latin_constraint()
     la.sudoku_constraint()
