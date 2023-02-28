@@ -11,6 +11,7 @@ cd ../..
 # LSC solver
 cd solvers/sudoku_lsc/
 g++ sudoku_lsc.cpp -std=c++11 -O3 -o sudoku_lsc
+g++ NQueen-LS.cpp -std=c++11 -O3 -o NQueen-LS
 # g++ sudoku_test.cpp -std=c++11 -O3 -o sudoku_lsc
 cd ../..
 # ./parallel.sh benchmarks_hard 1000 sudoku_acs 1
