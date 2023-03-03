@@ -11,30 +11,14 @@ seed=$4
 for file in $folder/*; do
     echo --------------------------------------------------
     start=$[$(date +%s%N)/1000000]
-    if [ "$solver"x = "sudoku_acs"x ]; then
-        ./solvers/sudoku_acs/sudoku_acs --alg 0 --file $file --timeout $time_t
+    if [ "$solver"x = "nqueens_ls"x ]; then
+        ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
     fi
-    if [ "$solver"x = "sudoku_ils"x ]; then
-        ./solvers/sudoku_ils/build/ilsSolver --instanceFile $file --timeLimit $time_t --mcProbability 100 --iterationLimit 1000 --tabuListSize 0.05 --alpha 0.8 --acceptanceProb 15 --outfile output.txt --logfile log.txt
+    if [ "$solver"x = "nqueens_ort"x ]; then
+        timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
     fi
-    if [ "$solver"x = "sudoku_ort"x ]; then
-        timeout $time_t python solvers/sudoku_ort/sudoku.py $file
-    fi
-    if [ "$solver"x = "sudoku_ort9x9"x ]; then
-        timeout $time_t python solvers/sudoku_ort/sudoku_9x9.py $file
-    fi
-    if [ "$solver"x = "sudoku_csp"x ]; then
-        minizinc --solver or-tools --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
-        # ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
-    fi
-    if [ "$solver"x = "sudoku_sat"x ]; then
-        timeout $time_t ./solvers/sudoku_sat/Kissat_MAB-HyWalk/kissat -n -q $file
-    fi
-    if [ "$solver"x = "sudoku_lsc"x ]; then
-        ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
-    fi
-    if [ "$solver"x = "sudoku_test"x ]; then
-        ./solvers/sudoku_test/sudoku_lsc $file $seed $time_t
+    if [ "$solver"x = "nqueens_sat"x ]; then
+        timeout $time_t ./solvers/nqueens_sat/Kissat_MAB-HyWalk/kissat -n -q $file
     fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))

@@ -35,14 +35,28 @@ class NQueenSolutionPrinter(cp_model.CpSolverSolutionCallback):
 
 
 
-def main(board_size):
+def main(filename):
+    
+    info = file.split('/')
+    order = int(info[-1].split('_')[0].split('t')[-1])
+    
+    lines = []
+
+    with open(file) as f:
+        f.readline()
+        f.readline()
+        for i in range(order):
+            lines.append(f.readline().strip())
+            
+    initial_grid = [[int(x) for x in line] for line in initial_grid]
+
     # Creates the solver.
     model = cp_model.CpModel()
 
     # Creates the variables.
     # The array index is the column, and the value is the row.
     queens = [
-        model.NewIntVar(0, board_size - 1, 'x%i' % i) for i in range(board_size)
+        model.NewIntVar(0, order - 1, 'x%i' % i) for i in range(order)
     ]
 
     # Creates the constraints.
@@ -53,8 +67,13 @@ def main(board_size):
     # different.
 
     # No two queens can be on the same diagonal.
-    model.AddAllDifferent(queens[i] + i for i in range(board_size))
-    model.AddAllDifferent(queens[i] - i for i in range(board_size))
+    model.AddAllDifferent(queens[i] + i for i in range(order))
+    model.AddAllDifferent(queens[i] - i for i in range(order))
+
+    # Initial values.
+    for i in range(order):
+            if lines[i] > 0:
+                model.Add(queens[i] == lines[i])
 
     # Solve the model.
     solver = cp_model.CpSolver()
@@ -75,7 +94,7 @@ def main(board_size):
 
 if __name__ == '__main__':
     # By default, solve the 8x8 problem.
-    size = 8
+    file = sys.argv[1]
     if len(sys.argv) > 1:
-        size = int(sys.argv[1])
-    main(size)
+        file = sys.argv[1]
+    main(file)
