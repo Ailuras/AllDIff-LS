@@ -37,18 +37,16 @@ class NQueenSolutionPrinter(cp_model.CpSolverSolutionCallback):
 
 def main(filename):
     
-    info = file.split('/')
+    info = filename.split('/')
     order = int(info[-1].split('_')[0].split('t')[-1])
     
     lines = []
 
-    with open(file) as f:
+    with open(filename) as f:
         f.readline()
         f.readline()
         for i in range(order):
-            lines.append(f.readline().strip())
-            
-    initial_grid = [[int(x) for x in line] for line in initial_grid]
+            lines.append(int(f.readline().strip()))
 
     # Creates the solver.
     model = cp_model.CpModel()
