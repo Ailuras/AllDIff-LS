@@ -54,7 +54,7 @@ def main(filename):
     # Creates the variables.
     # The array index is the column, and the value is the row.
     queens = [
-        model.NewIntVar(0, order - 1, 'x%i' % i) for i in range(order)
+        model.NewIntVar(1, order, 'x%i' % i) for i in range(order)
     ]
 
     # Creates the constraints.
