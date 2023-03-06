@@ -1,0 +1,297 @@
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_0.txt : 2523 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_10.txt : 492 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_11.txt : 540 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_12.txt : 550 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_13.txt : 413 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_14.txt : 492 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_15.txt : 508 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_16.txt : 361683 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_17.txt : 481703 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_18.txt : 397148 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_19.txt : 395051 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_1.txt : 435178 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_20.txt : 354829 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_21.txt : 1144 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_22.txt : 1305 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_23.txt : 389568 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_24.txt : 1512 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_25.txt : 386644 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_26.txt : 388256 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_27.txt : 1584 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_28.txt : 385920 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_29.txt : 625 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_2.txt : 709 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_30.txt : 785 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_31.txt : 841 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_32.txt : 376020 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_33.txt : 864 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_34.txt : 1062 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_35.txt : 1131 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_36.txt : 334248 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_37.txt : 679 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_38.txt : 1297 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_39.txt : 364814 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_3.txt : 418 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_40.txt : 358797 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_41.txt : 2615 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_42.txt : 349616 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_43.txt : 1556 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_44.txt : 1861 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_45.txt : 292549 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_46.txt : 1185 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_47.txt : 972 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_48.txt : 798 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_49.txt : 321507 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_4.txt : 333005 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_50.txt : 1439 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_51.txt : 1520 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_52.txt : 1336 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_53.txt : 860 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_54.txt : 648 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_55.txt : 325884 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_56.txt : 294274 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_57.txt : 489 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_58.txt : 260850 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_59.txt : 332537 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_5.txt : 963 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_60.txt : 654 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_61.txt : 571 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_62.txt : 267961 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_63.txt : 1505 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_64.txt : 1101 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_65.txt : 1624 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_66.txt : 1359 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_67.txt : 1154 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_68.txt : 262930 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_69.txt : 516 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_6.txt : 543 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_70.txt : 359255 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_71.txt : 441 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_72.txt : 335172 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_73.txt : 953 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_74.txt : 232471 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_75.txt : 613 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_76.txt : 708 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_77.txt : 293482 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_78.txt : 690 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_79.txt : 660 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_7.txt : 729 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_80.txt : 856 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_81.txt : 619 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_82.txt : 603 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_83.txt : 598 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_84.txt : 509 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_85.txt : 509 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_86.txt : 544 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_87.txt : 365782 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_88.txt : 1165 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_89.txt : 226325 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_8.txt : 272761 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_90.txt : 961 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_91.txt : 1264 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_92.txt : 334975 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_600/50/inst600_50_93.txt : 321 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_94.txt : 422 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/50/inst600_50_95.txt : 387 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_96.txt : 231189 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_97.txt : 269054 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_98.txt : 341381 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_99.txt : 245194 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/50/inst600_50_9.txt : 323755 ms.

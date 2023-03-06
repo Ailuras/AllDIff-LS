@@ -1,0 +1,313 @@
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_0.txt : 1022545 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_10.txt : 1017637 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_11.txt : 1023 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_12.txt : 840 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_13.txt : 1017528 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_14.txt : 1021522 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_15.txt : 1014482 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_16.txt : 1023935 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_17.txt : 1018871 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_18.txt : 1472 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_19.txt : 668 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_1.txt : 613 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_20.txt : 535 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_21.txt : 471 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_22.txt : 1036800 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_23.txt : 1024003 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_24.txt : 1021307 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_25.txt : 1020107 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_26.txt : 2517 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_27.txt : 1019965 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_28.txt : 1018471 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_29.txt : 1028822 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_2.txt : 1012487 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_30.txt : 1164 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_31.txt : 1491 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_32.txt : 943166 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_33.txt : 1240 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_34.txt : 877524 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_35.txt : 950008 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_36.txt : 936 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_37.txt : 985 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_38.txt : 897 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_39.txt : 1009847 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_3.txt : 1768 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_40.txt : 998707 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_41.txt : 1951 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_42.txt : 908359 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_43.txt : 859779 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_44.txt : 827679 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_45.txt : 759018 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_46.txt : 713661 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_47.txt : 760554 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_48.txt : 815226 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_49.txt : 763516 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_4.txt : 781706 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_50.txt : 710137 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_51.txt : 1883 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_52.txt : 944 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_53.txt : 751832 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_54.txt : 670300 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_55.txt : 2041 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_56.txt : 978 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_57.txt : 924 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_58.txt : 662998 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_59.txt : 728865 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_5.txt : 622527 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_60.txt : 604098 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_61.txt : 327 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_62.txt : 587467 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_63.txt : 612125 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_64.txt : 596517 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_65.txt : 606405 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_66.txt : 635255 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_67.txt : 561668 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_68.txt : 634858 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_69.txt : 531718 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_6.txt : 496332 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_70.txt : 481202 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_71.txt : 336 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_72.txt : 391 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_73.txt : 379 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_74.txt : 514041 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_75.txt : 1197 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_76.txt : 454642 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_77.txt : 473010 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_78.txt : 1479 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_79.txt : 431 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_7.txt : 426 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_80.txt : 338 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_81.txt : 341 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_82.txt : 489859 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_83.txt : 501201 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_84.txt : 1331 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_85.txt : 370 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_86.txt : 378 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_87.txt : 464209 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_88.txt : 369 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_89.txt : 482466 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_8.txt : 450908 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_800/20/inst800_20_90.txt : 1319 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
+    main(file)
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
+    lines.append(int(f.readline().strip()))
+ValueError: invalid literal for int() with base 10: ''
+benchmarks/N-Queens/INST_800/20/inst800_20_91.txt : 313 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_92.txt : 418770 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_93.txt : 408123 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_94.txt : 492960 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_95.txt : 444294 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_96.txt : 401161 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_97.txt : 471834 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_98.txt : 435374 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_99.txt : 444581 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/20/inst800_20_9.txt : 452541 ms.
