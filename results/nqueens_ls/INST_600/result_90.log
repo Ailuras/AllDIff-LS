@@ -1,300 +1,300 @@
 --------------------------------------------------
-run.sh: line 11: 384019 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_0.txt : 102 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_0.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_0.txt : 120 ms.
 --------------------------------------------------
-run.sh: line 11: 384234 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_10.txt : 98 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_10.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_10.txt : 111 ms.
 --------------------------------------------------
-run.sh: line 11: 384441 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_11.txt : 119 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_11.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_11.txt : 107 ms.
 --------------------------------------------------
-run.sh: line 11: 384661 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_12.txt : 101 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_12.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_12.txt : 117 ms.
 --------------------------------------------------
-run.sh: line 11: 384851 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_13.txt : 104 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_13.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_13.txt : 110 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_14.txt find answer: 0.290000
-benchmarks/N-Queens/INST_600/90/inst600_90_14.txt : 392 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_14.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_14.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 385700 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_15.txt : 102 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_15.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_15.txt : 126 ms.
 --------------------------------------------------
-run.sh: line 11: 385883 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_16.txt : 125 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_16.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_16.txt : 111 ms.
 --------------------------------------------------
-run.sh: line 11: 386110 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_17.txt : 102 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_17.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_17.txt : 113 ms.
 --------------------------------------------------
-run.sh: line 11: 386297 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_18.txt : 106 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_18.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_18.txt : 113 ms.
 --------------------------------------------------
-run.sh: line 11: 386481 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_19.txt : 97 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_19.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_19.txt : 112 ms.
 --------------------------------------------------
-run.sh: line 11: 386663 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_1.txt : 97 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_1.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_1.txt : 189 ms.
 --------------------------------------------------
-run.sh: line 11: 386847 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_20.txt : 93 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_20.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_20.txt : 269 ms.
 --------------------------------------------------
-run.sh: line 11: 387037 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_21.txt : 98 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_21.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_21.txt : 180 ms.
 --------------------------------------------------
-run.sh: line 11: 387233 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_22.txt : 101 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_22.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_22.txt : 118 ms.
 --------------------------------------------------
-run.sh: line 11: 387419 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_23.txt : 94 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_23.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_23.txt : 110 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_24.txt find answer: 0.260000
-benchmarks/N-Queens/INST_600/90/inst600_90_24.txt : 351 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_24.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_24.txt : 115 ms.
 --------------------------------------------------
-run.sh: line 11: 388153 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_25.txt : 92 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_25.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_25.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 388331 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_26.txt : 99 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_26.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_26.txt : 116 ms.
 --------------------------------------------------
-run.sh: line 11: 388526 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_27.txt : 98 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_27.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_27.txt : 118 ms.
 --------------------------------------------------
-run.sh: line 11: 388719 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_28.txt : 108 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_28.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_28.txt : 123 ms.
 --------------------------------------------------
-run.sh: line 11: 388916 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_29.txt : 102 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_29.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_29.txt : 118 ms.
 --------------------------------------------------
-run.sh: line 11: 389099 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_2.txt : 106 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_2.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_2.txt : 111 ms.
 --------------------------------------------------
-run.sh: line 11: 389297 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_30.txt : 122 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_30.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_30.txt : 115 ms.
 --------------------------------------------------
-run.sh: line 11: 389510 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_31.txt : 99 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_31.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_31.txt : 114 ms.
 --------------------------------------------------
-run.sh: line 11: 389668 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_32.txt : 125 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_32.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_32.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 389895 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_33.txt : 95 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_33.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_33.txt : 117 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_34.txt find answer: 0.260000
-benchmarks/N-Queens/INST_600/90/inst600_90_34.txt : 352 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_34.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_34.txt : 111 ms.
 --------------------------------------------------
-run.sh: line 11: 390620 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_35.txt : 99 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_35.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_35.txt : 129 ms.
 --------------------------------------------------
-run.sh: line 11: 390780 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_36.txt : 122 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_36.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_36.txt : 111 ms.
 --------------------------------------------------
-run.sh: line 11: 390974 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_37.txt : 97 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_37.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_37.txt : 116 ms.
 --------------------------------------------------
-run.sh: line 11: 391117 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_38.txt : 120 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_38.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_38.txt : 115 ms.
 --------------------------------------------------
-run.sh: line 11: 391258 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_39.txt : 139 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_39.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_39.txt : 112 ms.
 --------------------------------------------------
-run.sh: line 11: 391395 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_3.txt : 109 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_3.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_3.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 391513 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_40.txt : 116 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_40.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_40.txt : 107 ms.
 --------------------------------------------------
-run.sh: line 11: 391626 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_41.txt : 99 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_41.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_41.txt : 112 ms.
 --------------------------------------------------
-run.sh: line 11: 391732 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_42.txt : 123 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_42.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_42.txt : 117 ms.
 --------------------------------------------------
-run.sh: line 11: 391850 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_43.txt : 98 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_43.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_43.txt : 109 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_44.txt find answer: 0.270000
-benchmarks/N-Queens/INST_600/90/inst600_90_44.txt : 342 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_44.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_44.txt : 141 ms.
 --------------------------------------------------
-run.sh: line 11: 392233 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_45.txt : 120 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_45.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_45.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 392344 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_46.txt : 126 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_46.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_46.txt : 105 ms.
 --------------------------------------------------
-run.sh: line 11: 392436 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_47.txt : 127 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_47.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_47.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 392554 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_48.txt : 97 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_48.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_48.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 392639 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_49.txt : 101 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_49.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_49.txt : 105 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_4.txt find answer: 0.250000
-benchmarks/N-Queens/INST_600/90/inst600_90_4.txt : 360 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_4.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_4.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 393067 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_50.txt : 121 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_50.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_50.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 393171 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_51.txt : 98 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_51.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_51.txt : 107 ms.
 --------------------------------------------------
-run.sh: line 11: 393248 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_52.txt : 102 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_52.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_52.txt : 103 ms.
 --------------------------------------------------
-run.sh: line 11: 393336 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_53.txt : 97 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_53.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_53.txt : 102 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_54.txt find answer: 0.250000
-benchmarks/N-Queens/INST_600/90/inst600_90_54.txt : 342 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_54.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_54.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 393709 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_55.txt : 117 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_55.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_55.txt : 174 ms.
 --------------------------------------------------
-run.sh: line 11: 393821 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_56.txt : 125 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_56.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_56.txt : 226 ms.
 --------------------------------------------------
-run.sh: line 11: 393939 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_57.txt : 121 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_57.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_57.txt : 158 ms.
 --------------------------------------------------
-run.sh: line 11: 394059 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_58.txt : 97 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_58.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_58.txt : 102 ms.
 --------------------------------------------------
-run.sh: line 11: 394159 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_59.txt : 98 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_59.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_59.txt : 113 ms.
 --------------------------------------------------
-run.sh: line 11: 394254 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_5.txt : 90 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_5.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_5.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 394324 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_60.txt : 119 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_60.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_60.txt : 113 ms.
 --------------------------------------------------
-run.sh: line 11: 394420 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_61.txt : 100 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_61.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_61.txt : 101 ms.
 --------------------------------------------------
-run.sh: line 11: 394489 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_62.txt : 124 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_62.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_62.txt : 109 ms.
 --------------------------------------------------
-run.sh: line 11: 394570 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_63.txt : 127 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_63.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_63.txt : 111 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_64.txt find answer: 0.250000
-benchmarks/N-Queens/INST_600/90/inst600_90_64.txt : 338 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_64.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_64.txt : 113 ms.
 --------------------------------------------------
-run.sh: line 11: 394793 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_65.txt : 117 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_65.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_65.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 394834 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_66.txt : 128 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_66.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_66.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 394890 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_67.txt : 118 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_67.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_67.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 394934 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_68.txt : 116 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_68.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_68.txt : 111 ms.
 --------------------------------------------------
-run.sh: line 11: 394980 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_69.txt : 124 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_69.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_69.txt : 149 ms.
 --------------------------------------------------
-run.sh: line 11: 395041 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_6.txt : 162 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_6.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_6.txt : 104 ms.
 --------------------------------------------------
-run.sh: line 11: 395120 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_70.txt : 118 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_70.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_70.txt : 109 ms.
 --------------------------------------------------
-run.sh: line 11: 395196 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_71.txt : 92 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_71.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_71.txt : 102 ms.
 --------------------------------------------------
-run.sh: line 11: 395243 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_72.txt : 122 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_72.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_72.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 395307 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_73.txt : 131 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_73.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_73.txt : 110 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_74.txt find answer: 0.250000
-benchmarks/N-Queens/INST_600/90/inst600_90_74.txt : 337 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_74.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_74.txt : 104 ms.
 --------------------------------------------------
-run.sh: line 11: 395534 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_75.txt : 126 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_75.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_75.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 395595 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_76.txt : 115 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_76.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_76.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 395651 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_77.txt : 115 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_77.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_77.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 395721 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_78.txt : 121 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_78.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_78.txt : 107 ms.
 --------------------------------------------------
-run.sh: line 11: 395789 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_79.txt : 118 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_79.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_79.txt : 132 ms.
 --------------------------------------------------
-run.sh: line 11: 395853 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_7.txt : 114 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_7.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_7.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 395919 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_80.txt : 124 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_80.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_80.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 395989 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_81.txt : 126 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_81.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_81.txt : 109 ms.
 --------------------------------------------------
-run.sh: line 11: 396041 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_82.txt : 125 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_82.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_82.txt : 110 ms.
 --------------------------------------------------
-run.sh: line 11: 396096 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_83.txt : 118 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_83.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_83.txt : 108 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_84.txt find answer: 0.250000
-benchmarks/N-Queens/INST_600/90/inst600_90_84.txt : 339 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_84.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_84.txt : 109 ms.
 --------------------------------------------------
-run.sh: line 11: 396259 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_85.txt : 124 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_85.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_85.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 396314 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_86.txt : 129 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_86.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_86.txt : 107 ms.
 --------------------------------------------------
-run.sh: line 11: 396373 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_87.txt : 123 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_87.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_87.txt : 109 ms.
 --------------------------------------------------
-run.sh: line 11: 396434 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_88.txt : 97 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_88.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_88.txt : 111 ms.
 --------------------------------------------------
-run.sh: line 11: 396505 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_89.txt : 124 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_89.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_89.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 396565 Floating point exception./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_8.txt : 140 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_8.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_8.txt : 104 ms.
 --------------------------------------------------
-run.sh: line 11: 396644 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_90.txt : 122 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_90.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_90.txt : 105 ms.
 --------------------------------------------------
-run.sh: line 11: 396714 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_91.txt : 124 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_91.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_91.txt : 109 ms.
 --------------------------------------------------
-run.sh: line 11: 396783 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_92.txt : 122 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_92.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_92.txt : 192 ms.
 --------------------------------------------------
-run.sh: line 11: 396847 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_93.txt : 121 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_93.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_93.txt : 222 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/90/inst600_90_94.txt find answer: 0.260000
-benchmarks/N-Queens/INST_600/90/inst600_90_94.txt : 342 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_94.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_94.txt : 165 ms.
 --------------------------------------------------
-run.sh: line 11: 397037 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_95.txt : 125 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_95.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_95.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 397100 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_96.txt : 120 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_96.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_96.txt : 106 ms.
 --------------------------------------------------
-run.sh: line 11: 397147 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_97.txt : 120 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_97.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_97.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 397191 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_98.txt : 117 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_98.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_98.txt : 108 ms.
 --------------------------------------------------
-run.sh: line 11: 397240 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_99.txt : 114 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_99.txt find answer: 0.000000
+benchmarks/N-Queens/INST_600/90/inst600_90_99.txt : 104 ms.
 --------------------------------------------------
-run.sh: line 11: 397284 Floating point exception(core dumped) ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
-benchmarks/N-Queens/INST_600/90/inst600_90_9.txt : 122 ms.
+benchmarks/N-Queens/INST_600/90/inst600_90_9.txt find answer: 0.010000
+benchmarks/N-Queens/INST_600/90/inst600_90_9.txt : 106 ms.

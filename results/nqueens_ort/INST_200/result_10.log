@@ -1,334 +1,291 @@
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_0.txt : 172077 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_0.txt : 182890 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_10.txt : 211924 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_10.txt : 226150 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_11.txt : 230982 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_11.txt : 228190 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_12.txt : 334748 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_12.txt : 260166 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_13.txt : 301745 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_13.txt : 244869 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_14.txt : 228735 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_14.txt : 260305 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_15.txt : 255451 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_15.txt : 265635 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_16.txt : 241906 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_16.txt : 202405 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/10/inst200_10_17.txt : 1520 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_17.txt : 230633 ms.
 --------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_18.txt : 2636 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_18.txt : 515 ms.
 --------------------------------------------------
-SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_19.txt : 230806 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_19.txt : 521 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_1.txt : 211686 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_1.txt : 180280 ms.
 --------------------------------------------------
+benchmarks/N-Queens/INST_200/10/inst200_10_20.txt : 1237 ms.
+--------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_20.txt : 249897 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_21.txt : 241914 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_21.txt : 218087 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_22.txt : 228972 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_22.txt : 226577 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_23.txt : 189751 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_23.txt : 155002 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_24.txt : 207555 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_24.txt : 230907 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_25.txt : 216964 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_25.txt : 218096 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_26.txt : 238901 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/10/inst200_10_26.txt : 1985 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_27.txt : 188722 ms.
 --------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_27.txt : 1427 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_28.txt : 270282 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_28.txt : 237847 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_29.txt : 192789 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_29.txt : 191548 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_2.txt : 178820 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/10/inst200_10_2.txt : 1026 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_30.txt : 899 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_30.txt : 237764 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_31.txt : 232475 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_31.txt : 223375 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_32.txt : 260775 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_32.txt : 214288 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_33.txt : 167549 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_33.txt : 237839 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_34.txt : 190379 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_34.txt : 177145 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_35.txt : 192496 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_35.txt : 154699 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_36.txt : 260133 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_36.txt : 203448 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_37.txt : 242521 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_37.txt : 247744 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_38.txt : 184189 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_38.txt : 205077 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_39.txt : 200717 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_39.txt : 181907 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_3.txt : 196357 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_3.txt : 245356 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_40.txt : 187948 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_40.txt : 192741 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_41.txt : 191738 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_41.txt : 167363 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_42.txt : 201656 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_42.txt : 227064 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_43.txt : 176155 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_43.txt : 180688 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_44.txt : 224216 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_44.txt : 202106 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_45.txt : 175092 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_45.txt : 153009 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_46.txt : 218299 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_46.txt : 226404 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_47.txt : 196582 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_47.txt : 192870 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_48.txt : 176479 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_48.txt : 233806 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_49.txt : 202957 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_49.txt : 148796 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_4.txt : 173389 ms.
 --------------------------------------------------
-SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_4.txt : 197102 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_50.txt : 416 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_50.txt : 164710 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_51.txt : 191731 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_51.txt : 220122 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_52.txt : 174294 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_52.txt : 213394 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_53.txt : 202471 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/10/inst200_10_53.txt : 1365 ms.
---------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_54.txt : 145445 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_54.txt : 160579 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_55.txt : 161118 ms.
---------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_56.txt : 643 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_55.txt : 177629 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_57.txt : 170595 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_56.txt : 231014 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_58.txt : 199018 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_57.txt : 215330 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_59.txt : 261689 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_58.txt : 182661 ms.
 --------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_5.txt : 749 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_59.txt : 182718 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_60.txt : 127375 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_5.txt : 164759 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_61.txt : 148355 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_60.txt : 194421 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_62.txt : 180946 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_61.txt : 167256 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_63.txt : 223174 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_62.txt : 220398 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_64.txt : 142160 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_63.txt : 113636 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_65.txt : 161499 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_64.txt : 159821 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_66.txt : 173979 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_65.txt : 216146 ms.
 --------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_67.txt : 513 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_66.txt : 202423 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_68.txt : 165109 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_67.txt : 171692 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_69.txt : 166537 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_68.txt : 214278 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_6.txt : 205263 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_69.txt : 148497 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_70.txt : 153751 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_6.txt : 165297 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_71.txt : 200196 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_70.txt : 153922 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/10/inst200_10_72.txt : 1021 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_71.txt : 178124 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_73.txt : 166737 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_72.txt : 205588 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_74.txt : 163726 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_73.txt : 132123 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_75.txt : 163409 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_74.txt : 167917 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/10/inst200_10_76.txt : 912 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_75.txt : 185232 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_77.txt : 148555 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_76.txt : 195250 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_78.txt : 117190 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_77.txt : 156804 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_79.txt : 184425 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_78.txt : 153510 ms.
 --------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_7.txt : 1093 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_79.txt : 2013 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_80.txt : 171238 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_7.txt : 140666 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_81.txt : 144125 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_80.txt : 210266 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_82.txt : 152232 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_81.txt : 162767 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_83.txt : 184017 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_82.txt : 189670 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_84.txt : 171457 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_83.txt : 132322 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_85.txt : 127345 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_84.txt : 166362 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_86.txt : 231405 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_85.txt : 205253 ms.
 --------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_87.txt : 710 ms.
---------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_88.txt : 225643 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_86.txt : 143229 ms.
 --------------------------------------------------
-SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_89.txt : 92672 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_87.txt : 392 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_8.txt : 162204 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_88.txt : 148672 ms.
 --------------------------------------------------
+benchmarks/N-Queens/INST_200/10/inst200_10_89.txt : 471 ms.
+--------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_90.txt : 171103 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_8.txt : 139650 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_91.txt : 208200 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_90.txt : 165725 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_92.txt : 133327 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_91.txt : 206014 ms.
 --------------------------------------------------
+benchmarks/N-Queens/INST_200/10/inst200_10_92.txt : 952 ms.
+--------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_93.txt : 162932 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_93.txt : 108856 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_94.txt : 134229 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_94.txt : 191325 ms.
 --------------------------------------------------
-Traceback (most recent call last):
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 98, in <module>
-    main(file)
-  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 49, in main
-    lines.append(int(f.readline().strip()))
-ValueError: invalid literal for int() with base 10: ''
-benchmarks/N-Queens/INST_200/10/inst200_10_95.txt : 1095 ms.
+SAT
+benchmarks/N-Queens/INST_200/10/inst200_10_95.txt : 156704 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_96.txt : 151778 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_96.txt : 140255 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_97.txt : 151192 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_97.txt : 147518 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_98.txt : 136515 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_98.txt : 161080 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_99.txt : 151746 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_99.txt : 173415 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/10/inst200_10_9.txt : 191028 ms.
+benchmarks/N-Queens/INST_200/10/inst200_10_9.txt : 158160 ms.
