@@ -1029,12 +1029,12 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	filename = argv[1];
-	seed = atoi(argv[2]);
-	time_limit = atof(argv[3]);
-	// filename = "inst8_0_0.txt";
-	// seed = 1;
-	// time_limit = 60;
+	// filename = argv[1];
+	// seed = atoi(argv[2]);
+	// time_limit = atof(argv[3]);
+	filename = "inst8_0_0.txt";
+	seed = 1;
+	time_limit = 60;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes();

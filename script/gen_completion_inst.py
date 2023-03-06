@@ -15,10 +15,12 @@ def get_benchmarks(path, percentage):
         with open(file_path) as f:
             try:
                 lines = []
-                f.readline()
-                is_sat = f.readline().strip()
+                order = int(f.readline().strip('\n'))
+                is_sat = f.readline().strip('\n')
                 for i in range(order):
-                    lines.append(f.readline().strip())
+                    line = f.readline().strip('\n')
+                    assert int(line) > 0
+                    lines.append(line)
                 index = 0
                 total = (100-percentage)*order/100
                 while index < total:
