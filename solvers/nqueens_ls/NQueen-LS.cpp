@@ -426,7 +426,6 @@ void mReduceVertexes() {
 			// Variable operation
 			int c = var_color[i][0];
 			mVarsColor[i] = c;
-
 			// Simplification operation
 			int c1 = to_sum_color(i, c);
 			int c2 = to_dif_color(i, c);
@@ -435,8 +434,12 @@ void mReduceVertexes() {
 				int tmp_c1 = to_pre_color(j, c1, true);
 				int tmp_c2 = to_pre_color(j, c2, false);
 				if (var_color_pos[j][c] < var_color_length[j]) swap_var_color(j, c, --var_color_length[j]);
-				if (var_color_pos[j][tmp_c1] < var_color_length[j]) swap_var_color(j, tmp_c1, --var_color_length[j]);
-				if (var_color_pos[j][tmp_c2] < var_color_length[j]) swap_var_color(j, tmp_c2, --var_color_length[j]);
+				if (tmp_c1 > 0 && tmp_c1 <= color_size) {
+					if (var_color_pos[j][tmp_c1] < var_color_length[j]) swap_var_color(j, tmp_c1, --var_color_length[j]);
+				}
+				if (tmp_c2 > 0 && tmp_c2 <= color_size) {
+					if (var_color_pos[j][tmp_c2] < var_color_length[j]) swap_var_color(j, tmp_c2, --var_color_length[j]);
+				}
 			}
 			for (int j=1; j<=color_size; j++) {
 				if (c == j) { color_var_length[c] = 0; continue;}
@@ -471,8 +474,12 @@ void mReduceVertexes() {
 			int tmp_c1 = to_pre_color(j, c1, true);
 			int tmp_c2 = to_pre_color(j, c2, false);
 			if (var_color_pos[j][c] < var_color_length[j]) swap_var_color(j, c, --var_color_length[j]);
-			if (var_color_pos[j][tmp_c1] < var_color_length[j]) swap_var_color(j, tmp_c1, --var_color_length[j]);
-			if (var_color_pos[j][tmp_c2] < var_color_length[j]) swap_var_color(j, tmp_c2, --var_color_length[j]);
+			if (tmp_c1 > 0 && tmp_c1 <= color_size) {
+				if (var_color_pos[j][tmp_c1] < var_color_length[j]) swap_var_color(j, tmp_c1, --var_color_length[j]);
+			}
+			if (tmp_c2 > 0 && tmp_c2 <= color_size) {
+				if (var_color_pos[j][tmp_c2] < var_color_length[j]) swap_var_color(j, tmp_c2, --var_color_length[j]);
+			}
 			if (var_color_length[j] == 1) q.push(j);
 		}
 		for (int j=1; j<=color_size; j++) {
@@ -1029,12 +1036,12 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	// filename = argv[1];
-	// seed = atoi(argv[2]);
-	// time_limit = atof(argv[3]);
-	filename = "inst8_0_0.txt";
-	seed = 1;
-	time_limit = 60;
+	filename = argv[1];
+	seed = atoi(argv[2]);
+	time_limit = atof(argv[3]);
+	// filename = "inst200_10_0.txt";
+	// seed = 1;
+	// time_limit = 60;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes();
