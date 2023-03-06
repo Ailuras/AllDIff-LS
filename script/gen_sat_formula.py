@@ -26,14 +26,14 @@ class nqueens:
 
     def finite_domain(self):
         # self.outfile.write("c finite domain\n")
-        # for i in range(self.n):
-        #     s1 = ""
-        #     for j in range(self.n):
-        #         s1 = s1 + self.get_index(i, j) + ' '
-        #     s1 = s1 + "0\n"
-        #     self.outfile.write(s1)
-        #     self.clausN += 1
-        # # self.outfile.write("\n")
+        for i in range(self.n):
+            s1 = ""
+            for j in range(self.n):
+                s1 = s1 + self.get_index(i, j) + ' '
+            s1 = s1 + "0\n"
+            self.outfile.write(s1)
+            self.clausN += 1
+        # self.outfile.write("\n")
         for i in range(self.n):
             for j1 in range(self.n):
                 s1 = '-' + self.get_index(i, j1) + ' '
@@ -98,7 +98,7 @@ class nqueens:
         with open(self.target, 'r+') as f:
             content = f.read()
             f.seek(0, 0)
-            f.write('p cnf ' + str(self.varN) + ' ' + str(self.clausN) + '\n' + content)
+            f.write('p cnf ' + str(self.varN * self.varN) + ' ' + str(self.clausN) + '\n' + content)
 
 if __name__ == "__main__":
     file = sys.argv[1]
