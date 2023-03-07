@@ -1,66 +1,289 @@
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/20/inst600_20_0.txt : 1018350 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_0.txt : 1019566 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_10.txt : 1013519 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_11.txt : 1017778 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_12.txt : 1012097 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_13.txt : 1019466 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_14.txt : 1018229 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_10.txt : 870397 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_15.txt : 987173 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_16.txt : 1016424 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_17.txt : 1010437 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_18.txt : 1006480 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_11.txt : 919614 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_19.txt : 953141 ms.
+--------------------------------------------------
+benchmarks/N-Queens/INST_600/20/inst600_20_1.txt : 1014774 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_12.txt : 960982 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_20.txt : 998525 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_600/20/inst600_20_13.txt : 1011615 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_600/20/inst600_20_14.txt : 1016639 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_21.txt : 1009854 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_15.txt : 778931 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_22.txt : 956421 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_16.txt : 856250 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_23.txt : 795472 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_17.txt : 886290 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_600/20/inst600_20_18.txt : 1287 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_600/20/inst600_20_19.txt : 1545 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_24.txt : 749819 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_1.txt : 976395 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_25.txt : 1011319 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_20.txt : 878898 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_600/20/inst600_20_21.txt : 1013223 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_600/20/inst600_20_22.txt : 1705 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_26.txt : 693171 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_23.txt : 879206 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_27.txt : 679787 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_24.txt : 903011 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_28.txt : 863914 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_25.txt : 783228 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_29.txt : 776257 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_26.txt : 731853 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_2.txt : 759134 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_27.txt : 821655 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_30.txt : 894187 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_28.txt : 648931 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_31.txt : 640352 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_29.txt : 614473 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_32.txt : 801978 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_2.txt : 702136 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_33.txt : 702634 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_600/20/inst600_20_30.txt : 729923 ms.
+benchmarks/N-Queens/INST_600/20/inst600_20_34.txt : 773156 ms.
 --------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_35.txt : 692619 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_36.txt : 702646 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_37.txt : 720272 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_38.txt : 666566 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_39.txt : 645860 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_3.txt : 620525 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_40.txt : 626010 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_41.txt : 652164 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_42.txt : 647312 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_43.txt : 599416 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_44.txt : 673833 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_45.txt : 626714 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_46.txt : 630501 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_47.txt : 633339 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_48.txt : 605996 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_49.txt : 599470 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_4.txt : 693398 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_50.txt : 644232 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_51.txt : 642128 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_52.txt : 526884 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_53.txt : 496840 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_54.txt : 614025 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_55.txt : 569706 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_56.txt : 563342 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_57.txt : 556770 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_58.txt : 523497 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_59.txt : 580575 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_5.txt : 478111 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_60.txt : 521648 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_61.txt : 412809 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_62.txt : 430809 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_63.txt : 402942 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_64.txt : 489461 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_65.txt : 466301 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_66.txt : 457573 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_67.txt : 493290 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_68.txt : 527754 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_69.txt : 401140 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_6.txt : 507941 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_70.txt : 470924 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_71.txt : 451925 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_72.txt : 486143 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_73.txt : 474864 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_74.txt : 423912 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_75.txt : 508626 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_76.txt : 445901 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_77.txt : 417359 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_78.txt : 435060 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_79.txt : 481907 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_7.txt : 371601 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_80.txt : 428015 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_81.txt : 354449 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_82.txt : 373317 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_83.txt : 355391 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_84.txt : 387806 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_85.txt : 330136 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_86.txt : 404198 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_87.txt : 382395 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_88.txt : 402134 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_89.txt : 333356 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_8.txt : 391585 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_90.txt : 320067 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_91.txt : 419938 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_92.txt : 353424 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_93.txt : 380358 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_94.txt : 387872 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_95.txt : 419596 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_96.txt : 344699 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_97.txt : 391664 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_98.txt : 340859 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_99.txt : 347938 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_600/20/inst600_20_9.txt : 275838 ms.

@@ -1,253 +1,300 @@
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_0.txt : 31497 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_0.txt : 46210 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_10.txt : 57332 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_10.txt : 74454 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_11.txt : 69227 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_11.txt : 66701 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_12.txt : 74152 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_13.txt : 1840 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_12.txt : 58326 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_14.txt : 77027 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_13.txt : 67869 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_15.txt : 76096 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_14.txt : 60664 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_16.txt : 93379 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_17.txt : 1402 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_18.txt : 1436 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_15.txt : 91132 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_19.txt : 59743 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_16.txt : 80120 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_1.txt : 71360 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_17.txt : 82483 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_20.txt : 92724 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_21.txt : 2944 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_18.txt : 67681 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_22.txt : 75152 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_19.txt : 63878 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_23.txt : 91268 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_1.txt : 108137 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_24.txt : 98430 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_20.txt : 88647 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_25.txt : 59349 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_26.txt : 963 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_27.txt : 1026 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_21.txt : 87472 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_28.txt : 84229 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_29.txt : 1304 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_22.txt : 63235 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_2.txt : 59922 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_30.txt : 1111 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_23.txt : 46816 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_31.txt : 47468 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_24.txt : 71547 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_32.txt : 53264 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_25.txt : 47992 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_33.txt : 70248 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_34.txt : 1755 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_35.txt : 1486 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_26.txt : 82332 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_36.txt : 72614 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_37.txt : 814 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_38.txt : 740 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_39.txt : 824 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_3.txt : 660 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_40.txt : 908 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_27.txt : 75925 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_41.txt : 84561 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_42.txt : 1495 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_43.txt : 1401 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_44.txt : 1798 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_45.txt : 1115 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_46.txt : 1557 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_28.txt : 65528 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_47.txt : 90145 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_29.txt : 100865 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_48.txt : 93622 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_49.txt : 994 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_2.txt : 73975 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_4.txt : 69577 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_50.txt : 1461 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_30.txt : 86872 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_51.txt : 61504 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_52.txt : 886 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_53.txt : 855 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_54.txt : 746 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_31.txt : 85292 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_55.txt : 99487 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_32.txt : 97510 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_56.txt : 75747 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_33.txt : 79334 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_57.txt : 72936 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_58.txt : 1797 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_34.txt : 62790 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_59.txt : 38987 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_5.txt : 1070 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_35.txt : 74113 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_60.txt : 71314 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_61.txt : 621 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_36.txt : 67241 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_62.txt : 87914 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_63.txt : 2728 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_37.txt : 69803 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_64.txt : 79301 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_65.txt : 467 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_38.txt : 72417 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_66.txt : 92076 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_67.txt : 2160 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_39.txt : 75921 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_68.txt : 82775 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_69.txt : 1784 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_3.txt : 107716 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_6.txt : 64711 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_40.txt : 62537 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_70.txt : 89348 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_71.txt : 1024 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_41.txt : 59709 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_72.txt : 52354 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_42.txt : 58544 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_73.txt : 57765 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_43.txt : 63382 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_74.txt : 78204 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_75.txt : 2337 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_44.txt : 75578 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_76.txt : 84150 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_77.txt : 696 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_45.txt : 52871 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_78.txt : 39769 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_79.txt : 2535 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_7.txt : 2361 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_80.txt : 2442 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_46.txt : 98536 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_81.txt : 70100 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_47.txt : 57577 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_82.txt : 76726 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_83.txt : 1699 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_48.txt : 83520 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_84.txt : 62928 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_49.txt : 64996 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_85.txt : 71091 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_4.txt : 71130 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_86.txt : 53351 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_87.txt : 6014 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_88.txt : 563 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_89.txt : 676 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_50.txt : 98248 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_8.txt : 72189 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_90.txt : 1365 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_51.txt : 56812 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_91.txt : 81845 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_52.txt : 80986 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_92.txt : 118904 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_93.txt : 7295 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_53.txt : 79377 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_94.txt : 49377 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_54.txt : 79426 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_95.txt : 62803 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_96.txt : 1310 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_97.txt : 1041 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_200/40/inst200_40_98.txt : 649 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_55.txt : 50980 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_99.txt : 54858 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_56.txt : 91580 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_200/40/inst200_40_9.txt : 73031 ms.
+benchmarks/N-Queens/INST_200/40/inst200_40_57.txt : 91766 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_58.txt : 76795 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_59.txt : 69608 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_5.txt : 60010 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_60.txt : 54749 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_61.txt : 81875 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_62.txt : 67835 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_63.txt : 69733 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_64.txt : 32922 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_65.txt : 84294 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_66.txt : 56614 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_67.txt : 67860 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_68.txt : 59843 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_69.txt : 62492 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_6.txt : 109144 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_70.txt : 82776 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_71.txt : 90309 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_72.txt : 77822 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_73.txt : 48749 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_74.txt : 48088 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_75.txt : 69317 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_76.txt : 62556 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_77.txt : 69066 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_78.txt : 77576 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_79.txt : 84851 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_7.txt : 63051 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_80.txt : 63511 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_81.txt : 61435 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_82.txt : 99379 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_83.txt : 99777 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_84.txt : 87529 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_85.txt : 68553 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_86.txt : 49662 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_87.txt : 77346 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_88.txt : 47972 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_89.txt : 94237 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_8.txt : 63898 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_90.txt : 66875 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_91.txt : 65882 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_92.txt : 103332 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_93.txt : 48876 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_94.txt : 60333 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_95.txt : 101651 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_96.txt : 82632 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_97.txt : 50871 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_98.txt : 62887 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_99.txt : 71532 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_200/40/inst200_40_9.txt : 22608 ms.

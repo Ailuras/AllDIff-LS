@@ -1,258 +1,258 @@
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_0.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_0.txt : 44 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_0.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_10.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_10.txt : 50 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_10.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_11.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_11.txt : 33 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_11.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_12.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_12.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_12.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_13.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_13.txt : 30 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_13.txt : 25 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_14.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_14.txt : 36 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_14.txt : 23 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_15.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_15.txt : 34 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_15.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_16.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_16.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_16.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_17.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_17.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_17.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_18.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_18.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_18.txt : 32 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_19.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_19.txt : 36 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_19.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_1.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_1.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_1.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_20.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_20.txt : 32 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_20.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_21.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_21.txt : 31 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_21.txt : 37 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_22.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_22.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_22.txt find answer: 0.010000
+benchmarks/N-Queens/INST_200/60/inst200_60_22.txt : 32 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_23.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_23.txt : 33 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_23.txt : 32 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_24.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_24.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_24.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_24.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_25.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_25.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_25.txt : 37 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_26.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_26.txt : 33 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_26.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_27.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_27.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_27.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_28.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_28.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_28.txt : 29 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_29.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_29.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_29.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_2.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_2.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_2.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_30.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_30.txt : 31 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_30.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_31.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_31.txt : 27 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_31.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_32.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_32.txt : 31 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_32.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_33.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_33.txt : 31 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_33.txt : 29 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_34.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_34.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_34.txt : 32 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_35.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_35.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_35.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_36.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_36.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_36.txt : 33 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_37.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_37.txt : 42 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_37.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_37.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_38.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_38.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_38.txt : 24 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_39.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_39.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_39.txt : 34 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_3.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_3.txt : 32 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_3.txt : 28 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_40.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_40.txt : 174 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_40.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_40.txt : 34 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_41.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_41.txt : 181 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_41.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_41.txt : 27 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_42.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_42.txt : 162 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_42.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_42.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_43.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_43.txt : 56 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_43.txt : 34 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_44.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_44.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_44.txt : 27 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_45.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_45.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_45.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_45.txt : 30 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_46.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_46.txt : 44 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_46.txt : 29 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_47.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_47.txt : 34 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_47.txt find answer: 0.020000
+benchmarks/N-Queens/INST_200/60/inst200_60_47.txt : 37 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_48.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_48.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_48.txt : 32 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_49.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_49.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_49.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_4.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_4.txt : 32 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_4.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_50.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_50.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_50.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_51.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_51.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_51.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_52.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_52.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_52.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_53.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_53.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_53.txt : 27 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_54.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_54.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_54.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_54.txt : 35 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_55.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_55.txt : 31 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_55.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_56.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_56.txt : 28 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_56.txt : 38 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_57.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_57.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_57.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_57.txt : 32 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_58.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_58.txt : 34 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_58.txt : 35 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_59.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_59.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_59.txt find answer: 0.010000
+benchmarks/N-Queens/INST_200/60/inst200_60_59.txt : 32 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_5.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_5.txt : 41 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_5.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_5.txt : 25 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_60.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_60.txt : 34 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_60.txt : 30 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_61.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_61.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_61.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_62.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_62.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_62.txt : 29 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_63.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_63.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_63.txt : 32 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_64.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_64.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_64.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_64.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_65.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_65.txt : 45 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_65.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_66.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_66.txt : 32 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_66.txt : 26 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_67.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_67.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_67.txt find answer: 0.010000
+benchmarks/N-Queens/INST_200/60/inst200_60_67.txt : 35 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_68.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_68.txt : 36 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_68.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_69.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_69.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_69.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_6.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_6.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_6.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_70.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_70.txt : 36 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_70.txt : 47 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_71.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_71.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_71.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_72.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_72.txt : 41 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_72.txt : 34 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_73.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_73.txt : 33 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_73.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_74.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_74.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_74.txt : 25 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_75.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_75.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_75.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_75.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_76.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_76.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_76.txt : 34 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_77.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_77.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_77.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_78.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_78.txt : 33 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_78.txt : 25 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_79.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_79.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_79.txt : 35 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_7.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_7.txt : 36 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_7.txt : 29 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_80.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_80.txt : 34 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_80.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_81.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_81.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_81.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_82.txt find answer: 0.000000
 benchmarks/N-Queens/INST_200/60/inst200_60_82.txt : 36 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_83.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_83.txt : 36 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_83.txt : 30 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_84.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_84.txt : 34 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_84.txt : 30 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_85.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_85.txt : 40 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_85.txt find answer: 0.010000
+benchmarks/N-Queens/INST_200/60/inst200_60_85.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_86.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_86.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_86.txt : 33 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_87.txt find answer: 0.000000
 benchmarks/N-Queens/INST_200/60/inst200_60_87.txt : 33 ms.
@@ -260,41 +260,41 @@ benchmarks/N-Queens/INST_200/60/inst200_60_87.txt : 33 ms.
 benchmarks/N-Queens/INST_200/60/inst200_60_88.txt find answer: 0.000000
 benchmarks/N-Queens/INST_200/60/inst200_60_88.txt : 31 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_89.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_89.txt find answer: 0.010000
 benchmarks/N-Queens/INST_200/60/inst200_60_89.txt : 36 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_8.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_8.txt : 39 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_8.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_90.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_90.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_90.txt : 29 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_91.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_91.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_91.txt : 32 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_92.txt find answer: 0.010000
-benchmarks/N-Queens/INST_200/60/inst200_60_92.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_92.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/60/inst200_60_92.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_93.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_93.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_93.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_94.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_94.txt : 33 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_94.txt : 41 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_95.txt find answer: 0.000000
 benchmarks/N-Queens/INST_200/60/inst200_60_95.txt : 29 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/60/inst200_60_96.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_96.txt : 33 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_96.txt find answer: 0.010000
+benchmarks/N-Queens/INST_200/60/inst200_60_96.txt : 35 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_97.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_97.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_97.txt : 27 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_98.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_98.txt : 37 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_98.txt : 31 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_99.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_99.txt : 38 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_99.txt : 28 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/60/inst200_60_9.txt find answer: 0.000000
-benchmarks/N-Queens/INST_200/60/inst200_60_9.txt : 35 ms.
+benchmarks/N-Queens/INST_200/60/inst200_60_9.txt : 29 ms.

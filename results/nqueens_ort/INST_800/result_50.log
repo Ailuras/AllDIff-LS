@@ -1,177 +1,300 @@
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_0.txt : 583732 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_10.txt : 986 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_11.txt : 1884 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_12.txt : 2692 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_13.txt : 2828 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_0.txt : 608574 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_14.txt : 573309 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_15.txt : 532 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_16.txt : 576 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_17.txt : 1004 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_10.txt : 633794 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_18.txt : 571788 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_19.txt : 1649 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_11.txt : 716006 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_1.txt : 589977 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_12.txt : 658730 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_20.txt : 658340 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_13.txt : 581032 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_21.txt : 642985 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_14.txt : 552109 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_22.txt : 553111 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_15.txt : 646122 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_23.txt : 544931 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_24.txt : 1125 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_16.txt : 614068 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_25.txt : 604520 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_17.txt : 605148 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_26.txt : 614166 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_27.txt : 2271 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_28.txt : 2708 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_18.txt : 577247 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_29.txt : 520909 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_19.txt : 572062 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_2.txt : 547053 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_1.txt : 586574 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_30.txt : 455915 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_31.txt : 866 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_20.txt : 552170 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_32.txt : 442216 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_21.txt : 583742 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_33.txt : 524806 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_22.txt : 555551 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_34.txt : 419185 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_23.txt : 522071 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_35.txt : 516537 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_36.txt : 2246 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_24.txt : 588586 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_37.txt : 455974 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_25.txt : 483780 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_38.txt : 480878 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_39.txt : 2621 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_3.txt : 1362 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_26.txt : 629649 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_40.txt : 424317 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_27.txt : 541031 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_41.txt : 494202 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_42.txt : 907 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_28.txt : 552576 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_43.txt : 469671 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_29.txt : 502723 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_44.txt : 458681 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_45.txt : 1583 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_2.txt : 534209 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_46.txt : 405909 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_30.txt : 523668 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_47.txt : 482585 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_48.txt : 1382 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_49.txt : 2090 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_31.txt : 520386 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_4.txt : 361962 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_50.txt : 446 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_32.txt : 431455 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_51.txt : 431841 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_33.txt : 448290 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_52.txt : 407355 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_53.txt : 1132 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_34.txt : 418267 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_54.txt : 426729 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_55.txt : 2679 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_35.txt : 466177 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_56.txt : 320370 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_36.txt : 370904 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_57.txt : 440171 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_37.txt : 412785 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_58.txt : 403023 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_59.txt : 2784 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_38.txt : 620541 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_5.txt : 380109 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_39.txt : 334705 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_60.txt : 399779 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_61.txt : 1008 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_62.txt : 1084 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_63.txt : 1285 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_3.txt : 452070 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_64.txt : 372254 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_65.txt : 481 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_66.txt : 469 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_40.txt : 383377 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_67.txt : 350528 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_68.txt : 1037 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_69.txt : 851 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_800/50/inst800_50_6.txt : 666 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_41.txt : 462485 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_70.txt : 348998 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_42.txt : 332427 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_800/50/inst800_50_71.txt : 382230 ms.
+benchmarks/N-Queens/INST_800/50/inst800_50_43.txt : 454239 ms.
 --------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_44.txt : 356672 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_45.txt : 394477 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_46.txt : 469786 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_47.txt : 305408 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_48.txt : 456230 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_49.txt : 389701 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_4.txt : 433065 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_50.txt : 358344 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_51.txt : 406106 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_52.txt : 392945 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_53.txt : 399724 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_54.txt : 353139 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_55.txt : 382794 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_56.txt : 335594 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_57.txt : 378854 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_58.txt : 342119 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_59.txt : 354847 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_5.txt : 325612 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_60.txt : 348948 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_61.txt : 369586 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_62.txt : 329119 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_63.txt : 342728 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_64.txt : 338379 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_65.txt : 351544 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_66.txt : 300125 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_67.txt : 382360 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_68.txt : 349226 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_69.txt : 289164 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_6.txt : 298102 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_70.txt : 347199 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_71.txt : 331247 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_72.txt : 320806 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_73.txt : 325894 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_74.txt : 265177 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_75.txt : 383245 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_76.txt : 258907 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_77.txt : 406922 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_78.txt : 234187 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_79.txt : 341956 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_7.txt : 361763 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_80.txt : 304441 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_81.txt : 306646 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_82.txt : 407926 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_83.txt : 341875 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_84.txt : 260085 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_85.txt : 283921 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_86.txt : 255143 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_87.txt : 300611 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_88.txt : 288748 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_89.txt : 344494 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_8.txt : 385554 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_90.txt : 295350 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_91.txt : 354147 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_92.txt : 270331 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_93.txt : 277491 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_94.txt : 231995 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_95.txt : 292711 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_96.txt : 274771 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_97.txt : 255181 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_98.txt : 378268 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_99.txt : 270459 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_800/50/inst800_50_9.txt : 248008 ms.

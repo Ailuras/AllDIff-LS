@@ -1,195 +1,300 @@
 --------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_0.txt : 5825 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_10.txt : 510 ms.
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_0.txt : 496433 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_11.txt : 411448 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_10.txt : 562701 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_12.txt : 522173 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_11.txt : 454746 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_13.txt : 497602 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_12.txt : 564134 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_14.txt : 552225 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_15.txt : 2035 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_13.txt : 503405 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_16.txt : 511816 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_17.txt : 1478 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_14.txt : 511052 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_18.txt : 501245 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_15.txt : 456187 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_19.txt : 517878 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_16.txt : 519285 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_1.txt : 423446 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_17.txt : 473078 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_20.txt : 442152 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_21.txt : 1200 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_18.txt : 571395 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_22.txt : 599885 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_19.txt : 499460 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_23.txt : 377284 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_1.txt : 462490 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_24.txt : 447426 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_20.txt : 398623 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_25.txt : 386041 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_26.txt : 584 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_21.txt : 513905 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_27.txt : 493732 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_22.txt : 427975 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_28.txt : 410104 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_29.txt : 1018 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_23.txt : 431241 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_2.txt : 344744 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_30.txt : 1913 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_24.txt : 477110 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_31.txt : 420978 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_32.txt : 670 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_33.txt : 1018 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_25.txt : 503960 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_34.txt : 408297 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_26.txt : 450311 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_35.txt : 403841 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_27.txt : 436011 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_36.txt : 486081 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_28.txt : 462244 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_37.txt : 381238 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_29.txt : 419676 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_38.txt : 445587 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_39.txt : 1603 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_3.txt : 1768 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_2.txt : 468260 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_40.txt : 377391 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_30.txt : 439502 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_41.txt : 376413 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_31.txt : 510004 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_42.txt : 435778 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_32.txt : 409625 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_43.txt : 385277 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_44.txt : 551 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_33.txt : 434632 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_45.txt : 367831 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_46.txt : 1927 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_34.txt : 496972 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_47.txt : 353967 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_35.txt : 431038 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_48.txt : 303972 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_49.txt : 838 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_36.txt : 392594 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_4.txt : 397996 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_37.txt : 386596 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_50.txt : 349204 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_38.txt : 380007 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_51.txt : 315342 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_39.txt : 362310 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_52.txt : 326647 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_3.txt : 363565 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_53.txt : 422333 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_40.txt : 332903 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_54.txt : 384810 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_41.txt : 357264 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_55.txt : 327261 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_56.txt : 1273 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_42.txt : 358507 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_57.txt : 302502 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_58.txt : 981 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_59.txt : 416 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_43.txt : 408387 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_5.txt : 295881 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_44.txt : 482539 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_60.txt : 338475 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_61.txt : 1868 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_45.txt : 251370 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_62.txt : 192010 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_63.txt : 989 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_46.txt : 362860 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_64.txt : 338616 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_65.txt : 929 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_66.txt : 435 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_47.txt : 346137 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_67.txt : 313897 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_68.txt : 1305 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_48.txt : 361407 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_69.txt : 260968 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_49.txt : 406545 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_6.txt : 306016 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_4.txt : 356982 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_70.txt : 266457 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_71.txt : 556 ms.
---------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_72.txt : 831 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_50.txt : 401770 ms.
 --------------------------------------------------
 SAT
-benchmarks/N-Queens/INST_400/30/inst400_30_73.txt : 339563 ms.
+benchmarks/N-Queens/INST_400/30/inst400_30_51.txt : 362870 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_74.txt : 548 ms.
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_52.txt : 288997 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_75.txt : 524 ms.
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_53.txt : 376016 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_400/30/inst400_30_76.txt : 614 ms.
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_54.txt : 328156 ms.
 --------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_55.txt : 362467 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_56.txt : 413730 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_57.txt : 218150 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_58.txt : 376013 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_59.txt : 300394 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_5.txt : 315148 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_60.txt : 324495 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_61.txt : 294975 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_62.txt : 329793 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_63.txt : 310589 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_64.txt : 304999 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_65.txt : 294588 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_66.txt : 298457 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_67.txt : 397308 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_68.txt : 317366 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_69.txt : 343062 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_6.txt : 319331 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_70.txt : 291396 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_71.txt : 295107 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_72.txt : 204078 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_73.txt : 349038 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_74.txt : 271090 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_75.txt : 385347 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_76.txt : 294437 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_77.txt : 250862 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_78.txt : 319033 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_79.txt : 276256 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_7.txt : 310096 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_80.txt : 287416 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_81.txt : 240944 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_82.txt : 276116 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_83.txt : 245526 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_84.txt : 278552 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_85.txt : 251007 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_86.txt : 266330 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_87.txt : 292637 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_88.txt : 216224 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_89.txt : 195003 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_8.txt : 316755 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_90.txt : 271218 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_91.txt : 292531 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_92.txt : 186485 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_93.txt : 302599 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_94.txt : 268985 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_95.txt : 247824 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_96.txt : 354002 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_97.txt : 195516 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_98.txt : 268693 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_99.txt : 251787 ms.
+--------------------------------------------------
+SAT
+benchmarks/N-Queens/INST_400/30/inst400_30_9.txt : 297243 ms.
