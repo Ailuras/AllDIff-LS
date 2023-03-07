@@ -6,13 +6,13 @@
 #     nohup bash run_pre.sh $[$i * 10] $1 >> out.log 2>&1 &
 # done 
 
-# python script/gen_completion_inst.py $1
+python script/gen_completion_inst.py $1
 
-function parallel() {
-    for prop_folder in $@/*;do
-        nohup bash get_SAT.sh $prop_folder > out.log 2>&1 &
-    done
-}
+# function parallel() {
+#     for prop_folder in $@/*;do
+#         nohup bash get_SAT.sh $prop_folder > out.log 2>&1 &
+#     done
+# }
 
-path=benchmarks_test/N-Queens/INST_$1
-parallel $path
+# path=benchmarks_test/N-Queens/INST_$1
+# parallel $path
