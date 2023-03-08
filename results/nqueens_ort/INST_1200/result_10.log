@@ -1,0 +1,193 @@
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 145281 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_0.txt : 194520 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 248696 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_10.txt : 240188 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 256140 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_11.txt : 225612 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 265276 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_12.txt : 240690 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 274206 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_13.txt : 209722 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 281154 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_14.txt : 269945 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 287685 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_15.txt : 205016 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_16.txt : 1026308 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_17.txt : 1050892 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 350735 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_18.txt : 199034 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_19.txt : 1019401 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_1.txt : 1030532 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_20.txt : 1027491 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_21.txt : 1035441 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_22.txt : 1023249 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_23.txt : 1028800 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_24.txt : 1025768 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_25.txt : 1026834 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_26.txt : 1027397 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_27.txt : 1035653 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_28.txt : 1038230 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_29.txt : 1034297 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_2.txt : 1032670 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 29689 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_30.txt : 226992 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_31.txt : 1041160 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_32.txt : 1034429 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_33.txt : 1041520 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_34.txt : 1035705 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_35.txt : 1032443 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_36.txt : 1030698 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_37.txt : 1039450 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_38.txt : 1041857 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_39.txt : 1033634 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_3.txt : 1037506 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_40.txt : 1030584 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_41.txt : 1038467 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_42.txt : 1034721 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_43.txt : 1045654 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_44.txt : 1064778 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_45.txt : 1051351 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_46.txt : 1039539 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_47.txt : 1043509 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_48.txt : 1043688 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_49.txt : 1057037 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_4.txt : 1033599 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_50.txt : 1047789 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_51.txt : 1069820 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_52.txt : 1047843 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_53.txt : 1034529 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_54.txt : 1044983 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_55.txt : 1075490 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_56.txt : 1043451 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_57.txt : 1037419 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_58.txt : 1048607 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_59.txt : 1052427 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_5.txt : 1044011 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_60.txt : 1039909 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_61.txt : 1035278 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_62.txt : 1041482 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_63.txt : 1051101 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_64.txt : 1040124 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_65.txt : 1035789 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_66.txt : 1050698 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_67.txt : 1039042 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_68.txt : 1039690 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_69.txt : 1035249 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_6.txt : 1045474 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_70.txt : 1044111 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_71.txt : 1043176 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_72.txt : 1042836 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_73.txt : 1043320 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_74.txt : 1039477 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_75.txt : 1040978 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_76.txt : 1034684 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_77.txt : 1042823 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_78.txt : 1037134 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_79.txt : 1033408 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_7.txt : 1038166 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_80.txt : 1038006 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_81.txt : 1045488 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_82.txt : 1039032 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_83.txt : 1059206 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_84.txt : 1052034 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_85.txt : 1039961 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_86.txt : 1043636 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_87.txt : 1031605 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1200/10/inst1200_10_88.txt : 1031844 ms.
+--------------------------------------------------

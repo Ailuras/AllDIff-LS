@@ -1,0 +1,288 @@
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 145230 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_0.txt : 87739 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 230782 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_10.txt : 110762 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_11.txt : 1013234 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 283478 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_12.txt : 143266 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 286488 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_13.txt : 109204 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 289328 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_14.txt : 100687 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 292713 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_15.txt : 103295 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 296344 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_16.txt : 113204 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 299235 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_17.txt : 101174 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 303470 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_18.txt : 113480 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 307042 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_19.txt : 94964 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 309626 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_1.txt : 128021 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_20.txt : 1026414 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 338236 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_21.txt : 120515 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 341292 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_22.txt : 110818 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 344553 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_23.txt : 97522 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_24.txt : 1026149 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 369637 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_25.txt : 112155 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 372782 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_26.txt : 95686 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 375355 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_27.txt : 99573 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_28.txt : 1029485 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_29.txt : 1021604 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_2.txt : 1029597 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_30.txt : 1013202 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_31.txt : 1025124 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_32.txt : 1017799 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_33.txt : 1020750 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_34.txt : 1013175 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_35.txt : 1017015 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_36.txt : 1023697 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_37.txt : 1025917 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_38.txt : 1020400 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_39.txt : 1017707 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_3.txt : 1016390 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_40.txt : 1015657 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_41.txt : 1014771 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_42.txt : 1019639 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_43.txt : 1018772 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_44.txt : 1014516 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_45.txt : 1021648 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_46.txt : 1009066 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_47.txt : 1028815 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_48.txt : 974353 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_49.txt : 965747 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_4.txt : 1024356 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_50.txt : 989939 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_51.txt : 984309 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_52.txt : 1018912 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_53.txt : 1020601 ms.
+--------------------------------------------------
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_54.txt : 1017724 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_55.txt : 985437 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_56.txt : 943527 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_57.txt : 954659 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_58.txt : 849640 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_59.txt : 863996 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_5.txt : 885900 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_60.txt : 904131 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_61.txt : 864849 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_62.txt : 804663 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_63.txt : 885977 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_64.txt : 865089 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_65.txt : 873307 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_66.txt : 853777 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_67.txt : 799426 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_68.txt : 802562 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_69.txt : 860425 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_6.txt : 868631 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_70.txt : 823953 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_71.txt : 879576 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_72.txt : 808593 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_73.txt : 724300 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_74.txt : 789892 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_75.txt : 893923 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_76.txt : 811137 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_77.txt : 747779 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_78.txt : 882204 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_79.txt : 846990 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_7.txt : 862819 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_80.txt : 818631 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_81.txt : 794774 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_82.txt : 804707 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_83.txt : 790224 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_84.txt : 872094 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_85.txt : 824055 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_86.txt : 742185 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_87.txt : 647816 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_88.txt : 812745 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_89.txt : 799650 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_8.txt : 828577 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_90.txt : 748632 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_91.txt : 681237 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_92.txt : 732944 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_93.txt : 813273 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_94.txt : 700616 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_95.txt : 678411 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_96.txt : 757161 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_97.txt : 686075 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_98.txt : 712136 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_99.txt : 771781 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/20/inst1000_20_9.txt : 757510 ms.

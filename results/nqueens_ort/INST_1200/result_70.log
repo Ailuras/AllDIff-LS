@@ -1,0 +1,365 @@
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_0.txt : 118979 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 238559 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_10.txt : 15686 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 244691 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_11.txt : 14948 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 247731 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_12.txt : 29044 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 248302 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_13.txt : 22060 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_14.txt : 214223 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 255534 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_15.txt : 18212 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_16.txt : 164693 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_17.txt : 149507 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 268909 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_18.txt : 17464 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 269449 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_19.txt : 15280 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 270437 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_1.txt : 17304 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 271508 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_20.txt : 17552 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 271986 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_21.txt : 29365 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 272620 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_22.txt : 22297 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 273414 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_23.txt : 27407 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 273879 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_24.txt : 17545 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_25.txt : 145703 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_26.txt : 168946 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 283805 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_27.txt : 39285 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_28.txt : 180276 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 288751 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_29.txt : 20302 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 289557 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_2.txt : 19102 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 290377 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_30.txt : 20103 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 290934 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_31.txt : 27155 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 291518 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_32.txt : 18346 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 292074 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_33.txt : 21754 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 293034 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_34.txt : 14191 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 293614 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_35.txt : 15741 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_36.txt : 170067 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_37.txt : 195642 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 305501 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_38.txt : 23440 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_39.txt : 141508 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_3.txt : 145767 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_40.txt : 158754 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 317829 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_41.txt : 17509 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 318536 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_42.txt : 17847 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 319432 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_43.txt : 19124 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 320164 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_44.txt : 24476 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 320687 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_45.txt : 18748 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_46.txt : 180487 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_47.txt : 152687 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_48.txt : 198895 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_49.txt : 194720 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 338627 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_4.txt : 23461 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_50.txt : 180253 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 344099 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_51.txt : 17008 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 344779 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_52.txt : 18507 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 345390 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_53.txt : 25324 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 346143 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_54.txt : 14920 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 346629 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_55.txt : 15662 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 347602 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_56.txt : 16088 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 348374 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_57.txt : 13590 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 349527 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_58.txt : 21515 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 349826 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_59.txt : 29749 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_5.txt : 148117 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 353557 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_60.txt : 15510 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 353920 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_61.txt : 22557 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_62.txt : 177946 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 357744 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_63.txt : 25779 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 358107 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_64.txt : 39665 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 358569 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_65.txt : 25152 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_66.txt : 150139 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 362219 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_67.txt : 18880 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 363028 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_68.txt : 17612 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 363740 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_69.txt : 30566 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_6.txt : 192857 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 367554 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_70.txt : 15390 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 367940 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_71.txt : 23110 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_72.txt : 204068 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 373180 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_73.txt : 17383 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 374148 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_74.txt : 17871 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 374443 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_75.txt : 16666 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 374896 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_76.txt : 21351 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 375648 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_77.txt : 19118 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 376425 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_78.txt : 15457 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 376879 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_79.txt : 16687 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 377657 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_7.txt : 17435 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 378529 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_80.txt : 18653 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 379051 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_81.txt : 31564 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 380198 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_82.txt : 32067 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_83.txt : 138077 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 383760 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_84.txt : 18386 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_85.txt : 194242 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 387463 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_86.txt : 33594 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 388375 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_87.txt : 19339 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_88.txt : 198812 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_89.txt : 163503 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_8.txt : 196750 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_90.txt : 151003 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_91.txt : 211122 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_92.txt : 175134 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 404801 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_93.txt : 15476 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 405008 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_94.txt : 16568 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 405214 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_95.txt : 20929 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_96.txt : 253836 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_97.txt : 164098 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_98.txt : 142726 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_99.txt : 172198 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/70/inst1200_70_9.txt : 164326 ms.

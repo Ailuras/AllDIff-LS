@@ -1,0 +1,440 @@
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_0.txt : 495297 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 258364 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_10.txt : 43248 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 259983 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_11.txt : 41529 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 261796 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_12.txt : 39697 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 263481 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_13.txt : 37578 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 265139 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_14.txt : 43547 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 267182 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_15.txt : 37824 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_16.txt : 586132 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_17.txt : 552269 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 302990 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_18.txt : 45927 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_19.txt : 515822 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 317896 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_1.txt : 41630 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 319751 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_20.txt : 47975 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 321324 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_21.txt : 39916 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 323156 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_22.txt : 37946 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 324285 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_23.txt : 63557 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_24.txt : 606498 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 338695 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_25.txt : 59303 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 340325 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_26.txt : 42127 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 341518 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_27.txt : 41152 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 9 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 10 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 11 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 12 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 13 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 14 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 15 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 16 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 17 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 18 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 19 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_28.txt : 184 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 342604 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_29.txt : 44802 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 344032 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_2.txt : 43780 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 345685 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_30.txt : 41533 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 347081 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_31.txt : 34468 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 349239 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_32.txt : 60776 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_33.txt : 552726 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_34.txt : 629510 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_35.txt : 544508 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 388924 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_36.txt : 52101 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 389842 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_37.txt : 41488 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 390786 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_38.txt : 43702 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 391672 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_39.txt : 56707 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 393141 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_3.txt : 48192 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_40.txt : 568050 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_41.txt : 598848 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_42.txt : 471947 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_43.txt : 591756 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_44.txt : 440680 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_45.txt : 571147 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_46.txt : 462765 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_47.txt : 583305 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_48.txt : 454928 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 436871 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_49.txt : 41667 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 437622 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_4.txt : 42627 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 438031 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_50.txt : 40843 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_51.txt : 581029 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_52.txt : 464880 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_53.txt : 600408 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_54.txt : 524315 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_55.txt : 534276 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_56.txt : 485108 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11:  4778 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_57.txt : 36466 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_58.txt : 597518 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_59.txt : 491100 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_5.txt : 499751 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_60.txt : 487410 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_61.txt : 575310 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_62.txt : 520407 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_63.txt : 501401 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_64.txt : 457121 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_65.txt : 520587 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_66.txt : 442228 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_67.txt : 568526 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_68.txt : 458012 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_69.txt : 557482 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_6.txt : 488398 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_70.txt : 506869 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_71.txt : 493308 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_72.txt : 486366 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_73.txt : 530911 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_74.txt : 480913 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_75.txt : 491263 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_76.txt : 499060 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_77.txt : 459578 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_78.txt : 520645 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_79.txt : 555688 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_7.txt : 395418 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_80.txt : 499309 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_81.txt : 428731 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_82.txt : 462952 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_83.txt : 454793 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_84.txt : 454178 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_85.txt : 488398 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_86.txt : 398293 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_87.txt : 431915 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_88.txt : 429467 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_89.txt : 499426 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_8.txt : 440525 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_90.txt : 473175 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_91.txt : 453864 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_92.txt : 369219 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_93.txt : 424154 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_94.txt : 402674 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_95.txt : 501212 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_96.txt : 496160 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_97.txt : 437160 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_98.txt : 476752 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_99.txt : 446732 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1200/50/inst1200_50_9.txt : 447349 ms.

@@ -185,7 +185,8 @@ benchmarks/N-Queens/INST_200/90/inst200_90_64.txt : 26 ms.
 benchmarks/N-Queens/INST_200/90/inst200_90_65.txt find answer: 0.000000
 benchmarks/N-Queens/INST_200/90/inst200_90_65.txt : 26 ms.
 --------------------------------------------------
-benchmarks/N-Queens/INST_200/90/inst200_90_66.txt : 1004636 ms.
+benchmarks/N-Queens/INST_200/90/inst200_90_66.txt find answer: 0.000000
+benchmarks/N-Queens/INST_200/90/inst200_90_66.txt : 26 ms.
 --------------------------------------------------
 benchmarks/N-Queens/INST_200/90/inst200_90_67.txt find answer: 0.000000
 benchmarks/N-Queens/INST_200/90/inst200_90_67.txt : 35 ms.

@@ -1,0 +1,2136 @@
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_0.txt : 2088 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_10.txt : 1258 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_11.txt : 1400 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_12.txt : 1172 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_13.txt : 1312 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_14.txt : 1215 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_15.txt : 1096 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_16.txt : 1348 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_17.txt : 1167 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_18.txt : 1617 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_19.txt : 1273 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_1.txt : 1325 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_20.txt : 1245 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_21.txt : 1442 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_22.txt : 1376 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_23.txt : 1884 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_24.txt : 3166 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_25.txt : 2172 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_26.txt : 1307 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_27.txt : 1336 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_28.txt : 1370 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_29.txt : 1260 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_2.txt : 1512 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_30.txt : 1945 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_31.txt : 1656 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_32.txt : 1962 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 205897 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_33.txt : 957 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 207737 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_34.txt : 1060 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_35.txt : 1692 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 210065 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_36.txt : 1159 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 210470 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_37.txt : 1069 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 210728 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_38.txt : 1019 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 211286 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_39.txt : 1315 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 211924 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_3.txt : 995 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 212553 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_40.txt : 1184 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 213428 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_41.txt : 1077 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 214344 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_42.txt : 1899 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 215202 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_43.txt : 2350 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 216206 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_44.txt : 2614 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 217090 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_45.txt : 2253 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_46.txt : 3255 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_47.txt : 1544 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_48.txt : 5402 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_49.txt : 1575 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_4.txt : 1981 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_50.txt : 2047 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_51.txt : 1864 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_52.txt : 2124 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_53.txt : 3732 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 229812 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_54.txt : 1492 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 230285 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_55.txt : 1486 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 230502 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_56.txt : 6300 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_57.txt : 2030 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_58.txt : 2098 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_59.txt : 1572 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_5.txt : 2266 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_60.txt : 1838 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_61.txt : 2752 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_62.txt : 1666 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_63.txt : 1996 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_64.txt : 1852 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 236356 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_65.txt : 4366 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_66.txt : 1942 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 238275 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_67.txt : 1297 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 238840 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_68.txt : 1007 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 239057 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_69.txt : 1136 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 240051 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_6.txt : 1087 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 240485 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_70.txt : 1332 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 240919 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_71.txt : 1229 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 241266 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_72.txt : 1302 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 241767 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_73.txt : 1105 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 242203 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_74.txt : 1094 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 242420 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_75.txt : 1265 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 242919 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_76.txt : 1340 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 243353 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_77.txt : 1116 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 244106 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_78.txt : 3361 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_79.txt : 216 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_7.txt : 258 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_80.txt : 237 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_81.txt : 178 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_82.txt : 211 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_83.txt : 173 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_84.txt : 135 ms.
+--------------------------------------------------
+timeout: the monitored command dumped core
+run.sh: line 11: 245388 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_85.txt : 1361 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_86.txt : 192 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_87.txt : 217 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_88.txt : 194 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_89.txt : 186 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 1 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 2 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 3 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 4 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 5 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 6 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 7 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 8 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 9 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 10 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 11 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 12 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 13 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 14 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 15 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 16 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 17 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 18 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 19 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_8.txt : 244 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 1 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 2 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 3 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 4 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 5 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 6 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 7 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 8 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 9 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 10 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 11 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 12 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 13 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 14 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 15 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 16 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 17 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 18 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 19 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_90.txt : 185 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_91.txt : 189 ms.
+--------------------------------------------------
+timeout: fork system call failed: Resource temporarily unavailable
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_92.txt : 15 ms.
+--------------------------------------------------
+timeout: fork system call failed: Resource temporarily unavailable
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_93.txt : 10 ms.
+--------------------------------------------------
+timeout: fork system call failed: Resource temporarily unavailable
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_94.txt : 9 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_95.txt : 219 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_96.txt : 307 ms.
+--------------------------------------------------
+OpenBLAS blas_thread_init: pthread_create failed for thread 20 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 21 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 22 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 23 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 24 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 25 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 26 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 27 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 28 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 29 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 30 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 31 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 32 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 33 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 34 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 35 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 36 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 37 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 38 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 39 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 40 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 41 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 42 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 43 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 44 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 45 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 46 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 47 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 48 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 49 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 50 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 51 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 52 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 53 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 54 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 55 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 56 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 57 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 58 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 59 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 60 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 61 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 62 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 4096 current, 8252646 max
+Traceback (most recent call last):
+  File "/home/hanrui/AllDifferent-LS/solvers/nqueens_ort/n-queens_ortools.py", line 4, in <module>
+    from ortools.sat.python import cp_model
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model.py", line 55, in <module>
+    from ortools.sat.python import cp_model_helper as cmh
+  File "/home/hanrui/.local/lib/python3.9/site-packages/ortools/sat/python/cp_model_helper.py", line 16, in <module>
+    import numpy as np
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/__init__.py", line 141, in <module>
+    from . import core
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/hanrui/.local/lib/python3.9/site-packages/numpy/core/overrides.py", line 6, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_97.txt : 334 ms.
+--------------------------------------------------
+timeout: fork system call failed: Resource temporarily unavailable
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_98.txt : 11 ms.
+--------------------------------------------------
+timeout: fork system call failed: Resource temporarily unavailable
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_99.txt : 9 ms.
+--------------------------------------------------
+timeout: fork system call failed: Resource temporarily unavailable
+benchmarks_1/N-Queens/INST_1000/90/inst1000_90_9.txt : 8 ms.
