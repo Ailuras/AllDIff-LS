@@ -1,309 +1,300 @@
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 145215 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_0.txt : 80153 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_0.txt : 567325 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_10.txt : 967431 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_10.txt : 594959 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 279145 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_11.txt : 100183 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_11.txt : 640294 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 281637 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_12.txt : 159580 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_12.txt : 674971 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 285094 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_13.txt : 97416 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_13.txt : 651758 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_14.txt : 839369 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_14.txt : 605426 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 313334 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_15.txt : 113491 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_15.txt : 587384 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 315570 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_16.txt : 104095 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_16.txt : 665839 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 318855 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_17.txt : 105823 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_17.txt : 597974 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_18.txt : 892071 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_18.txt : 606323 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 343807 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_19.txt : 97294 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_19.txt : 593359 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_1.txt : 916670 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_1.txt : 668357 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_20.txt : 856516 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_20.txt : 625775 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 387532 Aborted                 timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_21.txt : 100491 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_21.txt : 578084 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_22.txt : 925421 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_22.txt : 604249 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_23.txt : 914806 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_23.txt : 658221 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_24.txt : 894900 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_24.txt : 535595 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_25.txt : 931005 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_25.txt : 523350 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_26.txt : 912253 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_26.txt : 572880 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_27.txt : 775646 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_27.txt : 589715 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_28.txt : 823611 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_28.txt : 495792 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_29.txt : 958292 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_29.txt : 587724 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_2.txt : 889152 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_2.txt : 570793 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_30.txt : 849733 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_30.txt : 576629 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_31.txt : 955276 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_31.txt : 550985 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_32.txt : 797474 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_32.txt : 573975 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_33.txt : 840009 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_33.txt : 534925 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_34.txt : 842477 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_34.txt : 593290 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_35.txt : 921273 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_35.txt : 552691 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_36.txt : 949365 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_36.txt : 643917 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_37.txt : 906234 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_37.txt : 527602 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_38.txt : 797480 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_38.txt : 591513 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_39.txt : 860295 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_39.txt : 637068 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_3.txt : 776142 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_3.txt : 599610 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_40.txt : 842281 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_40.txt : 564410 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_41.txt : 785690 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_41.txt : 501274 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_42.txt : 807075 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_42.txt : 547145 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_43.txt : 838586 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_43.txt : 514917 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_44.txt : 810506 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_44.txt : 488648 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_45.txt : 814387 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_45.txt : 537103 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_46.txt : 901517 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_46.txt : 567452 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_47.txt : 676960 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_47.txt : 443818 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_48.txt : 726617 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_48.txt : 511696 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_49.txt : 765456 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_49.txt : 569250 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_4.txt : 603045 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_4.txt : 500138 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_50.txt : 736802 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_50.txt : 513389 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_51.txt : 744855 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_51.txt : 521518 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_52.txt : 716932 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_52.txt : 593862 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_53.txt : 871073 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_53.txt : 478841 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_54.txt : 742459 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_54.txt : 514980 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_55.txt : 740845 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_55.txt : 552358 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_56.txt : 714039 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_56.txt : 486237 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_57.txt : 697646 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_57.txt : 423662 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_58.txt : 674692 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_58.txt : 441678 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_59.txt : 746815 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_59.txt : 528308 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_5.txt : 592444 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_5.txt : 488143 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_60.txt : 737394 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_60.txt : 420319 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_61.txt : 672297 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_61.txt : 494027 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_62.txt : 642001 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_62.txt : 535552 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_63.txt : 588556 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_63.txt : 498479 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_64.txt : 701351 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_64.txt : 468356 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_65.txt : 666889 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_65.txt : 519606 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_66.txt : 585696 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_66.txt : 511138 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_67.txt : 638296 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_67.txt : 491670 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_68.txt : 638645 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_68.txt : 433851 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_69.txt : 951444 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_69.txt : 524583 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_6.txt : 807969 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_6.txt : 447864 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_70.txt : 709121 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_70.txt : 434826 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_71.txt : 681883 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_71.txt : 443475 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_72.txt : 969129 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_72.txt : 481457 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_73.txt : 737196 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_73.txt : 436018 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_74.txt : 766873 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_74.txt : 356455 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_75.txt : 737476 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_75.txt : 436850 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_76.txt : 687639 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_76.txt : 447449 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_77.txt : 612975 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_77.txt : 425570 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_78.txt : 649861 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_78.txt : 418345 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_79.txt : 700078 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_79.txt : 489724 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_7.txt : 698013 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_7.txt : 470406 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_80.txt : 573124 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_80.txt : 386945 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_81.txt : 596816 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_81.txt : 442991 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_82.txt : 646122 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_82.txt : 424177 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_83.txt : 661205 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_83.txt : 411913 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_84.txt : 659677 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_84.txt : 407916 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_85.txt : 582223 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_85.txt : 417061 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_86.txt : 619458 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_86.txt : 494963 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_87.txt : 703430 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_87.txt : 419737 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_88.txt : 572066 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_88.txt : 380503 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_89.txt : 605920 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_89.txt : 427633 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_8.txt : 619686 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_8.txt : 410268 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_90.txt : 732870 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_90.txt : 385825 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_91.txt : 634505 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_91.txt : 441635 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_92.txt : 651440 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_92.txt : 400420 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_93.txt : 571352 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_93.txt : 456719 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_94.txt : 630843 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_94.txt : 492420 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_95.txt : 530659 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_95.txt : 414271 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_96.txt : 672859 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_96.txt : 451416 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_97.txt : 621784 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_97.txt : 484097 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_98.txt : 593728 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_98.txt : 476281 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_99.txt : 558573 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_99.txt : 368966 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/0/inst1000_0_9.txt : 581435 ms.
+benchmarks_6/N-Queens/INST_1000/0/inst1000_0_9.txt : 396454 ms.

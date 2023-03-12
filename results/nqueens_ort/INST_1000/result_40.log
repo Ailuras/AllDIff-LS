@@ -1,320 +1,300 @@
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_0.txt : 517437 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_0.txt : 389139 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 259417 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_10.txt : 51339 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_10.txt : 414423 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 260802 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_11.txt : 43869 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_11.txt : 443031 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 263035 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_12.txt : 39975 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_12.txt : 467543 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 265045 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_13.txt : 45854 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_13.txt : 436185 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 266832 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_14.txt : 42443 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_14.txt : 445121 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 268656 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_15.txt : 44416 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_15.txt : 402806 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 270716 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_16.txt : 60216 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_16.txt : 431285 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 272713 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_17.txt : 63668 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_17.txt : 429250 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_18.txt : 513063 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_18.txt : 379857 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 288681 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_19.txt : 53372 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_19.txt : 400571 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 290000 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_1.txt : 45811 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_1.txt : 396599 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 291356 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_20.txt : 42229 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_20.txt : 397571 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_21.txt : 543219 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_21.txt : 417789 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_22.txt : 567313 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_22.txt : 394920 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_23.txt : 586393 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_23.txt : 428554 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_24.txt : 554674 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_24.txt : 417289 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 353990 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_25.txt : 49786 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_25.txt : 429460 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 355643 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_26.txt : 55311 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_26.txt : 406196 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_27.txt : 559563 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_27.txt : 407018 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 366973 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_28.txt : 41240 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_28.txt : 386829 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 368456 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_29.txt : 62807 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_29.txt : 418252 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_2.txt : 522000 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_2.txt : 381044 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 383691 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_30.txt : 44884 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_30.txt : 407703 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_31.txt : 635238 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_31.txt : 395933 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_32.txt : 545383 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_32.txt : 377299 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 403322 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_33.txt : 43927 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_33.txt : 345811 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_34.txt : 588084 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_34.txt : 434863 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_35.txt : 547234 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_35.txt : 376472 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_36.txt : 557147 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_36.txt : 375952 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_37.txt : 542943 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_37.txt : 368191 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 422933 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_38.txt : 43397 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_38.txt : 394388 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 423443 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_39.txt : 95684 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_39.txt : 374875 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_3.txt : 494616 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_3.txt : 346833 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_40.txt : 505940 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_40.txt : 342464 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_41.txt : 497827 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_41.txt : 349604 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_42.txt : 488437 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_42.txt : 423116 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_43.txt : 543164 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_43.txt : 356180 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_44.txt : 547326 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_44.txt : 380671 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_45.txt : 485880 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_45.txt : 403218 ms.
 --------------------------------------------------
-timeout: the monitored command dumped core
-run.sh: line 11: 452188 Segmentation fault      timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_46.txt : 45804 ms.
+SAT
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_46.txt : 431450 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_47.txt : 565678 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_47.txt : 322317 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_48.txt : 496891 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_48.txt : 375801 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_49.txt : 518833 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_49.txt : 360687 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_4.txt : 536418 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_4.txt : 381040 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_50.txt : 528066 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_50.txt : 328431 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_51.txt : 479535 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_51.txt : 413371 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_52.txt : 568534 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_52.txt : 351513 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_53.txt : 529535 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_53.txt : 424532 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_54.txt : 503186 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_54.txt : 319037 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_55.txt : 541936 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_55.txt : 381505 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_56.txt : 433775 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_56.txt : 322096 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_57.txt : 551906 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_57.txt : 345220 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_58.txt : 484951 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_58.txt : 404619 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_59.txt : 592308 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_59.txt : 358312 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_5.txt : 554058 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_5.txt : 341148 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_60.txt : 496835 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_60.txt : 327149 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_61.txt : 479912 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_61.txt : 393899 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_62.txt : 522233 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_62.txt : 360918 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_63.txt : 450366 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_63.txt : 348172 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_64.txt : 431532 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_64.txt : 292327 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_65.txt : 483394 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_65.txt : 359730 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_66.txt : 521298 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_66.txt : 313846 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_67.txt : 427729 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_67.txt : 397635 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_68.txt : 501345 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_68.txt : 332508 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_69.txt : 470057 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_69.txt : 366748 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_6.txt : 447332 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_6.txt : 336905 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_70.txt : 555094 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_70.txt : 401983 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_71.txt : 495768 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_71.txt : 322982 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_72.txt : 474713 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_72.txt : 349754 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_73.txt : 478970 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_73.txt : 343119 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_74.txt : 463822 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_74.txt : 387029 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_75.txt : 456558 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_75.txt : 319262 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_76.txt : 464747 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_76.txt : 385436 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_77.txt : 380096 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_77.txt : 299725 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_78.txt : 482493 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_78.txt : 349263 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_79.txt : 412964 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_79.txt : 309407 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_7.txt : 371494 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_7.txt : 361499 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_80.txt : 471570 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_80.txt : 277145 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_81.txt : 373277 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_81.txt : 314144 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_82.txt : 476465 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_82.txt : 298290 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_83.txt : 433465 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_83.txt : 371976 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_84.txt : 421687 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_84.txt : 276234 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_85.txt : 471396 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_85.txt : 326873 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_86.txt : 498656 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_86.txt : 332338 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_87.txt : 461121 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_87.txt : 291926 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_88.txt : 448531 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_88.txt : 320701 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_89.txt : 493382 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_89.txt : 331845 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_8.txt : 376420 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_8.txt : 307528 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_90.txt : 502949 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_90.txt : 341453 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_91.txt : 437492 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_91.txt : 325351 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_92.txt : 393324 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_92.txt : 290122 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_93.txt : 404709 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_93.txt : 405264 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_94.txt : 368376 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_94.txt : 263202 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_95.txt : 428632 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_95.txt : 321319 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_96.txt : 434136 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_96.txt : 259307 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_97.txt : 510944 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_97.txt : 323335 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_98.txt : 403188 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_98.txt : 283636 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_99.txt : 484088 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_99.txt : 302351 ms.
 --------------------------------------------------
 SAT
-benchmarks_1/N-Queens/INST_1000/40/inst1000_40_9.txt : 396257 ms.
+benchmarks_6/N-Queens/INST_1000/40/inst1000_40_9.txt : 322177 ms.

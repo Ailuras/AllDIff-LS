@@ -1,300 +1,300 @@
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_0.txt find answer: 3.040000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_0.txt : 4138 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_0.txt find answer: 2.930000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_0.txt : 4037 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_10.txt find answer: 3.020000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_10.txt : 4108 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_10.txt find answer: 3.160000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_10.txt : 4263 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_11.txt find answer: 3.990000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_11.txt : 5116 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_11.txt find answer: 2.910000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_11.txt : 4010 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_12.txt find answer: 3.050000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_12.txt : 4133 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_12.txt find answer: 3.570000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_12.txt : 4711 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_13.txt find answer: 3.120000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_13.txt : 4416 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_13.txt find answer: 3.300000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_13.txt : 4401 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_14.txt find answer: 3.020000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_14.txt : 4103 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_14.txt find answer: 2.980000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_14.txt : 4064 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_15.txt find answer: 2.860000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_15.txt : 3943 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_15.txt find answer: 2.950000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_15.txt : 4040 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_16.txt find answer: 3.050000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_16.txt : 4134 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_16.txt find answer: 3.010000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_16.txt : 4082 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_17.txt find answer: 3.220000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_17.txt : 4322 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_17.txt find answer: 4.220000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_17.txt : 5353 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_18.txt find answer: 2.970000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_18.txt : 4047 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_18.txt find answer: 2.730000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_18.txt : 3807 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_19.txt find answer: 2.820000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_19.txt : 3882 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_19.txt find answer: 2.970000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_19.txt : 4041 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_1.txt find answer: 2.940000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_1.txt : 4010 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_1.txt find answer: 3.100000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_1.txt : 4155 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_20.txt find answer: 2.920000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_20.txt : 4002 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_20.txt find answer: 2.950000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_20.txt : 4013 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_21.txt find answer: 2.800000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_21.txt : 3880 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_21.txt find answer: 2.830000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_21.txt : 3910 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_22.txt find answer: 4.160000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_22.txt : 5279 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_22.txt find answer: 3.050000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_22.txt : 4123 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_23.txt find answer: 2.900000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_23.txt : 3951 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_23.txt find answer: 2.920000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_23.txt : 4011 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_24.txt find answer: 2.990000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_24.txt : 4050 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_24.txt find answer: 4.360000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_24.txt : 5476 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_25.txt find answer: 2.770000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_25.txt : 3846 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_25.txt find answer: 2.730000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_25.txt : 3790 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_26.txt find answer: 2.830000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_26.txt : 3884 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_26.txt find answer: 2.880000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_26.txt : 3947 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_27.txt find answer: 2.720000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_27.txt : 3788 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_27.txt find answer: 2.870000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_27.txt : 3931 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_28.txt find answer: 2.590000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_28.txt : 3641 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_28.txt find answer: 2.810000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_28.txt : 3878 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_29.txt find answer: 3.660000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_29.txt : 4743 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_29.txt find answer: 2.810000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_29.txt : 3899 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_2.txt find answer: 2.710000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_2.txt : 3773 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_2.txt find answer: 2.790000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_2.txt : 3846 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_30.txt find answer: 2.780000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_30.txt : 3787 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_30.txt find answer: 2.880000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_30.txt : 3939 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_31.txt find answer: 2.730000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_31.txt : 3731 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_31.txt find answer: 2.510000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_31.txt : 3563 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_32.txt find answer: 2.400000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_32.txt : 3433 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_32.txt find answer: 2.460000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_32.txt : 3527 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_33.txt find answer: 2.440000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_33.txt : 3458 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_33.txt find answer: 2.810000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_33.txt : 3880 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_34.txt find answer: 2.490000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_34.txt : 3514 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_34.txt find answer: 2.680000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_34.txt : 3749 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_35.txt find answer: 3.770000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_35.txt : 4851 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_35.txt find answer: 3.110000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_35.txt : 4172 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_36.txt find answer: 2.860000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_36.txt : 3902 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_36.txt find answer: 2.700000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_36.txt : 3783 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_37.txt find answer: 2.530000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_37.txt : 3564 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_37.txt find answer: 2.590000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_37.txt : 3635 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_38.txt find answer: 2.580000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_38.txt : 3596 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_38.txt find answer: 2.660000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_38.txt : 3729 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_39.txt find answer: 2.260000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_39.txt : 3270 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_39.txt find answer: 4.090000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_39.txt : 5205 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_3.txt find answer: 2.460000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_3.txt : 3473 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_3.txt find answer: 2.670000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_3.txt : 3708 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_40.txt find answer: 2.260000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_40.txt : 3231 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_40.txt find answer: 2.360000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_40.txt : 3400 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_41.txt find answer: 3.590000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_41.txt : 4848 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_41.txt find answer: 2.500000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_41.txt : 3542 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_42.txt find answer: 2.280000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_42.txt : 3304 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_42.txt find answer: 2.630000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_42.txt : 3689 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_43.txt find answer: 2.100000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_43.txt : 3076 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_43.txt find answer: 2.560000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_43.txt : 3600 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_44.txt find answer: 2.230000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_44.txt : 3194 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_44.txt find answer: 2.640000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_44.txt : 3688 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_45.txt find answer: 3.860000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_45.txt : 4957 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_45.txt find answer: 2.570000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_45.txt : 3596 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_46.txt find answer: 3.300000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_46.txt : 4724 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_46.txt find answer: 2.770000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_46.txt : 3808 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_47.txt find answer: 2.330000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_47.txt : 3375 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_47.txt find answer: 2.570000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_47.txt : 3590 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_48.txt find answer: 3.730000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_48.txt : 4777 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_48.txt find answer: 2.370000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_48.txt : 3400 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_49.txt find answer: 2.140000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_49.txt : 3144 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_49.txt find answer: 2.570000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_49.txt : 3608 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_4.txt find answer: 2.440000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_4.txt : 3431 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_4.txt find answer: 2.570000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_4.txt : 3596 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_50.txt find answer: 2.340000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_50.txt : 3357 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_50.txt find answer: 2.350000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_50.txt : 3360 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_51.txt find answer: 3.040000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_51.txt : 4275 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_51.txt find answer: 2.290000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_51.txt : 3327 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_52.txt find answer: 3.390000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_52.txt : 4382 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_52.txt find answer: 2.460000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_52.txt : 3495 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_53.txt find answer: 2.130000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_53.txt : 3138 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_53.txt find answer: 2.390000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_53.txt : 3445 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_54.txt find answer: 2.390000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_54.txt : 3408 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_54.txt find answer: 3.800000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_54.txt : 4908 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_55.txt find answer: 3.920000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_55.txt : 4974 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_55.txt find answer: 3.840000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_55.txt : 5213 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_56.txt find answer: 3.430000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_56.txt : 4479 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_56.txt find answer: 2.730000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_56.txt : 3782 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_57.txt find answer: 2.490000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_57.txt : 3500 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_57.txt find answer: 2.320000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_57.txt : 3322 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_58.txt find answer: 2.020000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_58.txt : 2922 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_58.txt find answer: 2.630000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_58.txt : 3666 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_59.txt find answer: 2.070000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_59.txt : 3044 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_59.txt find answer: 2.470000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_59.txt : 3490 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_5.txt find answer: 3.020000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_5.txt : 4166 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_5.txt find answer: 2.750000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_5.txt : 3815 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_60.txt find answer: 2.160000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_60.txt : 3154 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_60.txt find answer: 2.750000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_60.txt : 3798 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_61.txt find answer: 2.270000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_61.txt : 3236 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_61.txt find answer: 3.330000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_61.txt : 4384 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_62.txt find answer: 2.270000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_62.txt : 3267 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_62.txt find answer: 2.170000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_62.txt : 3206 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_63.txt find answer: 3.010000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_63.txt : 4035 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_63.txt find answer: 2.830000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_63.txt : 3832 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_64.txt find answer: 2.020000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_64.txt : 2923 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_64.txt find answer: 2.610000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_64.txt : 3654 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_65.txt find answer: 2.580000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_65.txt : 3550 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_65.txt find answer: 2.170000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_65.txt : 3176 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_66.txt find answer: 2.840000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_66.txt : 3968 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_66.txt find answer: 2.170000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_66.txt : 3152 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_67.txt find answer: 2.020000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_67.txt : 3000 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_67.txt find answer: 2.210000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_67.txt : 3197 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_68.txt find answer: 2.250000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_68.txt : 3235 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_68.txt find answer: 2.880000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_68.txt : 3915 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_69.txt find answer: 1.970000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_69.txt : 2918 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_69.txt find answer: 2.340000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_69.txt : 3358 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_6.txt find answer: 2.040000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_6.txt : 3060 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_6.txt find answer: 2.620000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_6.txt : 3606 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_70.txt find answer: 2.490000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_70.txt : 3595 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_70.txt find answer: 2.780000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_70.txt : 3862 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_71.txt find answer: 2.330000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_71.txt : 3316 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_71.txt find answer: 2.450000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_71.txt : 3530 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_72.txt find answer: 1.870000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_72.txt : 2761 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_72.txt find answer: 3.350000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_72.txt : 4435 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_73.txt find answer: 2.040000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_73.txt : 2946 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_73.txt find answer: 2.050000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_73.txt : 2978 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_74.txt find answer: 2.370000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_74.txt : 3342 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_74.txt find answer: 2.280000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_74.txt : 3305 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_75.txt find answer: 2.060000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_75.txt : 3066 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_75.txt find answer: 2.350000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_75.txt : 3315 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_76.txt find answer: 1.970000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_76.txt : 2876 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_76.txt find answer: 2.360000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_76.txt : 3646 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_77.txt find answer: 1.870000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_77.txt : 2766 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_77.txt find answer: 2.200000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_77.txt : 3192 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_78.txt find answer: 1.910000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_78.txt : 2808 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_78.txt find answer: 2.150000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_78.txt : 3161 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_79.txt find answer: 1.970000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_79.txt : 2863 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_79.txt find answer: 3.410000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_79.txt : 4450 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_7.txt find answer: 2.680000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_7.txt : 3799 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_7.txt find answer: 2.990000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_7.txt : 4344 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_80.txt find answer: 2.960000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_80.txt : 4230 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_80.txt find answer: 2.440000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_80.txt : 3409 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_81.txt find answer: 1.900000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_81.txt : 2802 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_81.txt find answer: 2.340000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_81.txt : 3315 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_82.txt find answer: 2.550000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_82.txt : 3659 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_82.txt find answer: 2.230000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_82.txt : 3183 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_83.txt find answer: 1.890000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_83.txt : 2813 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_83.txt find answer: 2.620000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_83.txt : 3766 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_84.txt find answer: 1.890000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_84.txt : 2804 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_84.txt find answer: 2.710000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_84.txt : 4059 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_85.txt find answer: 2.570000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_85.txt : 3891 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_85.txt find answer: 1.990000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_85.txt : 2973 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_86.txt find answer: 1.930000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_86.txt : 2862 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_86.txt find answer: 1.950000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_86.txt : 2922 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_87.txt find answer: 1.840000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_87.txt : 2737 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_87.txt find answer: 2.120000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_87.txt : 3053 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_88.txt find answer: 3.090000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_88.txt : 4068 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_88.txt find answer: 2.840000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_88.txt : 3815 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_89.txt find answer: 2.740000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_89.txt : 3917 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_89.txt find answer: 2.160000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_89.txt : 3109 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_8.txt find answer: 1.840000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_8.txt : 2731 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_8.txt find answer: 3.650000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_8.txt : 4763 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_90.txt find answer: 3.220000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_90.txt : 4501 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_90.txt find answer: 2.370000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_90.txt : 3373 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_91.txt find answer: 3.490000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_91.txt : 4657 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_91.txt find answer: 3.550000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_91.txt : 5114 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_92.txt find answer: 1.900000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_92.txt : 2840 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_92.txt find answer: 2.060000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_92.txt : 3047 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_93.txt find answer: 1.910000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_93.txt : 2832 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_93.txt find answer: 2.140000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_93.txt : 3101 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_94.txt find answer: 1.960000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_94.txt : 2898 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_94.txt find answer: 2.090000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_94.txt : 3073 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_95.txt find answer: 1.910000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_95.txt : 2860 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_95.txt find answer: 3.290000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_95.txt : 4282 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_96.txt find answer: 1.840000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_96.txt : 2737 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_96.txt find answer: 1.990000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_96.txt : 2939 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_97.txt find answer: 1.780000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_97.txt : 2690 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_97.txt find answer: 2.270000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_97.txt : 3269 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_98.txt find answer: 1.820000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_98.txt : 2714 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_98.txt find answer: 2.180000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_98.txt : 3339 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_99.txt find answer: 1.920000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_99.txt : 2823 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_99.txt find answer: 2.130000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_99.txt : 3103 ms.
 --------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_9.txt find answer: 1.890000
-benchmarks_3/N-Queens/INST_2000/30/inst2000_30_9.txt : 2788 ms.
+benchmarks/N-Queens/INST_2000/30/inst2000_30_9.txt find answer: 3.050000
+benchmarks/N-Queens/INST_2000/30/inst2000_30_9.txt : 4028 ms.

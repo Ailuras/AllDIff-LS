@@ -1,259 +1,295 @@
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_0.txt : 860207 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_0.txt : 707903 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_10.txt : 907344 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_10.txt : 675183 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_11.txt : 815529 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_12.txt : 1014834 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_13.txt : 1009158 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_14.txt : 1013029 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_15.txt : 1015234 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_16.txt : 1014032 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_11.txt : 872255 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_17.txt : 947758 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_18.txt : 1024361 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_19.txt : 1020840 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_1.txt : 1018402 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_20.txt : 1014683 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_21.txt : 1011532 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_22.txt : 1010284 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_12.txt : 884277 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_23.txt : 967976 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_24.txt : 1025633 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_25.txt : 1017983 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_26.txt : 1010469 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_27.txt : 1027052 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_28.txt : 1013405 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_13.txt : 595615 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_29.txt : 976834 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_2.txt : 1007266 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_30.txt : 1006573 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_14.txt : 677781 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_31.txt : 982237 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_15.txt : 903723 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_32.txt : 911878 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_16.txt : 966737 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_33.txt : 877408 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_17.txt : 817143 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_34.txt : 752285 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_18.txt : 480799 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_35.txt : 951050 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_19.txt : 874934 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_36.txt : 786635 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_37.txt : 1015172 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_38.txt : 1020748 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_39.txt : 1016413 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_3.txt : 1019504 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_40.txt : 1012556 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_41.txt : 1014988 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_42.txt : 1014085 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_43.txt : 1013063 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_44.txt : 1013608 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_45.txt : 1013435 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_46.txt : 1013652 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_47.txt : 1018555 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_48.txt : 1022365 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_1.txt : 874407 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_49.txt : 975143 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_20.txt : 525926 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_4.txt : 961506 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_21.txt : 674619 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_50.txt : 903501 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_22.txt : 802594 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_51.txt : 773532 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_23.txt : 588024 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_52.txt : 705710 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_24.txt : 684288 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_53.txt : 856443 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_54.txt : 1019344 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_55.txt : 1012828 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_56.txt : 1015716 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_57.txt : 1003798 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_58.txt : 1019261 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_25.txt : 855015 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_59.txt : 976469 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_26.txt : 876389 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_5.txt : 879421 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_27.txt : 570028 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_60.txt : 621113 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_28.txt : 738426 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_61.txt : 650154 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_29.txt : 755294 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_62.txt : 942036 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_63.txt : 1003707 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_2.txt : 440218 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_64.txt : 999443 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_30.txt : 758057 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_65.txt : 940544 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_31.txt : 676461 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_66.txt : 818712 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_32.txt : 521687 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_67.txt : 524781 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_33.txt : 834022 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_68.txt : 838767 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_69.txt : 1009115 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_6.txt : 1011676 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_34.txt : 584041 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_70.txt : 904470 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_35.txt : 627602 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_71.txt : 720098 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_36.txt : 813479 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_72.txt : 540292 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_37.txt : 503364 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_73.txt : 875752 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_38.txt : 693283 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_74.txt : 798613 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_39.txt : 911807 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_75.txt : 648735 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_3.txt : 599305 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_76.txt : 672199 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_77.txt : 1012483 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_40.txt : 594469 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_78.txt : 930104 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_41.txt : 911470 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_79.txt : 876366 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_42.txt : 855043 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_7.txt : 755848 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_43.txt : 481740 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_80.txt : 628224 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_44.txt : 732399 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_81.txt : 835283 ms.
---------------------------------------------------
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_82.txt : 1003989 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_45.txt : 772249 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_83.txt : 967995 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_46.txt : 485092 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_84.txt : 780254 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_47.txt : 747940 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_85.txt : 543092 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_48.txt : 809124 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_86.txt : 785981 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_49.txt : 524323 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_87.txt : 933966 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_4.txt : 747561 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_88.txt : 728876 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_50.txt : 841521 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_89.txt : 713316 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_51.txt : 613648 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_8.txt : 741274 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_52.txt : 645376 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_90.txt : 945092 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_53.txt : 884295 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_91.txt : 899612 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_54.txt : 571737 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_92.txt : 699644 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_55.txt : 554435 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_93.txt : 619531 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_56.txt : 852690 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_94.txt : 876376 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_57.txt : 577208 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_95.txt : 921936 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_58.txt : 626545 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_96.txt : 668116 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_59.txt : 803026 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_97.txt : 627484 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_5.txt : 572518 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_98.txt : 877676 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_60.txt : 709822 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_99.txt : 939317 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_61.txt : 751554 ms.
 --------------------------------------------------
 SAT
-benchmarks_3/N-Queens/INST_2000/60/inst2000_60_9.txt : 1000144 ms.
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_62.txt : 433259 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_63.txt : 743636 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_64.txt : 682309 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_65.txt : 569241 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_66.txt : 832313 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_67.txt : 821749 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_68.txt : 468524 ms.
+--------------------------------------------------
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_69.txt : 1013790 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_6.txt : 686404 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_70.txt : 556623 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_71.txt : 615470 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_72.txt : 744718 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_73.txt : 607589 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_74.txt : 636144 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_75.txt : 642639 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_76.txt : 578506 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_77.txt : 647957 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_78.txt : 555964 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_79.txt : 667353 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_7.txt : 712464 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_80.txt : 655622 ms.
+--------------------------------------------------
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_81.txt : 1036943 ms.
+--------------------------------------------------
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_82.txt : 1009723 ms.
+--------------------------------------------------
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_83.txt : 1011539 ms.
+--------------------------------------------------
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_84.txt : 1016563 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_85.txt : 989583 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_86.txt : 854904 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_87.txt : 929682 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_88.txt : 848974 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_89.txt : 877911 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_8.txt : 717708 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_90.txt : 775921 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_91.txt : 710540 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_92.txt : 651433 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_93.txt : 724479 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_94.txt : 672772 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_95.txt : 754567 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_96.txt : 672452 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_97.txt : 632996 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_98.txt : 759788 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_99.txt : 632689 ms.
+--------------------------------------------------
+SAT
+benchmarks_3/N-Queens/INST_2000/60/inst2000_60_9.txt : 717419 ms.
