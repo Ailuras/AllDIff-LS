@@ -756,17 +756,17 @@ void update_info(int id, int pos) {
 			}
 		}
 	}
-	cout << "------------------------------------------" << endl;
-	cout << "mClashVertexes_length: " << mClashVertexes_length << endl;
-	for (int i = 0; i < mClashVertexes_length; i++) {
-		cout << mClashVertexes[i] << ": " << vscore[mClashVertexes[i]]-mClash[mClashVertexes[i]][mVertexesColor[mClashVertexes[i]]] << ", tabuV: " << mTabuV[mClashVertexes[i]] << ", vscore: " << vscore[mClashVertexes[i]] << endl;
-	}
-	cout << "------------------------------------------" << endl;
+	// cout << "------------------------------------------" << endl;
+	// cout << "mClashVertexes_length: " << mClashVertexes_length << endl;
+	// for (int i = 0; i < mClashVertexes_length; i++) {
+	// 	cout << mClashVertexes[i] << ": " << vscore[mClashVertexes[i]]-mClash[mClashVertexes[i]][mVertexesColor[mClashVertexes[i]]] << ", tabuV: " << mTabuV[mClashVertexes[i]] << ", vscore: " << vscore[mClashVertexes[i]] << endl;
+	// }
+	// cout << "------------------------------------------" << endl;
 
-	cout << "mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
-	for (int i = 0; i < mClashTabuVertexes_length; i++) {
-		cout << mClashTabuVertexes[i] << ": " << vscore[mClashTabuVertexes[i]]-mClash[mClashTabuVertexes[i]][mVertexesColor[mClashTabuVertexes[i]]] << ", tabuV: " << mTabuV[mClashTabuVertexes[i]] << ", vscore: " << vscore[mClashTabuVertexes[i]] << endl;
-	}
+	// cout << "mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
+	// for (int i = 0; i < mClashTabuVertexes_length; i++) {
+	// 	cout << mClashTabuVertexes[i] << ": " << vscore[mClashTabuVertexes[i]]-mClash[mClashTabuVertexes[i]][mVertexesColor[mClashTabuVertexes[i]]] << ", tabuV: " << mTabuV[mClashTabuVertexes[i]] << ", vscore: " << vscore[mClashTabuVertexes[i]] << endl;
+	// }
 
 
 	// for (int j=0; j<vertex_color_length[id]; j++) {
@@ -978,9 +978,9 @@ int mTabuSearch() {
 		move_to = tmp_sub_bms_st[r];
 		mTabu[move_id][mVertexesColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVertexes_length;
 		cout << "choose vertex " << move_id << " change to " << move_to << ", tabuV:" << mTabuV[move_id] << endl;
-		// cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << ", mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
 		// cout << "total: " << mClashVertexes_length + mClashTabuVertexes_length << endl;
 		update_info(move_id, move_to);
+		cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << ", mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
 		if (mClashEdges_length <= tSminClash) {
 			tSminClash = mClashEdges_length;
 			for (int i=0; i<mVertexes_length; i++) mVertexesColor_tmp[mVertexes[i]] = mVertexesColor[mVertexes[i]]; 

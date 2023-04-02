@@ -110,6 +110,7 @@ int maxClashTabuVertex;
 int* mClashTabuVertexes;
 int* mClashTabuVertexes_pos;
 int mClashTabuVertexes_length;
+int mode;
 
 int** mPoolVertexesColor;
 int** mPoolVertexesClash;
@@ -318,6 +319,11 @@ void swap_squ(int squ_id, int c_id, int id_a, int pos_b) {
 int get_score(int id, int to) {
 	return mClash[id][to] - mClash[id][mVertexesColor[id]];
 }
+
+int get_wscore(int id, int to) {
+	return mClash[id][to] - mClash[id][mVertexesColor[id]];
+}
+
 
 int get_nscore(int id, int to) {
 	return 1;
@@ -639,6 +645,7 @@ void update_info(int id, int pos) {
 		// mClash[tmp_v][cur_pos] -= edges[edge_map[id][tmp_v]].w;
 		// mClash[tmp_v][pos] += edges[edge_map[id][tmp_v]].w;
 		bool flag = (mClash[tmp_v][tmp_c] >= vscore[tmp_v]);
+
 		mClash[tmp_v][cur_pos] -= 1;
 		// cout << "vscore[" << tmp_v << "]: " << vscore[tmp_v] << ", mClash: " << mClash[tmp_v][tmp_c] << endl;
 		// cout << "mClash[" << tmp_v << "][" << cur_pos << "]: " << mClash[tmp_v][cur_pos]+1 << "->" << mClash[tmp_v][cur_pos] << endl;
@@ -646,6 +653,7 @@ void update_info(int id, int pos) {
 		// 	cout << "update1 tmp_v: " << tmp_v << "(" << mClash[tmp_v][tmp_c] << ", " << vscore[tmp_v] << "), vscore from " << vscore[tmp_v] << " to " << mClash[tmp_v][cur_pos] << endl;
 		// 	vscore[tmp_v] = mClash[tmp_v][cur_pos];
 		// }
+
 		mClash[tmp_v][pos] += 1;
 		// cout << "mClash[" << tmp_v << "][" << pos << "]: " << mClash[tmp_v][pos]-1 << "->" << mClash[tmp_v][pos] << endl;
 		// if (tmp_c != pos && mClash[tmp_v][pos]-1 == vscore[tmp_v]) {
@@ -664,39 +672,59 @@ void update_info(int id, int pos) {
 			int tmp_clash = mClash[tmp_v][vertex_color[tmp_v][j]];
 			if (tmp_clash < vscore[tmp_v]) vscore[tmp_v] = tmp_clash;
 		}
-
-		if (!flag && mClash[tmp_v][tmp_c] >= vscore[tmp_v]) {
-			if (mTabuV[tmp_v]) {
-				// if (mClash[tmp_v][mVertexesColor[tmp_v]]-vscore[tmp_v] > maxClashVertex) {
-				// 	maxClashVertex = vscore[tmp_v];
-				// }
-				// assert(mClashVertexes_pos[tmp_v] >= mClashVertexes_length || mClashVertexes[mClashVertexes_pos[tmp_v]] != tmp_v);
-				mClashVertexes[mClashVertexes_length] = tmp_v;
-				mClashVertexes_pos[tmp_v] = mClashVertexes_length++;
-				cout << "update3 tmp_v: " << tmp_v << ", insert into mClashVertexes." << endl;
-			} else {
-				// if (mClash[tmp_v][mVertexesColor[tmp_v]]-vscore[tmp_v] > maxClashTabuVertex) {
-				// 	maxClashTabuVertex = vscore[tmp_v];
-				// }
-				// assert(mClashTabuVertexes_pos[tmp_v] >= mClashTabuVertexes_length || mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] != tmp_v);
-				mClashTabuVertexes[mClashTabuVertexes_length] = tmp_v;
-				mClashTabuVertexes_pos[tmp_v] = mClashTabuVertexes_length++;
-				cout << "update4 tmp_v: " << tmp_v << ", insert into mClashTabuVertexes." << endl;
+		
+		// cout << "tmp_v: " << tmp_v << "(" << mClash[tmp_v][tmp_c] << ", " << vscore[tmp_v] << ")" << endl;
+		if (mode == 0) {
+			if (!flag && mClash[tmp_v][tmp_c] >= vscore[tmp_v]) {
+				if (mTabuV[tmp_v]) {
+					// if (mClash[tmp_v][mVertexesColor[tmp_v]]-vscore[tmp_v] > maxClashVertex) {
+					// 	maxClashVertex = vscore[tmp_v];
+					// }
+					// assert(mClashVertexes_pos[tmp_v] >= mClashVertexes_length || mClashVertexes[mClashVertexes_pos[tmp_v]] != tmp_v);
+					mClashVertexes[mClashVertexes_length] = tmp_v;
+					mClashVertexes_pos[tmp_v] = mClashVertexes_length++;
+					// cout << "update1 tmp_v: " << tmp_v << ", insert into mClashVertexes." << endl;
+				} else {
+					// if (mClash[tmp_v][mVertexesColor[tmp_v]]-vscore[tmp_v] > maxClashTabuVertex) {
+					// 	maxClashTabuVertex = vscore[tmp_v];
+					// }
+					// assert(mClashTabuVertexes_pos[tmp_v] >= mClashTabuVertexes_length || mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] != tmp_v);
+					mClashTabuVertexes[mClashTabuVertexes_length] = tmp_v;
+					mClashTabuVertexes_pos[tmp_v] = mClashTabuVertexes_length++;
+					// cout << "update2 tmp_v: " << tmp_v << ", insert into mClashTabuVertexes." << endl;
+				}
+			} else if (flag && mClash[tmp_v][tmp_c] < vscore[tmp_v]) {
+				if (mTabuV[tmp_v]) {
+					// assert(mClashVertexes[mClashVertexes_pos[tmp_v]] == tmp_v);
+					mClashVertexes[mClashVertexes_pos[tmp_v]] = mClashVertexes[--mClashVertexes_length];
+					mClashVertexes_pos[mClashVertexes[mClashVertexes_length]] = mClashVertexes_pos[tmp_v];
+					// cout << "update3 tmp_v: " << tmp_v << "(" << mClash[tmp_v][tmp_c] << "), delete from mClashVertexes." << endl;
+				} else {
+					// assert(mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] == tmp_v);
+					mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] = mClashTabuVertexes[--mClashTabuVertexes_length];
+					mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[tmp_v];
+					// cout << "update4 tmp_v: " << tmp_v << ", delete from mClashTabuVertexes." << endl;
+				}
 			}
-		} else if (flag && mClash[tmp_v][tmp_c] < vscore[tmp_v]) {
-			if (mTabuV[tmp_v]) {
-				// assert(mClashVertexes[mClashVertexes_pos[tmp_v]] == tmp_v);
-				mClashVertexes[mClashVertexes_pos[tmp_v]] = mClashVertexes[--mClashVertexes_length];
-				mClashVertexes_pos[mClashVertexes[mClashVertexes_length]] = mClashVertexes_pos[tmp_v];
-				cout << "update5 tmp_v: " << tmp_v << "(" << mClash[tmp_v][tmp_c] << "), delete from mClashVertexes." << endl;
-			} else {
-				// assert(mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] == tmp_v);
-				mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] = mClashTabuVertexes[--mClashTabuVertexes_length];
-				mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[tmp_v];
-				cout << "update6 tmp_v: " << tmp_v << ", delete from mClashTabuVertexes." << endl;
+		} else {
+			if (tmp_c == cur_pos && mClash[tmp_v][cur_pos] == 0) {
+				if (mTabuV[tmp_v]) {
+					mClashVertexes[mClashVertexes_pos[tmp_v]] = mClashVertexes[--mClashVertexes_length];
+					mClashVertexes_pos[mClashVertexes[mClashVertexes_length]] = mClashVertexes_pos[tmp_v];
+				} else {
+					mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] = mClashTabuVertexes[--mClashTabuVertexes_length];
+					mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[tmp_v];
+				}
+			} else if (tmp_c == pos && mClashVertexes[mClashVertexes_pos[tmp_v]] != tmp_v) {
+				if (mTabuV[tmp_v]) {
+					mClashVertexes[mClashVertexes_length] = tmp_v;
+					mClashVertexes_pos[tmp_v] = mClashVertexes_length++;
+				} else {
+					mClashTabuVertexes[mClashTabuVertexes_length] = tmp_v;
+					mClashTabuVertexes_pos[tmp_v] = mClashTabuVertexes_length++;
+				}
 			}
 		}
-
 
 		int edge_id = edge_map[id][tmp_v];
 		if (tmp_c == cur_pos) {
@@ -707,14 +735,14 @@ void update_info(int id, int pos) {
 			mClashEdges_pos[edge_id] = mClashEdges_length++;
 			if (!mTabuV[tmp_v]) {
 				mTabuV[tmp_v] = true;
-				if (mClash[tmp_v][tmp_c] >= vscore[tmp_v]) {
+				if ((mode == 0 && mClash[tmp_v][tmp_c] >= vscore[tmp_v]) || (mode > 0 && mClash[tmp_v][tmp_c] > 0)) {
 					// assert(mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] == tmp_v);
 					// assert(mClashVertexes_pos[tmp_v] >= mClashVertexes_length || mClashVertexes[mClashVertexes_pos[tmp_v]] != tmp_v);
-					mClashTabuVertexes[mClashTabuVertexes_pos[id]] = mClashTabuVertexes[--mClashTabuVertexes_length];
-					mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[id];
-					mClashVertexes[mClashVertexes_length] = id;
-					mClashVertexes_pos[id] = mClashVertexes_length++;
-					cout << "update6 tmp_v: " << tmp_v << ", from mClashTabuVertexes to mClashVertexes." << endl;
+					mClashTabuVertexes[mClashTabuVertexes_pos[tmp_v]] = mClashTabuVertexes[--mClashTabuVertexes_length];
+					mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[tmp_v];
+					mClashVertexes[mClashVertexes_length] = tmp_v;
+					mClashVertexes_pos[tmp_v] = mClashVertexes_length++;
+					// cout << "update5 tmp_v: " << tmp_v << ", from mClashTabuVertexes to mClashVertexes." << endl;
 				}
 			}	
 		}
@@ -728,27 +756,56 @@ void update_info(int id, int pos) {
 		if (tmp_clash < vscore[id]) vscore[id] = tmp_clash;
 	}
 
-	if (mTabuV[id]) {
-		mTabuV[id] = false;
-		// assert(mClashVertexes[mClashVertexes_pos[id]] == id);
-		mClashVertexes[mClashVertexes_pos[id]] = mClashVertexes[--mClashVertexes_length];
-		mClashVertexes_pos[mClashVertexes[mClashVertexes_length]] = mClashVertexes_pos[id];
-		
-		if (mClash[id][pos] >= vscore[id]) {
-			// assert(mClashTabuVertexes_pos[id] >= mClashTabuVertexes_length || mClashTabuVertexes[mClashTabuVertexes_pos[id]] != id);
-			mClashTabuVertexes[mClashTabuVertexes_length] = id;
-			mClashTabuVertexes_pos[id] = mClashTabuVertexes_length++;
-			cout << "update7 vertex_id: " << id << ", from mClashVertexes to mClashTabuVertexes." << endl;
-		} else {
-			cout << "update8 vertex_id: " << id << ", delete from mClashVertexes." << endl;
+	if (mode == 0) {
+		if (mTabuV[id]) {
+			mTabuV[id] = false;
+			// assert(mClashVertexes[mClashVertexes_pos[id]] == id);
+			mClashVertexes[mClashVertexes_pos[id]] = mClashVertexes[--mClashVertexes_length];
+			mClashVertexes_pos[mClashVertexes[mClashVertexes_length]] = mClashVertexes_pos[id];
+			
+			if (mClash[id][pos] >= vscore[id]) {
+				// assert(mClashTabuVertexes_pos[id] >= mClashTabuVertexes_length || mClashTabuVertexes[mClashTabuVertexes_pos[id]] != id);
+				mClashTabuVertexes[mClashTabuVertexes_length] = id;
+				mClashTabuVertexes_pos[id] = mClashTabuVertexes_length++;
+				// cout << "update6 vertex_id: " << id << ", from mClashVertexes to mClashTabuVertexes." << endl;
+			} else {
+				// cout << "update7 vertex_id: " << id << ", delete from mClashVertexes." << endl;
+			}
+		} else if (mClash[id][pos] < vscore[id]) {
+			// assert(mClashTabuVertexes[mClashTabuVertexes_pos[id]] == id);
+			mClashTabuVertexes[mClashTabuVertexes_pos[id]] = mClashTabuVertexes[--mClashTabuVertexes_length];
+			mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[id];
+			// cout << "update8 vertex_id: " << id << ", delete from mClashTabuVertexes." << endl;
 		}
-	} else if (mClash[id][pos] < vscore[id]) {
-		// assert(mClashTabuVertexes[mClashTabuVertexes_pos[id]] == id);
-		mClashTabuVertexes[mClashTabuVertexes_pos[id]] = mClashTabuVertexes[--mClashTabuVertexes_length];
-		mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[id];
-		cout << "update9 vertex_id: " << id << ", delete from mClashTabuVertexes." << endl;
+	} else {
+		mTabuV[id] = false;
+		if (mClash[id][pos] == 0) {
+			if (mTabuV[id]) {
+				mClashVertexes[mClashVertexes_pos[id]] = mClashVertexes[--mClashVertexes_length];
+				mClashVertexes_pos[mClashVertexes[mClashVertexes_length]] = mClashVertexes_pos[id];
+			} else {
+				mClashTabuVertexes[mClashTabuVertexes_pos[id]] = mClashTabuVertexes[--mClashTabuVertexes_length];
+				mClashTabuVertexes_pos[mClashTabuVertexes[mClashTabuVertexes_length]] = mClashTabuVertexes_pos[id];
+			}
+		}
 	}
 
+	if (mode > 0) mode--;
+	else if (mClashEdges_length != 0 && mClashTabuVertexes_length == 0 && mClashVertexes_length == 0) {
+		mode = 100;
+		for (int i = 0; i < mVertexes_length; i++) {
+			int vertex_id = mVertexes[i];
+			if (mClash[vertex_id][mVertexesColor[vertex_id]] > 0) {
+				if (mTabuV[vertex_id]) {
+					mClashVertexes[mClashVertexes_length] = vertex_id;
+					mClashVertexes_pos[vertex_id] = mClashVertexes_length++;
+				} else {
+					mClashTabuVertexes[mClashTabuVertexes_length] = vertex_id;
+					mClashTabuVertexes_pos[vertex_id] = mClashTabuVertexes_length++;
+				}
+			}
+		}
+	}
 
 	// mClashVertexes_length = 0;
 	// mClashTabuVertexes_length = 0;
@@ -777,17 +834,17 @@ void update_info(int id, int pos) {
 	// for (int i=0; i<mVertexes_length; i++) {
 	// 	cout << "vertex_id: " << mVertexes[i] << ", vscore: " << vscore[mVertexes[i]] << endl;
 	// }
-	cout << "------------------------------------------" << endl;
-	cout << "mClashVertexes_length: " << mClashVertexes_length << endl;
-	for (int i = 0; i < mClashVertexes_length; i++) {
-		cout << mClashVertexes[i] << ": " << vscore[mClashVertexes[i]]-mClash[mClashVertexes[i]][mVertexesColor[mClashVertexes[i]]] << ", tabuV: " << mTabuV[mClashVertexes[i]] << ", vscore: " << vscore[mClashVertexes[i]] << endl;
-	}
-	cout << "------------------------------------------" << endl;
+	// cout << "------------------------------------------" << endl;
+	// cout << "mClashVertexes_length: " << mClashVertexes_length << endl;
+	// for (int i = 0; i < mClashVertexes_length; i++) {
+	// 	cout << mClashVertexes[i] << ": " << vscore[mClashVertexes[i]]-mClash[mClashVertexes[i]][mVertexesColor[mClashVertexes[i]]] << ", tabuV: " << mTabuV[mClashVertexes[i]] << ", vscore: " << vscore[mClashVertexes[i]] << endl;
+	// }
+	// cout << "------------------------------------------" << endl;
 
-	cout << "mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
-	for (int i = 0; i < mClashTabuVertexes_length; i++) {
-		cout << mClashTabuVertexes[i] << ": " << vscore[mClashTabuVertexes[i]]-mClash[mClashTabuVertexes[i]][mVertexesColor[mClashTabuVertexes[i]]] << ", tabuV: " << mTabuV[mClashTabuVertexes[i]] << ", vscore: " << vscore[mClashTabuVertexes[i]] << endl;
-	}
+	// cout << "mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
+	// for (int i = 0; i < mClashTabuVertexes_length; i++) {
+	// 	cout << mClashTabuVertexes[i] << ": " << vscore[mClashTabuVertexes[i]]-mClash[mClashTabuVertexes[i]][mVertexesColor[mClashTabuVertexes[i]]] << ", tabuV: " << mTabuV[mClashTabuVertexes[i]] << ", vscore: " << vscore[mClashTabuVertexes[i]] << endl;
+	// }
 
 
 	// for (int j=0; j<vertex_color_length[id]; j++) {
@@ -812,6 +869,7 @@ void build() {
 			mTabu[mVertexes[i]][j] = 0;
 		}
 	}
+	mode = 0;
 	mClashEdges_length = 0;
 	for (int i = 0; i < mEdges_length; i++) {
         int edge_id = mEdges[i];
@@ -834,9 +892,9 @@ void build() {
 			if (mVertexesColor[vertex_id] == vertex_color[vertex_id][j]) continue;
 			int tmp_clash = mClash[vertex_id][vertex_color[vertex_id][j]];
 			if (tmp_clash < vscore[vertex_id]) vscore[vertex_id] = tmp_clash;
-			cout << "mClash[" << vertex_id << "][" << vertex_color[vertex_id][j] << "]: " << tmp_clash << endl;
+			// cout << "mClash[" << vertex_id << "][" << vertex_color[vertex_id][j] << "]: " << tmp_clash << endl;
 		}
-		cout << "vscore[" << vertex_id << "]: " << vscore[vertex_id] << endl;
+		// cout << "vscore[" << vertex_id << "]: " << vscore[vertex_id] << endl;
 		if (mClash[vertex_id][mVertexesColor[vertex_id]] >= vscore[vertex_id]) {
 			// if (mClash[vertex_id][mVertexesColor[vertex_id]]-vscore[vertex_id] > maxClashVertex) {
 			// 	maxClashVertex = vscore[vertex_id];
@@ -883,17 +941,33 @@ void build() {
 		// }
 	}
 
-	cout << "------------------------------------------" << endl;
-	cout << "mClashVertexes_length: " << mClashVertexes_length << endl;
-	for (int i = 0; i < mClashVertexes_length; i++) {
-		cout << mClashVertexes[i] << ": " << vscore[mClashVertexes[i]]-mClash[mClashVertexes[i]][mVertexesColor[mClashVertexes[i]]] << ", tabuV: " << mTabuV[mClashVertexes[i]] << ", vscore: " << vscore[mClashVertexes[i]] << endl;
+	if (mClashEdges_length != 0 && mClashTabuVertexes_length == 0 && mClashVertexes_length == 0) {
+		mode = 100;
+		for (int i = 0; i < mVertexes_length; i++) {
+			int vertex_id = mVertexes[i];
+			if (mClash[vertex_id][mVertexesColor[vertex_id]] > 0) {
+				if (mTabuV[vertex_id]) {
+					mClashVertexes[mClashVertexes_length] = vertex_id;
+					mClashVertexes_pos[vertex_id] = mClashVertexes_length++;
+				} else {
+					mClashTabuVertexes[mClashTabuVertexes_length] = vertex_id;
+					mClashTabuVertexes_pos[vertex_id] = mClashTabuVertexes_length++;
+				}
+			}
+		}
 	}
-	cout << "------------------------------------------" << endl;
 
-	cout << "mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
-	for (int i = 0; i < mClashTabuVertexes_length; i++) {
-		cout << mClashTabuVertexes[i] << ": " << vscore[mClashTabuVertexes[i]]-mClash[mClashTabuVertexes[i]][mVertexesColor[mClashTabuVertexes[i]]] << ", tabuV: " << mTabuV[mClashTabuVertexes[i]] << ", vscore: " << vscore[mClashTabuVertexes[i]] << endl;
-	}
+	// cout << "------------------------------------------" << endl;
+	// cout << "mClashVertexes_length: " << mClashVertexes_length << endl;
+	// for (int i = 0; i < mClashVertexes_length; i++) {
+	// 	cout << mClashVertexes[i] << ": " << vscore[mClashVertexes[i]]-mClash[mClashVertexes[i]][mVertexesColor[mClashVertexes[i]]] << ", tabuV: " << mTabuV[mClashVertexes[i]] << ", vscore: " << vscore[mClashVertexes[i]] << endl;
+	// }
+	// cout << "------------------------------------------" << endl;
+
+	// cout << "mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
+	// for (int i = 0; i < mClashTabuVertexes_length; i++) {
+	// 	cout << mClashTabuVertexes[i] << ": " << vscore[mClashTabuVertexes[i]]-mClash[mClashTabuVertexes[i]][mVertexesColor[mClashTabuVertexes[i]]] << ", tabuV: " << mTabuV[mClashTabuVertexes[i]] << ", vscore: " << vscore[mClashTabuVertexes[i]] << endl;
+	// }
 
 
 	return;
@@ -940,7 +1014,9 @@ int mTabuSearch() {
 			for(int j=0; j<vertex_color_length[vertex_id]; j++) {
 				int tmp_c = vertex_color[vertex_id][j];
 				if (tmp_c == mVertexesColor[vertex_id]) continue;
-				int tmp_s = get_score(vertex_id, tmp_c);
+				int tmp_s;
+				if (mode == 0) tmp_s = get_score(vertex_id, tmp_c);
+				else tmp_s = get_wscore(vertex_id, tmp_c);
 				if (tmp_s < min_clash) {
 					min_clash = tmp_s;
 					cnt = 0;
@@ -958,7 +1034,9 @@ int mTabuSearch() {
 			for(int j=0; j<vertex_color_length[vertex_id]; j++) {
 				int tmp_c = vertex_color[vertex_id][j];
 				if (tmp_c == mVertexesColor[vertex_id]) continue;
-				int tmp_s = get_score(vertex_id, tmp_c);
+				int tmp_s;
+				if (mode == 0) tmp_s = get_score(vertex_id, tmp_c);
+				else tmp_s = get_wscore(vertex_id, tmp_c);
 				if (tmp_s < min_tabu_clash) {
 					tabu_cnt = 0;
 					min_tabu_clash = tmp_s;
@@ -973,8 +1051,8 @@ int mTabuSearch() {
 			}
 		}
 		cout << "=============================================" << endl;
-		cout << "min_clash: " << min_clash << ", min_tabu_clash: " << min_tabu_clash << endl;
-		cout << "cnt: " << cnt << ", tabu_cnt: " << tabu_cnt << endl;
+		cout << "loop: " << iters << ", min_clash: " << min_clash << ", min_tabu_clash: " << min_tabu_clash << endl;
+		cout << "cnt: " << cnt << ", tabu_cnt: " << tabu_cnt << ", mode: " << mode << endl;
 		if (cnt == 0 && tabu_cnt == 0) {
 			return tSminClash;
 		} else if ((tabu_cnt > 0 && min_tabu_clash < min_clash && (mClashEdges_length + min_tabu_clash < tSminClash)) || (cnt == 0 && tabu_cnt > 0)) {
@@ -1014,9 +1092,9 @@ int mTabuSearch() {
 		move_to = tmp_sub_bms_st[r];
 		mTabu[move_id][mVertexesColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVertexes_length;
 		cout << "choose vertex " << move_id << " change to " << move_to << ", tabuV:" << mTabuV[move_id] << endl;
-		// cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << ", mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
 		// cout << "total: " << mClashVertexes_length + mClashTabuVertexes_length << endl;
 		update_info(move_id, move_to);
+		cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << ", mClashTabuVertexes_length: " << mClashTabuVertexes_length << endl;
 		if (mClashEdges_length <= tSminClash) {
 			tSminClash = mClashEdges_length;
 			for (int i=0; i<mVertexes_length; i++) mVertexesColor_tmp[mVertexes[i]] = mVertexesColor[mVertexes[i]]; 
