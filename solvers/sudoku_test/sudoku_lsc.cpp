@@ -938,7 +938,11 @@ int mTabuSearch() {
 			move_id = tmp_bms_st[r];
 			move_to = tmp_sub_bms_st[r];
 			mTabu[move_id][mVertexesColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVertexes_length;
+			cout << "=============================================" << endl;
+			cout << "loop: " << iters << ", flag: " << flag << endl;
+			cout << "choose vertex " << move_id << " change to " << move_to << endl;
 			update_info(move_id, move_to);
+			cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << endl;
 			increase_score();
 			cscore[move_id] = 0;
 			flag--;
@@ -1077,7 +1081,11 @@ int mTabuSearch() {
 				move_to = tmp_bms_st[r];
 			}
 			mTabu[move_id][mVertexesColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVertexes_length;
+			cout << "=============================================" << endl;
+			cout << "loop: " << iters << ", flag: " << flag << endl;
+			cout << "choose vertex " << move_id << " change to " << move_to << endl;
 			update_info(move_id, move_to);
+			cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << endl;
 			increase_score();
 			cscore[move_id] = 0;
 		}
@@ -1511,18 +1519,19 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	filename = argv[1];
-	seed = atoi(argv[2]);
-	time_limit = atof(argv[3]);
-	// filename = "inst49x49_55_0.txt";
-	// seed = 1;
-	// time_limit = 60;
+	// filename = argv[1];
+	// seed = atoi(argv[2]);
+	// time_limit = atof(argv[3]);
+	filename = "inst9x9_0_0.txt";
+	seed = 1;
+	time_limit = 60;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes();
 
 	mStartTime();
 	mGenerate();
+	return 0;
 	if(check_finish()) return 0;
 	for(int iter = 0; total_time < time_limit; iter++) {
 		// if (mLocalSearch()) break;
