@@ -21,5 +21,6 @@
         "variant": "cpp",
         "string_view": "cpp",
         "random": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
