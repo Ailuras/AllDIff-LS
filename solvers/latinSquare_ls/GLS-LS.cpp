@@ -57,7 +57,7 @@ int last_id;
 int order;
 int prop;
 int var_size;
-int vertex_size;
+int exp_size;
 int color_size;
 int edge_size;
 
@@ -70,9 +70,13 @@ int mEdges_length;
 int** mNeighbours;
 int* mNeighbours_length;
 
-int** var_vertex;
-int* var_vertex_length;
-int* vertex_var;
+int** var_exp;
+int* var_exp_length;
+int** exp_var;
+int* exp_var_length;
+int** exp_coeff;
+int* exp_coeff_length;
+
 int** var_color;
 int* var_color_length;
 int** var_color_pos;
@@ -104,67 +108,74 @@ int* mPoolMaxIter;
 int mPool_length;
 
 void set_Variable_size() {
-	tmp_st = (int *) malloc(sizeof(int) * (vertex_size * color_size));
-	tmp_tabu_st = (int *) malloc(sizeof(int) * (vertex_size * color_size));
-	tmp_sub_st = (int *) malloc(sizeof(int) * (vertex_size * color_size));
-	tmp_sub_tabu_st = (int *) malloc(sizeof(int) * (vertex_size * color_size));
+	tmp_st = (int *) malloc(sizeof(int) * (exp_size * color_size));
+	tmp_tabu_st = (int *) malloc(sizeof(int) * (exp_size * color_size));
+	tmp_sub_st = (int *) malloc(sizeof(int) * (exp_size * color_size));
+	tmp_sub_tabu_st = (int *) malloc(sizeof(int) * (exp_size * color_size));
 	tmp_bms_st = (int *) malloc(sizeof(int) * (max_bms_length + 1));
 	tmp_sub_bms_st = (int *) malloc(sizeof(int) * (max_bms_length + 1));
 	tmp_vertex = (int **) malloc(sizeof(int *) * (color_size + 1));
 	for (int i=1; i<=color_size; i++) tmp_vertex[i] = (int *) malloc(sizeof(int) * (color_size + 1));
-	tmp_flag = (bool *) malloc(sizeof(bool) * (vertex_size + 1));
+	tmp_flag = (bool *) malloc(sizeof(bool) * (exp_size + 1));
     
 	edges = (Edge *) malloc(sizeof(Edge) * (edge_size + 1));
-	edge_map = (int **) malloc(sizeof(int *) * (vertex_size + 1));
-	for(int i = 1; i <= vertex_size; i++) edge_map[i] = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	edge_map = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) edge_map[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
 	mVars = (int *) malloc(sizeof(int) * (var_size + 1));
 	mEdges = (int *) malloc(sizeof(int) * (edge_size + 1));
-	mNeighbours = (int **) malloc(sizeof(int *) * (vertex_size + 1));
-	for(int i = 1; i <= vertex_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (3 * color_size));
-	mNeighbours_length = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	mNeighbours = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (3 * color_size));
+	mNeighbours_length = (int *) malloc(sizeof(int) * (exp_size + 1));
 
-	var_vertex = (int **) malloc(sizeof(int *) * (var_size + 1));
-	for(int i = 1; i <= var_size; i++) var_vertex[i] = (int *) malloc(sizeof(int) * (var_size + 1));
-	var_vertex_length = (int *) malloc(sizeof(int) * (var_size + 1));
-	vertex_var = (int *) malloc(sizeof(int) * (vertex_size + 1));
-	var_color = (int **) malloc(sizeof(int *) * (vertex_size + 1));
-	for(int i = 1; i <= vertex_size; i++) var_color[i] = (int *) malloc(sizeof(int) * (color_size + 1));
-	var_color_pos = (int **) malloc(sizeof(int *) * (vertex_size + 1));
-	for(int i = 1; i <= vertex_size; i++) var_color_pos[i] = (int *) malloc(sizeof(int) * (color_size + 1));
-	var_color_length = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	var_exp = (int **) malloc(sizeof(int *) * (var_size + 1));
+	for(int i = 1; i <= var_size; i++) var_exp[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
+	var_exp_length = (int *) malloc(sizeof(int) * (var_size + 1));
+	exp_var = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) var_exp[i] = (int *) malloc(sizeof(int) * (var_size + 1));
+	exp_var_length = (int *) malloc(sizeof(int) * (exp_size + 1));
+
+	var_color = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) var_color[i] = (int *) malloc(sizeof(int) * (color_size + 1));
+	var_color_pos = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) var_color_pos[i] = (int *) malloc(sizeof(int) * (color_size + 1));
+	var_color_length = (int *) malloc(sizeof(int) * (exp_size + 1));
 	color_var = (int **) malloc(sizeof(int *) * (color_size + 1));
-	for(int i = 1; i <= color_size; i++) color_var[i] = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	for(int i = 1; i <= color_size; i++) color_var[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
 	color_var_pos = (int **) malloc(sizeof(int *) * (color_size + 1));
-	for(int i = 1; i <= color_size; i++) color_var_pos[i] = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	for(int i = 1; i <= color_size; i++) color_var_pos[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
 	color_var_length = (int *) malloc(sizeof(int) * (color_size + 1));
 	color_var_recent = (int *) malloc(sizeof(int) * (color_size + 1));
 
 	mVarsColor = (int *) malloc(sizeof(int) * (var_size + 1));
 	mVarsColor_tmp = (int *) malloc(sizeof(int) * (var_size + 1));
-	mVertexesColor = (int *) malloc(sizeof(int) * (vertex_size + 1));
-	mClash = (int **) malloc(sizeof(int *) * (vertex_size + 1));
-	for(int i = 1; i <= vertex_size; i++) mClash[i] = (int *) malloc(sizeof(int) * (color_size + 1));
-	mTabu = (int **) malloc(sizeof(int *) * (vertex_size + 1));
-	for(int i = 1; i <= vertex_size; i++) mTabu[i] = (int *) malloc(sizeof(long long) * (color_size + 1));
-	mTabuV = (bool *) malloc(sizeof(bool) * (vertex_size + 1));
+	mVertexesColor = (int *) malloc(sizeof(int) * (exp_size + 1));
+	mClash = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) mClash[i] = (int *) malloc(sizeof(int) * (color_size + 1));
+	mTabu = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) mTabu[i] = (int *) malloc(sizeof(long long) * (color_size + 1));
+	mTabuV = (bool *) malloc(sizeof(bool) * (exp_size + 1));
     mClashEdges = (int *) malloc(sizeof(int) * (edge_size + 1));
 	mClashEdges_tmp = (int *) malloc(sizeof(int) * (edge_size + 1));
     mClashEdges_pos = (int *) malloc(sizeof(int) * (edge_size + 1));
-	mClashVars = (int *) malloc(sizeof(int) * (vertex_size + 1));
-	mClashVars_pos = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	mClashVars = (int *) malloc(sizeof(int) * (exp_size + 1));
+	mClashVars_pos = (int *) malloc(sizeof(int) * (exp_size + 1));
 
 	mPoolVarsColor = (int **) malloc(sizeof(int *) * (pool_size));
-	for(int i = 0; i < pool_size; i++) mPoolVarsColor[i] = (int *) malloc(sizeof(int) * (vertex_size + 1));
+	for(int i = 0; i < pool_size; i++) mPoolVarsColor[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
 	mPoolMaxIter = (int *) malloc(sizeof(int) * (pool_size + 1));
 
 	return;
 }
 
 int to_index(int index) {
-	if (index <= color_size) return index;
-	if (index <= 2*color_size) return index - color_size;
-	return index - 2*color_size;
+	return index + var_size;
 }
+
+int to_index(int x, int y, bool type) {
+	if (type) return (x-1)*order + y;
+	else return order*order + (x-1)*order + y; 
+}
+
 
 int to_sum_index(int index) {
 	return index + color_size;
@@ -192,10 +203,10 @@ int get_type(int index) {
 }
 
 void init() {
-	for(int i = 1; i <= vertex_size; i++) {
+	for(int i = 1; i <= exp_size; i++) {
 		mNeighbours_length[i] = 0;
 		mVertexesColor[i] = -1;
-		for(int j = 1; j <= vertex_size; j++) edge_map[i][j] = -1;
+		for(int j = 1; j <= exp_size; j++) edge_map[i][j] = -1;
 	}
 
 	for(int i = 1; i <= var_size; i++) {
@@ -255,10 +266,6 @@ int get_Row(int id) {
 	return (id - 1) % color_size + 1;
 }
 
-int get_Squ(int id) {
-	return (id-1)/(color_size*order)*order + (id-1)%color_size/order + 1;
-}
-
 void mStartTime() {
 	times(&start);
 	start_time = start.tms_utime + start.tms_stime; 
@@ -274,11 +281,11 @@ double mCurrentTime() {
 
 void mRead(string filename) {
 	// FILE *fp = freopen(filename.c_str(), "r", stdin);  
-	order = atoi(filename);
+	order = stoi(filename);
 	var_size = order*order*2;
-	vertex_size = order*order*3;
+	exp_size = order*order*3; // 前order*order*2个表达式一一对应，后面的表达式是两组拉丁方相应变量的和
 	color_size = order;
-	edge_size = order*order*(order-1)*(order+3)/2;
+	edge_size = order*order*(order-1)*(order+5)/2;
 	set_Variable_size();
 	init();
 	for (int i=1; i<=var_size; i++) {
@@ -288,35 +295,67 @@ void mRead(string filename) {
 		}
 	}
 	int index = 0;
-	for (int x=1; x<var_size; x++) {
-		for (int y=x+1; y<=var_size; y++) {
-			mNeighbours[x][mNeighbours_length[x]++] = y;
-			mNeighbours[y][mNeighbours_length[y]++] = x;
-			edges[++index].x = x;
-			edges[index].y = y;
-			edges[index].w = 1;
-			edge_map[x][y] = index;
-			edge_map[y][x] = index;
-			int x1 = to_sum_index(x);
-			int y1 = to_sum_index(y);
-			mNeighbours[x1][mNeighbours_length[x1]++] = y1;
-			mNeighbours[y1][mNeighbours_length[y1]++] = x1;
-			edges[++index].x = x1;
-			edges[index].y = y1;
-			edges[index].w = 1;
-			edge_map[x1][y1] = index;
-			edge_map[y1][x1] = index;
-			int x2 = to_dif_index(x);
-			int y2 = to_dif_index(y);
-			mNeighbours[x2][mNeighbours_length[x2]++] = y2;
-			mNeighbours[y2][mNeighbours_length[y2]++] = x2;
-			edges[++index].x = x2;
-			edges[index].y = y2;
-			edges[index].w = 1;
-			edge_map[x2][y2] = index;
-			edge_map[y2][x2] = index;
+
+	// latin square constraints
+	for (int i=1; i<=order; i++) {
+		for (int x=1; x<order; x++) {
+			int var1 = to_index(i, x, true);
+			int var3 = to_index(x, i, true);
+			int var5 = to_index(i, x, false);
+			int var7 = to_index(x, i, false);
+			for (int y=x+1; y<=order; y++) {
+				int var2 = to_index(i, y, true);
+				int var4 = to_index(y, i, true);
+				int var6 = to_index(i, y, false);
+				int var8 = to_index(y, i, false);
+
+				mNeighbours[var1][mNeighbours_length[var1]++] = var2;
+				mNeighbours[var2][mNeighbours_length[var2]++] = var1;
+				edges[++index].x = var1;
+				edges[index].y = var2;
+				edges[index].w = 1;
+				edge_map[var1][var2] = index;
+				edge_map[var2][var1] = index;
+				mNeighbours[var3][mNeighbours_length[var3]++] = var4;
+				mNeighbours[var4][mNeighbours_length[var4]++] = var3;
+				edges[++index].x = var3;
+				edges[index].y = var4;
+				edges[index].w = 1;
+				edge_map[var3][var4] = index;
+				edge_map[var4][var3] = index;
+				mNeighbours[var5][mNeighbours_length[var5]++] = var6;
+				mNeighbours[var6][mNeighbours_length[var6]++] = var5;
+				edges[++index].x = var5;
+				edges[index].y = var6;
+				edges[index].w = 1;
+				edge_map[var5][var6] = index;
+				edge_map[var6][var5] = index;
+				mNeighbours[var7][mNeighbours_length[var7]++] = var8;
+				mNeighbours[var8][mNeighbours_length[var8]++] = var7;
+				edges[++index].x = var7;
+				edges[index].y = var8;
+				edges[index].w = 1;
+				edge_map[var7][var8] = index;
+				edge_map[var8][var7] = index;
+			}
 		}
 	}
+
+	// Orthogonal constraints
+	for (int i=1; i<order*order; i++) {
+		int var1 = to_index(i);
+		for (int j=i+1; j<=order*order; j++) {
+			int var2 = to_index(j);
+			mNeighbours[var1][mNeighbours_length[var1]++] = var2;
+			mNeighbours[var2][mNeighbours_length[var2]++] = var1;
+			edges[++index].x = var1;
+			edges[index].y = var2;
+			edges[index].w = 1;
+			edge_map[var1][var2] = index;
+			edge_map[var2][var1] = index;
+		}
+	}
+	// cout << index << endl;
 	return;
 }
 
@@ -1029,23 +1068,24 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	filename = argv[1];
-	seed = atoi(argv[2]);
-	time_limit = atof(argv[3]);
-	// filename = "inst200_10_0.txt";
-	// seed = 1;
-	// time_limit = 60;
+	// filename = argv[1];
+	// seed = atoi(argv[2]);
+	// time_limit = atof(argv[3]);
+	filename = "5";
+	seed = 1;
+	time_limit = 60;
 	srand(seed);
 	mRead(filename);
-	mReduceVertexes();
 
-	mStartTime();
-	mGenerate();
-	if(check_finish()) return 0;
-	for(int iter = 0; total_time < time_limit; iter++) {
-		mLocalSearch();
-		if(check_finish()) break;
-		mCurrentTime();
-	}
+	// mReduceVertexes();
+
+	// mStartTime();
+	// mGenerate();
+	// if(check_finish()) return 0;
+	// for(int iter = 0; total_time < time_limit; iter++) {
+	// 	mLocalSearch();
+	// 	if(check_finish()) break;
+	// 	mCurrentTime();
+	// }
 	return 0;
 }
