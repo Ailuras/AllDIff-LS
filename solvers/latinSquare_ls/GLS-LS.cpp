@@ -26,18 +26,14 @@ int* tmp_sp_vertexes;
 bool* tmp_flag;
 
 // const & hyper
-const int total_Iters = 10000;
-const int tabuStep = 10;
-const int max_bms_length = 1;
-const int CC = 0;
 const int max_iter = 100000;
 const int max_no_improve_iter = 10000;
-const int max_no_improve_search = 10;
+const int max_bms_length = 1;
 const double alpha1 = 0.9;
 const double alpha2 = 0.6;
 const double alpha3 = 4.0;
 const int alpha4 = 5;
-const int bscore_weight = 1000;
+const int tabuStep = 10;
 const int pool_size = 50;
 
 string filename;
@@ -51,7 +47,6 @@ int start_time;
 double total_time;
 double best_time;
 int no_improve_search;
-int mIter;
 int last_id;
 
 int order;
@@ -65,6 +60,8 @@ Edge* edges;
 int** edge_map;
 int* mVars;
 int mVars_length;
+int* mExps;
+int mExps_length;
 int* mEdges;
 int mEdges_length;
 int** mNeighbours;
@@ -74,20 +71,22 @@ int** var_exp;
 int* var_exp_length;
 int** exp_var;
 int* exp_var_length;
-int** exp_coeff;
-int* exp_coeff_length;
+int** exp_coef;
+int* exp_coef_length;
+// int** cst_exp;
+// int* cst_exp_length;
 
 int** var_color;
 int* var_color_length;
 int** var_color_pos;
-int** color_var;
-int* color_var_length;
-int** color_var_pos;
-int* color_var_recent;
+// int** color_var;
+// int* color_var_length;
+// int** color_var_pos;
+// int* color_var_recent;
 
 int* mVarsColor;
 int* mVarsColor_tmp;
-int* mVertexesColor;
+int* mExpsColor;
 
 int clash_best;
 int clash_cur;
@@ -122,6 +121,7 @@ void set_Variable_size() {
 	edge_map = (int **) malloc(sizeof(int *) * (exp_size + 1));
 	for(int i = 1; i <= exp_size; i++) edge_map[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
 	mVars = (int *) malloc(sizeof(int) * (var_size + 1));
+	mExps = (int *) malloc(sizeof(int) * (exp_size + 1));
 	mEdges = (int *) malloc(sizeof(int) * (edge_size + 1));
 	mNeighbours = (int **) malloc(sizeof(int *) * (exp_size + 1));
 	for(int i = 1; i <= exp_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (3 * color_size));
@@ -130,25 +130,30 @@ void set_Variable_size() {
 	var_exp = (int **) malloc(sizeof(int *) * (var_size + 1));
 	for(int i = 1; i <= var_size; i++) var_exp[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
 	var_exp_length = (int *) malloc(sizeof(int) * (var_size + 1));
+
 	exp_var = (int **) malloc(sizeof(int *) * (exp_size + 1));
-	for(int i = 1; i <= exp_size; i++) var_exp[i] = (int *) malloc(sizeof(int) * (var_size + 1));
+	for(int i = 1; i <= exp_size; i++) exp_var[i] = (int *) malloc(sizeof(int) * (var_size + 1));
 	exp_var_length = (int *) malloc(sizeof(int) * (exp_size + 1));
+
+	exp_coef = (int **) malloc(sizeof(int *) * (exp_size + 1));
+	for(int i = 1; i <= exp_size; i++) exp_coef[i] = (int *) malloc(sizeof(int) * (var_size + 2));
+	exp_coef_length = (int *) malloc(sizeof(int) * (exp_size + 1));
 
 	var_color = (int **) malloc(sizeof(int *) * (exp_size + 1));
 	for(int i = 1; i <= exp_size; i++) var_color[i] = (int *) malloc(sizeof(int) * (color_size + 1));
 	var_color_pos = (int **) malloc(sizeof(int *) * (exp_size + 1));
 	for(int i = 1; i <= exp_size; i++) var_color_pos[i] = (int *) malloc(sizeof(int) * (color_size + 1));
 	var_color_length = (int *) malloc(sizeof(int) * (exp_size + 1));
-	color_var = (int **) malloc(sizeof(int *) * (color_size + 1));
-	for(int i = 1; i <= color_size; i++) color_var[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
-	color_var_pos = (int **) malloc(sizeof(int *) * (color_size + 1));
-	for(int i = 1; i <= color_size; i++) color_var_pos[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
-	color_var_length = (int *) malloc(sizeof(int) * (color_size + 1));
-	color_var_recent = (int *) malloc(sizeof(int) * (color_size + 1));
+	// color_var = (int **) malloc(sizeof(int *) * (color_size + 1));
+	// for(int i = 1; i <= color_size; i++) color_var[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
+	// color_var_pos = (int **) malloc(sizeof(int *) * (color_size + 1));
+	// for(int i = 1; i <= color_size; i++) color_var_pos[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
+	// color_var_length = (int *) malloc(sizeof(int) * (color_size + 1));
+	// color_var_recent = (int *) malloc(sizeof(int) * (color_size + 1));
 
 	mVarsColor = (int *) malloc(sizeof(int) * (var_size + 1));
 	mVarsColor_tmp = (int *) malloc(sizeof(int) * (var_size + 1));
-	mVertexesColor = (int *) malloc(sizeof(int) * (exp_size + 1));
+	mExpsColor = (int *) malloc(sizeof(int) * (exp_size + 1));
 	mClash = (int **) malloc(sizeof(int *) * (exp_size + 1));
 	for(int i = 1; i <= exp_size; i++) mClash[i] = (int *) malloc(sizeof(int) * (color_size + 1));
 	mTabu = (int **) malloc(sizeof(int *) * (exp_size + 1));
@@ -205,25 +210,16 @@ int get_type(int index) {
 void init() {
 	for(int i = 1; i <= exp_size; i++) {
 		mNeighbours_length[i] = 0;
-		mVertexesColor[i] = -1;
+		exp_var_length[i] = 0;
+		exp_coef_length[i] = 0;
+		mExpsColor[i] = -1;
 		for(int j = 1; j <= exp_size; j++) edge_map[i][j] = -1;
 	}
 
 	for(int i = 1; i <= var_size; i++) {
 		var_color_length[i] = 0;
+		var_exp_length[i] = 0;
 		mVarsColor[i] = -1;
-		for(int j = 1; j <= color_size; j++) {
-			mClash[i][j] = 0;
-			var_color_pos[i][j] = color_size + 1;
-		}
-	}
-	
-	for(int i = 1; i <= color_size; i++) {
-		color_var_length[i] = 0;
-		for(int j = 1; j <= var_size; j++) {
-			color_var[i][color_var_length[i]] = j; 
-			color_var_pos[i][j] = color_var_length[i]++;
-		}
 	}
 
 	return;
@@ -239,23 +235,18 @@ void swap_var_color(int id, int c_a, int p_b) {
 	return;
 }
 
-void swap_color_var(int id, int v_a, int p_b) {
-	int v_b = color_var[id][p_b];
-	int p_a = color_var_pos[id][v_a];
-	color_var[id][p_a] = v_b;
-	color_var[id][p_b] = v_a;
-	color_var_pos[id][v_a] = p_b;
-	color_var_pos[id][v_b] = p_a;
-	return;
-}
+// void swap_color_var(int id, int v_a, int p_b) {
+// 	int v_b = color_var[id][p_b];
+// 	int p_a = color_var_pos[id][v_a];
+// 	color_var[id][p_a] = v_b;
+// 	color_var[id][p_b] = v_a;
+// 	color_var_pos[id][v_a] = p_b;
+// 	color_var_pos[id][v_b] = p_a;
+// 	return;
+// }
 
 int get_score(int id, int to) {
 	return mClash[id][to] - mClash[id][mVarsColor[id]];
-}
-
-int get_gscore(int id, int to) {
-    if (color_var_length[to]-color_size < 0) return 1;
-    else return -1;
 }
 
 int get_Col(int id) {
@@ -288,15 +279,27 @@ void mRead(string filename) {
 	edge_size = order*order*(order-1)*(order+5)/2;
 	set_Variable_size();
 	init();
-	for (int i=1; i<=var_size; i++) {
-		for(int k=1; k<=color_size; k++) {
-			var_color[i][var_color_length[i]] = k; 
-			var_color_pos[i][k] = var_color_length[i]++;
-		}
-	}
-	int index = 0;
 
-	// latin square constraints
+	// Initialize variable domains
+	// Initialize relationships between variables and expressions
+	for (int i=1; i<=var_size; i++) {
+		for (int j=1; j<=color_size; j++) {
+			var_color[i][var_color_length[i]] = j; 
+			var_color_pos[i][j] = var_color_length[i]++;
+		}
+		var_exp[i][var_exp_length[i]++] = i;
+		exp_var[i][exp_var_length[i]++] = i;
+		exp_coef[i][exp_coef_length[i]++] = 1;
+		int tmp_exp;
+		if (i<=order*order) tmp_exp = var_size + i;
+		else tmp_exp = order*order + i;
+		var_exp[i][var_exp_length[i]++] = tmp_exp;
+		exp_var[tmp_exp][exp_var_length[tmp_exp]++] = i;
+		exp_coef[tmp_exp][exp_coef_length[tmp_exp]++] = 1;
+	}
+
+	int index = 0;
+	// Latin square constraints
 	for (int i=1; i<=order; i++) {
 		for (int x=1; x<order; x++) {
 			int var1 = to_index(i, x, true);
@@ -340,7 +343,6 @@ void mRead(string filename) {
 			}
 		}
 	}
-
 	// Orthogonal constraints
 	for (int i=1; i<order*order; i++) {
 		int var1 = to_index(i);
@@ -355,7 +357,6 @@ void mRead(string filename) {
 			edge_map[var2][var1] = index;
 		}
 	}
-	// cout << index << endl;
 	return;
 }
 
@@ -410,13 +411,13 @@ void check_answer() {
 		int v = i;
 		int v1 = to_sum_index(v);
 		int v2 = to_dif_index(v);
-		mVertexesColor[v] = tmp_c;
-		mVertexesColor[v1] = to_sum_color(v, tmp_c);
-		mVertexesColor[v2] = to_dif_color(v, tmp_c);
+		mExpsColor[v] = tmp_c;
+		mExpsColor[v1] = to_sum_color(v, tmp_c);
+		mExpsColor[v2] = to_dif_color(v, tmp_c);
 	}
 	for (int i = 1; i <= edge_size; i++) {
-		if(mVertexesColor[edges[i].x] == mVertexesColor[edges[i].y]) {
-			cout << "answer wrong same color " << edges[i].x << " " << edges[i].y << " " << mVertexesColor[edges[i].x] << " " << mVertexesColor[edges[i].y] << endl;
+		if(mExpsColor[edges[i].x] == mExpsColor[edges[i].y]) {
+			cout << "answer wrong same color " << edges[i].x << " " << edges[i].y << " " << mExpsColor[edges[i].x] << " " << mExpsColor[edges[i].y] << endl;
 			flag = false;
 		}
 	}
@@ -446,127 +447,13 @@ bool check_tabu(int id, int to, int iter) {
 	return false;
 }
 
-bool check_tabu(int id) {
-	return mTabuV[id];
-	if (color_var_recent[mVarsColor[id]] == id) return false;
-	return true;
-}
-
 void mReduceVertexes() {
-	for (int i=1; i<=var_size; i++) {
-		if (var_color_length[i] == 1) {
-			// Variable operation
-			int c = var_color[i][0];
-			mVarsColor[i] = c;
-			// Simplification operation
-			int c1 = to_sum_color(i, c);
-			int c2 = to_dif_color(i, c);
-			for (int j=1; j<=var_size; j++) {
-				if (i == j) { var_color_length[i] = 0; continue;}
-				int tmp_c1 = to_pre_color(j, c1, true);
-				int tmp_c2 = to_pre_color(j, c2, false);
-				if (var_color_pos[j][c] < var_color_length[j]) swap_var_color(j, c, --var_color_length[j]);
-				if (tmp_c1 > 0 && tmp_c1 <= color_size) {
-					if (var_color_pos[j][tmp_c1] < var_color_length[j]) swap_var_color(j, tmp_c1, --var_color_length[j]);
-				}
-				if (tmp_c2 > 0 && tmp_c2 <= color_size) {
-					if (var_color_pos[j][tmp_c2] < var_color_length[j]) swap_var_color(j, tmp_c2, --var_color_length[j]);
-				}
-			}
-			for (int j=1; j<=color_size; j++) {
-				if (c == j) { color_var_length[c] = 0; continue;}
-				if (color_var_pos[j][i] < color_var_length[j]) swap_color_var(j, i, --color_var_length[j]);
-			}
-
-		}
-	}
-	queue<int> q;
-	for (int i = 1; i <= var_size; i++) {
-		if (var_color_length[i] == 1) q.push(i);
-	}
-	for (int i = 1; i <= color_size; i++) {
-		if (color_var_length[i] == 1) {
-			int v = color_var[i][0];
-			swap_var_color(v, i, 0);
-			q.push(v);
-		}
-	}
-	while(!q.empty()) {
-		int i = q.front();
-		int c = var_color[i][0];
-		q.pop();
-		if(mVarsColor[i] > 0) continue;
-		mVarsColor[i] = c;
-
-		// Simplification operation
-		int c1 = to_sum_color(i, c);
-		int c2 = to_dif_color(i, c);
-		for (int j=1; j<=var_size; j++) {
-			if (i == j) { var_color_length[i] = 0; continue;}
-			int tmp_c1 = to_pre_color(j, c1, true);
-			int tmp_c2 = to_pre_color(j, c2, false);
-			if (var_color_pos[j][c] < var_color_length[j]) swap_var_color(j, c, --var_color_length[j]);
-			if (tmp_c1 > 0 && tmp_c1 <= color_size) {
-				if (var_color_pos[j][tmp_c1] < var_color_length[j]) swap_var_color(j, tmp_c1, --var_color_length[j]);
-			}
-			if (tmp_c2 > 0 && tmp_c2 <= color_size) {
-				if (var_color_pos[j][tmp_c2] < var_color_length[j]) swap_var_color(j, tmp_c2, --var_color_length[j]);
-			}
-			if (var_color_length[j] == 1) q.push(j);
-		}
-		for (int j=1; j<=color_size; j++) {
-			if (c == j) { color_var_length[c] = 0; continue;}
-			if (color_var_pos[j][i] < color_var_length[j]) swap_color_var(j, i, --color_var_length[j]);
-			if (color_var_length[j] == 1) {
-				int v = color_var[j][0];
-				swap_var_color(v, j, 0);
-				q.push(v);
-			}
-		}
-	}
-
 	mVars_length = 0;
+	mExps_length = 0;
 	mEdges_length = 0;
-	for (int i=1; i<=var_size; i++) {
-		int v1 = to_sum_index(i);
-		int v2 = to_dif_index(i);
-		if (mVarsColor[i] < 0) {
-			mVars[mVars_length++] = i;
-		} else {
-			mVertexesColor[i] = mVarsColor[i];
-			mVertexesColor[v1] = to_sum_color(i, mVarsColor[i]);
-			mVertexesColor[v2] = to_dif_color(i, mVarsColor[i]);
-		}
-	}
-	for (int i = 0; i < mVars_length; i++) {
-		int v = mVars[i];
-		int v1 = to_sum_index(v);
-		int v2 = to_dif_index(v);
-		for (int j = 0; j < mNeighbours_length[v]; j++) {
-			int tmp_v = mNeighbours[v][j];
-			if (mVertexesColor[tmp_v] > 0) {
-				mNeighbours[v][j--] = mNeighbours[v][--mNeighbours_length[v]];
-			} else if (v < tmp_v) {
-                mEdges[mEdges_length++] = edge_map[v][tmp_v];
-			}
-		}
-		for (int j = 0; j < mNeighbours_length[v1]; j++) {
-			int tmp_v = mNeighbours[v1][j];
-			if (mVertexesColor[tmp_v] > 0) {
-				mNeighbours[v1][j--] = mNeighbours[v1][--mNeighbours_length[v1]];
-			} else if (v1 < tmp_v) {
-                mEdges[mEdges_length++] = edge_map[v1][tmp_v];
-			}
-		}
-		for (int j = 0; j < mNeighbours_length[v2]; j++) {
-			int tmp_v = mNeighbours[v2][j];
-			if (mVertexesColor[tmp_v] > 0) {
-				mNeighbours[v2][j--] = mNeighbours[v2][--mNeighbours_length[v2]];
-			} else if (v2 < tmp_v) {
-                mEdges[mEdges_length++] = edge_map[v2][tmp_v];
-			}
-		}
-	}
+	for (int i=1; i<=var_size; i++) mVars[mVars_length++] = i;
+	for (int i=1; i<=exp_size; i++) mExps[mEdges_length++] = i;
+	for (int i=1; i<=edge_size; i++) mEdges[mEdges_length++] = i;
 	return;
 }
 
@@ -683,20 +570,20 @@ void build() {
 		if (type == 0) {
 			x = edges[e].x;
 			y = edges[e].y;
-			mClash[x][mVertexesColor[y]] += edges[e].w;
-			mClash[y][mVertexesColor[x]] += edges[e].w;
+			mClash[x][mExpsColor[y]] += edges[e].w;
+			mClash[y][mExpsColor[x]] += edges[e].w;
 		} else if (type == 1) {
 			x = to_index(edges[e].x);
 			y = to_index(edges[e].y);
-			mClash[x][to_pre_color(x, to_sum_color(y, mVertexesColor[y]), true)] += edges[e].w;
-			mClash[y][to_pre_color(y, to_sum_color(x, mVertexesColor[x]), true)] += edges[e].w;
+			mClash[x][to_pre_color(x, to_sum_color(y, mExpsColor[y]), true)] += edges[e].w;
+			mClash[y][to_pre_color(y, to_sum_color(x, mExpsColor[x]), true)] += edges[e].w;
 		} else {
 			x = to_index(edges[e].x);
 			y = to_index(edges[e].y);
-			mClash[x][to_pre_color(x, to_dif_color(y, mVertexesColor[y]), false)] += edges[e].w;
-			mClash[y][to_pre_color(y, to_dif_color(x, mVertexesColor[x]), false)] += edges[e].w;
+			mClash[x][to_pre_color(x, to_dif_color(y, mExpsColor[y]), false)] += edges[e].w;
+			mClash[y][to_pre_color(y, to_dif_color(x, mExpsColor[x]), false)] += edges[e].w;
 		}
-		if (mVertexesColor[edges[e].x] == mVertexesColor[edges[e].y]) {
+		if (mExpsColor[edges[e].x] == mExpsColor[edges[e].y]) {
             mClashEdges[mClashEdges_length] = e;
             mClashEdges_pos[e] = mClashEdges_length++;
 		}
@@ -827,7 +714,7 @@ int mTabuSearch() {
 			for (int i = 0; i < mClashVars_length; i++) {
 				int tmp_v = mClashVars[i];
 				int tmp_s = -mClash[tmp_v][mVarsColor[tmp_v]];
-				if (check_tabu(tmp_v)) {
+				if (true) {
 					if (tmp_s < min_clash) {
 						cnt = 0;
 						min_clash = tmp_s;
@@ -924,7 +811,6 @@ int mTabuSearch() {
 				if (check_tabu(move_id, move_from, iters)) {
 					mTabu[move_id][mVarsColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVars_length;
 					mTabuV[move_id] = false;
-					color_var_recent[move_from] = move_id;
 				} else flag = 100;
 				continue;
 			}
@@ -932,7 +818,7 @@ int mTabuSearch() {
 				v_cnt = min(max_bms_length, sub_tabu_cnt);
 				for (int i = 0; i < v_cnt; i++) {
 					r = rand() % sub_tabu_cnt;
-					long long tmp_bs = get_gscore(move_id, tmp_sub_tabu_st[r]);
+					long long tmp_bs = 1;
 					if (max_bs < tmp_bs) {
 						bs_cnt = 0;
 						max_bs = tmp_bs;
@@ -945,7 +831,7 @@ int mTabuSearch() {
 				v_cnt = min(max_bms_length, sub_cnt);
 				for (int i = 0; i < v_cnt; i++) {
 					r = rand() % sub_cnt;
-					long long tmp_bs = get_gscore(move_id, tmp_sub_st[r]);
+					long long tmp_bs = 1;
 					if (max_bs < tmp_bs) {
 						bs_cnt = 0;
 						max_bs = tmp_bs;
@@ -992,7 +878,6 @@ bool check_diff() {
 }
 
 bool mLocalSearch() {
-	mIter++;
 	clash_cur = mTabuSearch();
 	if(clash_cur < clash_best) {
 		mPool_length = 0;
@@ -1032,9 +917,9 @@ bool mLocalSearch() {
 		mVarsColor[v] = tmp_c;
 		int v1 = to_sum_index(v);
 		int v2 = to_dif_index(v);
-		mVertexesColor[v] = tmp_c;
-		mVertexesColor[v1] = to_sum_color(v, tmp_c);
-		mVertexesColor[v2] = to_dif_color(v, tmp_c);
+		mExpsColor[v] = tmp_c;
+		mExpsColor[v1] = to_sum_color(v, tmp_c);
+		mExpsColor[v2] = to_dif_color(v, tmp_c);
 	}
 
 	if(clash_best == 0) return true;
@@ -1043,21 +928,23 @@ bool mLocalSearch() {
 
 void mGenerate() {
 	for (int i=0; i<pool_size; i++) mPoolMaxIter[i] = max_iter;
-	for (int i = 0; i < mVars_length; i++) {
+	for (int i=0; i<mVars_length; i++) {
 		int v = mVars[i];
 		int tmp_c = var_color[v][rand() % var_color_length[v]];
 		mVarsColor[v] = tmp_c;
-		int v1 = to_sum_index(v);
-		int v2 = to_dif_index(v);
-		mVertexesColor[v] = tmp_c;
-		mVertexesColor[v1] = to_sum_color(v, tmp_c);
-		mVertexesColor[v2] = to_dif_color(v, tmp_c);
 	}
+
+	for (int i=0; i<mExps_length; i++) {
+		int exp = mExps[i];
+		int val = 0;
+		for (int j=0; j<exp_var_length[exp]; j++) val += mVarsColor[exp_var[exp][j]] * exp_coef[exp][j];
+		mExpsColor[exp] = val;
+	}
+
 	for (int i=1; i<=var_size; i++) {
 		// mVarsColor_tmp[i] = -1;
 		mVarsColor_tmp[i] = mVarsColor[i];
 	}
-	mIter = 0;
 	last_id = 0;
 	mPool_length = 0;
 	clash_best = INT_MAX;
@@ -1077,15 +964,15 @@ int main(int argc, char* argv[]) {
 	srand(seed);
 	mRead(filename);
 
-	// mReduceVertexes();
+	mReduceVertexes();
 
-	// mStartTime();
-	// mGenerate();
-	// if(check_finish()) return 0;
-	// for(int iter = 0; total_time < time_limit; iter++) {
-	// 	mLocalSearch();
-	// 	if(check_finish()) break;
-	// 	mCurrentTime();
-	// }
+	mStartTime();
+	mGenerate();
+	if(check_finish()) return 0;
+	for(int iter = 0; total_time < time_limit; iter++) {
+		mLocalSearch();
+		if(check_finish()) break;
+		mCurrentTime();
+	}
 	return 0;
 }
