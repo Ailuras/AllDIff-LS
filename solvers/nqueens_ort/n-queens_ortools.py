@@ -96,3 +96,5 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         file = sys.argv[1]
     main(file)
+    
+        # model.AddAllDifferent([A[i][j]*n + B[i][j] for i in range(n) for j in range(n)])

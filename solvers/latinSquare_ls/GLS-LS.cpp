@@ -29,7 +29,7 @@ bool* tmp_flag;
 const int max_iter = 100000;
 const int max_no_improve_iter = 10000;
 const int max_bms_length = 1;
-const double alpha1 = 0.9;
+const double alpha1 = 100;
 const double alpha2 = 0.6;
 const double alpha3 = 4.0;
 const int alpha4 = 5;
@@ -73,16 +73,10 @@ int** exp_var;
 int* exp_var_length;
 int** exp_coef;
 int* exp_coef_length;
-// int** cst_exp;
-// int* cst_exp_length;
 
 int** var_color;
 int* var_color_length;
 int** var_color_pos;
-// int** color_var;
-// int* color_var_length;
-// int** color_var_pos;
-// int* color_var_recent;
 
 int* mVarsColor;
 int* mVarsColor_tmp;
@@ -93,11 +87,17 @@ int clash_cur;
 int** mClash;
 int** mTabu;
 bool* mTabuV;
+long long* mscore;
+long long* nscore;
+int mode;
 int* mClashEdges;
 int* mClashEdges_tmp;
 int* mClashEdges_pos;
 int mClashEdges_length;
 int mClashEdges_length_tmp;
+int* mExcelVars;
+int* mExcelVars_pos;
+int mExcelVars_length;
 int* mClashVars;
 int* mClashVars_pos;
 int mClashVars_length;
@@ -124,7 +124,7 @@ void set_Variable_size() {
 	mExps = (int *) malloc(sizeof(int) * (exp_size + 1));
 	mEdges = (int *) malloc(sizeof(int) * (edge_size + 1));
 	mNeighbours = (int **) malloc(sizeof(int *) * (exp_size + 1));
-	for(int i = 1; i <= exp_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (3 * color_size));
+	for(int i = 1; i <= exp_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (var_size + 1));
 	mNeighbours_length = (int *) malloc(sizeof(int) * (exp_size + 1));
 
 	var_exp = (int **) malloc(sizeof(int *) * (var_size + 1));
@@ -154,19 +154,23 @@ void set_Variable_size() {
 	mVarsColor = (int *) malloc(sizeof(int) * (var_size + 1));
 	mVarsColor_tmp = (int *) malloc(sizeof(int) * (var_size + 1));
 	mExpsColor = (int *) malloc(sizeof(int) * (exp_size + 1));
-	mClash = (int **) malloc(sizeof(int *) * (exp_size + 1));
-	for(int i = 1; i <= exp_size; i++) mClash[i] = (int *) malloc(sizeof(int) * (color_size + 1));
-	mTabu = (int **) malloc(sizeof(int *) * (exp_size + 1));
-	for(int i = 1; i <= exp_size; i++) mTabu[i] = (int *) malloc(sizeof(long long) * (color_size + 1));
-	mTabuV = (bool *) malloc(sizeof(bool) * (exp_size + 1));
+	mClash = (int **) malloc(sizeof(int *) * (var_size + 1));
+	for(int i = 1; i <= var_size; i++) mClash[i] = (int *) malloc(sizeof(int) * (color_size + 1));
+	mTabu = (int **) malloc(sizeof(int *) * (var_size + 1));
+	for(int i = 1; i <= var_size; i++) mTabu[i] = (int *) malloc(sizeof(long long) * (color_size + 1));
+	mTabuV = (bool *) malloc(sizeof(bool) * (var_size + 1));
+	mscore = (long long *) malloc(sizeof(long long) * (var_size + 1));
+	nscore = (long long *) malloc(sizeof(long long) * (var_size + 1));
     mClashEdges = (int *) malloc(sizeof(int) * (edge_size + 1));
 	mClashEdges_tmp = (int *) malloc(sizeof(int) * (edge_size + 1));
     mClashEdges_pos = (int *) malloc(sizeof(int) * (edge_size + 1));
-	mClashVars = (int *) malloc(sizeof(int) * (exp_size + 1));
-	mClashVars_pos = (int *) malloc(sizeof(int) * (exp_size + 1));
+	mExcelVars = (int *) malloc(sizeof(int) * (var_size + 1));
+	mExcelVars_pos = (int *) malloc(sizeof(int) * (var_size + 1));
+	mClashVars = (int *) malloc(sizeof(int) * (var_size + 1));
+	mClashVars_pos = (int *) malloc(sizeof(int) * (var_size + 1));
 
 	mPoolVarsColor = (int **) malloc(sizeof(int *) * (pool_size));
-	for(int i = 0; i < pool_size; i++) mPoolVarsColor[i] = (int *) malloc(sizeof(int) * (exp_size + 1));
+	for(int i = 0; i < pool_size; i++) mPoolVarsColor[i] = (int *) malloc(sizeof(int) * (var_size + 1));
 	mPoolMaxIter = (int *) malloc(sizeof(int) * (pool_size + 1));
 
 	return;
@@ -291,70 +295,75 @@ void mRead(string filename) {
 		exp_var[i][exp_var_length[i]++] = i;
 		exp_coef[i][exp_coef_length[i]++] = 1;
 		int tmp_exp;
-		if (i<=order*order) tmp_exp = var_size + i;
-		else tmp_exp = order*order + i;
-		var_exp[i][var_exp_length[i]++] = tmp_exp;
-		exp_var[tmp_exp][exp_var_length[tmp_exp]++] = i;
-		exp_coef[tmp_exp][exp_coef_length[tmp_exp]++] = 1;
+		if (i<=order*order) {
+			tmp_exp = var_size + i;
+			var_exp[i][var_exp_length[i]++] = tmp_exp;
+			exp_var[tmp_exp][exp_var_length[tmp_exp]++] = i;
+			exp_coef[tmp_exp][exp_coef_length[tmp_exp]++] = order;
+		} else {
+			tmp_exp = order*order + i;
+			var_exp[i][var_exp_length[i]++] = tmp_exp;
+			exp_var[tmp_exp][exp_var_length[tmp_exp]++] = i;
+			exp_coef[tmp_exp][exp_coef_length[tmp_exp]++] = 1;
+		}
 	}
 
 	int index = 0;
 	// Latin square constraints
 	for (int i=1; i<=order; i++) {
 		for (int x=1; x<order; x++) {
-			int var1 = to_index(i, x, true);
-			int var3 = to_index(x, i, true);
-			int var5 = to_index(i, x, false);
-			int var7 = to_index(x, i, false);
+			int exp1 = to_index(i, x, true);
+			int exp3 = to_index(x, i, true);
+			int exp5 = to_index(i, x, false);
+			int exp7 = to_index(x, i, false);
 			for (int y=x+1; y<=order; y++) {
-				int var2 = to_index(i, y, true);
-				int var4 = to_index(y, i, true);
-				int var6 = to_index(i, y, false);
-				int var8 = to_index(y, i, false);
-
-				mNeighbours[var1][mNeighbours_length[var1]++] = var2;
-				mNeighbours[var2][mNeighbours_length[var2]++] = var1;
-				edges[++index].x = var1;
-				edges[index].y = var2;
+				int exp2 = to_index(i, y, true);
+				int exp4 = to_index(y, i, true);
+				int exp6 = to_index(i, y, false);
+				int exp8 = to_index(y, i, false);
+				mNeighbours[exp1][mNeighbours_length[exp1]++] = exp2;
+				mNeighbours[exp2][mNeighbours_length[exp2]++] = exp1;
+				edges[++index].x = exp1;
+				edges[index].y = exp2;
 				edges[index].w = 1;
-				edge_map[var1][var2] = index;
-				edge_map[var2][var1] = index;
-				mNeighbours[var3][mNeighbours_length[var3]++] = var4;
-				mNeighbours[var4][mNeighbours_length[var4]++] = var3;
-				edges[++index].x = var3;
-				edges[index].y = var4;
+				edge_map[exp1][exp2] = index;
+				edge_map[exp2][exp1] = index;
+				mNeighbours[exp3][mNeighbours_length[exp3]++] = exp4;
+				mNeighbours[exp4][mNeighbours_length[exp4]++] = exp3;
+				edges[++index].x = exp3;
+				edges[index].y = exp4;
 				edges[index].w = 1;
-				edge_map[var3][var4] = index;
-				edge_map[var4][var3] = index;
-				mNeighbours[var5][mNeighbours_length[var5]++] = var6;
-				mNeighbours[var6][mNeighbours_length[var6]++] = var5;
-				edges[++index].x = var5;
-				edges[index].y = var6;
+				edge_map[exp3][exp4] = index;
+				edge_map[exp4][exp3] = index;
+				mNeighbours[exp5][mNeighbours_length[exp5]++] = exp6;
+				mNeighbours[exp6][mNeighbours_length[exp6]++] = exp5;
+				edges[++index].x = exp5;
+				edges[index].y = exp6;
 				edges[index].w = 1;
-				edge_map[var5][var6] = index;
-				edge_map[var6][var5] = index;
-				mNeighbours[var7][mNeighbours_length[var7]++] = var8;
-				mNeighbours[var8][mNeighbours_length[var8]++] = var7;
-				edges[++index].x = var7;
-				edges[index].y = var8;
+				edge_map[exp5][exp6] = index;
+				edge_map[exp6][exp5] = index;
+				mNeighbours[exp7][mNeighbours_length[exp7]++] = exp8;
+				mNeighbours[exp8][mNeighbours_length[exp8]++] = exp7;
+				edges[++index].x = exp7;
+				edges[index].y = exp8;
 				edges[index].w = 1;
-				edge_map[var7][var8] = index;
-				edge_map[var8][var7] = index;
+				edge_map[exp7][exp8] = index;
+				edge_map[exp8][exp7] = index;
 			}
 		}
 	}
 	// Orthogonal constraints
 	for (int i=1; i<order*order; i++) {
-		int var1 = to_index(i);
+		int exp1 = to_index(i);
 		for (int j=i+1; j<=order*order; j++) {
-			int var2 = to_index(j);
-			mNeighbours[var1][mNeighbours_length[var1]++] = var2;
-			mNeighbours[var2][mNeighbours_length[var2]++] = var1;
-			edges[++index].x = var1;
-			edges[index].y = var2;
+			int exp2 = to_index(j);
+			mNeighbours[exp1][mNeighbours_length[exp1]++] = exp2;
+			mNeighbours[exp2][mNeighbours_length[exp2]++] = exp1;
+			edges[++index].x = exp1;
+			edges[index].y = exp2;
 			edges[index].w = 1;
-			edge_map[var1][var2] = index;
-			edge_map[var2][var1] = index;
+			edge_map[exp1][exp2] = index;
+			edge_map[exp2][exp1] = index;
 		}
 	}
 	return;
@@ -452,100 +461,154 @@ void mReduceVertexes() {
 	mExps_length = 0;
 	mEdges_length = 0;
 	for (int i=1; i<=var_size; i++) mVars[mVars_length++] = i;
-	for (int i=1; i<=exp_size; i++) mExps[mEdges_length++] = i;
+	for (int i=1; i<=exp_size; i++) mExps[mExps_length++] = i;
 	for (int i=1; i<=edge_size; i++) mEdges[mEdges_length++] = i;
 	return;
 }
 
 void update_info(int id, int pos) {
 	int cur_pos = mVarsColor[id];
-	int v = id;
-	int v1 = to_sum_index(v);
-	int v2 = to_dif_index(v);
-	int cur_c1 = to_sum_color(id, cur_pos);
-	int c1 = to_sum_color(id, pos);
-	int cur_c2 = to_dif_color(id, cur_pos);
-	int c2 = to_dif_color(id, pos);
-	for (int i = 0; i < mNeighbours_length[v]; i++) {
-		int tmp_v = mNeighbours[v][i];
-		int v_index = to_index(tmp_v);
-		int edge_id = edge_map[v][tmp_v];
-		mClash[v_index][cur_pos] -= edges[edge_id].w;
-		mClash[v_index][pos] += edges[edge_id].w;
-		if (mVarsColor[v_index] == cur_pos) {
-			if (mClash[v_index][cur_pos] == 0) {
-				mClashVars[mClashVars_pos[v_index]] = mClashVars[--mClashVars_length];
-				mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[v_index];
-				mClashVars_pos[v_index] = -1;
-			}
-            mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
-            mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
-            mClashEdges_pos[edge_id] = -1;
-		} else if (mVarsColor[v_index] == pos) {
-			if (mClashVars_pos[v_index] == -1) {
-				mClashVars[mClashVars_length] = v_index;
-				mClashVars_pos[v_index] = mClashVars_length++;
-			}
-            mClashEdges[mClashEdges_length] = edge_id;
-			mClashEdges_pos[edge_id] = mClashEdges_length++;
-		}
-	}
-
-	for (int i = 0; i < mNeighbours_length[v1]; i++) {
-		int tmp_v = mNeighbours[v1][i];
-		int v_index = to_index(tmp_v);
-		int edge_id = edge_map[v1][tmp_v];
-		int cur_c = to_pre_color(v_index, cur_c1, true);
-		int c = to_pre_color(v_index, c1, true);
-		if (cur_c > 0 && cur_c <= color_size) mClash[v_index][cur_c] -= edges[edge_id].w;
-		if (c > 0 && c <= color_size) mClash[v_index][c] += edges[edge_id].w;
-		if (mVarsColor[v_index] == cur_c) {
-			if (mClash[v_index][cur_c] == 0) {
-				mClashVars[mClashVars_pos[v_index]] = mClashVars[--mClashVars_length];
-				mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[v_index];
-				mClashVars_pos[v_index] = -1;
-			}
-            mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
-            mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
-            mClashEdges_pos[edge_id] = -1;
-		} else if (mVarsColor[v_index] == c) {
-			if (mClashVars_pos[v_index] == -1) {
-				mClashVars[mClashVars_length] = v_index;
-				mClashVars_pos[v_index] = mClashVars_length++;
-			}
-            mClashEdges[mClashEdges_length] = edge_id;
-			mClashEdges_pos[edge_id] = mClashEdges_length++;
-		}
-	}
-
-	for (int i = 0; i < mNeighbours_length[v2]; i++) {
-		int tmp_v = mNeighbours[v2][i];
-		int v_index = to_index(tmp_v);
-		int edge_id = edge_map[v2][tmp_v];
-		int cur_c = to_pre_color(v_index, cur_c2, false);
-		int c = to_pre_color(v_index, c2, false);
-		if (cur_c > 0 && cur_c <= color_size) mClash[v_index][cur_c] -= edges[edge_id].w;
-		if (c > 0 && c <= color_size) mClash[v_index][c] += edges[edge_id].w;
-		if (mVarsColor[v_index] == cur_c) {
-			if (mClash[v_index][cur_c] == 0) {
-				mClashVars[mClashVars_pos[v_index]] = mClashVars[--mClashVars_length];
-				mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[v_index];
-				mClashVars_pos[v_index] = -1;
-			}
-            mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
-            mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
-            mClashEdges_pos[edge_id] = -1;
-		} else if (mVarsColor[v_index] == c) {
-			if (mClashVars_pos[v_index] == -1) {
-				mClashVars[mClashVars_length] = v_index;
-				mClashVars_pos[v_index] = mClashVars_length++;
-			}
-            mClashEdges[mClashEdges_length] = edge_id;
-			mClashEdges_pos[edge_id] = mClashEdges_length++;
-		}
-	}
-
 	mVarsColor[id] = pos;
+
+	for (int i=0; i<var_exp_length[id]; i++) {
+		int exp = var_exp[id][i];
+		if (exp_var_length[exp] == 1) {
+			mExpsColor[exp] = pos;
+			for (int i=0; i<mNeighbours_length[i]; i++) {
+				int tmp_v = mNeighbours[exp][i];
+				int edge_id = edge_map[exp][tmp_v];
+				mClash[tmp_v][cur_pos] -= edges[edge_id].w;
+				mClash[tmp_v][pos] += edges[edge_id].w;
+				if (mVarsColor[tmp_v] == cur_pos) {
+					if (mClash[tmp_v][cur_pos] == 0) {
+						mClashVars[mClashVars_pos[tmp_v]] = mClashVars[--mClashVars_length];
+						mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[tmp_v];
+					}
+					mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
+					mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
+				} else if (mVarsColor[tmp_v] == pos) {
+					if (mClashVars[mClashVars_pos[tmp_v]] != tmp_v) {
+						mClashVars[mClashVars_length] = tmp_v;
+						mClashVars_pos[tmp_v] = mClashVars_length++;
+					}
+					mClashEdges[mClashEdges_length] = edge_id;
+					mClashEdges_pos[edge_id] = mClashEdges_length++;
+				}
+			}
+		} else {
+			int index1;
+			int index2;
+			for (int j=0; j<exp_var_length[exp]; j++) {
+				if (exp_var[exp][j] == id) index1 = j;
+				else index2 = j;
+			}
+			for (int i=0; i<mNeighbours_length[i]; i++) {
+				int tmp_v = mNeighbours[exp][i];
+				int edge_id = edge_map[exp][tmp_v];
+
+				int x1 = exp_var[exp][index1];
+				int x2 = exp_var[exp][index2];
+				int y1 = exp_var[tmp_v][index1];
+				int y2 = exp_var[tmp_v][index2];
+
+				if (mVarsColor[x2] == mVarsColor[y2]) {
+					mClash[y1][cur_pos] -= edges[edge_id].w;
+					mClash[y1][pos] += edges[edge_id].w;
+					if (mVarsColor[y1] == cur_pos && mClash[y1][cur_pos] == 0) {
+						mClashVars[mClashVars_pos[y1]] = mClashVars[--mClashVars_length];
+						mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[y1];
+					} else if (mVarsColor[y1] == pos && mClashVars[mClashVars_pos[y1]] != y1) {
+						mClashVars[mClashVars_length] = y1;
+						mClashVars_pos[y1] = mClashVars_length++;
+					}
+				}
+				if (cur_pos == mVarsColor[y1]) {
+					mClash[x2][mVarsColor[y2]] -= edges[edge_id].w;
+					mClash[y2][mVarsColor[x2]] -= edges[edge_id].w;
+					if (mVarsColor[x2] == mVarsColor[y2]) {
+						if (mClash[x2][mVarsColor[y2]] == 0) {
+							mClashVars[mClashVars_pos[x2]] = mClashVars[--mClashVars_length];
+							mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[x2];
+						}
+						if (mClash[y2][mVarsColor[x2]] == 0) {
+							mClashVars[mClashVars_pos[y2]] = mClashVars[--mClashVars_length];
+							mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[y2];
+						}
+					}
+
+				} else if (pos == mVarsColor[y1]) {
+					mClash[x2][mVarsColor[y2]] += edges[edge_id].w;
+					mClash[y2][mVarsColor[x2]] += edges[edge_id].w;
+					if (mVarsColor[x2] == mVarsColor[y2]) {
+						if (mClashVars[mClashVars_pos[x2]] != x2) {
+							mClashVars[mClashVars_length] = x2;
+							mClashVars_pos[x2] = mClashVars_length++;
+						}
+						if (mClashVars[mClashVars_pos[y2]] != y2) {
+							mClashVars[mClashVars_length] = y2;
+							mClashVars_pos[y2] = mClashVars_length++;
+						}
+					}
+				}
+				int cur_color = mExpsColor[exp];
+				mExpsColor[exp] = mExpsColor[exp] - cur_pos*exp_coef[exp][index1] + pos*exp_coef[exp][index1];
+				if (mExpsColor[tmp_v] == cur_color) {
+					mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
+					mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
+				} else if (mExpsColor[tmp_v] == mExpsColor[exp]) {
+					mClashEdges[mClashEdges_length] = edge_id;
+					mClashEdges_pos[edge_id] = mClashEdges_length++;
+				}
+			}
+
+
+			// int var;
+			// for (int j=0; j<exp_var_length[exp]; j++) {
+			// 	if (exp_var[exp][j] == id) continue;
+			// 	var = exp_var[exp][j];
+			// }
+			// for (int i=0; i<mNeighbours_length[i]; i++) {
+			// 	int tmp_e = mNeighbours[exp][i];
+			// 	int edge_id = edge_map[exp][tmp_e];
+				
+			// 	int c1 = mExpsColor[tmp_e]-cur_color;
+			// 	int c2 = mExpsColor[tmp_e]-mExpsColor[exp];
+			// 	mClash[var][c1] -= edges[edge_id].w;
+			// 	mClash[var][c2] += edges[edge_id].w;
+
+			// 	if (mVarsColor[var] == c1 && mClash[var][c1] == 0) {
+			// 		mClashVars[mClashVars_pos[var]] = mClashVars[--mClashVars_length];
+			// 		mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[var];
+			// 	} else if (mVarsColor[var] == c2 && mClashVars[mClashVars_pos[var]] != var) {
+			// 		mClashVars[mClashVars_length] = var;
+			// 		mClashVars_pos[var] = mClashVars_length++;
+			// 	}
+
+			// 	for (int j=0; j<exp_var_length[tmp_e]; j++) {
+			// 		int tmp_v = exp_var[tmp_e][j];
+			// 		int tmp_c1 = cur_color - mExpsColor[tmp_e] + mVarsColor[tmp_v];
+			// 		int tmp_c2 = mExpsColor[exp] - mExpsColor[tmp_e] + mVarsColor[tmp_v];
+			// 		mClash[tmp_v][tmp_c1] -= edges[edge_id].w;
+			// 		mClash[tmp_v][tmp_c2] += edges[edge_id].w;
+			// 		if (mVarsColor[tmp_v] == tmp_c1 && mClash[tmp_v][tmp_c1] == 0) {
+			// 			mClashVars[mClashVars_pos[tmp_v]] = mClashVars[--mClashVars_length];
+			// 			mClashVars_pos[mClashVars[mClashVars_length]] = mClashVars_pos[tmp_v];
+			// 		} else if (mVarsColor[tmp_v] == tmp_c2 && mClashVars[mClashVars_pos[tmp_v]] != tmp_v) {
+			// 			mClashVars[mClashVars_length] = tmp_v;
+			// 			mClashVars_pos[tmp_v] = mClashVars_length++;
+			// 		}
+			// 	}
+
+			// 	if (mExpsColor[tmp_e] == cur_color) {
+			// 		mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
+			// 		mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
+			// 	} else if (mExpsColor[tmp_e] == mExpsColor[exp]) {
+			// 		mClashEdges[mClashEdges_length] = edge_id;
+			// 		mClashEdges_pos[edge_id] = mClashEdges_length++;
+			// 	}
+			// }
+		}
+	}
 	
 	if (mClash[id][pos] == 0 && mClashVars_pos[id] >= 0) {
 		mClashVars[mClashVars_pos[id]] = mClashVars[--mClashVars_length];
@@ -557,44 +620,77 @@ void update_info(int id, int pos) {
 
 void build() {
 	for(int i=0; i<mVars_length; i++) {
+		mscore[mVars[i]] = INT_MAX;
 		mTabuV[mVars[i]] = true;
 		for(int j = 1; j <= color_size; j++) {
 			mClash[mVars[i]][j] = 0;
 			mTabu[mVars[i]][j] = 0;
 		}
 	}
+	mode = 0;
 	mClashEdges_length = 0;
 	for(int i = 0; i < mEdges_length; i++) {
         int e = mEdges[i], x, y;
-		int type = get_type(edges[e].x);
-		if (type == 0) {
-			x = edges[e].x;
-			y = edges[e].y;
+		x = edges[e].x;
+		y = edges[e].y;
+		if (exp_var_length[edges[e].x] == 1) {
 			mClash[x][mExpsColor[y]] += edges[e].w;
 			mClash[y][mExpsColor[x]] += edges[e].w;
-		} else if (type == 1) {
-			x = to_index(edges[e].x);
-			y = to_index(edges[e].y);
-			mClash[x][to_pre_color(x, to_sum_color(y, mExpsColor[y]), true)] += edges[e].w;
-			mClash[y][to_pre_color(y, to_sum_color(x, mExpsColor[x]), true)] += edges[e].w;
 		} else {
-			x = to_index(edges[e].x);
-			y = to_index(edges[e].y);
-			mClash[x][to_pre_color(x, to_dif_color(y, mExpsColor[y]), false)] += edges[e].w;
-			mClash[y][to_pre_color(y, to_dif_color(x, mExpsColor[x]), false)] += edges[e].w;
+			int x1 = exp_var[x][0];
+			int x2 = exp_var[x][1];
+			int y1 = exp_var[y][0];
+			int y2 = exp_var[y][1];
+			if (x1 == y1) {
+				mClash[x2][mVarsColor[y2]] += edges[e].w;
+				mClash[y2][mVarsColor[x2]] += edges[e].w;
+			}
+			if (x2 == y2) {
+				mClash[x1][mVarsColor[y1]] += edges[e].w;
+				mClash[y1][mVarsColor[x1]] += edges[e].w;
+			}
+			// for (int j=0; j<exp_var_length[x]; j++) {
+			// 	int tmp_v = exp_var[x][j];
+			// 	int tmp_c = mExpsColor[y]-mExpsColor[x]+mVarsColor[tmp_v];
+			// 	if (tmp_c > 0 && tmp_c <= color_size) mClash[tmp_v][tmp_c] += edges[e].w;
+			// }
+			// for (int j=0; j<exp_var_length[y]; j++) {
+			// 	int tmp_v = exp_var[y][j];
+			// 	int tmp_c = mExpsColor[x]-mExpsColor[y]+mVarsColor[tmp_v];
+			// 	if (tmp_c > 0 && tmp_c <= color_size) mClash[tmp_v][tmp_c] += edges[e].w;
+			// }
 		}
 		if (mExpsColor[edges[e].x] == mExpsColor[edges[e].y]) {
             mClashEdges[mClashEdges_length] = e;
             mClashEdges_pos[e] = mClashEdges_length++;
 		}
 	}
+
+	mExcelVars_length = 0;
 	mClashVars_length = 0;
-	for (int i = 0; i < mVars_length; i++) {
-		int var_id = mVars[i];
-		if (mClash[var_id][mVarsColor[var_id]] > 0) {
-			mClashVars[mClashVars_length] = var_id;
-			mClashVars_pos[var_id] = mClashVars_length++;
-		} else mClashVars_pos[var_id] = -1;
+
+	// for (int i=0; i<mVars_length; i++) {
+	// 	int var_id = mVars[i];
+	// 	for (int j=0; j<var_color_length[var_id]; j++) {
+	// 		if (mVarsColor[var_id] == var_color[var_id][j]) continue;
+	// 		int tmp_cost = mClash[var_id][var_color[var_id][j]];
+	// 		if (tmp_cost < mscore[var_id]) mscore[var_id] = tmp_cost;
+	// 	}
+	// 	if (mClash[var_id][mVarsColor[var_id]] >= mscore[var_id]) {
+	// 		mExcelVars[mExcelVars_length] = var_id;
+	// 		mExcelVars_pos[var_id] = mExcelVars_length++;
+	// 	}
+	// }
+
+	if (mClashEdges_length != 0 && mExcelVars_length == 0) {
+		mode = 100;
+		for (int i = 0; i < mVars_length; i++) {
+			int var_id = mVars[i];
+			if (mClash[var_id][mVarsColor[var_id]] > 0) {
+				mClashVars[mClashVars_length] = var_id;
+				mClashVars_pos[var_id] = mClashVars_length++;
+			}
+		}
 	}
 	return;
 }
@@ -710,139 +806,6 @@ int mTabuSearch() {
 			mTabu[move_id][mVarsColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVars_length;
 			update_info(move_id, move_to);
 			// flag--;
-		} else {
-			for (int i = 0; i < mClashVars_length; i++) {
-				int tmp_v = mClashVars[i];
-				int tmp_s = -mClash[tmp_v][mVarsColor[tmp_v]];
-				if (true) {
-					if (tmp_s < min_clash) {
-						cnt = 0;
-						min_clash = tmp_s;
-						tmp_st[cnt++] = tmp_v;
-					} else if (tmp_s == min_clash) {
-						tmp_st[cnt++] = tmp_v;
-					}
-				} else {
-					if (tmp_s < min_tabu_clash) {
-						tabu_cnt = 0;
-						min_tabu_clash = tmp_s;
-						tmp_tabu_st[tabu_cnt++] = tmp_v;
-					} else if (tmp_s == min_tabu_clash) {
-						tmp_tabu_st[tabu_cnt++] = tmp_v;
-					}
-				}
-			}
-			if (cnt == 0 && tabu_cnt == 0) {
-				return tSminClash;
-			} else if (cnt == 0 && tabu_cnt > 0) {
-				v_cnt = min(max_bms_length, tabu_cnt);
-				for (int i = 0; i < v_cnt; i++) {
-					r = rand() % tabu_cnt;
-					long long tmp_cs = 1;
-					if (max_cs < tmp_cs) {
-						cs_cnt = 0;
-						max_cs = tmp_cs;
-						tmp_bms_st[cs_cnt++] = tmp_tabu_st[r];
-					} else if(max_cs == tmp_cs) tmp_bms_st[cs_cnt++] = tmp_tabu_st[r];
-				}
-				r = rand() % cs_cnt;
-				move_id = tmp_bms_st[r];
-				move_from = mVarsColor[move_id];
-				for (int j = 0; j < var_color_length[move_id]; j++) {
-					int tmp_c = var_color[move_id][j];
-					if(tmp_c == mVarsColor[move_id]) continue;
-					int tmp_s = mClash[move_id][tmp_c];
-					if (check_tabu(move_id, tmp_c, iters)) {
-						if (tmp_s < min_sub_clash) {
-							sub_cnt = 0;
-							min_sub_clash = tmp_s;
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_clash) {
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						}
-					} else {
-						if (tmp_s < min_sub_tabu_clash) {
-							sub_tabu_cnt = 0;
-							min_sub_tabu_clash = tmp_s;
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_tabu_clash) {
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						}
-					}
-				}
-			} else {
-				v_cnt = min(max_bms_length, cnt);
-				for (int i = 0; i < v_cnt; i++) {
-					r = rand() % cnt;
-					long long tmp_cs = 1;
-					if (max_cs < tmp_cs) {
-						cs_cnt = 0;
-						max_cs = tmp_cs;
-						tmp_bms_st[cs_cnt++] = tmp_st[r];
-					} else if (max_cs == tmp_cs) tmp_bms_st[cs_cnt++] = tmp_st[r];
-				}
-				r = rand() % cs_cnt;
-				move_id = tmp_bms_st[r];
-				move_from = mVarsColor[move_id];
-				for (int j = 0; j < var_color_length[move_id]; j++) {
-					int tmp_c = var_color[move_id][j];
-					if(tmp_c == mVarsColor[move_id]) continue;
-					int tmp_s = mClash[move_id][tmp_c];
-					if (check_tabu(move_id, tmp_c, iters)) {
-						if (tmp_s < min_sub_clash) {
-							sub_cnt = 0;
-							min_sub_clash = tmp_s;
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_clash) {
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						}
-					} else {
-						if (tmp_s < min_sub_tabu_clash) {
-							sub_tabu_cnt = 0;
-							min_sub_tabu_clash = tmp_s;
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_tabu_clash) {
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						}
-					}
-				}
-			}
-			if (min_sub_clash-mClash[move_id][move_from]>0 && min_sub_tabu_clash-mClash[move_id][move_from]>0) {
-				if (check_tabu(move_id, move_from, iters)) {
-					mTabu[move_id][mVarsColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVars_length;
-					mTabuV[move_id] = false;
-				} else flag = 100;
-				continue;
-			}
-			if ((sub_tabu_cnt>0 && min_sub_tabu_clash<min_sub_clash && (mClashEdges_length-mClash[move_id][move_from]+min_sub_tabu_clash<tSminClash)) || (sub_cnt==0)) {
-				v_cnt = min(max_bms_length, sub_tabu_cnt);
-				for (int i = 0; i < v_cnt; i++) {
-					r = rand() % sub_tabu_cnt;
-					long long tmp_bs = 1;
-					if (max_bs < tmp_bs) {
-						bs_cnt = 0;
-						max_bs = tmp_bs;
-						tmp_bms_st[bs_cnt++] = tmp_sub_tabu_st[r];
-					} else if (max_bs == tmp_bs) tmp_bms_st[bs_cnt++] = tmp_sub_tabu_st[r];
-				}
-				r = rand() % bs_cnt;
-				move_to = tmp_bms_st[r];
-			} else {
-				v_cnt = min(max_bms_length, sub_cnt);
-				for (int i = 0; i < v_cnt; i++) {
-					r = rand() % sub_cnt;
-					long long tmp_bs = 1;
-					if (max_bs < tmp_bs) {
-						bs_cnt = 0;
-						max_bs = tmp_bs;
-						tmp_bms_st[bs_cnt++] = tmp_sub_st[r];
-					} else if (max_bs == tmp_bs) tmp_bms_st[bs_cnt++] = tmp_sub_st[r];
-				}
-				r = rand() % bs_cnt;
-				move_to = tmp_bms_st[r];
-			}
-			mTabu[move_id][mVarsColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVars_length;
-			update_info(move_id, move_to);
 		}
 
 		if (mClashEdges_length <= tSminClash) {
@@ -941,6 +904,8 @@ void mGenerate() {
 		mExpsColor[exp] = val;
 	}
 
+	
+
 	for (int i=1; i<=var_size; i++) {
 		// mVarsColor_tmp[i] = -1;
 		mVarsColor_tmp[i] = mVarsColor[i];
@@ -958,12 +923,11 @@ int main(int argc, char* argv[]) {
 	// filename = argv[1];
 	// seed = atoi(argv[2]);
 	// time_limit = atof(argv[3]);
-	filename = "5";
+	filename = "3";
 	seed = 1;
-	time_limit = 60;
+	time_limit = 10;
 	srand(seed);
 	mRead(filename);
-
 	mReduceVertexes();
 
 	mStartTime();
