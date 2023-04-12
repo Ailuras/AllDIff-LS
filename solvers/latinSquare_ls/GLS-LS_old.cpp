@@ -29,9 +29,9 @@ const int max_iter = 100000;
 const int max_no_improve_iter = 10000;
 const int max_bms_length = 1;
 const double alpha1 = 100;
-const double alpha2 = 0.5;
+const double alpha2 = 1.0;
 const double alpha3 = 4.0;
-const int alpha4 = 10;
+const int alpha4 = 5;
 const int tabuStep = 20;
 const int pool_size = 100;
 
@@ -454,10 +454,6 @@ bool check_tabu(int id, int to, int iter) {
 	return false;
 }
 
-bool check_tabuV(int id) {
-	return true;
-}
-
 void mReduceVertexes() {
 	mVars_length = 0;
 	mExps_length = 0;
@@ -467,84 +463,6 @@ void mReduceVertexes() {
 	for (int i=1; i<=edge_size; i++) mEdges[mEdges_length++] = i;
 	return;
 }
-
-void update_info1(int id, int pos) {
-	int cur_pos = mVarsColor[id];
-	mVarsColor[id] = pos;
-
-	// cout << "id: " << id << ", pos: " << pos << ", cur_pos: " << cur_pos << endl;
-	for (int i=0; i<var_exp_length[id]; i++) {
-		int exp = var_exp[id][i];
-		if (exp_var_length[exp] == 1) {
-			mExpsColor[exp] = pos;
-			for (int j=0; j<mNeighbours_length[exp]; j++) {
-				int tmp_e = mNeighbours[exp][j];
-				int tmp_v = exp_var[tmp_e][0];
-				int edge_id = edge_map[exp][tmp_e];
-				mClash[tmp_v][cur_pos] -= edges[edge_id].w;
-				mClash[tmp_v][pos] += edges[edge_id].w;
-				if (mVarsColor[tmp_v] == cur_pos) {
-					mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
-					mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
-				} else if (mVarsColor[tmp_v] == pos) {
-					mClashEdges[mClashEdges_length] = edge_id;
-					mClashEdges_pos[edge_id] = mClashEdges_length++;
-				}
-			}
-		} else {
-			int index1;
-			int index2;
-			for (int j=0; j<exp_var_length[exp]; j++) {
-				if (exp_var[exp][j] == id) index1 = j;
-				else index2 = j;
-			}
-			int cur_color = mExpsColor[exp];
-			mExpsColor[exp] = mExpsColor[exp] - cur_pos*exp_coef[exp][index1] + pos*exp_coef[exp][index1];
-			for (int j=0; j<mNeighbours_length[exp]; j++) {
-				int tmp_v = mNeighbours[exp][j];
-				int edge_id = edge_map[exp][tmp_v];
-				int x1 = exp_var[exp][index1];
-				int x2 = exp_var[exp][index2];
-				int y1 = exp_var[tmp_v][index1];
-				int y2 = exp_var[tmp_v][index2];
-
-				if (mVarsColor[x2] == mVarsColor[y2]) {
-					mClash[y1][cur_pos] -= edges[edge_id].w;
-					mClash[y1][pos] += edges[edge_id].w;
-				}
-				if (cur_pos == mVarsColor[y1]) {
-					mClash[x2][mVarsColor[y2]] -= edges[edge_id].w;
-					mClash[y2][mVarsColor[x2]] -= edges[edge_id].w;
-				} else if (pos == mVarsColor[y1]) {
-					mClash[x2][mVarsColor[y2]] += edges[edge_id].w;
-					mClash[y2][mVarsColor[x2]] += edges[edge_id].w;
-				}
-				if (mExpsColor[tmp_v] == cur_color) {
-					mClashEdges[mClashEdges_pos[edge_id]] = mClashEdges[--mClashEdges_length];
-					mClashEdges_pos[mClashEdges[mClashEdges_length]] = mClashEdges_pos[edge_id];
-				} else if (mExpsColor[tmp_v] == mExpsColor[exp]) {
-					mClashEdges[mClashEdges_length] = edge_id;
-					mClashEdges_pos[edge_id] = mClashEdges_length++;
-				}
-			}
-		}
-	}
-	mExcelVars_length = 0;
-	for (int i=0; i<mVars_length; i++) {
-		int var_id = mVars[i];
-		for (int j=0; j<var_color_length[var_id]; j++) {
-			if (mVarsColor[var_id] == var_color[var_id][j]) continue;
-			int tmp_cost = mClash[var_id][var_color[var_id][j]];
-			if (tmp_cost < mscore[var_id]) mscore[var_id] = tmp_cost;
-		}
-		if (mClash[var_id][mVarsColor[var_id]] >= mscore[var_id]) {
-			mExcelVars[mExcelVars_length] = var_id;
-			mExcelVars_pos[var_id] = mExcelVars_length++;
-		}
-	}
-	return;
-}
-
 
 void update_info(int id, int pos) {
 	int cur_pos = mVarsColor[id];
@@ -643,7 +561,6 @@ void update_info(int id, int pos) {
 			}
 
 
-
 			// int var;
 			// for (int j=0; j<exp_var_length[exp]; j++) {
 			// 	if (exp_var[exp][j] == id) continue;
@@ -698,33 +615,6 @@ void update_info(int id, int pos) {
 		mClashVars_pos[id] = -1;
 	}
 	return;
-}
-
-void switch_mode(int mode) {
-	if (mode == 0) {
-		mExcelVars_length = 0;
-		for (int i=0; i<mVars_length; i++) {
-			int var_id = mVars[i];
-			for (int j=0; j<var_color_length[var_id]; j++) {
-				if (mVarsColor[var_id] == var_color[var_id][j]) continue;
-				int tmp_cost = mClash[var_id][var_color[var_id][j]];
-				if (tmp_cost < mscore[var_id]) mscore[var_id] = tmp_cost;
-			}
-			if (mClash[var_id][mVarsColor[var_id]] >= mscore[var_id]) {
-				mExcelVars[mExcelVars_length] = var_id;
-				mExcelVars_pos[var_id] = mExcelVars_length++;
-			}
-		}
-	} else {
-		mClashVars_length = 0;
-		for (int i = 0; i < mVars_length; i++) {
-			int var_id = mVars[i];
-			if (mClash[var_id][mVarsColor[var_id]] > 0) {
-				mClashVars[mClashVars_length] = var_id;
-				mClashVars_pos[var_id] = mClashVars_length++;
-			}
-		}
-	}
 }
 
 void build() {
@@ -793,7 +683,13 @@ void build() {
 
 	if (mClashEdges_length != 0 && mExcelVars_length == 0) {
 		mode = 100;
-		switch_mode(mode);
+		for (int i = 0; i < mVars_length; i++) {
+			int var_id = mVars[i];
+			if (mClash[var_id][mVarsColor[var_id]] > 0) {
+				mClashVars[mClashVars_length] = var_id;
+				mClashVars_pos[var_id] = mClashVars_length++;
+			}
+		}
 	}
 	return;
 }
@@ -836,101 +732,7 @@ int mTabuSearch() {
 		tabu_cnt = 0;
 		sub_cnt = 0;
 		sub_tabu_cnt = 0;
-		if (mode == 0) {
-			for (int i = 0; i < mExcelVars_length; i++) {
-				int tmp_x = mExcelVars[i];
-				int tmp_s = -mClash[tmp_x][mExcelVars[tmp_x]];
-				if (check_tabuV(tmp_x)) {
-					if (tmp_s < min_clash) {
-						cnt = 0;
-						min_clash = tmp_s;
-						tmp_st[cnt++] = tmp_x;
-					} else if (tmp_s == min_clash) {
-						tmp_st[cnt++] = tmp_x;
-					}
-				} else {
-					if (tmp_s < min_tabu_clash) {
-						tabu_cnt = 0;
-						min_tabu_clash = tmp_s;
-						tmp_tabu_st[tabu_cnt++] = tmp_x;
-					} else if (tmp_s == min_tabu_clash) {
-						tmp_tabu_st[tabu_cnt++] = tmp_x;
-					}
-				}
-			}
-			if (cnt == 0 && tabu_cnt == 0) {
-				return tSminClash;
-			} else if (cnt == 0 && tabu_cnt > 0) {
-				r = rand() % tabu_cnt;
-				move_id = tmp_tabu_st[r];
-				move_from = mVarsColor[move_id];
-				for (int j = 0; j < var_color_length[move_id]; j++) {
-					int tmp_c = var_color[move_id][j];
-					if (tmp_c == mVarsColor[move_id]) continue;
-					int tmp_s = mClash[move_id][tmp_c];
-					if (check_tabu(move_id, tmp_c, iters)) {
-						if (tmp_s < min_sub_clash) {
-							sub_cnt = 0;
-							min_sub_clash = tmp_s;
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_clash) {
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						}
-					} else {
-						if (tmp_s < min_sub_tabu_clash) {
-							sub_tabu_cnt = 0;
-							min_sub_tabu_clash = tmp_s;
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_tabu_clash) {
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						}
-					}
-				}
-			} else {
-				r = rand() % cnt;
-				move_id = tmp_st[r];
-				move_from = mVarsColor[move_id];
-				for (int j = 0; j < var_color_length[move_id]; j++) {
-					int tmp_c = var_color[move_id][j];
-					if (tmp_c == mVarsColor[move_id]) continue;
-					int tmp_s = mClash[move_id][tmp_c];
-					if (check_tabu(move_id, tmp_c, iters)) {
-						if (tmp_s < min_sub_clash) {
-							sub_cnt = 0;
-							min_sub_clash = tmp_s;
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_clash) {
-							tmp_sub_st[sub_cnt++] = tmp_c;
-						}
-					} else {
-						if (tmp_s < min_sub_tabu_clash) {
-							sub_tabu_cnt = 0;
-							min_sub_tabu_clash = tmp_s;
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						} else if (tmp_s == min_sub_tabu_clash) {
-							tmp_sub_tabu_st[sub_tabu_cnt++] = tmp_c;
-						}
-					}
-				}
-			}
-			if ((sub_tabu_cnt>0 && min_sub_tabu_clash<min_sub_clash && (mClashEdges_length-mClash[move_id][move_from]+min_sub_tabu_clash<tSminClash)) || (sub_cnt==0)) {
-				r = rand() % sub_tabu_cnt;
-				move_to = tmp_sub_tabu_st[r];
-				if (check_tabuV(move_id)) {
-					mode = 100;
-					switch_mode(mode);
-				}
-			} else {
-				r = rand() % sub_cnt;
-				move_to = tmp_sub_st[r];
-			}
-			mTabu[move_id][mVarsColor[move_id]] = iters + rand() % tabuStep + alpha2 * mExcelVars_length;
-			// cout << "=============================================" << endl;
-			// cout << "loop: " << iters << ", min_clash: " << min_clash << ", min_tabu_clash: " << min_tabu_clash << endl;
-			// cout << "choose vertex " << move_id << " change to " << move_to << endl;
-			update_info1(move_id, move_to);
-			// cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVars_length: " << mClashVars_length << endl;
-		} else {
+		if (true) {
 			for (int i = 0; i < mClashVars_length; i++) {
 				int var_id = mClashVars[i];
 				for(int j = 0; j < var_color_length[var_id]; j++) {
@@ -1005,7 +807,6 @@ int mTabuSearch() {
 			// cout << "loop: " << iters << ", min_clash: " << min_clash << ", min_tabu_clash: " << min_tabu_clash << endl;
 			// cout << "choose vertex " << move_id << " change to " << move_to << endl;
 			update_info(move_id, move_to);
-			if (--mode == 0) switch_mode(mode);
 			// cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVars_length: " << mClashVars_length << endl;
 		}
 
@@ -1048,7 +849,7 @@ bool check_diff() {
 
 bool mLocalSearch() {
 	clash_cur = mTabuSearch();
-	// cout << clash_cur << endl;
+	cout << clash_cur << endl;
 	if(clash_cur < clash_best) {
 		mPool_length = 0;
 		clash_best = clash_cur;
@@ -1073,9 +874,9 @@ bool mLocalSearch() {
 			mPoolMaxIter[r] = max_iter;
 		}
 		
-		for (int i=0; i<clash_cur; i++) {
-			if (rand()%alpha4 == 0) edges[mClashEdges_tmp[i]].w++;
-		}
+		// for (int i=0; i<clash_cur; i++) {
+		// 	if (rand()%alpha4 == 0) edges[mClashEdges_tmp[i]].w++;
+		// }
 	} else {
 		mPoolMaxIter[last_id] += alpha3*max_iter;
 	}

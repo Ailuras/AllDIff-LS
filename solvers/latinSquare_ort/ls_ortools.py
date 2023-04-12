@@ -44,5 +44,5 @@ def solve_orthogonal_latin_squares(n):
         print("No solution found.")
 
 if __name__ == "__main__":
-    n = 7
+    n = 10
     solve_orthogonal_latin_squares(n)
