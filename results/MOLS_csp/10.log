@@ -1,0 +1,18 @@
+--------------------------------------------------
+SAT
+----------
+benchmarks/MOLS/inst3.txt : 3250 ms.
+--------------------------------------------------
+SAT
+----------
+benchmarks/MOLS/inst4.txt : 2633 ms.
+--------------------------------------------------
+SAT
+----------
+benchmarks/MOLS/inst5.txt : 26077 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/MiniZincIDE-2.7.2-bundle-linux-x86_64/share/minizinc/yuck/bin/yuck: line 12: 1851698 Killed                  java $YUCK_JAVA_OPTS $JAVA_OPTS -cp "$CLASS_PATH" $MAIN_CLASS "$@"
+=====ERROR=====
+benchmarks/MOLS/inst7.txt : 391517 ms.
+--------------------------------------------------
+=====UNKNOWN=====
