@@ -14,17 +14,29 @@ for file in $folder/*; do
     if [ "$solver"x = "nqueens_ls"x ]; then
         ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
     fi
-    if [ "$solver"x = "nqueens_ort"x ]; then
-        timeout $time_t python solvers/nqueens_ort/n-queens_ortools.py $file
+    if [ "$solver"x = "nqueens_ls_restart"x ]; then
+        ./solvers/nqueens_ls_restart/NQueen-LS $file $seed $time_t
+    fi
+    if [ "$solver"x = "nqueens_ls_step"x ]; then
+        ./solvers/nqueens_ls_step/NQueen-LS $file $seed $time_t
     fi
     if [ "$solver"x = "nqueens_csp"x ]; then
-        minizinc --solver or-tools --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+        minizinc --solver cplex --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/nqueens.mzn $file
     fi
     if [ "$solver"x = "MOLS_ls"x ]; then
-        ./solvers/MOLS_ls/GLS-LS $file $seed $time_t
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/MOLS_ls/GLS-LS $number $seed $time_t
+    fi
+    if [ "$solver"x = "MOLS_ls_restart"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/MOLS_ls_restart/GLS-LS $number $seed $time_t
+    fi    
+    if [ "$solver"x = "MOLS_ls_step"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/MOLS_ls_step/GLS-LS $number $seed $time_t
     fi
     if [ "$solver"x = "MOLS_csp"x ]; then
-        minizinc --solver or-tools --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+        minizinc --solver cplex --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/MOLS.mzn $file
     fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))

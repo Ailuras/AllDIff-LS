@@ -13,7 +13,7 @@ function parallel() {
 }
 
 for ((round = 1; round <= 10; round++)); do
-    path=results/$solver/$round
+    path=results/$solver
     if [ ! -d "$path" ];then
         mkdir -p $path
     fi
