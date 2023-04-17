@@ -1,31 +1,21 @@
-#！/bin/bash
-# ./parallel.sh benchmarks_1/N-Queens 1000 nqueens_ls 1
-# ./parallel.sh benchmarks_2/N-Queens 1000 nqueens_ort 1
-# ./parallel.sh benchmarks 1000 sudoku_test 1
-# ./parallel.sh benchmarks 1000 sudoku_ort 1
-# ./parallel.sh benchmarks_SAT 1000 sudoku_sat 1
+#!/bin/bash
+# ./parallel.sh benchmarks/MOLS 1000 MOLS_ls
+# ./parallel.sh benchmarks/MOLS 1000 MOLS_csp
+# ./parallel.sh benchmarks/N-Queens 1000 nqueens_ls
+# ./parallel.sh benchmarks/N-Queens 1000 nqueens_csp
 benchmarks=$1
 time_t=$2
 solver=$3
-seed=$4
 
 function parallel() {
-    foldername=`basename $@`
-    for file in $@/*;do
-        if test -f $file;then
-            nohup bash run.sh $@ $time_t $solver $seed $ > results/$solver/$foldername/result.log 2>&1 &
-            return
-        fi
-        index=`basename $file`
-        nohup bash run.sh $file $time_t $solver $seed $ > results/$solver/$foldername/result_$index.log 2>&1 &
-    done
+    local seed=$1
+    nohup bash run.sh $benchmarks $time_t $solver $seed $ > results/$solver/$seed.log 2>&1 &
 }
 
-for folder in $benchmarks/*;do
-    foldername=`basename $folder`
-    path=results/$solver/$foldername
+for ((round = 1; round <= 10; round++)); do
+    path=results/$solver/$round
     if [ ! -d "$path" ];then
         mkdir -p $path
     fi
-    parallel $folder
+    parallel $round
 done
