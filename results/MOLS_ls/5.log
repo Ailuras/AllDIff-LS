@@ -14,5 +14,4 @@ benchmarks/MOLS/inst7.txt : 167 ms.
 8 find answer: 628.250000
 benchmarks/MOLS/inst8.txt : 629797 ms.
 --------------------------------------------------
-run.sh: line 11: 421244 Segmentation fault      (core dumped) ./solvers/MOLS_ls/GLS-LS $number $seed $time_t
 benchmarks/MOLS/inst9.txt : 223370 ms.
