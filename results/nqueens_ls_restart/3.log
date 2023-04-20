@@ -1,93 +1,206 @@
 --------------------------------------------------
-benchmarks/N-Queens/inst1000.txt find answer: 1.020000
-benchmarks/N-Queens/inst1000.txt : 1234 ms.
+benchmarks/N-Queens/inst1000.txt find answer: 1.040000
+benchmarks/N-Queens/inst1000.txt : 1248 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1200.txt find answer: 1.720000
-benchmarks/N-Queens/inst1200.txt : 1988 ms.
+benchmarks/N-Queens/inst1200.txt find answer: 1.810000
+benchmarks/N-Queens/inst1200.txt : 2075 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1400.txt find answer: 2.830000
-benchmarks/N-Queens/inst1400.txt : 3180 ms.
+benchmarks/N-Queens/inst1400.txt find answer: 2.760000
+benchmarks/N-Queens/inst1400.txt : 3102 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1600.txt find answer: 4.220000
-benchmarks/N-Queens/inst1600.txt : 4665 ms.
+benchmarks/N-Queens/inst1600.txt find answer: 4.280000
+benchmarks/N-Queens/inst1600.txt : 4733 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1800.txt find answer: 6.140000
-benchmarks/N-Queens/inst1800.txt : 6703 ms.
+benchmarks/N-Queens/inst1800.txt find answer: 5.920000
+benchmarks/N-Queens/inst1800.txt : 6496 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2000.txt find answer: 8.150000
-benchmarks/N-Queens/inst2000.txt : 8823 ms.
+benchmarks/N-Queens/inst2000.txt find answer: 9.240000
+benchmarks/N-Queens/inst2000.txt : 9982 ms.
 --------------------------------------------------
 benchmarks/N-Queens/inst200.txt find answer: 0.010000
-benchmarks/N-Queens/inst200.txt : 29 ms.
+benchmarks/N-Queens/inst200.txt : 34 ms.
 --------------------------------------------------
 benchmarks/N-Queens/inst2200.txt find answer: 10.450000
-benchmarks/N-Queens/inst2200.txt : 11259 ms.
+benchmarks/N-Queens/inst2200.txt : 11249 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2400.txt find answer: 13.100000
-benchmarks/N-Queens/inst2400.txt : 14044 ms.
+benchmarks/N-Queens/inst2400.txt find answer: 14.360000
+benchmarks/N-Queens/inst2400.txt : 15385 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2600.txt find answer: 18.230000
-benchmarks/N-Queens/inst2600.txt : 19539 ms.
+benchmarks/N-Queens/inst2600.txt find answer: 16.950000
+benchmarks/N-Queens/inst2600.txt : 18067 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2800.txt find answer: 21.730000
-benchmarks/N-Queens/inst2800.txt : 23149 ms.
+benchmarks/N-Queens/inst2800.txt find answer: 22.410000
+benchmarks/N-Queens/inst2800.txt : 23942 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3000.txt find answer: 25.750000
-benchmarks/N-Queens/inst3000.txt : 27239 ms.
+benchmarks/N-Queens/inst3000.txt find answer: 27.480000
+benchmarks/N-Queens/inst3000.txt : 29155 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3200.txt find answer: 31.990000
-benchmarks/N-Queens/inst3200.txt : 33982 ms.
+benchmarks/N-Queens/inst3200.txt find answer: 32.460000
+benchmarks/N-Queens/inst3200.txt : 34450 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3400.txt find answer: 41.120000
-benchmarks/N-Queens/inst3400.txt : 43118 ms.
+benchmarks/N-Queens/inst3400.txt find answer: 40.590000
+benchmarks/N-Queens/inst3400.txt : 42660 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3600.txt find answer: 47.330000
-benchmarks/N-Queens/inst3600.txt : 49817 ms.
+benchmarks/N-Queens/inst3600.txt find answer: 48.740000
+benchmarks/N-Queens/inst3600.txt : 50909 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3800.txt find answer: 53.720000
-benchmarks/N-Queens/inst3800.txt : 56694 ms.
+benchmarks/N-Queens/inst3800.txt find answer: 52.090000
+benchmarks/N-Queens/inst3800.txt : 54501 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4000.txt find answer: 62.220000
-benchmarks/N-Queens/inst4000.txt : 65293 ms.
+benchmarks/N-Queens/inst4000.txt find answer: 61.410000
+benchmarks/N-Queens/inst4000.txt : 64159 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst400.txt find answer: 0.090000
-benchmarks/N-Queens/inst400.txt : 127 ms.
+benchmarks/N-Queens/inst400.txt find answer: 0.080000
+benchmarks/N-Queens/inst400.txt : 129 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4200.txt find answer: 10.940000
-benchmarks/N-Queens/inst4200.txt : 11839 ms.
+benchmarks/N-Queens/inst4200.txt find answer: 72.490000
+benchmarks/N-Queens/inst4200.txt : 76201 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4400.txt find answer: 58.530000
-benchmarks/N-Queens/inst4400.txt : 61062 ms.
+benchmarks/N-Queens/inst4400.txt find answer: 83.240000
+benchmarks/N-Queens/inst4400.txt : 86694 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4600.txt find answer: 49.670000
-benchmarks/N-Queens/inst4600.txt : 51956 ms.
+benchmarks/N-Queens/inst4600.txt find answer: 89.050000
+benchmarks/N-Queens/inst4600.txt : 93917 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4800.txt find answer: 42.870000
-benchmarks/N-Queens/inst4800.txt : 44918 ms.
+benchmarks/N-Queens/inst4800.txt find answer: 103.870000
+benchmarks/N-Queens/inst4800.txt : 109058 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5000.txt find answer: 36.670000
-benchmarks/N-Queens/inst5000.txt : 38510 ms.
+benchmarks/N-Queens/inst5000.txt find answer: 118.900000
+benchmarks/N-Queens/inst5000.txt : 123219 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5200.txt find answer: 30.150000
-benchmarks/N-Queens/inst5200.txt : 31789 ms.
+benchmarks/N-Queens/inst5200.txt find answer: 125.560000
+benchmarks/N-Queens/inst5200.txt : 131308 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5400.txt find answer: 27.640000
-benchmarks/N-Queens/inst5400.txt : 29193 ms.
+benchmarks/N-Queens/inst5400.txt find answer: 148.520000
+benchmarks/N-Queens/inst5400.txt : 155264 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5600.txt find answer: 20.900000
-benchmarks/N-Queens/inst5600.txt : 22215 ms.
+answer wrong same color 44 5150 3088 3088
+answer wrong same color 11345 12852 2120 2120
+answer wrong same color 183 2959 1216 1216
+answer wrong same color 5808 6689 3849 3849
+answer wrong same color 6022 7074 1099 1099
+answer wrong same color 6051 8137 227 227
+answer wrong same color 462 2173 5022 5022
+answer wrong same color 500 1663 3561 3561
+answer wrong same color 11732 14342 -313 -313
+answer wrong same color 6201 7788 1112 1112
+answer wrong same color 11859 14796 1440 1440
+answer wrong same color 682 2282 2073 2073
+answer wrong same color 6293 7341 3102 3102
+answer wrong same color 769 5294 3152 3152
+answer wrong same color 6404 9720 1332 1332
+answer wrong same color 6450 7381 1212 1212
+answer wrong same color 851 4017 183 183
+answer wrong same color 859 3820 197 197
+answer wrong same color 6716 7590 6 6
+answer wrong same color 6734 7812 2209 2209
+answer wrong same color 6771 7715 1860 1860
+answer wrong same color 1211 3660 1345 1345
+answer wrong same color 12428 13683 -387 -387
+answer wrong same color 12470 13227 308 308
+answer wrong same color 6887 9052 -1179 -1179
+answer wrong same color 1317 3933 1405 1405
+answer wrong same color 1406 2022 69 69
+answer wrong same color 1409 1697 486 486
+answer wrong same color 1511 4919 757 757
+answer wrong same color 1521 4784 504 504
+answer wrong same color 7174 7821 -109 -109
+answer wrong same color 1615 4012 2716 2716
+answer wrong same color 7239 8386 21 21
+answer wrong same color 12843 15064 -804 -804
+answer wrong same color 1738 2594 933 933
+answer wrong same color 1770 4534 4061 4061
+answer wrong same color 7426 8045 141 141
+answer wrong same color 13029 15582 100 100
+answer wrong same color 7458 8918 54 54
+answer wrong same color 7466 10053 -502 -502
+answer wrong same color 13142 13449 897 897
+answer wrong same color 13152 14353 -961 -961
+answer wrong same color 7673 9565 -433 -433
+answer wrong same color 13297 14186 898 898
+answer wrong same color 13395 13495 -1774 -1774
+answer wrong same color 2210 3615 5024 5024
+answer wrong same color 13446 13499 547 547
+answer wrong same color 7855 8989 -559 -559
+answer wrong same color 7897 8213 1119 1119
+answer wrong same color 2330 2473 5214 5214
+answer wrong same color 7953 8939 -472 -472
+answer wrong same color 2362 4202 5396 5396
+answer wrong same color 13581 16537 170 170
+answer wrong same color 2409 2996 3623 3623
+answer wrong same color 2411 3556 4539 4539
+answer wrong same color 13615 16058 -1567 -1567
+answer wrong same color 13708 13816 2484 2484
+answer wrong same color 13716 14884 -69 -69
+answer wrong same color 13746 15757 974 974
+answer wrong same color 2575 3722 4140 4140
+answer wrong same color 2596 3640 4912 4912
+answer wrong same color 13828 14229 -2018 -2018
+answer wrong same color 13908 14875 -1288 -1288
+answer wrong same color 8422 9386 -2549 -2549
+answer wrong same color 8460 9468 990 990
+answer wrong same color 2957 4996 5190 5190
+answer wrong same color 14165 15027 -1709 -1709
+answer wrong same color 2968 3771 1063 1063
+answer wrong same color 8574 8828 16 16
+answer wrong same color 2988 3872 95 95
+answer wrong same color 14202 15949 -756 -756
+answer wrong same color 3040 3983 571 571
+answer wrong same color 14297 16212 -1612 -1612
+answer wrong same color 8710 9783 -2511 -2511
+answer wrong same color 14494 15519 -1673 -1673
+answer wrong same color 14729 14959 -189 -189
+answer wrong same color 9173 10206 -1523 -1523
+answer wrong same color 14782 15748 -2975 -2975
+answer wrong same color 14802 15109 -3030 -3030
+answer wrong same color 15111 16753 -3175 -3175
+answer wrong same color 9579 10871 136 136
+answer wrong same color 15279 15554 -1153 -1153
+answer wrong same color 15291 15792 -2058 -2058
+answer wrong same color 4350 4561 2300 2300
+answer wrong same color 15696 15935 536 536
+answer wrong same color 4736 5031 2289 2289
+benchmarks/N-Queens/inst5600.txt : 167814 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5800.txt find answer: 16.440000
-benchmarks/N-Queens/inst5800.txt : 17558 ms.
+answer wrong same color 11625 11651 3541 3541
+answer wrong same color 248 1048 316 316
+answer wrong same color 409 1016 5570 5570
+answer wrong same color 528 2129 5385 5385
+answer wrong same color 545 592 1197 1197
+answer wrong same color 1069 2810 567 567
+answer wrong same color 1098 4321 4579 4579
+answer wrong same color 1212 2741 2021 2021
+answer wrong same color 1238 2619 5669 5669
+answer wrong same color 1288 2244 4505 4505
+answer wrong same color 1345 5136 3794 3794
+answer wrong same color 1380 3785 4126 4126
+answer wrong same color 1449 4692 989 989
+answer wrong same color 1460 4036 5712 5712
+answer wrong same color 1506 3218 2072 2072
+answer wrong same color 1758 1865 4351 4351
+answer wrong same color 1906 4470 4783 4783
+answer wrong same color 1915 2438 5601 5601
+answer wrong same color 1960 5309 573 573
+answer wrong same color 2011 3092 321 321
+answer wrong same color 2087 4569 5200 5200
+answer wrong same color 13709 13956 -147 -147
+answer wrong same color 2215 3587 5357 5357
+answer wrong same color 2251 5331 4033 4033
+answer wrong same color 8089 10565 -1182 -1182
+answer wrong same color 2447 4756 4930 4930
+answer wrong same color 2478 5420 3843 3843
+answer wrong same color 2627 3608 1139 1139
+answer wrong same color 14295 15569 -763 -763
+answer wrong same color 8792 8913 227 227
+answer wrong same color 3089 3539 4179 4179
+answer wrong same color 3164 3564 551 551
+answer wrong same color 8973 9811 -2103 -2103
+answer wrong same color 3473 5185 4457 4457
+answer wrong same color 9375 10557 -242 -242
+answer wrong same color 3602 5261 2029 2029
+answer wrong same color 3627 5586 877 877
+answer wrong same color 3992 4851 765 765
+answer wrong same color 5011 5054 2895 2895
+answer wrong same color 5328 5496 3643 3643
+benchmarks/N-Queens/inst5800.txt : 184566 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst6000.txt find answer: 13.850000
-benchmarks/N-Queens/inst6000.txt : 14897 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst600.txt find answer: 0.250000
-benchmarks/N-Queens/inst600.txt : 331 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst800.txt find answer: 0.520000
-benchmarks/N-Queens/inst800.txt : 652 ms.
---------------------------------------------------
-benchmarks/N-Queens/parallel.sh find answer: 0.000000
-benchmarks/N-Queens/parallel.sh : 24 ms.

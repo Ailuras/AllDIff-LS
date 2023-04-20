@@ -1,93 +1,78 @@
 --------------------------------------------------
-benchmarks/N-Queens/inst1000.txt find answer: 1.040000
-benchmarks/N-Queens/inst1000.txt : 1299 ms.
+benchmarks/N-Queens/inst1000.txt find answer: 0.950000
+benchmarks/N-Queens/inst1000.txt : 1146 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1200.txt find answer: 1.700000
-benchmarks/N-Queens/inst1200.txt : 1956 ms.
+benchmarks/N-Queens/inst1200.txt find answer: 1.670000
+benchmarks/N-Queens/inst1200.txt : 1910 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1400.txt find answer: 2.510000
-benchmarks/N-Queens/inst1400.txt : 2841 ms.
+benchmarks/N-Queens/inst1400.txt find answer: 2.490000
+benchmarks/N-Queens/inst1400.txt : 2811 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1600.txt find answer: 4.050000
-benchmarks/N-Queens/inst1600.txt : 4504 ms.
+benchmarks/N-Queens/inst1600.txt find answer: 4.210000
+benchmarks/N-Queens/inst1600.txt : 4637 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst1800.txt find answer: 6.470000
-benchmarks/N-Queens/inst1800.txt : 7028 ms.
+benchmarks/N-Queens/inst1800.txt find answer: 5.340000
+benchmarks/N-Queens/inst1800.txt : 5855 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2000.txt find answer: 9.370000
-benchmarks/N-Queens/inst2000.txt : 10064 ms.
+benchmarks/N-Queens/inst2000.txt find answer: 8.070000
+benchmarks/N-Queens/inst2000.txt : 8818 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst200.txt find answer: 0.010000
-benchmarks/N-Queens/inst200.txt : 33 ms.
+benchmarks/N-Queens/inst200.txt find answer: 0.020000
+benchmarks/N-Queens/inst200.txt : 35 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2200.txt find answer: 12.020000
-benchmarks/N-Queens/inst2200.txt : 12845 ms.
+benchmarks/N-Queens/inst2200.txt find answer: 11.540000
+benchmarks/N-Queens/inst2200.txt : 12430 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2400.txt find answer: 14.150000
-benchmarks/N-Queens/inst2400.txt : 15093 ms.
+benchmarks/N-Queens/inst2400.txt find answer: 12.240000
+benchmarks/N-Queens/inst2400.txt : 13148 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2600.txt find answer: 17.450000
-benchmarks/N-Queens/inst2600.txt : 18583 ms.
+benchmarks/N-Queens/inst2600.txt find answer: 15.080000
+benchmarks/N-Queens/inst2600.txt : 16162 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2800.txt find answer: 21.590000
-benchmarks/N-Queens/inst2800.txt : 22897 ms.
+benchmarks/N-Queens/inst2800.txt find answer: 20.270000
+benchmarks/N-Queens/inst2800.txt : 21551 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3000.txt find answer: 29.330000
-benchmarks/N-Queens/inst3000.txt : 30955 ms.
+benchmarks/N-Queens/inst3000.txt find answer: 26.060000
+benchmarks/N-Queens/inst3000.txt : 27709 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3200.txt find answer: 34.170000
-benchmarks/N-Queens/inst3200.txt : 35977 ms.
+benchmarks/N-Queens/inst3200.txt find answer: 30.360000
+benchmarks/N-Queens/inst3200.txt : 32031 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3400.txt find answer: 39.280000
-benchmarks/N-Queens/inst3400.txt : 41308 ms.
+benchmarks/N-Queens/inst3400.txt find answer: 36.670000
+benchmarks/N-Queens/inst3400.txt : 38803 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3600.txt find answer: 47.860000
-benchmarks/N-Queens/inst3600.txt : 50154 ms.
+benchmarks/N-Queens/inst3600.txt find answer: 41.030000
+benchmarks/N-Queens/inst3600.txt : 42963 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst3800.txt find answer: 54.380000
-benchmarks/N-Queens/inst3800.txt : 57122 ms.
+benchmarks/N-Queens/inst3800.txt find answer: 47.100000
+benchmarks/N-Queens/inst3800.txt : 49248 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4000.txt find answer: 64.130000
-benchmarks/N-Queens/inst4000.txt : 67235 ms.
+benchmarks/N-Queens/inst4000.txt find answer: 56.400000
+benchmarks/N-Queens/inst4000.txt : 59379 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst400.txt find answer: 0.090000
-benchmarks/N-Queens/inst400.txt : 138 ms.
+benchmarks/N-Queens/inst400.txt find answer: 0.080000
+benchmarks/N-Queens/inst400.txt : 135 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4200.txt find answer: 11.460000
-benchmarks/N-Queens/inst4200.txt : 12356 ms.
+benchmarks/N-Queens/inst4200.txt find answer: 66.820000
+benchmarks/N-Queens/inst4200.txt : 70248 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4400.txt find answer: 61.880000
-benchmarks/N-Queens/inst4400.txt : 65224 ms.
+benchmarks/N-Queens/inst4400.txt find answer: 78.940000
+benchmarks/N-Queens/inst4400.txt : 82814 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4600.txt find answer: 51.630000
-benchmarks/N-Queens/inst4600.txt : 54484 ms.
+benchmarks/N-Queens/inst4600.txt find answer: 88.160000
+benchmarks/N-Queens/inst4600.txt : 92184 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst4800.txt find answer: 44.430000
-benchmarks/N-Queens/inst4800.txt : 46515 ms.
+benchmarks/N-Queens/inst4800.txt find answer: 97.260000
+benchmarks/N-Queens/inst4800.txt : 101797 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5000.txt find answer: 40.560000
-benchmarks/N-Queens/inst5000.txt : 42747 ms.
+benchmarks/N-Queens/inst5000.txt find answer: 108.870000
+benchmarks/N-Queens/inst5000.txt : 114154 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5200.txt find answer: 33.590000
-benchmarks/N-Queens/inst5200.txt : 35388 ms.
+benchmarks/N-Queens/inst5200.txt find answer: 126.960000
+benchmarks/N-Queens/inst5200.txt : 132911 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5400.txt find answer: 25.830000
-benchmarks/N-Queens/inst5400.txt : 27446 ms.
+benchmarks/N-Queens/inst5400.txt find answer: 126.350000
+benchmarks/N-Queens/inst5400.txt : 130878 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5600.txt find answer: 22.600000
-benchmarks/N-Queens/inst5600.txt : 24573 ms.
+benchmarks/N-Queens/inst5600.txt : 2144331 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst5800.txt find answer: 18.510000
-benchmarks/N-Queens/inst5800.txt : 19828 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst6000.txt find answer: 14.280000
-benchmarks/N-Queens/inst6000.txt : 15292 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst600.txt find answer: 0.230000
-benchmarks/N-Queens/inst600.txt : 311 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst800.txt find answer: 0.510000
-benchmarks/N-Queens/inst800.txt : 633 ms.
---------------------------------------------------
-benchmarks/N-Queens/parallel.sh find answer: 0.000000
-benchmarks/N-Queens/parallel.sh : 9 ms.
