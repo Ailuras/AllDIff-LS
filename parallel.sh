@@ -3,6 +3,9 @@
 # ./parallel.sh benchmarks 1000 sudoku_test 1
 # ./parallel.sh benchmarks 1000 sudoku_ort 1
 # ./parallel.sh benchmarks_SAT 1000 sudoku_sat 1
+# ./parallel.sh benchmarks 1000 sudoku_test_tabu 1
+# ./parallel.sh benchmarks_2 1000 sudoku_cpl
+# ./parallel.sh benchmarks_CP 1000 sudoku_gec
 benchmarks=$1
 time_t=$2
 solver=$3

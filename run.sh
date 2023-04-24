@@ -27,6 +27,10 @@ for file in $folder/*; do
         minizinc --solver or-tools --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
         # ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
     fi
+    if [ "$solver"x = "sudoku_gec"x ]; then
+        minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_gec/sudoku.mzn $file
+        # ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+    fi
     if [ "$solver"x = "sudoku_sat"x ]; then
         timeout $time_t ./solvers/sudoku_sat/Kissat_MAB-HyWalk/kissat -n -q $file
     fi
@@ -35,6 +39,15 @@ for file in $folder/*; do
     fi
     if [ "$solver"x = "sudoku_test"x ]; then
         ./solvers/sudoku_test/sudoku_lsc $file $seed $time_t
+    fi
+    if [ "$solver"x = "sudoku_test_tabu"x ]; then
+        ./solvers/sudoku_test_tabu/sudoku_lsc $file $seed $time_t
+    fi
+    if [ "$solver"x = "sudoku_cpl"x ]; then
+        timeout $time_t python solvers/sudoku_cpl/sudoku.py $file
+    fi
+    if [ "$solver"x = "sudoku_cpltest"x ]; then
+        timeout $time_t python solvers/sudoku_cpl/sudoku.py $file
     fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))

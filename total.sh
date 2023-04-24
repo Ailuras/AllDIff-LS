@@ -1,7 +1,5 @@
 # CP path
-export PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin:$PATH
-export LD_LIBRARY_PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/lib:$LD_LIBRARY_PATH
-export QT_PLUGIN_PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/plugins:$QT_PLUGIN_PATH
+export PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin:$PATH;export LD_LIBRARY_PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/lib:$LD_LIBRARY_PATH;export QT_PLUGIN_PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/plugins:$QT_PLUGIN_PATH
 # SAT solver
 pip install z3-solver
 # ACS solver
@@ -11,6 +9,7 @@ cd ../..
 # LSC solver
 cd solvers/sudoku_lsc/
 g++ sudoku_lsc.cpp -std=c++11 -O3 -o sudoku_lsc
+g++ sudoku_new.cpp -std=c++11 -O3 -o sudoku_new
 # g++ sudoku_test.cpp -std=c++11 -O3 -o sudoku_lsc
 cd ../..
 # ./parallel.sh benchmarks_hard 1000 sudoku_acs 1

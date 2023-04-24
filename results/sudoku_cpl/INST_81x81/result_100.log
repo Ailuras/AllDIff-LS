@@ -1,0 +1,64 @@
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_0.txt : 6627 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_10.txt : 4791 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_11.txt : 4605 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_12.txt : 3346 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_13.txt : 3515 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_14.txt : 3273 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_15.txt : 4389 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_16.txt : 3773 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_17.txt : 3751 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_18.txt : 3332 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_19.txt : 3795 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_1.txt : 4179 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_20.txt : 4334 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_21.txt : 5052 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_22.txt : 5168 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_23.txt : 5438 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/100/inst81x81_100_24.txt : 7606 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/100/inst81x81_100_25.txt'
+benchmarks_1/INST_81x81/100/inst81x81_100_25.txt : 5158 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/100/inst81x81_100_26.txt'
+benchmarks_1/INST_81x81/100/inst81x81_100_26.txt : 5576 ms.
+--------------------------------------------------

@@ -1,0 +1,73 @@
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_0.txt : 6395 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_10.txt : 4092 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_11.txt : 3908 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_12.txt : 3772 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_13.txt : 3091 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_14.txt : 3493 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_15.txt : 4597 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_16.txt : 3922 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_17.txt : 3718 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_18.txt : 3961 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_19.txt : 4120 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_1.txt : 4176 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_20.txt : 4443 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_21.txt : 5389 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_22.txt : 5354 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/95/inst81x81_95_23.txt : 6552 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/95/inst81x81_95_24.txt'
+benchmarks_1/INST_81x81/95/inst81x81_95_24.txt : 4795 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/95/inst81x81_95_25.txt'
+benchmarks_1/INST_81x81/95/inst81x81_95_25.txt : 4099 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/95/inst81x81_95_26.txt'
+benchmarks_1/INST_81x81/95/inst81x81_95_26.txt : 5344 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/95/inst81x81_95_27.txt'
+benchmarks_1/INST_81x81/95/inst81x81_95_27.txt : 5864 ms.
+--------------------------------------------------
