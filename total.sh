@@ -21,4 +21,4 @@ export QT_PLUGIN_PATH=./MiniZincIDE-2.7.2-bundle-linux-x86_64/plugins:$QT_PLUGIN
 # export LD_LIBRARY_PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/lib:$LD_LIBRARY_PATH
 # export QT_PLUGIN_PATH=solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/plugins:$QT_PLUGIN_PATH
 
-minizinc --solver yuck --time-limit 60 ./solvers/sudoku_csp/MOLS.mzn -D "n=4"
+minizinc --solver gecode ./solvers/MOLS_csp/mols.mzn -D "n=4"

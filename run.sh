@@ -24,6 +24,10 @@ for file in $folder/*; do
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t minizinc --solver yuck solvers/nqueens_csp/nqueens.mzn -D "n=$number"
     fi
+    if [ "$solver"x = "nqueens_gec"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t minizinc --solver gecode solvers/nqueens_gec/nqueens.mzn -D "n=$number"
+    fi
     if [ "$solver"x = "nqueens_cpl"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t python solvers/nqueens_cpl/nqueens.py $number
@@ -43,7 +47,11 @@ for file in $folder/*; do
     fi
     if [ "$solver"x = "MOLS_csp"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
-        minizinc --solver yuck --time-limit $[$time_t * 1000] solvers/MOLS_csp/mols.mzn -D "n=$number"
+        timeout $time_t minizinc --solver yuck solvers/MOLS_csp/mols.mzn -D "n=$number"
+    fi
+    if [ "$solver"x = "MOLS_gec"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t minizinc --solver gecode solvers/MOLS_gec/mols.mzn -D "n=$number"
     fi
     if [ "$solver"x = "MOLS_cpl"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
