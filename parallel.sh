@@ -2,6 +2,8 @@
 # ./parallel.sh benchmarks/MOLS 1000 MOLS_ls
 # ./parallel.sh benchmarks/MOLS 1000 MOLS_csp
 # ./parallel.sh benchmarks/MOLS 1000 MOLS_cpl
+# ./parallel.sh benchmarks/MOLS 1000 MOLS_choco
+# ./parallel.sh benchmarks/MOLS 1000 MOLS_chuff
 # ./parallel.sh benchmarks/N-Queens 1000 nqueens_ls
 # ./parallel.sh benchmarks/N-Queens 1000 nqueens_csp
 # ./parallel.sh benchmarks/N-Queens 1000 nqueens_cpl
