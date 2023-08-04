@@ -65,6 +65,24 @@ for file in $folder/*; do
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t python solvers/MOLS_cpl/mols.py $number
     fi
+
+    if [ "$solver"x = "AI_ls"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/AI_ls/AllInterval-LS.cpp $number $seed $time_t
+    fi
+    if [ "$solver"x = "AI_choco"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t minizinc --solver yuck solvers/AI_csp/allinterval.mzn -D "n=$number"
+    fi
+    if [ "$solver"x = "AI_cpl"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t python solvers/AI_csp/allinterval.py $number
+    fi
+    if [ "$solver"x = "AI_yuck"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t minizinc --solver choco solvers/AI_csp/allinterval.mzn -D "n=$number"
+    fi
+
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))
     echo $file : ${take} ms.

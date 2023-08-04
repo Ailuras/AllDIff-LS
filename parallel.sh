@@ -9,6 +9,12 @@
 # ./parallel.sh benchmarks/N-Queens 1000 nqueens_cpl
 # ./parallel.sh benchmarks/N-Queens 1000 nqueens_gec
 # ./parallel.sh benchmarks/MOLS 1000 MOLS_gec
+
+# ./parallel.sh benchmarks/N-Queens 1000 nqueens_ls
+# ./parallel.sh benchmarks/N-Queens 1000 nqueens_csp
+# ./parallel.sh benchmarks/N-Queens 1000 nqueens_cpl
+# ./parallel.sh benchmarks/N-Queens 1000 nqueens_gec
+
 benchmarks=$1
 time_t=$2
 solver=$3

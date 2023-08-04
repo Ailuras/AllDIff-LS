@@ -3,6 +3,7 @@ cd solvers/nqueens_ls/
 # g++ sudoku_lsc.cpp -std=c++11 -O3 -o sudoku_lsc
 g++ NQueen-LS.cpp -std=c++11 -O3 -o NQueen-LS
 g++ GLS-LS.cpp -std=c++11 -O3 -o GLS-LS
+g++ AllInterval-LS.cpp -std=c++11 -O3 -o AI-LS
 # g++ NQueen-gen.cpp -std=c++11 -O3 -o NQueen-gen
 # g++ sudoku_test.cpp -std=c++11 -O3 -o sudoku_lsc
 cd ../..
