@@ -25,14 +25,14 @@ int* tmp_sp_vertexes;
 bool* tmp_flag;
 
 // const & hyper
-const int max_iter = 100;
+const int max_iter = 100000;
 const int max_no_improve_iter = 10000;
 const int max_bms_length = 1;
 const double alpha1 = 100;
 const double alpha2 = 0.5;
 const double alpha3 = 4.0;
 const int alpha4 = 10;
-const int tabuStep = 20;
+const int tabuStep = 10;
 const int pool_size = 100;
 
 string filename;
@@ -1035,6 +1035,7 @@ bool mLocalSearch() {
 		
 		for (int i=0; i<clash_cur; i++) {
 			if (rand()%alpha4 == 0) edges[mClashEdges_tmp[i]].w++;
+			// cout << "mClashEdges: " << edges[mClashEdges_tmp[i]].x << "--" << edges[mClashEdges_tmp[i]].y << endl;
 		}
 	} else {
 		mPoolMaxIter[last_id] += alpha3*max_iter;
@@ -1050,7 +1051,7 @@ bool mLocalSearch() {
 		int exp = mExps[i];
 		int val = 0;
 		for (int j=0; j<exp_var_length[exp]; j++) val += mVarsColor[exp_var[exp][j]] * exp_coef[exp][j];
-		mExpsColor[exp] = val;
+		mExpsColor[exp] = abs(val);
 	}
 	if(clash_best == 0) return true;
 	return false;
@@ -1088,7 +1089,7 @@ int main(int argc, char* argv[]) {
 	filename = argv[1];
 	seed = atoi(argv[2]);
 	time_limit = atof(argv[3]);
-	// filename = "60";
+	// filename = "20";
 	// seed = 1;
 	// time_limit = 60;
 	srand(seed);
