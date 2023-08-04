@@ -1,1 +1,96 @@
 --------------------------------------------------
+benchmarks/N-Queens/inst1000.txt : 1002063 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst1200.txt : 1003245 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 611379
+=====ERROR=====
+benchmarks/N-Queens/inst1400.txt : 210327 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 201625
+=====ERROR=====
+benchmarks/N-Queens/inst1600.txt : 248160 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 125739
+=====ERROR=====
+benchmarks/N-Queens/inst1800.txt : 284840 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 299387
+=====ERROR=====
+benchmarks/N-Queens/inst2000.txt : 386133 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst200.txt : 1000041 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 671865
+=====ERROR=====
+benchmarks/N-Queens/inst2200.txt : 643586 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 432037
+=====ERROR=====
+benchmarks/N-Queens/inst2400.txt : 666785 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 466625
+=====ERROR=====
+benchmarks/N-Queens/inst2600.txt : 767846 ms.
+--------------------------------------------------
+Error: syntax error, unexpected end of file, expecting '}' in line no. 71591
+=====ERROR=====
+benchmarks/N-Queens/inst2800.txt : 871992 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3000.txt : 1001149 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3200.txt : 1126643 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3400.txt : 1025649 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3600.txt : 1029234 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3800.txt : 1025877 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst4000.txt : 1029416 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst400.txt : 1000196 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst4200.txt : 1034634 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/solvers/nqueens_gec/nqueens.mzn:18.16:
+output ["SAT"];x
+               ^
+Error: syntax error, unexpected end of file, expecting ++ or ':'
+benchmarks/N-Queens/inst4400.txt : 241 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/solvers/nqueens_gec/nqueens.mzn:18.16:
+output ["SAT"];x
+               ^
+Error: syntax error, unexpected end of file, expecting ++ or ':'
+benchmarks/N-Queens/inst4600.txt : 40 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/solvers/nqueens_gec/nqueens.mzn:18.16:
+output ["SAT"];x
+               ^
+Error: syntax error, unexpected end of file, expecting ++ or ':'
+benchmarks/N-Queens/inst4800.txt : 34 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/solvers/nqueens_gec/nqueens.mzn:18.16:
+output ["SAT"];x
+               ^
+Error: syntax error, unexpected end of file, expecting ++ or ':'
+benchmarks/N-Queens/inst5000.txt : 42 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/solvers/nqueens_gec/nqueens.mzn:18.16:
+output ["SAT"];x
+               ^
+Error: syntax error, unexpected end of file, expecting ++ or ':'
+benchmarks/N-Queens/inst5200.txt : 43 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/solvers/nqueens_gec/nqueens.mzn:18.16:
+output ["SAT"];x
+               ^
+Error: syntax error, unexpected end of file, expecting ++ or ':'
+benchmarks/N-Queens/inst600.txt : 53 ms.
+--------------------------------------------------
+/home/hanrui/AllDifferent-LS/solvers/nqueens_gec/nqueens.mzn:18.16:
+output ["SAT"];x
+               ^
+Error: syntax error, unexpected end of file, expecting ++ or ':'
+benchmarks/N-Queens/inst800.txt : 41 ms.

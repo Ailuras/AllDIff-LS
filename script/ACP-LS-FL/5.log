@@ -1,17 +1,17 @@
 --------------------------------------------------
 3 find answer: 0.000000
-benchmarks/MOLS/inst3.txt : 13 ms.
+benchmarks/MOLS/inst3.txt : 15 ms.
 --------------------------------------------------
 4 find answer: 0.000000
-benchmarks/MOLS/inst4.txt : 13 ms.
+benchmarks/MOLS/inst4.txt : 15 ms.
 --------------------------------------------------
 5 find answer: 0.000000
 benchmarks/MOLS/inst5.txt : 13 ms.
 --------------------------------------------------
-7 find answer: 1.240000
-benchmarks/MOLS/inst7.txt : 1260 ms.
+7 find answer: 0.170000
+benchmarks/MOLS/inst7.txt : 184 ms.
 --------------------------------------------------
-8 find answer: 261.760000
-benchmarks/MOLS/inst8.txt : 262403 ms.
+8 find answer: 589.900000
+benchmarks/MOLS/inst8.txt : 591332 ms.
 --------------------------------------------------
-benchmarks/MOLS/inst9.txt : 1007226 ms.
+benchmarks/MOLS/inst9.txt : 1002686 ms.

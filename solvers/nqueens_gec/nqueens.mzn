@@ -15,4 +15,4 @@ constraint forall(i, j in 1..n where i < j) (
 
 % 求解
 solve satisfy;
-output ["SAT"];
+output ["SAT"];x
