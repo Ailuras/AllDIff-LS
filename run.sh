@@ -70,6 +70,14 @@ for file in $folder/*; do
         number=$(echo $file | grep -o -E '[0-9]+')
         ./solvers/AI_ls/AI-LS $number $seed $time_t
     fi
+    if [ "$solver"x = "AI_ls_DM"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/AI_ls_DM/AI-LS $number $seed $time_t
+    fi
+    if [ "$solver"x = "AI_ls_FL"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/AI_ls_FL/AI-LS $number $seed $time_t
+    fi
     if [ "$solver"x = "AI_choco"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t minizinc --solver choco solvers/AI_csp/allinterval.mzn -D "n=$number"

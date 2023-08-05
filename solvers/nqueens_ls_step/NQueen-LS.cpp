@@ -926,7 +926,6 @@ int mTabuSearch() {
 			mTabu[move_id][mVarsColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVars_length;
 			update_info(move_id, move_to);
 		}
-
 		if (mClashEdges_length <= tSminClash) {
 			tSminClash = mClashEdges_length;
 			for (int i=0; i<mVars_length; i++) mVarsColor_tmp[mVars[i]] = mVarsColor[mVars[i]];

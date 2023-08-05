@@ -10,7 +10,7 @@
 # ./parallel.sh benchmarks/N-Queens 1000 nqueens_gec
 # ./parallel.sh benchmarks/MOLS 1000 MOLS_gec
 
-# ./parallel.sh benchmarks/All-Interval 1000 AI_ls
+# ./parallel.sh benchmarks/All-Interval 1000 AI_ls 10
 # ./parallel.sh benchmarks/All-Interval 1000 AI_yuck
 # ./parallel.sh benchmarks/All-Interval 1000 AI_cpl
 # ./parallel.sh benchmarks/All-Interval 1000 AI_choco
