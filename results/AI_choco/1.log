@@ -13,4 +13,15 @@ benchmarks/All-Interval/inst14.txt : 18411 ms.
 --------------------------------------------------SSAT
 ----------
 benchmarks/All-Interval/inst16.txt : 174066 ms.
---------------------------------------------------
+--------------------------------------------------SSAT
+----------
+benchmarks/All-Interval/inst18.txt : 281375 ms.
+--------------------------------------------------======UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst20.txt : 1000099 ms.
+--------------------------------------------------======UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst22.txt : 1000099 ms.
+--------------------------------------------------======UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst24.txt : 1000093 ms.
