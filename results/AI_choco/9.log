@@ -15,3 +15,18 @@ SAT
 ----------
 benchmarks/All-Interval/inst16.txt : 165285 ms.
 --------------------------------------------------
+SAT
+----------
+benchmarks/All-Interval/inst18.txt : 278534 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst20.txt : 1000097 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst22.txt : 1000108 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst24.txt : 1000121 ms.
