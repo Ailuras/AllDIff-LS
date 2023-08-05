@@ -1,24 +1,27 @@
 --------------------------------------------------
 SAT
-benchmarks/All-Interval/inst10.txt : 508 ms.
+benchmarks/All-Interval/inst12.txt : 651 ms.
 --------------------------------------------------
 SAT
-benchmarks/All-Interval/inst12.txt : 610 ms.
+benchmarks/All-Interval/inst14.txt : 698 ms.
 --------------------------------------------------
 SAT
-benchmarks/All-Interval/inst14.txt : 639 ms.
+benchmarks/All-Interval/inst16.txt : 3206 ms.
 --------------------------------------------------
 SAT
-benchmarks/All-Interval/inst16.txt : 2953 ms.
+benchmarks/All-Interval/inst18.txt : 3585 ms.
 --------------------------------------------------
 SAT
-benchmarks/All-Interval/inst18.txt : 3448 ms.
+benchmarks/All-Interval/inst20.txt : 78779 ms.
 --------------------------------------------------
 SAT
-benchmarks/All-Interval/inst20.txt : 75916 ms.
+benchmarks/All-Interval/inst22.txt : 235783 ms.
 --------------------------------------------------
 SAT
-benchmarks/All-Interval/inst22.txt : 218128 ms.
+benchmarks/All-Interval/inst24.txt : 172716 ms.
 --------------------------------------------------
-SAT
-benchmarks/All-Interval/inst24.txt : 165282 ms.
+benchmarks/All-Interval/inst26.txt : 1000076 ms.
+--------------------------------------------------
+benchmarks/All-Interval/inst28.txt : 1000070 ms.
+--------------------------------------------------
+benchmarks/All-Interval/inst30.txt : 1000051 ms.
