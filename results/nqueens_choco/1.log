@@ -23,7 +23,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException: interval 214
 	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
 =====UNKNOWN=====
 %% Unexpected resolution interruption!
-benchmarks/N-Queens/inst1200.txt : 534024 ms.
+benchmarks/N-Queens/inst1200.txt : 471585 ms.
 --------------------------------------------------
 Exception in thread "main" java.lang.IllegalArgumentException: invalid interval
 	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:325)
@@ -45,7 +45,7 @@ Exception in thread "main" java.lang.IllegalArgumentException: invalid interval
 	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
 =====UNKNOWN=====
 %% Unexpected resolution interruption!
-benchmarks/N-Queens/inst1400.txt : 631226 ms.
+benchmarks/N-Queens/inst1400.txt : 598760 ms.
 --------------------------------------------------
 Exception in thread "main" java.lang.UnsupportedOperationException: interval 2147483645..2147483647 outside buffer: 2147483645..-2147483648
 	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:336)
@@ -67,7 +67,7 @@ Exception in thread "main" java.lang.UnsupportedOperationException: interval 214
 	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
 =====UNKNOWN=====
 %% Unexpected resolution interruption!
-benchmarks/N-Queens/inst1600.txt : 701273 ms.
+benchmarks/N-Queens/inst1600.txt : 611537 ms.
 --------------------------------------------------
 Exception in thread "main" java.lang.IllegalArgumentException: invalid interval
 	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:325)
@@ -89,7 +89,7 @@ Exception in thread "main" java.lang.IllegalArgumentException: invalid interval
 	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
 =====UNKNOWN=====
 %% Unexpected resolution interruption!
-benchmarks/N-Queens/inst1800.txt : 794051 ms.
+benchmarks/N-Queens/inst1800.txt : 884617 ms.
 --------------------------------------------------
 Exception in thread "main" java.lang.UnsupportedOperationException: interval 2147483646..2147483646 outside buffer: 2147483646..2147483647
 	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:336)
@@ -111,60 +111,54 @@ Exception in thread "main" java.lang.UnsupportedOperationException: interval 214
 	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
 =====UNKNOWN=====
 %% Unexpected resolution interruption!
-benchmarks/N-Queens/inst2000.txt : 891413 ms.
+benchmarks/N-Queens/inst2000.txt : 871326 ms.
 --------------------------------------------------
 SAT
 ----------
-benchmarks/N-Queens/inst200.txt : 809570 ms.
+benchmarks/N-Queens/inst200.txt : 832268 ms.
 --------------------------------------------------
 =====UNKNOWN=====
 %% Unexpected resolution interruption!
-benchmarks/N-Queens/inst2200.txt : 1006433 ms.
+benchmarks/N-Queens/inst2200.txt : 1005121 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst2400.txt : 1001876 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst2600.txt : 1000891 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst2800.txt : 1001341 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3000.txt : 1002728 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3200.txt : 1001658 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3400.txt : 1002544 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3600.txt : 1005124 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst3800.txt : 1004328 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst4000.txt : 1002405 ms.
 --------------------------------------------------
 =====UNKNOWN=====
 %% Unexpected resolution interruption!
-benchmarks/N-Queens/inst2400.txt : 1008588 ms.
+benchmarks/N-Queens/inst400.txt : 1000225 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2600.txt : 1659157 ms.
+benchmarks/N-Queens/inst4200.txt : 1004037 ms.
 --------------------------------------------------
-benchmarks/N-Queens/inst2800.txt : 1002181 ms.
+benchmarks/N-Queens/inst4400.txt : 1002837 ms.
 --------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst3000.txt : 633414 ms.
+benchmarks/N-Queens/inst4600.txt : 1005950 ms.
 --------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst3200.txt : 424220 ms.
+benchmarks/N-Queens/inst4800.txt : 1002946 ms.
 --------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst3400.txt : 525963 ms.
+benchmarks/N-Queens/inst5000.txt : 1004762 ms.
 --------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst3600.txt : 611203 ms.
+benchmarks/N-Queens/inst5200.txt : 1003637 ms.
 --------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst3800.txt : 591649 ms.
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst600.txt : 1000302 ms.
 --------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst4000.txt : 744412 ms.
---------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst400.txt : 7513 ms.
---------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst4200.txt : 871514 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst4400.txt : 1003359 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst4600.txt : 1005678 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst4800.txt : 1004175 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst5000.txt : 1006132 ms.
---------------------------------------------------
-benchmarks/N-Queens/inst5200.txt : 1003640 ms.
---------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst600.txt : 14654 ms.
---------------------------------------------------
-Error: error: Error occurred when creating temporary file
-benchmarks/N-Queens/inst800.txt : 24622 ms.
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst800.txt : 1000487 ms.

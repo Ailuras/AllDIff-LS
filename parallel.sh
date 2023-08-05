@@ -18,13 +18,14 @@
 benchmarks=$1
 time_t=$2
 solver=$3
+times=$4
 
 function parallel() {
     local seed=$1
     nohup bash run.sh $benchmarks $time_t $solver $seed $ > results/$solver/$seed.log 2>&1 &
 }
 
-for ((round = 1; round <= 10; round++)); do
+for ((round = 1; round <= $times; round++)); do
     path=results/$solver
     if [ ! -d "$path" ];then
         mkdir -p $path
