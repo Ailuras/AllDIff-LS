@@ -20,3 +20,5 @@ benchmarks/All-Interval/inst22.txt : 15660 ms.
 24 find answer: 12.630000
 benchmarks/All-Interval/inst24.txt : 12635 ms.
 --------------------------------------------------
+26 find answer: 853.960000
+benchmarks/All-Interval/inst26.txt : 853996 ms.
