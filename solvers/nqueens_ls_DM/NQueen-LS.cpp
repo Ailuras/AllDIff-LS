@@ -272,26 +272,17 @@ double mCurrentTime() {
 }
 
 void mRead(string filename) {
-	FILE *fp = freopen(filename.c_str(), "r", stdin); 
-	cin >> order;
-	cin >> prop;
+	order = stoi(filename);
 	var_size = order;
 	vertex_size = order*3;
 	color_size = order;
 	edge_size = (var_size-1)*var_size*3/2;
 	set_Variable_size();
 	init();
-	int c;
 	for (int i=1; i<=var_size; i++) {
-		cin >> c;
-		if (c == -1) {
-			for(int k=1; k<=color_size; k++) {
-				var_color[i][var_color_length[i]] = k; 
-				var_color_pos[i][k] = var_color_length[i]++;
-			}
-		} else {
-			var_color[i][var_color_length[i]] = c; 
-			var_color_pos[i][c] = var_color_length[i]++;
+		for(int k=1; k<=color_size; k++) {
+			var_color[i][var_color_length[i]] = k; 
+			var_color_pos[i][k] = var_color_length[i]++;
 		}
 	}
 	int index = 0;
@@ -719,8 +710,8 @@ int mTabuSearch() {
 		sub_cnt = 0;
 		sub_tabu_cnt = 0;
 		if (true) {
-			for (int i = 0; i < mClashVars_length; i++) {
-				int var_id = mClashVars[i];
+			for (int i = 0; i < mVars_length; i++) {
+				int var_id = mVars[i];
 				for(int j = 0; j < var_color_length[var_id]; j++) {
 					int tmp_c = var_color[var_id][j];
 					if(tmp_c == mVarsColor[var_id]) continue;
@@ -926,7 +917,6 @@ int mTabuSearch() {
 			mTabu[move_id][mVarsColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVars_length;
 			update_info(move_id, move_to);
 		}
-
 		if (mClashEdges_length <= tSminClash) {
 			tSminClash = mClashEdges_length;
 			for (int i=0; i<mVars_length; i++) mVarsColor_tmp[mVars[i]] = mVarsColor[mVars[i]];
@@ -986,11 +976,11 @@ bool mLocalSearch() {
 			mPoolMaxIter[r] = max_iter;
 		}
 		
-		// for (int i=0; i<clash_cur; i++) {
-		// 	if (rand()%alpha4 == 0) edges[mClashEdges_tmp[i]].w++;
-		// }
+		for (int i=0; i<clash_cur; i++) {
+			if (rand()%alpha4 == 0) edges[mClashEdges_tmp[i]].w++;
+		}
 	} else {
-		// mPoolMaxIter[last_id] += alpha3*max_iter;
+		mPoolMaxIter[last_id] += alpha3*max_iter;
 	}
 
 	last_id = rand()%mPool_length;

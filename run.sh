@@ -12,13 +12,16 @@ for file in $folder/*; do
     echo --------------------------------------------------
     start=$[$(date +%s%N)/1000000]
     if [ "$solver"x = "nqueens_ls"x ]; then
-        ./solvers/nqueens_ls/NQueen-LS $file $seed $time_t
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/nqueens_ls/NQueen-LS $number $seed $time_t
     fi
-    if [ "$solver"x = "nqueens_ls_restart"x ]; then
-        ./solvers/nqueens_ls_restart/NQueen-LS $file $seed $time_t
+    if [ "$solver"x = "nqueens_ls_FL"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/nqueens_ls_FL/NQueen-LS $number $seed $time_t
     fi
-    if [ "$solver"x = "nqueens_ls_step"x ]; then
-        ./solvers/nqueens_ls_step/NQueen-LS $file $seed $time_t
+    if [ "$solver"x = "nqueens_ls_DM"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        ./solvers/nqueens_ls_DM/NQueen-LS $number $seed $time_t
     fi
     if [ "$solver"x = "nqueens_csp"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
@@ -41,13 +44,13 @@ for file in $folder/*; do
         number=$(echo $file | grep -o -E '[0-9]+')
         ./solvers/MOLS_ls/GLS-LS $number $seed $time_t
     fi
-    if [ "$solver"x = "MOLS_ls_restart"x ]; then
+    if [ "$solver"x = "MOLS_ls_FL"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
-        ./solvers/MOLS_ls_restart/GLS-LS $number $seed $time_t
+        ./solvers/MOLS_ls_FL/GLS-LS $number $seed $time_t
     fi    
-    if [ "$solver"x = "MOLS_ls_step"x ]; then
+    if [ "$solver"x = "MOLS_ls_DM"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
-        ./solvers/MOLS_ls_step/GLS-LS $number $seed $time_t
+        ./solvers/MOLS_ls_DM/GLS-LS $number $seed $time_t
     fi
     if [ "$solver"x = "MOLS_csp"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')

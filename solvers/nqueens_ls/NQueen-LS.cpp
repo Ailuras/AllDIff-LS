@@ -272,26 +272,17 @@ double mCurrentTime() {
 }
 
 void mRead(string filename) {
-	FILE *fp = freopen(filename.c_str(), "r", stdin); 
-	cin >> order;
-	cin >> prop;
+	order = stoi(filename);
 	var_size = order;
 	vertex_size = order*3;
 	color_size = order;
 	edge_size = (var_size-1)*var_size*3/2;
 	set_Variable_size();
 	init();
-	int c;
 	for (int i=1; i<=var_size; i++) {
-		cin >> c;
-		if (c == -1) {
-			for(int k=1; k<=color_size; k++) {
-				var_color[i][var_color_length[i]] = k; 
-				var_color_pos[i][k] = var_color_length[i]++;
-			}
-		} else {
-			var_color[i][var_color_length[i]] = c; 
-			var_color_pos[i][c] = var_color_length[i]++;
+		for(int k=1; k<=color_size; k++) {
+			var_color[i][var_color_length[i]] = k; 
+			var_color_pos[i][k] = var_color_length[i]++;
 		}
 	}
 	int index = 0;
