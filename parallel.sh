@@ -1,5 +1,7 @@
 #！/bin/bash
 # ./parallel.sh benchmarks 1000 sudoku_ils 1
+# ./parallel.sh benchmarks_part 1000 sudoku_choco 1
+# ./parallel.sh benchmarks_part 1000 sudoku_chuff 1
 # ./parallel.sh benchmarks 1000 sudoku_test 1
 # ./parallel.sh benchmarks 1000 sudoku_ort 1
 # ./parallel.sh benchmarks_SAT 1000 sudoku_sat 1

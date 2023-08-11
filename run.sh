@@ -27,6 +27,10 @@ for file in $folder/*; do
         minizinc --solver or-tools --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
         # ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
     fi
+    if [ "$solver"x = "sudoku_choco"x ]; then
+        minizinc --solver choco --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+        # ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file
+    fi
     if [ "$solver"x = "sudoku_gec"x ]; then
         minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_gec/sudoku.mzn $file
         # ./solvers/sudoku_csp/MiniZincIDE-2.6.4-bundle-linux-x86_64/bin/minizinc --solver gecode --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku.mzn $file

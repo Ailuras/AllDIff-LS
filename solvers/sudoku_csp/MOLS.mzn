@@ -1,6 +1,6 @@
 include "alldifferent.mzn";
 % 输入参数：阶数n
-int: n=7;
+int: n=4;
 
 % 拉丁方矩阵A和B的定义
 array[1..n, 1..n] of var 1..n: A;
