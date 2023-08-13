@@ -62,7 +62,7 @@ for file in $folder/*; do
         minizinc --solver yuck --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku_prop.mzn ./solvers/sudoku_csp/inst49x49_0_0.dzn $file
     fi
     if [ "$solver"x = "sudoku_cpl_des"x ]; then
-        timeout $time_t python solvers/sudoku_cpl/sudoku.py  $file
+        timeout $time_t python solvers/sudoku_cpl/sudoku_prop.py solvers/sudoku_cpl/inst49x49_0_0.txt $file
     fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))

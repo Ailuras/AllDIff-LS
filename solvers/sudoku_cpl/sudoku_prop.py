@@ -33,19 +33,21 @@ with open(prop) as f:
     for i in range(3*SIZE):
         line = f.readline()
         proportion.append(line.strip())
+# print(proportion)
 
 # 添加约束条件
 # 行和列约束
 for i in range(SIZE):
-    if proportion[i] == 1:
+    if proportion[i] == '1':
         model.add(model.all_diff([grid[i][j] for j in range(SIZE)]))  # 行约束
-    if proportion[SIZE+i] == 1:
+    if proportion[SIZE+i] == '1':
         model.add(model.all_diff([grid[j][i] for j in range(SIZE)]))  # 列约束
 
 # 子网格约束
 for r in range(0, SIZE, SUBGRID_SIZE):
     for c in range(0, SIZE, SUBGRID_SIZE):
-        if proportion[2*SIZE+r+c//SUBGRID_SIZE] == 1:
+        if proportion[2*SIZE+r+c//SUBGRID_SIZE] == '1':
+            # print(2*SIZE+r+c//SUBGRID_SIZE)
             model.add(model.all_diff([grid[r + i][c + j] for i in range(SUBGRID_SIZE) for j in range(SUBGRID_SIZE)]))
 
 # 给定值约束
