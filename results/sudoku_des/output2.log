@@ -1,300 +1,150 @@
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.730000
-proportion/data_100.txt : 2140 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.050000
-proportion/data_10.txt : 392 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.060000
-proportion/data_11.txt : 404 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.060000
-proportion/data_12.txt : 397 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.080000
-proportion/data_13.txt : 429 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.080000
-proportion/data_14.txt : 518 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.090000
-proportion/data_15.txt : 535 ms.
---------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.100000
-proportion/data_16.txt : 497 ms.
+proportion/data_10.txt : 333 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.120000
-proportion/data_17.txt : 515 ms.
+proportion/data_11.txt : 343 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.120000
-proportion/data_18.txt : 417 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.130000
+proportion/data_12.txt : 358 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.150000
-proportion/data_19.txt : 405 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.140000
+proportion/data_13.txt : 376 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.000000
-proportion/data_1.txt : 276 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.160000
+proportion/data_14.txt : 393 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.150000
-proportion/data_20.txt : 411 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.170000
-proportion/data_21.txt : 428 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.170000
-proportion/data_22.txt : 445 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.180000
+proportion/data_15.txt : 407 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.200000
-proportion/data_23.txt : 461 ms.
+proportion/data_16.txt : 439 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.200000
-proportion/data_24.txt : 461 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.210000
+proportion/data_17.txt : 451 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.220000
-proportion/data_25.txt : 576 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.250000
+proportion/data_18.txt : 497 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.200000
-proportion/data_26.txt : 509 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.230000
-proportion/data_27.txt : 512 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.260000
-proportion/data_28.txt : 535 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.260000
-proportion/data_29.txt : 522 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.270000
+proportion/data_19.txt : 487 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.010000
-proportion/data_2.txt : 307 ms.
+proportion/data_1.txt : 227 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 8.480000
-proportion/data_30.txt : 8856 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.280000
-proportion/data_31.txt : 634 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.290000
-proportion/data_32.txt : 560 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.300000
+proportion/data_20.txt : 556 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.310000
-proportion/data_33.txt : 584 ms.
+proportion/data_21.txt : 547 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.310000
-proportion/data_34.txt : 645 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.320000
+proportion/data_22.txt : 548 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.340000
-proportion/data_35.txt : 689 ms.
+proportion/data_23.txt : 571 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 7.180000
-proportion/data_36.txt : 7553 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.350000
+proportion/data_24.txt : 572 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.690000
-proportion/data_37.txt : 996 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.380000
-proportion/data_38.txt : 1735 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.440000
-proportion/data_39.txt : 693 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.000000
-proportion/data_3.txt : 300 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.590000
-proportion/data_40.txt : 883 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.440000
-proportion/data_41.txt : 708 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.370000
+proportion/data_25.txt : 591 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.410000
-proportion/data_42.txt : 659 ms.
+proportion/data_26.txt : 665 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.490000
-proportion/data_43.txt : 743 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.420000
+proportion/data_27.txt : 659 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.490000
-proportion/data_44.txt : 773 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.430000
+proportion/data_28.txt : 670 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.790000
-proportion/data_45.txt : 1087 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.460000
+proportion/data_29.txt : 694 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.570000
-proportion/data_46.txt : 896 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.010000
+proportion/data_2.txt : 226 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.870000
-proportion/data_47.txt : 2170 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.480000
+proportion/data_30.txt : 712 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.750000
-proportion/data_48.txt : 1059 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.510000
+proportion/data_31.txt : 746 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.520000
+proportion/data_32.txt : 755 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.560000
+proportion/data_33.txt : 788 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.580000
-proportion/data_49.txt : 886 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.010000
-proportion/data_4.txt : 394 ms.
+proportion/data_34.txt : 810 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.620000
-proportion/data_50.txt : 893 ms.
+proportion/data_35.txt : 864 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.650000
-proportion/data_51.txt : 969 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.790000
+proportion/data_36.txt : 1042 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.640000
-proportion/data_52.txt : 944 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.690000
+proportion/data_37.txt : 938 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.630000
-proportion/data_53.txt : 983 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.740000
+proportion/data_38.txt : 984 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.680000
-proportion/data_54.txt : 1026 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 5.410000
-proportion/data_55.txt : 5724 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 7.230000
-proportion/data_56.txt : 7558 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.970000
-proportion/data_57.txt : 1304 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.170000
-proportion/data_58.txt : 1476 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 17.230000
-proportion/data_59.txt : 17613 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.750000
+proportion/data_39.txt : 985 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.010000
-proportion/data_5.txt : 255 ms.
+proportion/data_3.txt : 240 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.950000
-proportion/data_60.txt : 1344 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.370000
+proportion/data_40.txt : 1607 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 30.000000
-proportion/data_61.txt : 30397 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.820000
+proportion/data_41.txt : 1055 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 2.670000
+proportion/data_42.txt : 2935 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.870000
+proportion/data_43.txt : 1112 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.030000
+proportion/data_44.txt : 1285 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.310000
+proportion/data_45.txt : 1544 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.970000
+proportion/data_46.txt : 1224 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.100000
+proportion/data_47.txt : 1359 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.240000
+proportion/data_48.txt : 1510 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.130000
-proportion/data_62.txt : 1424 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 4.480000
-proportion/data_63.txt : 4827 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 10.190000
-proportion/data_64.txt : 10567 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 3.190000
-proportion/data_65.txt : 3544 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.480000
-proportion/data_66.txt : 1808 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.610000
-proportion/data_67.txt : 1961 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 2.270000
-proportion/data_68.txt : 2632 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.720000
-proportion/data_69.txt : 2077 ms.
+proportion/data_49.txt : 1377 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.020000
-proportion/data_6.txt : 331 ms.
+proportion/data_4.txt : 242 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 7.380000
-proportion/data_70.txt : 7759 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 2.650000
-proportion/data_71.txt : 3013 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 10.660000
-proportion/data_72.txt : 11028 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 22.700000
-proportion/data_73.txt : 23058 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 2.320000
-proportion/data_74.txt : 2700 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 31.220000
-proportion/data_75.txt : 31590 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 4.240000
-proportion/data_76.txt : 4533 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 55.740000
-proportion/data_77.txt : 56148 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 12.340000
-proportion/data_78.txt : 12672 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 32.400000
-proportion/data_79.txt : 32726 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.020000
-proportion/data_7.txt : 344 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 11.000000
-proportion/data_80.txt : 11382 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 40.990000
-proportion/data_81.txt : 41444 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 34.400000
-proportion/data_82.txt : 34797 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 86.350000
-proportion/data_83.txt : 86916 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 10.480000
-proportion/data_84.txt : 10846 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 35.470000
-proportion/data_85.txt : 35918 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 10.440000
-proportion/data_86.txt : 10807 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 80.300000
-proportion/data_87.txt : 80786 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 20.090000
-proportion/data_88.txt : 20467 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 64.180000
-proportion/data_89.txt : 64667 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.250000
+proportion/data_50.txt : 1502 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.030000
-proportion/data_8.txt : 305 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 22.860000
-proportion/data_90.txt : 23218 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 24.910000
-proportion/data_91.txt : 25255 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 6.290000
-proportion/data_92.txt : 6604 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 33.220000
-proportion/data_93.txt : 33598 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 90.580000
-proportion/data_94.txt : 91106 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 33.620000
-proportion/data_95.txt : 34058 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 6.470000
-proportion/data_96.txt : 6795 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 8.790000
-proportion/data_97.txt : 9157 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 3.110000
-proportion/data_98.txt : 3399 ms.
---------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.880000
-proportion/data_99.txt : 2186 ms.
+proportion/data_5.txt : 259 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.040000
-proportion/data_9.txt : 360 ms.
+proportion/data_6.txt : 292 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.050000
+proportion/data_7.txt : 286 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.070000
+proportion/data_8.txt : 300 ms.
+--------------------------------------------------
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.080000
+proportion/data_9.txt : 337 ms.

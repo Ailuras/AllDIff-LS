@@ -56,7 +56,10 @@ for file in $folder/*; do
         ./solvers/sudoku_des/sudoku_lsc solvers/sudoku_des/inst64x64_0_0.txt $file $seed $time_t
     fi
     if [ "$solver"x = "sudoku_choco_des"x ]; then
-        minizinc --solver choco --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku_prop.mzn ./solvers/sudoku_csp/inst64x64_0_0.dzn $file
+        minizinc --solver choco --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku_prop.mzn ./solvers/sudoku_csp/inst49x49_0_0.dzn $file
+    fi
+    if [ "$solver"x = "sudoku_yuck_des"x ]; then
+        minizinc --solver yuck --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku_prop.mzn ./solvers/sudoku_csp/inst49x49_0_0.dzn $file
     fi
     if [ "$solver"x = "sudoku_cpl_des"x ]; then
         timeout $time_t python solvers/sudoku_cpl/sudoku.py  $file
