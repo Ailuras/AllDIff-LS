@@ -2,7 +2,6 @@
 # ./solvers/sudoku_acs/sudoku_acs --alg 0 --file test.txt --timeout 1000
 # ./solvers/sudoku_lsc/sudoku_lsc benchmarks/INST_49x49/0/inst49x49_0_0.txt 1 1000
 
-
 folder=$1
 time_t=$2
 solver=$3
@@ -53,7 +52,18 @@ for file in $folder/*; do
     if [ "$solver"x = "sudoku_cpltest"x ]; then
         timeout $time_t python solvers/sudoku_cpl/sudoku.py $file
     fi
+    if [ "$solver"x = "sudoku_des"x ]; then
+        ./solvers/sudoku_des/sudoku_lsc solvers/sudoku_des/inst64x64_0_0.txt $file $seed $time_t
+    fi
+    if [ "$solver"x = "sudoku_choco_des"x ]; then
+        minizinc --solver choco --time-limit $[$time_t * 1000] ./solvers/sudoku_csp/sudoku_prop.mzn ./solvers/sudoku_csp/inst64x64_0_0.dzn $file
+    fi
+    if [ "$solver"x = "sudoku_cpl_des"x ]; then
+        timeout $time_t python solvers/sudoku_cpl/sudoku.py  $file
+    fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))
     echo $file : ${take} ms.
 done
+
+# nohup bash run.sh proportion_CP 1000 sudoku_choco_des > results/sudoku_choco_des/output1.log 2>&1 &
