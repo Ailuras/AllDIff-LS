@@ -31,4 +31,3 @@ constraint
 solve satisfy;
 
 output  ["SAT"];
-% output  [a | a, o in SubSquareRange];

@@ -35,3 +35,39 @@ SAT
 ----------
 proportion_CP/8/data_09.dzn : 2135 ms.
 --------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_10.dzn : 1001113 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_11.dzn : 1000759 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_12.dzn : 1000746 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_13.dzn : 1000859 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_14.dzn : 1000890 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_15.dzn : 1000834 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_16.dzn : 1000904 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_17.dzn : 1000819 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_18.dzn : 1000906 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/8/data_19.dzn : 1000893 ms.
+--------------------------------------------------
+SAT
+----------
+proportion_CP/8/data_20.dzn : 3473 ms.
+run.sh: line 71: seed: command not found
+run.sh: line 72: syntax error near unexpected token `fi'
+run.sh: line 72: `    fi'

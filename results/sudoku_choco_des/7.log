@@ -47,3 +47,31 @@ SAT
 ----------
 proportion_CP/7/data_12.dzn : 2361 ms.
 --------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/7/data_13.dzn : 1000950 ms.
+--------------------------------------------------
+SAT
+----------
+proportion_CP/7/data_14.dzn : 2190 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/7/data_15.dzn : 1000862 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/7/data_16.dzn : 1000939 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/7/data_17.dzn : 1001010 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/7/data_18.dzn : 1000982 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+proportion_CP/7/data_19.dzn : 1000990 ms.
+--------------------------------------------------
+SAT
+----------
+proportion_CP/7/data_20.dzn : 3233 ms.
+run.sh: line 71: seed: command not found
+run.sh: line 72: syntax error near unexpected token `fi'
+run.sh: line 72: `    fi'

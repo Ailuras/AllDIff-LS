@@ -29,8 +29,8 @@ proportion/12/data_09.txt : 586 ms.
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.390000
 proportion/12/data_10.txt : 629 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 89.830000
-proportion/12/data_11.txt : 90357 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.330000
+proportion/12/data_11.txt : 1599 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 0.530000
 proportion/12/data_12.txt : 777 ms.

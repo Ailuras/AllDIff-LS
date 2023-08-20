@@ -47,8 +47,8 @@ proportion/19/data_15.txt : 1460 ms.
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 10.630000
 proportion/19/data_16.txt : 10908 ms.
 --------------------------------------------------
-solvers/sudoku_des/inst64x64_0_0.txt find answer: 23.680000
-proportion/19/data_17.txt : 23992 ms.
+solvers/sudoku_des/inst64x64_0_0.txt find answer: 13.680000
+proportion/19/data_17.txt : 13992 ms.
 --------------------------------------------------
 solvers/sudoku_des/inst64x64_0_0.txt find answer: 1.130000
 proportion/19/data_18.txt : 1389 ms.
