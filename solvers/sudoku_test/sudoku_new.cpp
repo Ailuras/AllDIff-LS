@@ -758,7 +758,7 @@ void update_info(int id, int pos) {
 
 void build() {
 	for(int i=0; i<mVertexes_length; i++) {
-		// cscore[mVertexes[i]] = 0;
+		cscore[mVertexes[i]] = 0;
 		mTabuV[mVertexes[i]] = true;
 		for(int j = 1; j <= square_size; j++) {
 			mClash[mVertexes[i]][j] = 0;

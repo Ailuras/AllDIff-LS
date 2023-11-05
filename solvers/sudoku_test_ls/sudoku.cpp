@@ -44,6 +44,7 @@ const int pool_size = 50;
 string filename;
 int seed;
 double time_limit;
+int display;
 
 // data
 tms start;
@@ -552,7 +553,18 @@ bool check_finish() {
 		mCurrentTime();
 		best_time = total_time;
 		check_answer();
-		printf("%s find answer: %lf\n", filename.c_str(), best_time);
+		if (display == 0){
+			printf("%s find answer: %lf\n", filename.c_str(), best_time);
+		} else if (display == 1) {
+			for(int i = 1; i <= square_size; i++) {
+				for(int j = 1; j <= square_size; j++) {
+					int id = square_size * (i - 1) + j;
+					if (j != 1) cout << "\t";
+					cout << mVertexesColor_tmp[id];
+				}
+				cout << endl;
+			}
+		}
 		return true;
 	}
 	return false;
@@ -563,8 +575,9 @@ bool check_tabu(int id, int to, int iter) {
 	return false;
 }
 bool check_tabu(int id) {
+	return mTabuV[id];
+	if (color_vertex_recent[mVertexesColor[id]] == id) return false;
 	return true;
-	// return mTabuV[id];
 }
 
 void mReduceVertexes() {
@@ -937,11 +950,7 @@ int mTabuSearch() {
 			move_id = tmp_bms_st[r];
 			move_to = tmp_sub_bms_st[r];
 			mTabu[move_id][mVertexesColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVertexes_length;
-			// cout << "=============================================" << endl;
-			// cout << "loop: " << iters << ", flag: " << flag << endl;
-			// cout << "choose vertex " << move_id << " change to " << move_to << endl;
 			update_info(move_id, move_to);
-			// cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << endl;
 			increase_score();
 			cscore[move_id] = 0;
 			flag--;
@@ -1080,11 +1089,7 @@ int mTabuSearch() {
 				move_to = tmp_bms_st[r];
 			}
 			mTabu[move_id][mVertexesColor[move_id]] = iters + rand() % tabuStep + alpha2 * mClashVertexes_length;
-			// cout << "=============================================" << endl;
-			// cout << "loop: " << iters << ", flag: " << flag << endl;
-			// cout << "choose vertex " << move_id << " change to " << move_to << endl;
 			update_info(move_id, move_to);
-			// cout << "mClashEdges_length: " << mClashEdges_length << ", mClashVertexes_length: " << mClashVertexes_length << endl;
 			increase_score();
 			cscore[move_id] = 0;
 		}
@@ -1521,7 +1526,8 @@ int main(int argc, char* argv[]) {
 	filename = argv[1];
 	seed = atoi(argv[2]);
 	time_limit = atof(argv[3]);
-	// filename = "inst81x81_0_0.txt";
+	display = atof(argv[4]);
+	// filename = "inst49x49_55_0.txt";
 	// seed = 1;
 	// time_limit = 60;
 	srand(seed);
@@ -1530,7 +1536,6 @@ int main(int argc, char* argv[]) {
 
 	mStartTime();
 	mGenerate();
-	// return 0;
 	if(check_finish()) return 0;
 	for(int iter = 0; total_time < time_limit; iter++) {
 		// if (mLocalSearch()) break;

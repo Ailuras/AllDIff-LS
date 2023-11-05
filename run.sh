@@ -40,11 +40,17 @@ for file in $folder/*; do
     if [ "$solver"x = "sudoku_lsc"x ]; then
         ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
     fi
-    if [ "$solver"x = "sudoku_test"x ]; then
-        ./solvers/sudoku_test/sudoku_lsc $file $seed $time_t
+    if [ "$solver"x = "sudoku_ls"x ]; then
+        ./solvers/sudoku_test_ls/sudoku_ls $file $seed $time_t 0
     fi
-    if [ "$solver"x = "sudoku_test_tabu"x ]; then
-        ./solvers/sudoku_test_tabu/sudoku_lsc $file $seed $time_t
+    if [ "$solver"x = "sudoku_tie"x ]; then
+        ./solvers/sudoku_test_tie/sudoku_ls $file $seed $time_t 0
+    fi
+    if [ "$solver"x = "sudoku_tabu"x ]; then
+        ./solvers/sudoku_test_tabu/sudoku_ls $file $seed $time_t
+    fi
+    if [ "$solver"x = "sudoku_swap"x ]; then
+        ./solvers/sudoku_test_swap/sudoku_ls $file $seed $time_t
     fi
     if [ "$solver"x = "sudoku_cpl"x ]; then
         timeout $time_t python solvers/sudoku_cpl/sudoku.py $file
