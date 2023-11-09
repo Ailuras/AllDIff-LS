@@ -1,0 +1,302 @@
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_0.txt find answer: 0.030000
+benchmarks/INST_16x16/10/inst16x16_10_0.txt : 61 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_10.txt find answer: 0.240000
+benchmarks/INST_16x16/10/inst16x16_10_10.txt : 272 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_11.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_11.txt : 19 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_12.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_12.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_13.txt find answer: 1.130000
+benchmarks/INST_16x16/10/inst16x16_10_13.txt : 1151 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_14.txt find answer: 2.000000
+benchmarks/INST_16x16/10/inst16x16_10_14.txt : 2026 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_15.txt find answer: 0.420000
+benchmarks/INST_16x16/10/inst16x16_10_15.txt : 434 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_16.txt find answer: 0.430000
+benchmarks/INST_16x16/10/inst16x16_10_16.txt : 448 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_17.txt find answer: 0.050000
+benchmarks/INST_16x16/10/inst16x16_10_17.txt : 69 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_18.txt find answer: 0.160000
+benchmarks/INST_16x16/10/inst16x16_10_18.txt : 179 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_19.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_19.txt : 16 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_1.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_1.txt : 19 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_20.txt find answer: 0.150000
+benchmarks/INST_16x16/10/inst16x16_10_20.txt : 161 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_21.txt find answer: 1.360000
+benchmarks/INST_16x16/10/inst16x16_10_21.txt : 1377 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_22.txt find answer: 0.390000
+benchmarks/INST_16x16/10/inst16x16_10_22.txt : 413 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_23.txt find answer: 5.820000
+benchmarks/INST_16x16/10/inst16x16_10_23.txt : 5856 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_24.txt find answer: 0.050000
+benchmarks/INST_16x16/10/inst16x16_10_24.txt : 65 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_25.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_25.txt : 18 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_26.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_26.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_27.txt find answer: 0.500000
+benchmarks/INST_16x16/10/inst16x16_10_27.txt : 519 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_28.txt find answer: 0.950000
+benchmarks/INST_16x16/10/inst16x16_10_28.txt : 965 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_29.txt find answer: 0.240000
+benchmarks/INST_16x16/10/inst16x16_10_29.txt : 256 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_2.txt find answer: 2.720000
+benchmarks/INST_16x16/10/inst16x16_10_2.txt : 2739 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_30.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_30.txt : 18 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_31.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_31.txt : 14 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_32.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_32.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_33.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_33.txt : 11 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_34.txt find answer: 0.260000
+benchmarks/INST_16x16/10/inst16x16_10_34.txt : 274 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_35.txt find answer: 0.420000
+benchmarks/INST_16x16/10/inst16x16_10_35.txt : 438 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_36.txt find answer: 0.330000
+benchmarks/INST_16x16/10/inst16x16_10_36.txt : 352 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_37.txt find answer: 0.050000
+benchmarks/INST_16x16/10/inst16x16_10_37.txt : 62 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_38.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_38.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_39.txt find answer: 0.150000
+benchmarks/INST_16x16/10/inst16x16_10_39.txt : 163 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_3.txt find answer: 0.170000
+benchmarks/INST_16x16/10/inst16x16_10_3.txt : 186 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_40.txt find answer: 0.550000
+benchmarks/INST_16x16/10/inst16x16_10_40.txt : 568 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_41.txt find answer: 0.040000
+benchmarks/INST_16x16/10/inst16x16_10_41.txt : 64 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_42.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_42.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_43.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_43.txt : 17 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_44.txt find answer: 0.770000
+benchmarks/INST_16x16/10/inst16x16_10_44.txt : 784 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_45.txt find answer: 0.440000
+benchmarks/INST_16x16/10/inst16x16_10_45.txt : 461 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_46.txt find answer: 0.050000
+benchmarks/INST_16x16/10/inst16x16_10_46.txt : 66 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_47.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_47.txt : 12 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_48.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_48.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_49.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_49.txt : 18 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_4.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_4.txt : 17 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_50.txt find answer: 2.870000
+benchmarks/INST_16x16/10/inst16x16_10_50.txt : 2894 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_51.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_51.txt : 17 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_52.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_52.txt : 12 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_53.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_53.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_54.txt find answer: 0.490000
+benchmarks/INST_16x16/10/inst16x16_10_54.txt : 510 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_55.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_55.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_56.txt find answer: 0.040000
+benchmarks/INST_16x16/10/inst16x16_10_56.txt : 60 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_57.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_57.txt : 11 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_58.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_58.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_59.txt find answer: 0.550000
+benchmarks/INST_16x16/10/inst16x16_10_59.txt : 561 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_5.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_5.txt : 12 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_60.txt find answer: 4.120000
+benchmarks/INST_16x16/10/inst16x16_10_60.txt : 4149 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_61.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_61.txt : 16 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_62.txt find answer: 3.110000
+benchmarks/INST_16x16/10/inst16x16_10_62.txt : 3133 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_63.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_63.txt : 11 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_64.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_64.txt : 11 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_65.txt find answer: 0.170000
+benchmarks/INST_16x16/10/inst16x16_10_65.txt : 190 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_66.txt find answer: 0.510000
+benchmarks/INST_16x16/10/inst16x16_10_66.txt : 525 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_67.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_67.txt : 17 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_68.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_68.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_69.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_69.txt : 12 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_6.txt find answer: 0.190000
+benchmarks/INST_16x16/10/inst16x16_10_6.txt : 204 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_70.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_70.txt : 16 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_71.txt find answer: 0.660000
+benchmarks/INST_16x16/10/inst16x16_10_71.txt : 677 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_72.txt find answer: 0.280000
+benchmarks/INST_16x16/10/inst16x16_10_72.txt : 295 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_73.txt find answer: 1.940000
+benchmarks/INST_16x16/10/inst16x16_10_73.txt : 1958 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_74.txt find answer: 1.930000
+benchmarks/INST_16x16/10/inst16x16_10_74.txt : 1951 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_75.txt : 1004567 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_76.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_76.txt : 14 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_77.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_77.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_78.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_78.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_79.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_79.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_7.txt find answer: 0.190000
+benchmarks/INST_16x16/10/inst16x16_10_7.txt : 211 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_80.txt find answer: 10.880000
+benchmarks/INST_16x16/10/inst16x16_10_80.txt : 10926 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_81.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_81.txt : 17 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_82.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_82.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_83.txt find answer: 0.980000
+benchmarks/INST_16x16/10/inst16x16_10_83.txt : 1016 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_84.txt find answer: 0.460000
+benchmarks/INST_16x16/10/inst16x16_10_84.txt : 481 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_85.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_85.txt : 18 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_86.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_86.txt : 14 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_87.txt find answer: 0.040000
+benchmarks/INST_16x16/10/inst16x16_10_87.txt : 57 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_88.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_88.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_89.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_89.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_8.txt find answer: 0.430000
+benchmarks/INST_16x16/10/inst16x16_10_8.txt : 449 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_90.txt find answer: 0.580000
+benchmarks/INST_16x16/10/inst16x16_10_90.txt : 607 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_91.txt find answer: 0.670000
+benchmarks/INST_16x16/10/inst16x16_10_91.txt : 706 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_92.txt find answer: 1.730000
+benchmarks/INST_16x16/10/inst16x16_10_92.txt : 1755 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_93.txt find answer: 3.190000
+benchmarks/INST_16x16/10/inst16x16_10_93.txt : 3214 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_94.txt find answer: 0.160000
+benchmarks/INST_16x16/10/inst16x16_10_94.txt : 181 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_95.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_95.txt : 15 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_96.txt find answer: 0.360000
+benchmarks/INST_16x16/10/inst16x16_10_96.txt : 379 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_97.txt find answer: 0.170000
+benchmarks/INST_16x16/10/inst16x16_10_97.txt : 183 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_98.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_98.txt : 14 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_99.txt find answer: 0.000000
+benchmarks/INST_16x16/10/inst16x16_10_99.txt : 13 ms.
+--------------------------------------------------
+benchmarks/INST_16x16/10/inst16x16_10_9.txt find answer: 1.020000
+benchmarks/INST_16x16/10/inst16x16_10_9.txt : 1042 ms.
+run.sh: line 77: 3: command not found
+run.sh: line 78: syntax error near unexpected token `fi'
+run.sh: line 78: `    fi'
