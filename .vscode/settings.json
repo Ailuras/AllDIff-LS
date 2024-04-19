@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.cpp": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
         "cmath": "cpp",
@@ -7,6 +8,7 @@
         "chrono": "cpp",
         "random": "cpp",
         "limits": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "variant": "cpp"
     }
 }
