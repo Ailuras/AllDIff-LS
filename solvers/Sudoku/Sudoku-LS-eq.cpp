@@ -151,7 +151,7 @@ void set_Variable_size() {
 	for(int i = 1; i <= vertex_size; i++) edge_map[i] = (int *) malloc(sizeof(int) * (vertex_size + 1));
 	mEdges = (int *) malloc(sizeof(int) * (edge_size + 1));
 	mNeighbours = (int **) malloc(sizeof(int *) * (vertex_size + 1));
-	for(int i = 1; i <= vertex_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (10 * square_size));
+	for(int i = 1; i <= vertex_size; i++) mNeighbours[i] = (int *) malloc(sizeof(int) * (3 * square_size * square_size / 10));
 	mNeighbours_length = (int *) malloc(sizeof(int) * (vertex_size + 1));
 	mNeighbours_length_prime = (int *) malloc(sizeof(int) * (vertex_size + 1));
 
@@ -378,7 +378,6 @@ double mCurrentTime() {
 
 void mRead(string filename) {
 	string tempstr1;
-	string tempstr2;
 	FILE *fp = freopen(filename.c_str(), "r", stdin); 
 	int index = 0;
 	cin >> order;
@@ -657,11 +656,11 @@ void mReduceVertexes() {
 								swap_vertex_color(tmp_v, tmp_c, --vertex_color_length[tmp_v]);
 						}
 					}
-				if(mCol_pos[get_Col(tmp_V)][tmp_c][tmp_V] <= mCol_length[get_Col(tmp_V)][tmp_c])
+				if (mCol_pos[get_Col(tmp_V)][tmp_c][tmp_V] <= mCol_length[get_Col(tmp_V)][tmp_c])
 					swap_col(get_Col(tmp_V), tmp_c, tmp_V, mCol_length[get_Col(tmp_V)][tmp_c]--);
-				if(mRow_pos[get_Row(tmp_V)][tmp_c][tmp_V] <= mRow_length[get_Row(tmp_V)][tmp_c])
+				if (mRow_pos[get_Row(tmp_V)][tmp_c][tmp_V] <= mRow_length[get_Row(tmp_V)][tmp_c])
 					swap_row(get_Row(tmp_V), tmp_c, tmp_V, mRow_length[get_Row(tmp_V)][tmp_c]--);
-				if(mSqu_pos[get_Squ(tmp_V)][tmp_c][tmp_V] <= mSqu_length[get_Squ(tmp_V)][tmp_c])
+				if (mSqu_pos[get_Squ(tmp_V)][tmp_c][tmp_V] <= mSqu_length[get_Squ(tmp_V)][tmp_c])
 					swap_squ(get_Squ(tmp_V), tmp_c, tmp_V, mSqu_length[get_Squ(tmp_V)][tmp_c]--);
 			}
 		}
@@ -692,7 +691,6 @@ void mReduceVertexes() {
 	while(!q.empty()) {
 		int tmp_v = q.front();
 		int tmp_c = vertex_color[tmp_v][0];
-		assert(tmp_c > 0);
 		q.pop();
 		if(mVertexesColor[tmp_v] > 0) continue;
 		vertex_color_length[tmp_v] = 0;
@@ -741,42 +739,42 @@ void mReduceVertexes() {
 				}
 			}
 		}
-		for(int i = 0; i < mNeighbours_length[tmp_v]; i++) {
+		for (int i = 0; i < mNeighbours_length[tmp_v]; i++) {
 			int v = mNeighbours[tmp_v][i];
-			if(vertex_color_pos[v][tmp_c] < vertex_color_length[v]) {
+			if (vertex_color_pos[v][tmp_c] < vertex_color_length[v]) {
 				swap_vertex_color(v, tmp_c, vertex_color_length[v] - 1);
 				if (cons_flag[v] != 0) {
 					int tmp = cons_flag[v];
 					for (int k=0; k<cons_length[tmp]; k++) {
 						int same_v = cons[tmp][k];
-						if(vertex_color_pos[same_v][tmp_c] < vertex_color_length[same_v])
+						if (same_v != v && vertex_color_pos[same_v][tmp_c] < vertex_color_length[same_v])
 							swap_vertex_color(same_v, tmp_c, --vertex_color_length[same_v]);
 					}
 				}
 				vertex_color_length[v]--;
-				if(vertex_color_length[v] == 1) {
+				if (vertex_color_length[v] == 1) {
 					q.push(v);
 				}
 			}
-			if(mCol_pos[get_Col(v)][tmp_c][v] <= mCol_length[get_Col(v)][tmp_c]) {
-				if(mCol_length[get_Col(v)][tmp_c] != 0) swap_col(get_Col(v), tmp_c, v, mCol_length[get_Col(v)][tmp_c]--);
-				if(mCol_length[get_Col(v)][tmp_c] == 1) {
+			if (mCol_pos[get_Col(v)][tmp_c][v] <= mCol_length[get_Col(v)][tmp_c]) {
+				if (mCol_length[get_Col(v)][tmp_c] != 0) swap_col(get_Col(v), tmp_c, v, mCol_length[get_Col(v)][tmp_c]--);
+				if (mCol_length[get_Col(v)][tmp_c] == 1) {
 					int v1 = mCol[get_Col(v)][tmp_c][1];
 					swap_vertex_color(v1, tmp_c, 0);
 					q.push(v1);
 				}
 			}
-			if(mRow_pos[get_Row(v)][tmp_c][v] <= mRow_length[get_Row(v)][tmp_c]) {
-				if(mRow_length[get_Row(v)][tmp_c] != 0) swap_row(get_Row(v), tmp_c, v, mRow_length[get_Row(v)][tmp_c]--);
-				if(mRow_length[get_Row(v)][tmp_c] == 1) {
+			if (mRow_pos[get_Row(v)][tmp_c][v] <= mRow_length[get_Row(v)][tmp_c]) {
+				if (mRow_length[get_Row(v)][tmp_c] != 0) swap_row(get_Row(v), tmp_c, v, mRow_length[get_Row(v)][tmp_c]--);
+				if (mRow_length[get_Row(v)][tmp_c] == 1) {
 					int v1 = mRow[get_Row(v)][tmp_c][1];
 					swap_vertex_color(v1, tmp_c, 0);
 					q.push(v1);
 				}
 			}
-			if(mSqu_pos[get_Squ(v)][tmp_c][v] <= mSqu_length[get_Squ(v)][tmp_c]) {
-				if(mSqu_length[get_Squ(v)][tmp_c] != 0) swap_squ(get_Squ(v), tmp_c, v, mSqu_length[get_Squ(v)][tmp_c]--);
-				if(mSqu_length[get_Squ(v)][tmp_c] == 1) {
+			if (mSqu_pos[get_Squ(v)][tmp_c][v] <= mSqu_length[get_Squ(v)][tmp_c]) {
+				if (mSqu_length[get_Squ(v)][tmp_c] != 0) swap_squ(get_Squ(v), tmp_c, v, mSqu_length[get_Squ(v)][tmp_c]--);
+				if (mSqu_length[get_Squ(v)][tmp_c] == 1) {
 					int v1 = mSqu[get_Squ(v)][tmp_c][1];
 					swap_vertex_color(v1, tmp_c, 0);
 					q.push(v1);
@@ -788,53 +786,59 @@ void mReduceVertexes() {
 
 	mVertexes_length = 0;
 	mEdges_length = 0;
-	vector<bool> vertex_flag(vertex_size + 1, false);
+	// vector<bool> vertex_flag(vertex_size + 1, false);
 	for(int i = 1; i <= vertex_size; i++) {
-		if (mVertexesColor[i] < 0 && !vertex_flag[i]) {
-			assert(vertex_color_length[i] > 0);
+		if (mVertexesColor[i] < 0) {
 			mVertexes[mVertexes_length++] = i;
-			if (cons_flag[i] != 0) {
-				int tmp = cons_flag[i];
-				for (int j=0; j<cons_length[tmp]; j++) {
-					vertex_flag[cons[tmp][j]] = true;
-				}
-			}
+			// if (cons_flag[i] != 0) {
+			// 	int tmp = cons_flag[i];
+			// 	for (int j=0; j<cons_length[tmp]; j++) {
+			// 		vertex_flag[cons[tmp][j]] = true;
+			// 		assert(vertex_color_length[i] == vertex_color_length[cons[tmp][j]]);
+			// 	}
+			// }
 		}
 	}
-	for(int i = 0; i < mVertexes_length; i++) {
+	// for(int i = 0; i < mVertexes_length; i++) {
+	// 	int vertex_id = mVertexes[i];
+	// 	if (cons_flag[vertex_id] != 0) {
+	// 		int tmp = cons_flag[vertex_id];
+	// 		for (int j=0; j<cons_length[tmp]; j++) {
+	// 			int same_v = cons[tmp][j];
+	// 			if (same_v == vertex_id) continue;
+	// 			for(int j = 0; j < mNeighbours_length[same_v]; j++) {
+	// 				int tmp_v = mNeighbours[same_v][j];
+	// 				if(mVertexesColor[tmp_v] > 0 && tmp_v == vertex_id) continue;
+	// 				int flag1 = -1;
+	// 				int flag2 = -1;
+	// 				for (int k=0; k<mNeighbours_length[tmp_v]; k++) {
+	// 					if (mNeighbours[tmp_v][k] == vertex_id) flag1 = k;
+	// 					if (mNeighbours[tmp_v][k] == same_v) flag2 = k;
+	// 				}
+	// 				assert(flag2 >= 0);
+	// 				if (flag1 >= 0) {
+	// 					mNeighbours[tmp_v][flag2] = mNeighbours[tmp_v][--mNeighbours_length[tmp_v]];
+	// 				} else {
+	// 					mNeighbours[tmp_v][flag2] = vertex_id;
+    //                     mNeighbours[vertex_id][mNeighbours_length[vertex_id]++] = tmp_v;
+	// 					int tmp_edge = edge_map[same_v][tmp_v];
+	// 					edge_map[vertex_id][tmp_v] = tmp_edge;
+	// 					edge_map[tmp_v][vertex_id] = tmp_edge;
+	// 					edges[tmp_edge].x = vertex_id;
+	// 					edges[tmp_edge].y = tmp_v;
+	// 					if ((vertex_id == 33 && tmp_v == 1245) || (vertex_id == 1245 && tmp_v == 33)) {
+	// 						cout << "hello" << endl;
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+	for (int i = 0; i < mVertexes_length; i++) {
 		int vertex_id = mVertexes[i];
-		if (cons_flag[vertex_id] != 0) {
-			int tmp = cons_flag[vertex_id];
-			for (int j=0; j<cons_length[tmp]; j++) {
-				int same_v = cons[tmp][j];
-				for(int j = 0; j < mNeighbours_length[same_v]; j++) {
-					int tmp_v = mNeighbours[same_v][j];
-					if(mVertexesColor[tmp_v] > 0) continue;
-					int flag1 = -1;
-					int flag2 = -1;
-					for (int k=0; k<mNeighbours_length[tmp_v]; k++) {
-						if (mNeighbours[tmp_v][k] == vertex_id) flag1 = k;
-						if (mNeighbours[tmp_v][k] == same_v) flag2 = k;
-					}
-					if (flag1 >= 0 && flag2 >= 0) {
-						mNeighbours[tmp_v][flag2] = mNeighbours[tmp_v][--mNeighbours_length[tmp_v]];
-					} else {
-						mNeighbours[tmp_v][flag2] = vertex_id;
-                        mNeighbours[vertex_id][mNeighbours_length[vertex_id]++] = tmp_v;
-						int tmp_edge = edge_map[same_v][tmp_v];
-						edge_map[vertex_id][tmp_v] = tmp_edge;
-						edges[tmp_edge].x = vertex_id;
-						edges[tmp_edge].y = tmp_v;
-					}
-				}
-			}
-		}
-	}
-	for(int i = 0; i < mVertexes_length; i++) {
-		int vertex_id = mVertexes[i];
-		for(int j = 0; j < mNeighbours_length[vertex_id]; j++) {
+		for (int j = 0; j < mNeighbours_length[vertex_id]; j++) {
 			int tmp_v = mNeighbours[vertex_id][j];
-			if(mVertexesColor[tmp_v] > 0) {
+			if (mVertexesColor[tmp_v] > 0) {
 				mNeighbours[vertex_id][j--] = mNeighbours[vertex_id][--mNeighbours_length[vertex_id]];
 			} else if (vertex_id < tmp_v) {
                 mEdges[mEdges_length++] = edge_map[vertex_id][tmp_v];
@@ -889,10 +893,10 @@ void update_info(int id, int pos) {
 }
 
 void build() {
-	for(int i=0; i<mVertexes_length; i++) {
+	for (int i=0; i<mVertexes_length; i++) {
 		cscore[mVertexes[i]] = 0;
 		mTabuV[mVertexes[i]] = true;
-		for(int j = 1; j <= square_size; j++) {
+		for (int j = 1; j <= square_size; j++) {
 			mClash[mVertexes[i]][j] = 0;
 			mTabu[mVertexes[i]][j] = 0;
 		}
@@ -918,6 +922,7 @@ void build() {
             mClashEdges_pos[edge_id] = mClashEdges_length++;
 		}
 	}
+	// cout << "mVertexes_length: " << mVertexes_length << ", mEdges_length: " << mEdges_length << ", mClashEdges_length: " << mClashEdges_length << endl;
 	mClashVertexes_length = 0;
 	for(int i = 0; i < mVertexes_length; i++) {
 		int vertex_id = mVertexes[i];
@@ -1215,7 +1220,7 @@ int mTabuSearch() {
 			for (int i=0; i<mClashEdges_length; i++) {
 				mClashEdges_tmp[i] = mClashEdges[i];
 			}
-			if(tSminClash == 0) return tSminClash;
+			if (tSminClash == 0) return tSminClash;
 		}
 	}
 	return tSminClash;
@@ -1541,6 +1546,7 @@ void mPerturbation() {
 bool mLocalSearch() {
 	mIter++;
 	clash_cur = mTabuSearch();
+	// cout << clash_cur << endl;
 	if(clash_cur < clash_best) {
 		mPool_length = 0;
 		clash_best = clash_cur;
@@ -1613,9 +1619,25 @@ bool mLocalSearch() {
 }
 
 void mGenerate() {
+
+	// string tempstr1;
+	// FILE *fp = freopen("inst49x49_100_0.txt", "r", stdin); 
+	// int index = 0;
+	// cin >> order;
+	// cin >> is_sat;
+	// for (int i=1; i<=square_size; i++) {
+	// 	for (int j=1; j<=square_size; j++) {
+	// 		cin >> tmp_vertex[i][j];
+	// 	}
+	// }
+
 	for (int i=0; i<pool_size; i++) mPoolMaxIter[i] = max_iter;
 	for(int i = 0; i < mVertexes_length; i++) {
 		int vertex_id = mVertexes[i];
+		// int x = get_Col(vertex_id);
+		// int y = get_Row(vertex_id);
+		// assert(tmp_vertex[x][y] > 0);
+		// int tmp_c = tmp_vertex[x][y];
 		int tmp_c = vertex_color[vertex_id][rand() % vertex_color_length[vertex_id]];
 		mVertexesColor[vertex_id] = tmp_c;
 		if (cons_flag[vertex_id] != 0) {
@@ -1652,14 +1674,14 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	// filename = argv[1];
-	// seed = atoi(argv[2]);
-	// time_limit = atof(argv[3]);
-	// display = atof(argv[4]);
-	filename = "inst49x49_40_0.txt";
-	seed = 1;
-	time_limit = 60;
-	display = 1;
+	filename = argv[1];
+	seed = atoi(argv[2]);
+	time_limit = atof(argv[3]);
+	display = atof(argv[4]);
+	// filename = "inst49x49_40_0.txt";
+	// seed = 1;
+	// time_limit = 60;
+	// display = 0;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes();
@@ -1673,6 +1695,6 @@ int main(int argc, char* argv[]) {
 		if(check_finish()) break;
 		mCurrentTime();
 	}
-	print_info();
+	// print_info();
 	return 0;
 }
