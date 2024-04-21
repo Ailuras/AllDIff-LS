@@ -8,6 +8,8 @@
 # ./parallel.sh benchmarks 1000 sudoku_test_tabu 1
 # ./parallel.sh benchmarks_2 1000 sudoku_cpl
 # ./parallel.sh benchmarks_CP 1000 sudoku_gec
+# ./parallel.sh benchmarks_EXC 1000 sudoku_eq
+# ./parallel.sh benchmarks_LEQ 1000 sudoku_lt
 benchmarks=$1
 time_t=$2
 solver=$3

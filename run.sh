@@ -19,6 +19,16 @@ for file in $folder/*; do
     if [ "$solver"x = "sudoku_ort"x ]; then
         timeout $time_t python solvers/sudoku_ort/sudoku.py $file
     fi
+    # dyh: 2024/4/20
+    if [ "$solver"x = "sudoku_eq_ort"x ]; then
+        timeout $time_t python solvers/sudoku_ort/sudoku_dyh.py $file
+    fi    
+    if [ "$solver"x = "sudoku_eq"x ]; then
+        ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+    fi
+    if [ "$solver"x = "sudoku_lt"x ]; then
+        ./solvers/Sudoku/Sudoku-LS-lt $file $seed $time_t 0
+    fi   
     if [ "$solver"x = "sudoku_ort9x9"x ]; then
         timeout $time_t python solvers/sudoku_ort/sudoku_9x9.py $file
     fi

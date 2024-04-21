@@ -1,0 +1,300 @@
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_0.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_0.txt : 170 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_10.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_10.txt : 166 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_11.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_11.txt : 162 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_12.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_12.txt : 189 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_13.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_13.txt : 165 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_14.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_14.txt : 164 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_15.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_15.txt : 167 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_16.txt find answer: 0.020000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_16.txt : 179 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_17.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_17.txt : 166 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_18.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_18.txt : 167 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_19.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_19.txt : 166 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_1.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_1.txt : 163 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_20.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_20.txt : 164 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_21.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_21.txt : 164 ms.
+--------------------------------------------------
+run.sh: line 10: 1066724 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+benchmarks_EXC/INST_49x49/50/inst49x49_50_22.txt : 261 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_23.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_23.txt : 162 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_24.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_24.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_25.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_25.txt : 155 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_26.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_26.txt : 160 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_27.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_27.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_28.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_28.txt : 163 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_29.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_29.txt : 162 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_2.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_2.txt : 159 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_30.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_30.txt : 159 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_31.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_31.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_32.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_32.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_33.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_33.txt : 167 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_34.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_34.txt : 159 ms.
+--------------------------------------------------
+run.sh: line 10: 1067653 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+benchmarks_EXC/INST_49x49/50/inst49x49_50_35.txt : 268 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_36.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_36.txt : 163 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_37.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_37.txt : 159 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_38.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_38.txt : 165 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_39.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_39.txt : 167 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_3.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_3.txt : 167 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_40.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_40.txt : 167 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_41.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_41.txt : 163 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_42.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_42.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_43.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_43.txt : 165 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_44.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_44.txt : 160 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_45.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_45.txt : 159 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_46.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_46.txt : 159 ms.
+--------------------------------------------------
+run.sh: line 10: 1068132 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+benchmarks_EXC/INST_49x49/50/inst49x49_50_47.txt : 264 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_48.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_48.txt : 154 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_49.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_49.txt : 171 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_4.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_4.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_50.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_50.txt : 161 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_51.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_51.txt : 149 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_52.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_52.txt : 152 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_53.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_53.txt : 151 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_54.txt find answer: 0.010000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_54.txt : 154 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_55.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_55.txt : 152 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_56.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_56.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_57.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_57.txt : 164 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_58.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_58.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_59.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_59.txt : 155 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_5.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_5.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_60.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_60.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_61.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_61.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_62.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_62.txt : 160 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_63.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_63.txt : 153 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_64.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_64.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_65.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_65.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_66.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_66.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_67.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_67.txt : 159 ms.
+--------------------------------------------------
+run.sh: line 10: 1068631 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+benchmarks_EXC/INST_49x49/50/inst49x49_50_68.txt : 265 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_69.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_69.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_6.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_6.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_70.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_70.txt : 154 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_71.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_71.txt : 153 ms.
+--------------------------------------------------
+run.sh: line 10: 1068734 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+benchmarks_EXC/INST_49x49/50/inst49x49_50_72.txt : 259 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_73.txt find answer: 0.020000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_73.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_74.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_74.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_75.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_75.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_76.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_76.txt : 159 ms.
+--------------------------------------------------
+run.sh: line 10: 1068831 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+benchmarks_EXC/INST_49x49/50/inst49x49_50_77.txt : 260 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_78.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_78.txt : 157 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_79.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_79.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_7.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_7.txt : 155 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_80.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_80.txt : 159 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_81.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_81.txt : 156 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_82.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_82.txt : 152 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_83.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_83.txt : 154 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_84.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_84.txt : 153 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_85.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_85.txt : 150 ms.
+--------------------------------------------------
+run.sh: line 10: 1069020 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
+benchmarks_EXC/INST_49x49/50/inst49x49_50_86.txt : 260 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_87.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_87.txt : 159 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_88.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_88.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_89.txt find answer: 0.010000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_89.txt : 153 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_8.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_8.txt : 158 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_90.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_90.txt : 156 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_91.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_91.txt : 146 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_92.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_92.txt : 145 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_93.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_93.txt : 153 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_94.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_94.txt : 149 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_95.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_95.txt : 152 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_96.txt find answer: 0.010000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_96.txt : 150 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_97.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_97.txt : 149 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_98.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_98.txt : 149 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_99.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_99.txt : 151 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_49x49/50/inst49x49_50_9.txt find answer: 0.000000
+benchmarks_EXC/INST_49x49/50/inst49x49_50_9.txt : 149 ms.
