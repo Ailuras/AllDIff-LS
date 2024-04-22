@@ -478,7 +478,6 @@ void mRead(string filename) {
 					cons_flag[cons[tmp][j]] = cons_flag[index1];
 					cons[cons_flag[index1]][cons_length[cons_flag[index1]]++] = cons[tmp][j];
 				}
-				cons_length[index1] += cons_length[tmp];
 			}
 		}
 	}
@@ -1674,14 +1673,14 @@ void mGenerate() {
 
 int main(int argc, char* argv[]) {
 	clash_best = INT_MAX;
-	// filename = argv[1];
-	// seed = atoi(argv[2]);
-	// time_limit = atof(argv[3]);
-	// display = atof(argv[4]);
-	filename = "inst36x36_40_10.txt";
-	seed = 1;
-	time_limit = 60;
-	display = 0;
+	filename = argv[1];
+	seed = atoi(argv[2]);
+	time_limit = atof(argv[3]);
+	display = atof(argv[4]);
+	// filename = "inst36x36_40_10.txt";
+	// seed = 1;
+	// time_limit = 60;
+	// display = 0;
 	srand(seed);
 	mRead(filename);
 	mReduceVertexes();

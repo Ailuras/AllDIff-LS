@@ -21,8 +21,12 @@ for file in $folder/*; do
     fi
     # dyh: 2024/4/20
     if [ "$solver"x = "sudoku_eq_ort"x ]; then
-        timeout $time_t python solvers/sudoku_ort/sudoku_dyh.py $file
-    fi    
+        timeout $time_t python solvers/sudoku_ort/sudoku_dyh_eq.py $file
+    fi
+    # dyh: 2024/4/21
+    if [ "$solver"x = "sudoku_leq_ort"x ]; then
+        timeout $time_t python solvers/sudoku_ort/sudoku_dyh_leq.py $file
+    fi        
     if [ "$solver"x = "sudoku_eq"x ]; then
         ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
     fi

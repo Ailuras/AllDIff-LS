@@ -1,300 +1,300 @@
 --------------------------------------------------
-run.sh: line 10: 1064615 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_0.txt : 680 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_0.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_0.txt : 847 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_10.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_10.txt : 751 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_10.txt : 815 ms.
 --------------------------------------------------
-run.sh: line 10: 1065866 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_11.txt : 701 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_11.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_11.txt : 828 ms.
 --------------------------------------------------
-run.sh: line 10: 1066508 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_12.txt : 677 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_12.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_12.txt : 815 ms.
 --------------------------------------------------
-run.sh: line 10: 1067014 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_13.txt : 676 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_13.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_13.txt : 820 ms.
 --------------------------------------------------
-run.sh: line 10: 1067345 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_14.txt : 672 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_14.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_14.txt : 747 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_15.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_15.txt : 746 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_15.txt : 730 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_16.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_16.txt : 746 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_16.txt : 732 ms.
 --------------------------------------------------
-run.sh: line 10: 1067846 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_17.txt : 673 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_17.txt find answer: 0.010000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_17.txt : 729 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_18.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_18.txt : 745 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_18.txt : 744 ms.
 --------------------------------------------------
-run.sh: line 10: 1068140 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_19.txt : 667 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_19.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_19.txt : 1248 ms.
 --------------------------------------------------
-run.sh: line 10: 1068253 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_1.txt : 671 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_1.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_1.txt : 747 ms.
 --------------------------------------------------
-run.sh: line 10: 1068327 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_20.txt : 679 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_20.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_20.txt : 739 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_21.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_21.txt : 744 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_21.txt : 739 ms.
 --------------------------------------------------
-run.sh: line 10: 1068496 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_22.txt : 675 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_22.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_22.txt : 733 ms.
 --------------------------------------------------
-run.sh: line 10: 1068583 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_23.txt : 674 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_23.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_23.txt : 736 ms.
 --------------------------------------------------
-run.sh: line 10: 1068671 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_24.txt : 674 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_24.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_24.txt : 735 ms.
 --------------------------------------------------
-run.sh: line 10: 1068748 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_25.txt : 675 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_25.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_25.txt : 741 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_26.txt find answer: 0.000000
 benchmarks_EXC/INST_81x81/60/inst81x81_60_26.txt : 747 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_27.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_27.txt : 749 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_27.txt : 734 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_28.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_28.txt : 747 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_28.txt : 731 ms.
 --------------------------------------------------
-run.sh: line 10: 1069049 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_29.txt : 673 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_29.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_29.txt : 746 ms.
 --------------------------------------------------
-run.sh: line 10: 1069130 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_2.txt : 673 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_2.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_2.txt : 736 ms.
 --------------------------------------------------
-run.sh: line 10: 1069195 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_30.txt : 679 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_30.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_30.txt : 4651 ms.
 --------------------------------------------------
-run.sh: line 10: 1069237 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_31.txt : 673 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_31.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_31.txt : 739 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_32.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_32.txt : 748 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_32.txt : 733 ms.
 --------------------------------------------------
-run.sh: line 10: 1069319 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_33.txt : 671 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_33.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_33.txt : 773 ms.
 --------------------------------------------------
-run.sh: line 10: 1069345 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_34.txt : 668 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_34.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_34.txt : 877 ms.
 --------------------------------------------------
-run.sh: line 10: 1069375 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_35.txt : 673 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_35.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_35.txt : 1807 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_36.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_36.txt : 739 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_36.txt : 2076 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_81x81/60/inst81x81_60_37.txt find answer: 0.010000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_37.txt : 745 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_37.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_37.txt : 809 ms.
 --------------------------------------------------
-run.sh: line 10: 1069489 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_38.txt : 675 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_38.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_38.txt : 786 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_39.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_39.txt : 742 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_39.txt : 803 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_3.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_3.txt : 743 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_3.txt : 1020 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_40.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_40.txt : 738 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_40.txt : 934 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_41.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_41.txt : 745 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_41.txt : 767 ms.
 --------------------------------------------------
-run.sh: line 10: 1069667 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_42.txt : 674 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_42.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_42.txt : 751 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_43.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_43.txt : 742 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_43.txt : 795 ms.
 --------------------------------------------------
-run.sh: line 10: 1069728 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_44.txt : 671 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_44.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_44.txt : 791 ms.
 --------------------------------------------------
-run.sh: line 10: 1069790 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_45.txt : 738 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_45.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_45.txt : 789 ms.
 --------------------------------------------------
-run.sh: line 10: 1072077 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_46.txt : 741 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_46.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_46.txt : 797 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_47.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_47.txt : 826 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_47.txt : 795 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_48.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_48.txt : 753 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_48.txt : 1188 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_49.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_49.txt : 743 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_49.txt : 794 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_4.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_4.txt : 743 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_4.txt : 786 ms.
 --------------------------------------------------
-run.sh: line 10: 1077246 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_50.txt : 674 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_50.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_50.txt : 782 ms.
 --------------------------------------------------
-run.sh: line 10: 1077276 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_51.txt : 676 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_51.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_51.txt : 787 ms.
 --------------------------------------------------
-run.sh: line 10: 1077302 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_52.txt : 678 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_52.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_52.txt : 779 ms.
 --------------------------------------------------
-run.sh: line 10: 1077323 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_53.txt : 676 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_53.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_53.txt : 1069 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_54.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_54.txt : 742 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_54.txt : 796 ms.
 --------------------------------------------------
-run.sh: line 10: 1077378 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_55.txt : 659 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_55.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_55.txt : 790 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_56.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_56.txt : 742 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_56.txt : 789 ms.
 --------------------------------------------------
-run.sh: line 10: 1077439 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_57.txt : 669 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_57.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_57.txt : 781 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_58.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_58.txt : 745 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_58.txt : 784 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_59.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_59.txt : 744 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_59.txt : 1131 ms.
 --------------------------------------------------
-run.sh: line 10: 1077506 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_5.txt : 671 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_5.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_5.txt : 784 ms.
 --------------------------------------------------
-run.sh: line 10: 1077515 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_60.txt : 669 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_60.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_60.txt : 778 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_61.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_61.txt : 741 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_61.txt : 877 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_62.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_62.txt : 739 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_62.txt : 1241 ms.
 --------------------------------------------------
-run.sh: line 10: 1077550 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_63.txt : 660 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_63.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_63.txt : 2746 ms.
 --------------------------------------------------
-run.sh: line 10: 1077562 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_64.txt : 668 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_64.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_64.txt : 802 ms.
 --------------------------------------------------
-run.sh: line 10: 1077572 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_65.txt : 669 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_65.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_65.txt : 801 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_66.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_66.txt : 732 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_66.txt : 798 ms.
 --------------------------------------------------
-run.sh: line 10: 1077582 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_67.txt : 671 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_67.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_67.txt : 807 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_68.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_68.txt : 739 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_68.txt : 796 ms.
 --------------------------------------------------
-run.sh: line 10: 1077626 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_69.txt : 668 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_69.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_69.txt : 784 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_6.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_6.txt : 741 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_6.txt : 774 ms.
 --------------------------------------------------
-run.sh: line 10: 1077655 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_70.txt : 666 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_70.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_70.txt : 794 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_71.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_71.txt : 744 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_71.txt : 782 ms.
 --------------------------------------------------
-run.sh: line 10: 1077677 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_72.txt : 668 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_72.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_72.txt : 1214 ms.
 --------------------------------------------------
-run.sh: line 10: 1077688 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_73.txt : 668 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_73.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_73.txt : 794 ms.
 --------------------------------------------------
-run.sh: line 10: 1077700 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_74.txt : 670 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_74.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_74.txt : 792 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_75.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_75.txt : 743 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_75.txt : 780 ms.
 --------------------------------------------------
-run.sh: line 10: 1077726 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_76.txt : 670 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_76.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_76.txt : 791 ms.
 --------------------------------------------------
-run.sh: line 10: 1077733 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_77.txt : 669 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_77.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_77.txt : 785 ms.
 --------------------------------------------------
-run.sh: line 10: 1077748 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_78.txt : 669 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_78.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_78.txt : 811 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_79.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_79.txt : 740 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_79.txt : 794 ms.
 --------------------------------------------------
-run.sh: line 10: 1077766 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_7.txt : 672 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_7.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_7.txt : 782 ms.
 --------------------------------------------------
-run.sh: line 10: 1077777 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_80.txt : 670 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_80.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_80.txt : 774 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_81.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_81.txt : 737 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_81.txt : 786 ms.
 --------------------------------------------------
-run.sh: line 10: 1077806 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_82.txt : 670 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_82.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_82.txt : 776 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_83.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_83.txt : 743 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_83.txt : 1046 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_84.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_84.txt : 741 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_84.txt : 791 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_85.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_85.txt : 741 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_85.txt : 783 ms.
 --------------------------------------------------
-run.sh: line 10: 1077851 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_86.txt : 670 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_86.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_86.txt : 779 ms.
 --------------------------------------------------
-run.sh: line 10: 1077858 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_87.txt : 669 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_87.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_87.txt : 780 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_81x81/60/inst81x81_60_88.txt find answer: 0.010000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_88.txt : 738 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_88.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_88.txt : 779 ms.
 --------------------------------------------------
-run.sh: line 10: 1077884 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_89.txt : 672 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_89.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_89.txt : 1277 ms.
 --------------------------------------------------
-run.sh: line 10: 1077895 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_8.txt : 668 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_8.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_8.txt : 842 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_90.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_90.txt : 741 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_90.txt : 787 ms.
 --------------------------------------------------
-run.sh: line 10: 1077921 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_91.txt : 659 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_91.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_91.txt : 785 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_92.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_92.txt : 742 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_92.txt : 773 ms.
 --------------------------------------------------
-run.sh: line 10: 1077936 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_93.txt : 669 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_93.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_93.txt : 796 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_94.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_94.txt : 739 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_94.txt : 1030 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_95.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_95.txt : 737 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_95.txt : 800 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_96.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_96.txt : 741 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_96.txt : 781 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_97.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_97.txt : 737 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_97.txt : 775 ms.
 --------------------------------------------------
-run.sh: line 10: 1077990 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_98.txt : 672 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_98.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_98.txt : 775 ms.
 --------------------------------------------------
 benchmarks_EXC/INST_81x81/60/inst81x81_60_99.txt find answer: 0.000000
-benchmarks_EXC/INST_81x81/60/inst81x81_60_99.txt : 746 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_99.txt : 767 ms.
 --------------------------------------------------
-run.sh: line 10: 1078011 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_81x81/60/inst81x81_60_9.txt : 672 ms.
+benchmarks_EXC/INST_81x81/60/inst81x81_60_9.txt find answer: 0.000000
+benchmarks_EXC/INST_81x81/60/inst81x81_60_9.txt : 791 ms.

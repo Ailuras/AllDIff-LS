@@ -1,0 +1,800 @@
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_0.txt : 4675 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_10.txt : 781 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_11.txt : 911 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_12.txt : 1289 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_13.txt : 1188 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_14.txt : 1379 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_15.txt : 1345 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_16.txt : 1590 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_17.txt : 2211 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_18.txt : 1522 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_19.txt : 1488 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_1.txt : 1542 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_20.txt : 1574 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_21.txt : 1751 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_22.txt : 2351 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_23.txt : 1938 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_24.txt : 1518 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_25.txt : 1543 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_26.txt : 1515 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_27.txt : 1548 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_28.txt : 1498 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_29.txt : 1904 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_2.txt : 1774 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_30.txt : 1956 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_31.txt : 2241 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_32.txt : 1884 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_33.txt : 2074 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_34.txt : 1758 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_35.txt : 1537 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_36.txt : 1883 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_37.txt : 2382 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_38.txt : 1815 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_39.txt : 1772 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_3.txt : 1891 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_40.txt : 2000 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_41.txt : 2244 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_42.txt : 2304 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_43.txt : 1912 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_44.txt : 1774 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_45.txt : 1703 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_46.txt : 2079 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_47.txt : 2217 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_48.txt : 2300 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_49.txt : 1642 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_4.txt : 1946 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_50.txt : 2529 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_51.txt : 2318 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_52.txt : 2243 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_53.txt : 2067 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_54.txt : 2046 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_55.txt : 1710 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_56.txt : 1891 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_57.txt : 2278 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_58.txt : 2838 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_59.txt : 2236 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_5.txt : 2913 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_60.txt : 3136 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_61.txt : 3199 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_62.txt : 2183 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_63.txt : 2578 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_64.txt : 2436 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_65.txt : 2546 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_66.txt : 2373 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_67.txt : 2386 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_68.txt : 2645 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_69.txt : 2055 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_6.txt : 2539 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_70.txt : 2456 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_71.txt : 2428 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_72.txt : 2408 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_73.txt : 2140 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_74.txt : 1861 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_75.txt : 2167 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_76.txt : 2248 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_77.txt : 2124 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_78.txt : 2440 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_79.txt : 2785 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_7.txt : 2581 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_80.txt : 2360 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_81.txt : 2459 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_82.txt : 2739 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_83.txt : 2568 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_84.txt : 2678 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_85.txt : 2632 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_86.txt : 2616 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_87.txt : 2542 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_88.txt : 2274 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_89.txt : 2332 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_8.txt : 2548 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_90.txt : 2773 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_91.txt : 3201 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_92.txt : 3319 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_93.txt : 2402 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_94.txt : 2432 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_95.txt : 2368 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_96.txt : 1991 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_97.txt : 2749 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_98.txt : 2704 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_99.txt : 2066 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 103, in <module>
+    solve_sudoku(file)
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_ort/sudoku_dyh_leq.py", line 45, in solve_sudoku
+    eq_num = int(f.readline().strip())
+ValueError: invalid literal for int() with base 10: ''
+benchmarks_LEQ/INST_16x16/100/inst16x16_100_9.txt : 2034 ms.

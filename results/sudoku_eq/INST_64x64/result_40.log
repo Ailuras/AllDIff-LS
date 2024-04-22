@@ -1,141 +1,169 @@
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_0.txt : 1003569 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_0.txt : 1005290 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_10.txt : 1000674 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_10.txt : 1007912 ms.
 --------------------------------------------------
-run.sh: line 10: 1086695 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_11.txt : 398 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_11.txt : 1005141 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_12.txt : 1014238 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_12.txt : 1008901 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_13.txt : 1001161 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_13.txt : 1002633 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_14.txt : 1002222 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_14.txt : 1000628 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_15.txt : 1006870 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_15.txt : 1001415 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_16.txt : 1003483 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_16.txt : 1003582 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_17.txt : 1006832 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_17.txt : 1002181 ms.
 --------------------------------------------------
-run.sh: line 10: 1087830 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_18.txt : 415 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_18.txt : 1014337 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_19.txt : 1007651 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_19.txt : 1001497 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_1.txt : 1002094 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_1.txt : 1004180 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_20.txt : 1003944 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_20.txt : 1012177 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_21.txt : 1005004 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_21.txt : 1002153 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_22.txt : 1014599 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_22.txt : 1004446 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_23.txt : 1002451 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_23.txt : 1005711 ms.
 --------------------------------------------------
-run.sh: line 10: 1088333 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_24.txt : 418 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_24.txt : 1003189 ms.
 --------------------------------------------------
-run.sh: line 10: 1088337 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_25.txt : 409 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_25.txt : 1008286 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_26.txt : 1004450 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_26.txt : 1001191 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_27.txt : 1005131 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_27.txt : 1025413 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_28.txt : 1005068 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_28.txt : 1003212 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_29.txt : 1006958 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_29.txt : 1002469 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_2.txt : 1004216 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_2.txt : 1002736 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_30.txt : 1022499 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_30.txt : 1002618 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_31.txt : 1011590 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_31.txt : 1002919 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_32.txt : 1002137 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_32.txt : 1001582 ms.
 --------------------------------------------------
-run.sh: line 10: 1089002 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_33.txt : 412 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_33.txt : 1001528 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_34.txt : 1014701 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_34.txt : 1005204 ms.
 --------------------------------------------------
-run.sh: line 10: 1089082 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_35.txt : 408 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_35.txt : 1002902 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_36.txt : 1004567 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_36.txt : 1004175 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_37.txt : 1001771 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_37.txt : 1003431 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_38.txt : 1013997 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_38.txt : 1004819 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_39.txt : 1000433 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_39.txt : 1008671 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_3.txt : 1011323 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_3.txt : 1001165 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_40.txt : 1020246 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_40.txt : 1003337 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_41.txt : 1009369 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_41.txt : 1004350 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_42.txt : 1007862 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_42.txt : 1002320 ms.
 --------------------------------------------------
-run.sh: line 10: 1089825 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_43.txt : 425 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_43.txt : 1006695 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_44.txt : 1004595 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_44.txt : 1003729 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_45.txt : 1028223 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_45.txt : 1012901 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_46.txt : 1009666 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_46.txt : 1000790 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_47.txt : 1007955 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_47.txt : 1005786 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_48.txt : 1005228 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_48.txt : 1002156 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_49.txt : 1002088 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_49.txt : 1003446 ms.
 --------------------------------------------------
-run.sh: line 10: 1090295 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_4.txt : 410 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_4.txt : 1014699 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_50.txt : 1004993 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_50.txt : 1001063 ms.
 --------------------------------------------------
-run.sh: line 10: 1090377 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_51.txt : 395 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_51.txt : 1010500 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_52.txt : 1004861 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_52.txt : 1000994 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_53.txt : 1000820 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_53.txt : 1017856 ms.
 --------------------------------------------------
-run.sh: line 10: 1090519 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_54.txt : 417 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_54.txt : 1004627 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_55.txt : 1006653 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_55.txt : 1000766 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_56.txt : 1004029 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_56.txt : 1002833 ms.
 --------------------------------------------------
-run.sh: line 10: 1090671 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_57.txt : 417 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_57.txt : 1014412 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_58.txt : 1012254 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_58.txt : 1005011 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_59.txt : 1005060 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_59.txt : 1002641 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_5.txt : 1025319 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_5.txt : 1000699 ms.
 --------------------------------------------------
-run.sh: line 10: 1091317 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_60.txt : 413 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_60.txt : 1009980 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_61.txt : 1003317 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_61.txt : 1005494 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_62.txt : 1008454 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_62.txt : 1000403 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_63.txt : 1000944 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_63.txt : 1005197 ms.
 --------------------------------------------------
-run.sh: line 10: 1092023 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_64.txt : 416 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_64.txt : 1006976 ms.
 --------------------------------------------------
-run.sh: line 10: 1092027 Segmentation fault      (core dumped) ./solvers/Sudoku/Sudoku-LS-eq $file $seed $time_t 0
-benchmarks_EXC/INST_64x64/40/inst64x64_40_65.txt : 405 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_65.txt : 1010566 ms.
 --------------------------------------------------
-benchmarks_EXC/INST_64x64/40/inst64x64_40_66.txt : 1005963 ms.
+benchmarks_EXC/INST_64x64/40/inst64x64_40_66.txt : 1000851 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_67.txt : 1008238 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_68.txt : 1009586 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_69.txt : 1002487 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_6.txt : 1001128 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_70.txt : 1007915 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_71.txt : 1015521 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_72.txt : 1000886 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_73.txt : 1003742 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_74.txt : 1004389 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_75.txt : 1006893 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_76.txt : 1003123 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_77.txt : 1005402 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_78.txt : 1003770 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_79.txt : 1001202 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_7.txt : 1004673 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_80.txt : 1006657 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_81.txt : 1006857 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_82.txt : 1009182 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_83.txt : 1009885 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_84.txt : 1003940 ms.
+--------------------------------------------------
+benchmarks_EXC/INST_64x64/40/inst64x64_40_85.txt : 1002953 ms.
 --------------------------------------------------

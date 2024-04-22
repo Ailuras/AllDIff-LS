@@ -478,7 +478,6 @@ void mRead(string filename) {
 					cons_flag[cons[tmp][j]] = cons_flag[index1];
 					cons[cons_flag[index1]][cons_length[cons_flag[index1]]++] = cons[tmp][j];
 				}
-				cons_length[index1] += cons_length[tmp];
 			}
 		}
 	}
@@ -794,7 +793,6 @@ void mReduceVertexes() {
 				int tmp = cons_flag[i];
 				for (int j=0; j<cons_length[tmp]; j++) {
 					vertex_flag[cons[tmp][j]] = true;
-					assert(vertex_color_length[i] == vertex_color_length[cons[tmp][j]]);
 				}
 			}
 		}
@@ -815,7 +813,6 @@ void mReduceVertexes() {
 						if (mNeighbours[tmp_v][k] == vertex_id) flag1 = k;
 						if (mNeighbours[tmp_v][k] == same_v) flag2 = k;
 					}
-					assert(flag2 >= 0);
 					if (flag1 >= 0) {
 						mNeighbours[tmp_v][flag2] = mNeighbours[tmp_v][--mNeighbours_length[tmp_v]];
 					} else {
@@ -826,9 +823,6 @@ void mReduceVertexes() {
 						edge_map[tmp_v][vertex_id] = tmp_edge;
 						edges[tmp_edge].x = vertex_id;
 						edges[tmp_edge].y = tmp_v;
-						if ((vertex_id == 33 && tmp_v == 1245) || (vertex_id == 1245 && tmp_v == 33)) {
-							cout << "hello" << endl;
-						}
 					}
 				}
 			}

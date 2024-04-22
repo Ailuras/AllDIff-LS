@@ -1,97 +1,170 @@
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_0.txt : 1015713 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_0.txt : 1004797 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_10.txt : 1000859 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_10.txt : 1001505 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_11.txt : 1006477 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_11.txt : 1003909 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_12.txt : 1021638 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_12.txt : 1016287 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_13.txt : 1014250 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_13.txt : 1019483 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_14.txt : 1000840 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_14.txt : 1005383 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_15.txt : 1001208 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_15.txt : 1002229 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_16.txt : 1027968 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_16.txt : 1016623 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_17.txt : 1023095 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_17.txt : 1038174 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_18.txt : 1007014 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_18.txt : 1003219 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_19.txt : 1001297 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_19.txt : 1002220 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_1.txt : 1001576 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_1.txt : 1002759 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_20.txt : 1008415 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_20.txt : 1009013 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_21.txt : 1003330 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_21.txt : 1007060 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_22.txt : 1004218 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_22.txt : 1001285 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_23.txt : 1003321 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_23.txt : 1020155 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_24.txt : 1013365 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_24.txt : 1006215 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_25.txt : 1004063 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_25.txt : 1009205 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_26.txt : 1013239 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_26.txt : 1000778 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_27.txt : 1015457 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_27.txt : 1001304 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_28.txt : 1006744 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_28.txt : 1000958 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_29.txt : 1002624 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_29.txt : 1003868 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_2.txt : 1023635 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_2.txt : 1004556 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_30.txt : 1005704 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_30.txt : 1012658 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_31.txt : 1005158 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_31.txt : 1001833 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_32.txt : 1001051 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_32.txt : 1009841 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_33.txt : 1000854 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_33.txt : 1001784 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_34.txt : 1021578 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_34.txt : 1030932 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_35.txt : 1013765 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_35.txt : 1011438 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_36.txt : 1013110 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_36.txt : 1003197 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_37.txt : 1004937 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_37.txt : 1004618 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_38.txt : 1025938 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_38.txt : 1019459 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_39.txt : 1001205 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_39.txt : 1009010 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_3.txt : 1017368 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_3.txt : 1001476 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_40.txt : 1023328 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_40.txt : 1013013 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_41.txt : 1007734 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_41.txt : 1026080 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_42.txt : 1004612 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_42.txt : 1007572 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_43.txt : 1012064 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_43.txt : 1000937 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_44.txt : 1007847 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_44.txt : 1007593 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_45.txt : 1002929 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_45.txt : 1013957 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_46.txt : 1009346 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_46.txt : 1002282 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_47.txt : 1001538 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_47.txt : 1008866 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_48.txt : 1016472 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_48.txt : 1022828 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_49.txt : 1006560 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_49.txt : 1008988 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_4.txt : 1004899 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_4.txt : 1003806 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_50.txt : 1001449 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_50.txt : 1002757 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_51.txt : 1000877 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_51.txt : 1002023 ms.
 --------------------------------------------------
-benchmarks_LEQ/INST_81x81/60/inst81x81_60_52.txt : 1004031 ms.
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_52.txt : 1007953 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_53.txt : 1002533 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_54.txt : 1002017 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_55.txt : 1006248 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_56.txt : 1012406 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_57.txt : 1020883 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_58.txt : 1000777 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_59.txt : 1032101 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_5.txt : 1004319 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_60.txt : 1001082 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_61.txt : 1008567 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_62.txt : 1029905 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_63.txt : 1007477 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_64.txt : 1008748 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_65.txt : 1010601 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_66.txt : 1008465 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_67.txt : 1005078 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_68.txt : 1002234 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_69.txt : 1002182 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_6.txt : 1006488 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_70.txt : 1023524 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_71.txt : 1027214 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_72.txt : 1001268 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_73.txt : 1014642 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_74.txt : 1006525 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_75.txt : 1002840 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_76.txt : 1003734 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_77.txt : 1006773 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_78.txt : 1010338 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_79.txt find answer: 532.310000
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_79.txt : 533023 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_7.txt : 1007682 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_80.txt : 1009227 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_81.txt : 1017257 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_82.txt : 1006449 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_83.txt : 1002820 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_84.txt : 1002314 ms.
+--------------------------------------------------
+benchmarks_LEQ/INST_81x81/60/inst81x81_60_85.txt : 1007668 ms.
 --------------------------------------------------
