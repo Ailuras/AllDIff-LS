@@ -1,300 +1,300 @@
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_0.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_0.txt : 499 ms.
+benchmarks/INST_81x81/0/inst81x81_0_0.txt reduce vertex: 0, time: 0.530000
+benchmarks/INST_81x81/0/inst81x81_0_0.txt : 609 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_10.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_10.txt : 521 ms.
+benchmarks/INST_81x81/0/inst81x81_0_10.txt reduce vertex: 0, time: 0.520000
+benchmarks/INST_81x81/0/inst81x81_0_10.txt : 615 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_11.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_11.txt : 516 ms.
+benchmarks/INST_81x81/0/inst81x81_0_11.txt reduce vertex: 0, time: 0.540000
+benchmarks/INST_81x81/0/inst81x81_0_11.txt : 623 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_12.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_12.txt : 505 ms.
+benchmarks/INST_81x81/0/inst81x81_0_12.txt reduce vertex: 0, time: 0.530000
+benchmarks/INST_81x81/0/inst81x81_0_12.txt : 607 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_13.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_13.txt : 526 ms.
+benchmarks/INST_81x81/0/inst81x81_0_13.txt reduce vertex: 0, time: 0.450000
+benchmarks/INST_81x81/0/inst81x81_0_13.txt : 508 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_14.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_14.txt : 512 ms.
+benchmarks/INST_81x81/0/inst81x81_0_14.txt reduce vertex: 0, time: 0.490000
+benchmarks/INST_81x81/0/inst81x81_0_14.txt : 572 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_15.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_15.txt : 491 ms.
+benchmarks/INST_81x81/0/inst81x81_0_15.txt reduce vertex: 0, time: 0.500000
+benchmarks/INST_81x81/0/inst81x81_0_15.txt : 583 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_16.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_16.txt : 501 ms.
+benchmarks/INST_81x81/0/inst81x81_0_16.txt reduce vertex: 0, time: 0.500000
+benchmarks/INST_81x81/0/inst81x81_0_16.txt : 573 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_17.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_17.txt : 496 ms.
+benchmarks/INST_81x81/0/inst81x81_0_17.txt reduce vertex: 0, time: 0.520000
+benchmarks/INST_81x81/0/inst81x81_0_17.txt : 587 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_18.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_18.txt : 486 ms.
+benchmarks/INST_81x81/0/inst81x81_0_18.txt reduce vertex: 0, time: 0.480000
+benchmarks/INST_81x81/0/inst81x81_0_18.txt : 564 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_19.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_19.txt : 488 ms.
+benchmarks/INST_81x81/0/inst81x81_0_19.txt reduce vertex: 0, time: 0.480000
+benchmarks/INST_81x81/0/inst81x81_0_19.txt : 559 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_1.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_1.txt : 492 ms.
+benchmarks/INST_81x81/0/inst81x81_0_1.txt reduce vertex: 0, time: 0.430000
+benchmarks/INST_81x81/0/inst81x81_0_1.txt : 486 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_20.txt reduce vertex: 0
+benchmarks/INST_81x81/0/inst81x81_0_20.txt reduce vertex: 0, time: 0.410000
 benchmarks/INST_81x81/0/inst81x81_0_20.txt : 496 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_21.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_21.txt : 501 ms.
+benchmarks/INST_81x81/0/inst81x81_0_21.txt reduce vertex: 0, time: 0.440000
+benchmarks/INST_81x81/0/inst81x81_0_21.txt : 487 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_22.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_22.txt : 489 ms.
+benchmarks/INST_81x81/0/inst81x81_0_22.txt reduce vertex: 0, time: 0.480000
+benchmarks/INST_81x81/0/inst81x81_0_22.txt : 531 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_23.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_23.txt : 497 ms.
+benchmarks/INST_81x81/0/inst81x81_0_23.txt reduce vertex: 0, time: 0.450000
+benchmarks/INST_81x81/0/inst81x81_0_23.txt : 526 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_24.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_24.txt : 492 ms.
+benchmarks/INST_81x81/0/inst81x81_0_24.txt reduce vertex: 0, time: 0.500000
+benchmarks/INST_81x81/0/inst81x81_0_24.txt : 575 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_25.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_25.txt : 489 ms.
+benchmarks/INST_81x81/0/inst81x81_0_25.txt reduce vertex: 0, time: 0.440000
+benchmarks/INST_81x81/0/inst81x81_0_25.txt : 486 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_26.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_26.txt : 480 ms.
+benchmarks/INST_81x81/0/inst81x81_0_26.txt reduce vertex: 0, time: 0.440000
+benchmarks/INST_81x81/0/inst81x81_0_26.txt : 503 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_27.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_27.txt : 474 ms.
+benchmarks/INST_81x81/0/inst81x81_0_27.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_27.txt : 439 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_28.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_28.txt : 485 ms.
+benchmarks/INST_81x81/0/inst81x81_0_28.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_28.txt : 444 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_29.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_29.txt : 479 ms.
+benchmarks/INST_81x81/0/inst81x81_0_29.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_29.txt : 447 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_2.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_2.txt : 488 ms.
+benchmarks/INST_81x81/0/inst81x81_0_2.txt reduce vertex: 0, time: 0.450000
+benchmarks/INST_81x81/0/inst81x81_0_2.txt : 513 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_30.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_30.txt : 492 ms.
+benchmarks/INST_81x81/0/inst81x81_0_30.txt reduce vertex: 0, time: 0.460000
+benchmarks/INST_81x81/0/inst81x81_0_30.txt : 530 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_31.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_31.txt : 493 ms.
+benchmarks/INST_81x81/0/inst81x81_0_31.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_31.txt : 450 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_32.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_32.txt : 489 ms.
+benchmarks/INST_81x81/0/inst81x81_0_32.txt reduce vertex: 0, time: 0.460000
+benchmarks/INST_81x81/0/inst81x81_0_32.txt : 512 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_33.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_33.txt : 491 ms.
+benchmarks/INST_81x81/0/inst81x81_0_33.txt reduce vertex: 0, time: 0.420000
+benchmarks/INST_81x81/0/inst81x81_0_33.txt : 478 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_34.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_34.txt : 488 ms.
+benchmarks/INST_81x81/0/inst81x81_0_34.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_34.txt : 443 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_35.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_35.txt : 489 ms.
+benchmarks/INST_81x81/0/inst81x81_0_35.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_35.txt : 433 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_36.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_36.txt : 480 ms.
+benchmarks/INST_81x81/0/inst81x81_0_36.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_36.txt : 441 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_37.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_37.txt : 484 ms.
+benchmarks/INST_81x81/0/inst81x81_0_37.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_37.txt : 434 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_38.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_38.txt : 478 ms.
+benchmarks/INST_81x81/0/inst81x81_0_38.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_38.txt : 437 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_39.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_39.txt : 474 ms.
+benchmarks/INST_81x81/0/inst81x81_0_39.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_39.txt : 436 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_3.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_3.txt : 482 ms.
+benchmarks/INST_81x81/0/inst81x81_0_3.txt reduce vertex: 0, time: 0.410000
+benchmarks/INST_81x81/0/inst81x81_0_3.txt : 452 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_40.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_40.txt : 477 ms.
+benchmarks/INST_81x81/0/inst81x81_0_40.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_40.txt : 446 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_41.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_41.txt : 477 ms.
+benchmarks/INST_81x81/0/inst81x81_0_41.txt reduce vertex: 0, time: 0.410000
+benchmarks/INST_81x81/0/inst81x81_0_41.txt : 458 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_42.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_42.txt : 477 ms.
+benchmarks/INST_81x81/0/inst81x81_0_42.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_42.txt : 444 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_43.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_43.txt : 480 ms.
+benchmarks/INST_81x81/0/inst81x81_0_43.txt reduce vertex: 0, time: 0.410000
+benchmarks/INST_81x81/0/inst81x81_0_43.txt : 448 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_44.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_44.txt : 485 ms.
+benchmarks/INST_81x81/0/inst81x81_0_44.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_44.txt : 443 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_45.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_45.txt : 485 ms.
+benchmarks/INST_81x81/0/inst81x81_0_45.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_45.txt : 440 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_46.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_46.txt : 480 ms.
+benchmarks/INST_81x81/0/inst81x81_0_46.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_46.txt : 423 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_47.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_47.txt : 479 ms.
+benchmarks/INST_81x81/0/inst81x81_0_47.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_47.txt : 432 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_48.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_48.txt : 477 ms.
+benchmarks/INST_81x81/0/inst81x81_0_48.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_48.txt : 424 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_49.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_49.txt : 477 ms.
+benchmarks/INST_81x81/0/inst81x81_0_49.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_49.txt : 426 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_4.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_4.txt : 474 ms.
+benchmarks/INST_81x81/0/inst81x81_0_4.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_4.txt : 429 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_50.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_50.txt : 474 ms.
+benchmarks/INST_81x81/0/inst81x81_0_50.txt reduce vertex: 0, time: 0.420000
+benchmarks/INST_81x81/0/inst81x81_0_50.txt : 454 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_51.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_51.txt : 484 ms.
+benchmarks/INST_81x81/0/inst81x81_0_51.txt reduce vertex: 0, time: 0.410000
+benchmarks/INST_81x81/0/inst81x81_0_51.txt : 449 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_52.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_52.txt : 483 ms.
+benchmarks/INST_81x81/0/inst81x81_0_52.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_52.txt : 434 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_53.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_53.txt : 478 ms.
+benchmarks/INST_81x81/0/inst81x81_0_53.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_53.txt : 428 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_54.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_54.txt : 473 ms.
+benchmarks/INST_81x81/0/inst81x81_0_54.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_54.txt : 435 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_55.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_55.txt : 475 ms.
+benchmarks/INST_81x81/0/inst81x81_0_55.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_55.txt : 447 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_56.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_56.txt : 494 ms.
+benchmarks/INST_81x81/0/inst81x81_0_56.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_56.txt : 427 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_57.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_57.txt : 480 ms.
+benchmarks/INST_81x81/0/inst81x81_0_57.txt reduce vertex: 0, time: 0.410000
+benchmarks/INST_81x81/0/inst81x81_0_57.txt : 456 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_58.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_58.txt : 475 ms.
+benchmarks/INST_81x81/0/inst81x81_0_58.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_58.txt : 436 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_59.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_59.txt : 468 ms.
+benchmarks/INST_81x81/0/inst81x81_0_59.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_59.txt : 416 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_5.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_5.txt : 468 ms.
+benchmarks/INST_81x81/0/inst81x81_0_5.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_5.txt : 442 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_60.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_60.txt : 469 ms.
+benchmarks/INST_81x81/0/inst81x81_0_60.txt reduce vertex: 0, time: 0.400000
+benchmarks/INST_81x81/0/inst81x81_0_60.txt : 438 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_61.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_61.txt : 474 ms.
+benchmarks/INST_81x81/0/inst81x81_0_61.txt reduce vertex: 0, time: 0.410000
+benchmarks/INST_81x81/0/inst81x81_0_61.txt : 455 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_62.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_62.txt : 465 ms.
+benchmarks/INST_81x81/0/inst81x81_0_62.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_62.txt : 423 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_63.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_63.txt : 464 ms.
+benchmarks/INST_81x81/0/inst81x81_0_63.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_63.txt : 415 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_64.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_64.txt : 460 ms.
+benchmarks/INST_81x81/0/inst81x81_0_64.txt reduce vertex: 0, time: 0.390000
+benchmarks/INST_81x81/0/inst81x81_0_64.txt : 429 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_65.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_65.txt : 468 ms.
+benchmarks/INST_81x81/0/inst81x81_0_65.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_65.txt : 415 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_66.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_66.txt : 473 ms.
+benchmarks/INST_81x81/0/inst81x81_0_66.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_66.txt : 412 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_67.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_67.txt : 463 ms.
+benchmarks/INST_81x81/0/inst81x81_0_67.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_67.txt : 413 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_68.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_68.txt : 470 ms.
+benchmarks/INST_81x81/0/inst81x81_0_68.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_68.txt : 414 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_69.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_69.txt : 458 ms.
+benchmarks/INST_81x81/0/inst81x81_0_69.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_69.txt : 426 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_6.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_6.txt : 451 ms.
+benchmarks/INST_81x81/0/inst81x81_0_6.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_6.txt : 422 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_70.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_70.txt : 457 ms.
+benchmarks/INST_81x81/0/inst81x81_0_70.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_70.txt : 408 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_71.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_71.txt : 449 ms.
+benchmarks/INST_81x81/0/inst81x81_0_71.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_71.txt : 419 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_72.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_72.txt : 456 ms.
+benchmarks/INST_81x81/0/inst81x81_0_72.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_72.txt : 423 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_73.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_73.txt : 455 ms.
+benchmarks/INST_81x81/0/inst81x81_0_73.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_73.txt : 409 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_74.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_74.txt : 473 ms.
+benchmarks/INST_81x81/0/inst81x81_0_74.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_74.txt : 417 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_75.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_75.txt : 475 ms.
+benchmarks/INST_81x81/0/inst81x81_0_75.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_75.txt : 424 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_76.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_76.txt : 454 ms.
+benchmarks/INST_81x81/0/inst81x81_0_76.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_76.txt : 415 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_77.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_77.txt : 460 ms.
+benchmarks/INST_81x81/0/inst81x81_0_77.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_77.txt : 424 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_78.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_78.txt : 475 ms.
+benchmarks/INST_81x81/0/inst81x81_0_78.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_78.txt : 412 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_79.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_79.txt : 460 ms.
+benchmarks/INST_81x81/0/inst81x81_0_79.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_79.txt : 415 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_7.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_7.txt : 455 ms.
+benchmarks/INST_81x81/0/inst81x81_0_7.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_7.txt : 419 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_80.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_80.txt : 452 ms.
+benchmarks/INST_81x81/0/inst81x81_0_80.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_80.txt : 407 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_81.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_81.txt : 457 ms.
+benchmarks/INST_81x81/0/inst81x81_0_81.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_81.txt : 411 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_82.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_82.txt : 462 ms.
+benchmarks/INST_81x81/0/inst81x81_0_82.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_82.txt : 419 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_83.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_83.txt : 455 ms.
+benchmarks/INST_81x81/0/inst81x81_0_83.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_83.txt : 421 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_84.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_84.txt : 465 ms.
+benchmarks/INST_81x81/0/inst81x81_0_84.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_84.txt : 409 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_85.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_85.txt : 467 ms.
+benchmarks/INST_81x81/0/inst81x81_0_85.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_85.txt : 412 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_86.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_86.txt : 480 ms.
+benchmarks/INST_81x81/0/inst81x81_0_86.txt reduce vertex: 0, time: 0.360000
+benchmarks/INST_81x81/0/inst81x81_0_86.txt : 406 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_87.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_87.txt : 507 ms.
+benchmarks/INST_81x81/0/inst81x81_0_87.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_87.txt : 420 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_88.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_88.txt : 474 ms.
+benchmarks/INST_81x81/0/inst81x81_0_88.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_88.txt : 418 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_89.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_89.txt : 512 ms.
+benchmarks/INST_81x81/0/inst81x81_0_89.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_89.txt : 398 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_8.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_8.txt : 474 ms.
+benchmarks/INST_81x81/0/inst81x81_0_8.txt reduce vertex: 0, time: 0.360000
+benchmarks/INST_81x81/0/inst81x81_0_8.txt : 402 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_90.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_90.txt : 478 ms.
+benchmarks/INST_81x81/0/inst81x81_0_90.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_90.txt : 420 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_91.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_91.txt : 467 ms.
+benchmarks/INST_81x81/0/inst81x81_0_91.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_91.txt : 418 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_92.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_92.txt : 501 ms.
+benchmarks/INST_81x81/0/inst81x81_0_92.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_92.txt : 408 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_93.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_93.txt : 467 ms.
+benchmarks/INST_81x81/0/inst81x81_0_93.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_93.txt : 410 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_94.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_94.txt : 453 ms.
+benchmarks/INST_81x81/0/inst81x81_0_94.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_94.txt : 406 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_95.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_95.txt : 453 ms.
+benchmarks/INST_81x81/0/inst81x81_0_95.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_95.txt : 416 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_96.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_96.txt : 448 ms.
+benchmarks/INST_81x81/0/inst81x81_0_96.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_96.txt : 422 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_97.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_97.txt : 450 ms.
+benchmarks/INST_81x81/0/inst81x81_0_97.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_97.txt : 422 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_98.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_98.txt : 476 ms.
+benchmarks/INST_81x81/0/inst81x81_0_98.txt reduce vertex: 0, time: 0.370000
+benchmarks/INST_81x81/0/inst81x81_0_98.txt : 406 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_99.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_99.txt : 459 ms.
+benchmarks/INST_81x81/0/inst81x81_0_99.txt reduce vertex: 0, time: 0.380000
+benchmarks/INST_81x81/0/inst81x81_0_99.txt : 420 ms.
 --------------------------------------------------
-benchmarks/INST_81x81/0/inst81x81_0_9.txt reduce vertex: 0
-benchmarks/INST_81x81/0/inst81x81_0_9.txt : 465 ms.
+benchmarks/INST_81x81/0/inst81x81_0_9.txt reduce vertex: 0, time: 0.360000
+benchmarks/INST_81x81/0/inst81x81_0_9.txt : 409 ms.

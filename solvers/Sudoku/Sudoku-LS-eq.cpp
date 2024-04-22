@@ -478,7 +478,6 @@ void mRead(string filename) {
 					cons_flag[cons[tmp][j]] = cons_flag[index1];
 					cons[cons_flag[index1]][cons_length[cons_flag[index1]]++] = cons[tmp][j];
 				}
-				cons_length[index1] += cons_length[tmp];
 			}
 		}
 	}
@@ -652,6 +651,7 @@ void mReduceVertexes() {
 						int tmp = cons_flag[tmp_V];
 						for (int k=0; k<cons_length[tmp]; k++) {
 							int tmp_v = cons[tmp][k];
+							assert(tmp_v != 0);
 							if(vertex_color_pos[tmp_v][tmp_c] < vertex_color_length[tmp_v])
 								swap_vertex_color(tmp_v, tmp_c, --vertex_color_length[tmp_v]);
 						}
