@@ -10,6 +10,7 @@
 # ./parallel.sh benchmarks_CP 1000 sudoku_gec
 # ./parallel.sh benchmarks_EXC 1000 sudoku_eq
 # ./parallel.sh benchmarks_LEQ 1000 sudoku_lt
+# ./parallel.sh benchmarks 1000 sudoku_rule1
 benchmarks=$1
 time_t=$2
 solver=$3

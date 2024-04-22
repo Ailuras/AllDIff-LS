@@ -84,8 +84,14 @@ for file in $folder/*; do
     if [ "$solver"x = "sudoku_cpl_des"x ]; then
         timeout $time_t python solvers/sudoku_cpl/sudoku_prop.py solvers/sudoku_cpl/inst49x49_0_0.txt $file
     fi
-    if [ "$solver"x = "sudoku_rule0"x ]; then
-        ./solvers/sudoku_rule0/sudoku_lsc $file $seed $time_t
+    if [ "$solver"x = "sudoku_rule1"x ]; then
+        ./solvers/sudoku_rule1/sudoku_lsc $file $seed $time_t
+    fi
+    if [ "$solver"x = "sudoku_rule234"x ]; then
+        ./solvers/sudoku_rule234/sudoku_lsc $file $seed $time_t
+    fi
+    if [ "$solver"x = "sudoku_rule1234"x ]; then
+        ./solvers/sudoku_rule1234/sudoku_lsc $file $seed $time_t
     fi
     end=$[$(date +%s%N)/1000000]
     take=$(( end - start ))

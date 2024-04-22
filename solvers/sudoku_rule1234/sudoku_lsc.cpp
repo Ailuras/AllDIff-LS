@@ -714,8 +714,8 @@ void mReduceVertexes() {
 			vertex_can_move[v][tmp_c] = false;
 		}
 	}
-
-	printf("%s reduce vertex: %d\n", filename.c_str(), simp);
+	mCurrentTime();
+	printf("%s reduce vertex: %d, time: %lf\n", filename.c_str(), simp, total_time);
 	return;
 
 	mVertexes_length = 0;

@@ -651,6 +651,7 @@ void mReduceVertexes() {
 						int tmp = cons_flag[tmp_V];
 						for (int k=0; k<cons_length[tmp]; k++) {
 							int tmp_v = cons[tmp][k];
+							assert(tmp_v != 0);
 							if(vertex_color_pos[tmp_v][tmp_c] < vertex_color_length[tmp_v])
 								swap_vertex_color(tmp_v, tmp_c, --vertex_color_length[tmp_v]);
 						}
