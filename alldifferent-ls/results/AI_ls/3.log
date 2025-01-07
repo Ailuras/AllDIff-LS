@@ -1,0 +1,24 @@
+--------------------------------------------------
+12 find answer: 0.000000
+benchmarks/All-Interval/inst12.txt : 14 ms.
+--------------------------------------------------
+14 find answer: 0.030000
+benchmarks/All-Interval/inst14.txt : 44 ms.
+--------------------------------------------------
+16 find answer: 0.130000
+benchmarks/All-Interval/inst16.txt : 149 ms.
+--------------------------------------------------
+18 find answer: 0.480000
+benchmarks/All-Interval/inst18.txt : 498 ms.
+--------------------------------------------------
+20 find answer: 3.910000
+benchmarks/All-Interval/inst20.txt : 3926 ms.
+--------------------------------------------------
+22 find answer: 1.980000
+benchmarks/All-Interval/inst22.txt : 1993 ms.
+--------------------------------------------------
+24 find answer: 118.170000
+benchmarks/All-Interval/inst24.txt : 118183 ms.
+--------------------------------------------------
+26 find answer: 27.260000
+benchmarks/All-Interval/inst26.txt : 27275 ms.

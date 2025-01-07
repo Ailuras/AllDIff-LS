@@ -1,0 +1,36 @@
+--------------------------------------------------
+1000 find answer: 4.490000
+benchmarks/N-Queens/inst1000.txt : 4717 ms.
+--------------------------------------------------
+1500 find answer: 12.190000
+benchmarks/N-Queens/inst1500.txt : 12626 ms.
+--------------------------------------------------
+2000 find answer: 29.970000
+benchmarks/N-Queens/inst2000.txt : 30799 ms.
+--------------------------------------------------
+2500 find answer: 50.820000
+benchmarks/N-Queens/inst2500.txt : 52081 ms.
+--------------------------------------------------
+3000 find answer: 83.080000
+benchmarks/N-Queens/inst3000.txt : 84868 ms.
+--------------------------------------------------
+3500 find answer: 111.140000
+benchmarks/N-Queens/inst3500.txt : 113541 ms.
+--------------------------------------------------
+4000 find answer: 180.310000
+benchmarks/N-Queens/inst4000.txt : 183417 ms.
+--------------------------------------------------
+4500 find answer: 211.380000
+benchmarks/N-Queens/inst4500.txt : 216483 ms.
+--------------------------------------------------
+5000 find answer: 326.670000
+benchmarks/N-Queens/inst5000.txt : 333348 ms.
+--------------------------------------------------
+500 find answer: 0.620000
+benchmarks/N-Queens/inst500.txt : 692 ms.
+--------------------------------------------------
+5500 find answer: 405.070000
+benchmarks/N-Queens/inst5500.txt : 413064 ms.
+--------------------------------------------------
+6000 find answer: 167.590000
+benchmarks/N-Queens/inst6000.txt : 167590 ms.

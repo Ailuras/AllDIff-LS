@@ -1,0 +1,32 @@
+--------------------------------------------------
+SAT
+----------
+benchmarks/All-Interval/inst10.txt : 494 ms.
+--------------------------------------------------
+SAT
+----------
+benchmarks/All-Interval/inst12.txt : 1132 ms.
+--------------------------------------------------
+SAT
+----------
+benchmarks/All-Interval/inst14.txt : 19409 ms.
+--------------------------------------------------
+SAT
+----------
+benchmarks/All-Interval/inst16.txt : 168800 ms.
+--------------------------------------------------
+SAT
+----------
+benchmarks/All-Interval/inst18.txt : 281447 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst20.txt : 1000161 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst22.txt : 1000138 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/All-Interval/inst24.txt : 1000092 ms.

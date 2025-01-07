@@ -1,0 +1,173 @@
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst1000.txt : 1001063 ms.
+--------------------------------------------------
+Exception in thread "main" java.lang.UnsupportedOperationException: interval 2147483645..2147483647 outside buffer: 2147483645..-2147483648
+	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:336)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:77)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:16)
+	at org.antlr.v4.runtime.Lexer.emit(Lexer.java:245)
+	at org.antlr.v4.runtime.Lexer.nextToken(Lexer.java:156)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.fill(UnbufferedTokenStream.java:179)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.sync(UnbufferedTokenStream.java:164)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.consume(UnbufferedTokenStream.java:154)
+	at org.antlr.v4.runtime.Parser.consume(Parser.java:571)
+	at org.antlr.v4.runtime.Parser.match(Parser.java:203)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type_u(Flatzinc4Parser.java:642)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type(Flatzinc4Parser.java:524)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_decl(Flatzinc4Parser.java:1216)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.flatzinc_model(Flatzinc4Parser.java:218)
+	at org.chocosolver.parser.flatzinc.Flatzinc.parse(Flatzinc.java:194)
+	at org.chocosolver.parser.flatzinc.Flatzinc.buildModel(Flatzinc.java:147)
+	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst1200.txt : 493158 ms.
+--------------------------------------------------
+Exception in thread "main" java.lang.IllegalArgumentException: invalid interval
+	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:325)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:77)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:16)
+	at org.antlr.v4.runtime.Lexer.emit(Lexer.java:245)
+	at org.antlr.v4.runtime.Lexer.nextToken(Lexer.java:156)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.fill(UnbufferedTokenStream.java:179)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.sync(UnbufferedTokenStream.java:164)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.consume(UnbufferedTokenStream.java:154)
+	at org.antlr.v4.runtime.Parser.consume(Parser.java:571)
+	at org.antlr.v4.runtime.Parser.match(Parser.java:203)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type_u(Flatzinc4Parser.java:642)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type(Flatzinc4Parser.java:524)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_decl(Flatzinc4Parser.java:1216)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.flatzinc_model(Flatzinc4Parser.java:218)
+	at org.chocosolver.parser.flatzinc.Flatzinc.parse(Flatzinc.java:194)
+	at org.chocosolver.parser.flatzinc.Flatzinc.buildModel(Flatzinc.java:147)
+	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst1400.txt : 578602 ms.
+--------------------------------------------------
+Exception in thread "main" java.lang.UnsupportedOperationException: interval 2147483645..2147483647 outside buffer: 2147483645..-2147483648
+	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:336)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:77)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:16)
+	at org.antlr.v4.runtime.Lexer.emit(Lexer.java:245)
+	at org.antlr.v4.runtime.Lexer.nextToken(Lexer.java:156)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.fill(UnbufferedTokenStream.java:179)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.sync(UnbufferedTokenStream.java:164)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.consume(UnbufferedTokenStream.java:154)
+	at org.antlr.v4.runtime.Parser.consume(Parser.java:571)
+	at org.antlr.v4.runtime.Parser.match(Parser.java:203)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type_u(Flatzinc4Parser.java:642)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type(Flatzinc4Parser.java:524)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_decl(Flatzinc4Parser.java:1216)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.flatzinc_model(Flatzinc4Parser.java:218)
+	at org.chocosolver.parser.flatzinc.Flatzinc.parse(Flatzinc.java:194)
+	at org.chocosolver.parser.flatzinc.Flatzinc.buildModel(Flatzinc.java:147)
+	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst1600.txt : 742628 ms.
+--------------------------------------------------
+Exception in thread "main" java.lang.IllegalArgumentException: invalid interval
+	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:325)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:77)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:16)
+	at org.antlr.v4.runtime.Lexer.emit(Lexer.java:245)
+	at org.antlr.v4.runtime.Lexer.nextToken(Lexer.java:156)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.fill(UnbufferedTokenStream.java:179)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.sync(UnbufferedTokenStream.java:164)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.consume(UnbufferedTokenStream.java:154)
+	at org.antlr.v4.runtime.Parser.consume(Parser.java:571)
+	at org.antlr.v4.runtime.Parser.match(Parser.java:203)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type_u(Flatzinc4Parser.java:642)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type(Flatzinc4Parser.java:524)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_decl(Flatzinc4Parser.java:1216)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.flatzinc_model(Flatzinc4Parser.java:218)
+	at org.chocosolver.parser.flatzinc.Flatzinc.parse(Flatzinc.java:194)
+	at org.chocosolver.parser.flatzinc.Flatzinc.buildModel(Flatzinc.java:147)
+	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst1800.txt : 776553 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst2000.txt : 1005298 ms.
+--------------------------------------------------
+SAT
+----------
+benchmarks/N-Queens/inst200.txt : 810094 ms.
+--------------------------------------------------
+Exception in thread "main" java.lang.IllegalArgumentException: invalid interval
+	at org.antlr.v4.runtime.UnbufferedCharStream.getText(UnbufferedCharStream.java:325)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:77)
+	at org.antlr.v4.runtime.CommonTokenFactory.create(CommonTokenFactory.java:16)
+	at org.antlr.v4.runtime.Lexer.emit(Lexer.java:245)
+	at org.antlr.v4.runtime.Lexer.nextToken(Lexer.java:156)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.fill(UnbufferedTokenStream.java:179)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.sync(UnbufferedTokenStream.java:164)
+	at org.antlr.v4.runtime.UnbufferedTokenStream.consume(UnbufferedTokenStream.java:154)
+	at org.antlr.v4.runtime.Parser.consume(Parser.java:571)
+	at org.antlr.v4.runtime.Parser.match(Parser.java:203)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type_u(Flatzinc4Parser.java:642)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_type(Flatzinc4Parser.java:524)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.var_decl(Flatzinc4Parser.java:1216)
+	at org.chocosolver.parser.flatzinc.Flatzinc4Parser.flatzinc_model(Flatzinc4Parser.java:218)
+	at org.chocosolver.parser.flatzinc.Flatzinc.parse(Flatzinc.java:194)
+	at org.chocosolver.parser.flatzinc.Flatzinc.buildModel(Flatzinc.java:147)
+	at org.chocosolver.parser.flatzinc.ChocoFZN.main(ChocoFZN.java:27)
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst2200.txt : 1000879 ms.
+--------------------------------------------------
+=====UNKNOWN=====
+%% Unexpected resolution interruption!
+benchmarks/N-Queens/inst2400.txt : 1007797 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst2600.txt : 1620804 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst2800.txt : 544647 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst3000.txt : 385562 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst3200.txt : 414355 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst3400.txt : 495675 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst3600.txt : 576253 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst3800.txt : 627580 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst4000.txt : 792956 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst400.txt : 6855 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst4200.txt : 941719 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst4400.txt : 978117 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst4600.txt : 1003190 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst4800.txt : 1003933 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst5000.txt : 1003698 ms.
+--------------------------------------------------
+benchmarks/N-Queens/inst5200.txt : 1003756 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst600.txt : 14583 ms.
+--------------------------------------------------
+Error: error: Error occurred when creating temporary file
+benchmarks/N-Queens/inst800.txt : 24669 ms.
