@@ -11,6 +11,14 @@
 # ./parallel.sh benchmarks_EXC 1000 sudoku_eq
 # ./parallel.sh benchmarks_LEQ 1000 sudoku_lt
 # ./parallel.sh benchmarks 1000 sudoku_rule1
+# ./parallel.sh benchmarks 1000 sudoku_gac
+# ./parallel.sh benchmarks_simp 1000 sudoku_ls
+
+# ./parallel.sh benchmarks 1000 sudoku_ls00
+# ./parallel.sh benchmarks 1000 sudoku_ls03
+# ./parallel.sh benchmarks 1000 sudoku_ls09
+# ./parallel.sh benchmarks 1000 sudoku_ls12
+# ./parallel.sh benchmarks 1000 sudoku_ls15
 benchmarks=$1
 time_t=$2
 solver=$3

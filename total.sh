@@ -10,7 +10,14 @@ cd ../..
 cd solvers/sudoku_lsc/
 g++ sudoku_lsc.cpp -std=c++11 -O3 -o sudoku_lsc
 g++ sudoku_new.cpp -std=c++11 -O3 -o sudoku_new
-g++ Sudoku-LS-eq.cpp -std=c++11 -O3 -o Sudoku-LS
+g++ Sudoku-LS.cpp -std=c++11 -O3 -o Sudoku-LS
+
+g++ Sudoku-LS-alpha2-0.0.cpp -std=c++11 -O3 -o Sudoku-LS_00
+g++ Sudoku-LS-alpha2-0.3.cpp -std=c++11 -O3 -o Sudoku-LS_03
+g++ Sudoku-LS-alpha2-0.9.cpp -std=c++11 -O3 -o Sudoku-LS_09
+g++ Sudoku-LS-alpha2-1.2.cpp -std=c++11 -O3 -o Sudoku-LS_12
+g++ Sudoku-LS-alpha2-1.5.cpp -std=c++11 -O3 -o Sudoku-LS_15
+
 # g++ sudoku_test.cpp -std=c++11 -O3 -o sudoku_lsc
 cd ../..
 # ./parallel.sh benchmarks_hard 1000 sudoku_acs 1

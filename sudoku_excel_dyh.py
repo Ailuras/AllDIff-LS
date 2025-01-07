@@ -12,11 +12,13 @@ if __name__ == '__main__':
     # c.arrange()
     # c.save_to('charts/sudoku_eq_ort.xlsx')
     datas = {}
-    solver = 'sudoku_eq'
-        
+    solver = 'sudoku_ls'
+    category = 'INST_81x81'
     category_list = os.listdir('results/' + solver)
     
     for folder in category_list:
+        if folder != category:
+            continue
         folder_path = os.path.join('results/' + solver, folder)
         file_list = os.listdir(folder_path)
         for file in tqdm(file_list, desc=folder_path):
@@ -40,6 +42,7 @@ if __name__ == '__main__':
                             datas[key][1] += 1
                         else:
                             datas[key] = [time, 1]
+                    
                     # if info[:10] == 'benchmarks':
                     #     if lines[index - 1][0] == '-':
                     #         result = 'timeout'
@@ -49,8 +52,12 @@ if __name__ == '__main__':
                     #             result = 'sat'
                     #             time = int(info.split(' : ')[-1].split(' ')[0]) / 1000.0
                     #         else:
+                    #             assert -1 > 0
                     #             result = 'timeout'
                     #             time = '1000.000000'
+                    #     else:
+                    #         assert -1 > 0
+                    #     assert result != None
                     #     if result != None:
                     #         name = info.split(' ')[0].split('/')[-1]
                     #         base, category = name.split('_')[0], name.split('_')[1]

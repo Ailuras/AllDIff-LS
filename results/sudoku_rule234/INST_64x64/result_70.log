@@ -1,300 +1,300 @@
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_0.txt reduce vertex: 1225, time: 0.480000
-benchmarks/INST_64x64/70/inst64x64_70_0.txt : 523 ms.
+benchmarks/INST_64x64/70/inst64x64_70_0.txt reduce vertex: 1225, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_0.txt : 374 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_10.txt reduce vertex: 1229, time: 0.480000
-benchmarks/INST_64x64/70/inst64x64_70_10.txt : 543 ms.
+benchmarks/INST_64x64/70/inst64x64_70_10.txt reduce vertex: 1229, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_10.txt : 375 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_11.txt reduce vertex: 1222, time: 0.500000
-benchmarks/INST_64x64/70/inst64x64_70_11.txt : 545 ms.
+benchmarks/INST_64x64/70/inst64x64_70_11.txt reduce vertex: 1222, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_11.txt : 379 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_12.txt reduce vertex: 1221, time: 0.490000
-benchmarks/INST_64x64/70/inst64x64_70_12.txt : 534 ms.
+benchmarks/INST_64x64/70/inst64x64_70_12.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_12.txt : 386 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_13.txt reduce vertex: 1221, time: 0.500000
-benchmarks/INST_64x64/70/inst64x64_70_13.txt : 542 ms.
+benchmarks/INST_64x64/70/inst64x64_70_13.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_13.txt : 377 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_14.txt reduce vertex: 1220, time: 0.350000
-benchmarks/INST_64x64/70/inst64x64_70_14.txt : 380 ms.
+benchmarks/INST_64x64/70/inst64x64_70_14.txt reduce vertex: 1220, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_14.txt : 369 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_15.txt reduce vertex: 1220, time: 0.390000
-benchmarks/INST_64x64/70/inst64x64_70_15.txt : 430 ms.
+benchmarks/INST_64x64/70/inst64x64_70_15.txt reduce vertex: 1220, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_15.txt : 379 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_16.txt reduce vertex: 1223, time: 0.410000
-benchmarks/INST_64x64/70/inst64x64_70_16.txt : 460 ms.
+benchmarks/INST_64x64/70/inst64x64_70_16.txt reduce vertex: 1223, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_16.txt : 378 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_17.txt reduce vertex: 1225, time: 0.430000
-benchmarks/INST_64x64/70/inst64x64_70_17.txt : 473 ms.
+benchmarks/INST_64x64/70/inst64x64_70_17.txt reduce vertex: 1225, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_17.txt : 369 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_18.txt reduce vertex: 1214, time: 0.430000
-benchmarks/INST_64x64/70/inst64x64_70_18.txt : 465 ms.
+benchmarks/INST_64x64/70/inst64x64_70_18.txt reduce vertex: 1214, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_18.txt : 364 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_19.txt reduce vertex: 1215, time: 0.390000
-benchmarks/INST_64x64/70/inst64x64_70_19.txt : 438 ms.
+benchmarks/INST_64x64/70/inst64x64_70_19.txt reduce vertex: 1215, time: 0.160000
+benchmarks/INST_64x64/70/inst64x64_70_19.txt : 457 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_1.txt reduce vertex: 1209, time: 0.420000
-benchmarks/INST_64x64/70/inst64x64_70_1.txt : 465 ms.
+benchmarks/INST_64x64/70/inst64x64_70_1.txt reduce vertex: 1209, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_1.txt : 359 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_20.txt reduce vertex: 1213, time: 0.340000
-benchmarks/INST_64x64/70/inst64x64_70_20.txt : 366 ms.
+benchmarks/INST_64x64/70/inst64x64_70_20.txt reduce vertex: 1213, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_20.txt : 357 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_21.txt reduce vertex: 1225, time: 0.350000
-benchmarks/INST_64x64/70/inst64x64_70_21.txt : 376 ms.
+benchmarks/INST_64x64/70/inst64x64_70_21.txt reduce vertex: 1225, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_21.txt : 357 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_22.txt reduce vertex: 1224, time: 0.360000
-benchmarks/INST_64x64/70/inst64x64_70_22.txt : 406 ms.
+benchmarks/INST_64x64/70/inst64x64_70_22.txt reduce vertex: 1224, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_22.txt : 369 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_23.txt reduce vertex: 1225, time: 0.480000
-benchmarks/INST_64x64/70/inst64x64_70_23.txt : 521 ms.
+benchmarks/INST_64x64/70/inst64x64_70_23.txt reduce vertex: 1225, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_23.txt : 365 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_24.txt reduce vertex: 1221, time: 0.310000
-benchmarks/INST_64x64/70/inst64x64_70_24.txt : 333 ms.
+benchmarks/INST_64x64/70/inst64x64_70_24.txt reduce vertex: 1221, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_24.txt : 359 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_25.txt reduce vertex: 1225, time: 0.400000
-benchmarks/INST_64x64/70/inst64x64_70_25.txt : 433 ms.
+benchmarks/INST_64x64/70/inst64x64_70_25.txt reduce vertex: 1225, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_25.txt : 361 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_26.txt reduce vertex: 1217, time: 0.440000
-benchmarks/INST_64x64/70/inst64x64_70_26.txt : 491 ms.
+benchmarks/INST_64x64/70/inst64x64_70_26.txt reduce vertex: 1217, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_26.txt : 369 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_27.txt reduce vertex: 1217, time: 0.310000
-benchmarks/INST_64x64/70/inst64x64_70_27.txt : 348 ms.
+benchmarks/INST_64x64/70/inst64x64_70_27.txt reduce vertex: 1217, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_27.txt : 393 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_28.txt reduce vertex: 1217, time: 0.350000
-benchmarks/INST_64x64/70/inst64x64_70_28.txt : 380 ms.
+benchmarks/INST_64x64/70/inst64x64_70_28.txt reduce vertex: 1217, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_28.txt : 382 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_29.txt reduce vertex: 1221, time: 0.430000
-benchmarks/INST_64x64/70/inst64x64_70_29.txt : 460 ms.
+benchmarks/INST_64x64/70/inst64x64_70_29.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_29.txt : 391 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_2.txt reduce vertex: 1205, time: 0.400000
-benchmarks/INST_64x64/70/inst64x64_70_2.txt : 427 ms.
+benchmarks/INST_64x64/70/inst64x64_70_2.txt reduce vertex: 1205, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_2.txt : 386 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_30.txt reduce vertex: 1221, time: 0.360000
-benchmarks/INST_64x64/70/inst64x64_70_30.txt : 392 ms.
+benchmarks/INST_64x64/70/inst64x64_70_30.txt reduce vertex: 1221, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_30.txt : 398 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_31.txt reduce vertex: 1211, time: 0.310000
-benchmarks/INST_64x64/70/inst64x64_70_31.txt : 350 ms.
+benchmarks/INST_64x64/70/inst64x64_70_31.txt reduce vertex: 1211, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_31.txt : 392 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_32.txt reduce vertex: 1215, time: 0.380000
-benchmarks/INST_64x64/70/inst64x64_70_32.txt : 416 ms.
+benchmarks/INST_64x64/70/inst64x64_70_32.txt reduce vertex: 1215, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_32.txt : 400 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_33.txt reduce vertex: 1225, time: 0.330000
-benchmarks/INST_64x64/70/inst64x64_70_33.txt : 377 ms.
+benchmarks/INST_64x64/70/inst64x64_70_33.txt reduce vertex: 1225, time: 0.120000
+benchmarks/INST_64x64/70/inst64x64_70_33.txt : 386 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_34.txt reduce vertex: 1221, time: 0.400000
-benchmarks/INST_64x64/70/inst64x64_70_34.txt : 429 ms.
+benchmarks/INST_64x64/70/inst64x64_70_34.txt reduce vertex: 1221, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_34.txt : 390 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_35.txt reduce vertex: 1212, time: 0.330000
-benchmarks/INST_64x64/70/inst64x64_70_35.txt : 366 ms.
+benchmarks/INST_64x64/70/inst64x64_70_35.txt reduce vertex: 1212, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_35.txt : 380 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_36.txt reduce vertex: 1212, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_36.txt : 327 ms.
+benchmarks/INST_64x64/70/inst64x64_70_36.txt reduce vertex: 1212, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_36.txt : 378 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_37.txt reduce vertex: 1219, time: 0.330000
-benchmarks/INST_64x64/70/inst64x64_70_37.txt : 362 ms.
+benchmarks/INST_64x64/70/inst64x64_70_37.txt reduce vertex: 1219, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_37.txt : 377 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_38.txt reduce vertex: 1206, time: 0.380000
-benchmarks/INST_64x64/70/inst64x64_70_38.txt : 407 ms.
+benchmarks/INST_64x64/70/inst64x64_70_38.txt reduce vertex: 1206, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_38.txt : 384 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_39.txt reduce vertex: 1214, time: 0.330000
-benchmarks/INST_64x64/70/inst64x64_70_39.txt : 367 ms.
+benchmarks/INST_64x64/70/inst64x64_70_39.txt reduce vertex: 1214, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_39.txt : 368 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_3.txt reduce vertex: 1219, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_3.txt : 328 ms.
+benchmarks/INST_64x64/70/inst64x64_70_3.txt reduce vertex: 1219, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_3.txt : 382 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_40.txt reduce vertex: 1220, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_40.txt : 321 ms.
+benchmarks/INST_64x64/70/inst64x64_70_40.txt reduce vertex: 1220, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_40.txt : 379 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_41.txt reduce vertex: 1212, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_41.txt : 331 ms.
+benchmarks/INST_64x64/70/inst64x64_70_41.txt reduce vertex: 1212, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_41.txt : 384 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_42.txt reduce vertex: 1229, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_42.txt : 319 ms.
+benchmarks/INST_64x64/70/inst64x64_70_42.txt reduce vertex: 1229, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_42.txt : 385 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_43.txt reduce vertex: 1225, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_43.txt : 324 ms.
+benchmarks/INST_64x64/70/inst64x64_70_43.txt reduce vertex: 1225, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_43.txt : 376 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_44.txt reduce vertex: 1221, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_44.txt : 324 ms.
+benchmarks/INST_64x64/70/inst64x64_70_44.txt reduce vertex: 1221, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_44.txt : 380 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_45.txt reduce vertex: 1217, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_45.txt : 315 ms.
+benchmarks/INST_64x64/70/inst64x64_70_45.txt reduce vertex: 1217, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_45.txt : 375 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_46.txt reduce vertex: 1212, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_46.txt : 324 ms.
+benchmarks/INST_64x64/70/inst64x64_70_46.txt reduce vertex: 1212, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_46.txt : 375 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_47.txt reduce vertex: 1221, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_47.txt : 313 ms.
+benchmarks/INST_64x64/70/inst64x64_70_47.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_47.txt : 397 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_48.txt reduce vertex: 1208, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_48.txt : 315 ms.
+benchmarks/INST_64x64/70/inst64x64_70_48.txt reduce vertex: 1208, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_48.txt : 375 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_49.txt reduce vertex: 1229, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_49.txt : 318 ms.
+benchmarks/INST_64x64/70/inst64x64_70_49.txt reduce vertex: 1229, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_49.txt : 382 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_4.txt reduce vertex: 1221, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_4.txt : 333 ms.
+benchmarks/INST_64x64/70/inst64x64_70_4.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_4.txt : 369 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_50.txt reduce vertex: 1208, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_50.txt : 304 ms.
+benchmarks/INST_64x64/70/inst64x64_70_50.txt reduce vertex: 1208, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_50.txt : 370 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_51.txt reduce vertex: 1207, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_51.txt : 323 ms.
+benchmarks/INST_64x64/70/inst64x64_70_51.txt reduce vertex: 1207, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_51.txt : 369 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_52.txt reduce vertex: 1215, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_52.txt : 320 ms.
+benchmarks/INST_64x64/70/inst64x64_70_52.txt reduce vertex: 1215, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_52.txt : 372 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_53.txt reduce vertex: 1221, time: 0.310000
-benchmarks/INST_64x64/70/inst64x64_70_53.txt : 331 ms.
+benchmarks/INST_64x64/70/inst64x64_70_53.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_53.txt : 400 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_54.txt reduce vertex: 1215, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_54.txt : 308 ms.
+benchmarks/INST_64x64/70/inst64x64_70_54.txt reduce vertex: 1215, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_54.txt : 1377 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_55.txt reduce vertex: 1214, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_55.txt : 325 ms.
+benchmarks/INST_64x64/70/inst64x64_70_55.txt reduce vertex: 1214, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_55.txt : 367 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_56.txt reduce vertex: 1210, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_56.txt : 319 ms.
+benchmarks/INST_64x64/70/inst64x64_70_56.txt reduce vertex: 1210, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_56.txt : 354 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_57.txt reduce vertex: 1229, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_57.txt : 326 ms.
+benchmarks/INST_64x64/70/inst64x64_70_57.txt reduce vertex: 1229, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_57.txt : 364 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_58.txt reduce vertex: 1224, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_58.txt : 315 ms.
+benchmarks/INST_64x64/70/inst64x64_70_58.txt reduce vertex: 1224, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_58.txt : 371 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_59.txt reduce vertex: 1225, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_59.txt : 323 ms.
+benchmarks/INST_64x64/70/inst64x64_70_59.txt reduce vertex: 1225, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_59.txt : 370 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_5.txt reduce vertex: 1225, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_5.txt : 307 ms.
+benchmarks/INST_64x64/70/inst64x64_70_5.txt reduce vertex: 1225, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_5.txt : 367 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_60.txt reduce vertex: 1215, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_60.txt : 317 ms.
+benchmarks/INST_64x64/70/inst64x64_70_60.txt reduce vertex: 1215, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_60.txt : 365 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_61.txt reduce vertex: 1217, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_61.txt : 317 ms.
+benchmarks/INST_64x64/70/inst64x64_70_61.txt reduce vertex: 1217, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_61.txt : 373 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_62.txt reduce vertex: 1210, time: 0.300000
-benchmarks/INST_64x64/70/inst64x64_70_62.txt : 320 ms.
+benchmarks/INST_64x64/70/inst64x64_70_62.txt reduce vertex: 1210, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_62.txt : 376 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_63.txt reduce vertex: 1211, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_63.txt : 314 ms.
+benchmarks/INST_64x64/70/inst64x64_70_63.txt reduce vertex: 1211, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_63.txt : 360 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_64.txt reduce vertex: 1205, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_64.txt : 311 ms.
+benchmarks/INST_64x64/70/inst64x64_70_64.txt reduce vertex: 1205, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_64.txt : 369 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_65.txt reduce vertex: 1225, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_65.txt : 313 ms.
+benchmarks/INST_64x64/70/inst64x64_70_65.txt reduce vertex: 1225, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_65.txt : 373 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_66.txt reduce vertex: 1229, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_66.txt : 315 ms.
+benchmarks/INST_64x64/70/inst64x64_70_66.txt reduce vertex: 1229, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_66.txt : 367 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_67.txt reduce vertex: 1224, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_67.txt : 313 ms.
+benchmarks/INST_64x64/70/inst64x64_70_67.txt reduce vertex: 1224, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_67.txt : 377 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_68.txt reduce vertex: 1221, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_68.txt : 319 ms.
+benchmarks/INST_64x64/70/inst64x64_70_68.txt reduce vertex: 1221, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_68.txt : 349 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_69.txt reduce vertex: 1225, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_69.txt : 308 ms.
+benchmarks/INST_64x64/70/inst64x64_70_69.txt reduce vertex: 1225, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_69.txt : 367 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_6.txt reduce vertex: 1216, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_6.txt : 315 ms.
+benchmarks/INST_64x64/70/inst64x64_70_6.txt reduce vertex: 1216, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_6.txt : 354 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_70.txt reduce vertex: 1211, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_70.txt : 306 ms.
+benchmarks/INST_64x64/70/inst64x64_70_70.txt reduce vertex: 1211, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_70.txt : 352 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_71.txt reduce vertex: 1217, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_71.txt : 316 ms.
+benchmarks/INST_64x64/70/inst64x64_70_71.txt reduce vertex: 1217, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_71.txt : 348 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_72.txt reduce vertex: 1217, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_72.txt : 316 ms.
+benchmarks/INST_64x64/70/inst64x64_70_72.txt reduce vertex: 1217, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_72.txt : 349 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_73.txt reduce vertex: 1224, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_73.txt : 313 ms.
+benchmarks/INST_64x64/70/inst64x64_70_73.txt reduce vertex: 1224, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_73.txt : 362 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_74.txt reduce vertex: 1214, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_74.txt : 311 ms.
+benchmarks/INST_64x64/70/inst64x64_70_74.txt reduce vertex: 1214, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_74.txt : 356 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_75.txt reduce vertex: 1216, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_75.txt : 309 ms.
+benchmarks/INST_64x64/70/inst64x64_70_75.txt reduce vertex: 1216, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_75.txt : 361 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_76.txt reduce vertex: 1220, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_76.txt : 309 ms.
+benchmarks/INST_64x64/70/inst64x64_70_76.txt reduce vertex: 1220, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_76.txt : 358 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_77.txt reduce vertex: 1221, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_77.txt : 314 ms.
+benchmarks/INST_64x64/70/inst64x64_70_77.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_77.txt : 1172 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_78.txt reduce vertex: 1222, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_78.txt : 308 ms.
+benchmarks/INST_64x64/70/inst64x64_70_78.txt reduce vertex: 1222, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_78.txt : 361 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_79.txt reduce vertex: 1223, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_79.txt : 306 ms.
+benchmarks/INST_64x64/70/inst64x64_70_79.txt reduce vertex: 1223, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_79.txt : 360 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_7.txt reduce vertex: 1217, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_7.txt : 311 ms.
+benchmarks/INST_64x64/70/inst64x64_70_7.txt reduce vertex: 1217, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_7.txt : 367 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_80.txt reduce vertex: 1213, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_80.txt : 307 ms.
+benchmarks/INST_64x64/70/inst64x64_70_80.txt reduce vertex: 1213, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_80.txt : 368 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_81.txt reduce vertex: 1221, time: 0.290000
-benchmarks/INST_64x64/70/inst64x64_70_81.txt : 315 ms.
+benchmarks/INST_64x64/70/inst64x64_70_81.txt reduce vertex: 1221, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_81.txt : 364 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_82.txt reduce vertex: 1215, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_82.txt : 305 ms.
+benchmarks/INST_64x64/70/inst64x64_70_82.txt reduce vertex: 1215, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_82.txt : 430 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_83.txt reduce vertex: 1209, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_83.txt : 303 ms.
+benchmarks/INST_64x64/70/inst64x64_70_83.txt reduce vertex: 1209, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_83.txt : 381 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_84.txt reduce vertex: 1221, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_84.txt : 289 ms.
+benchmarks/INST_64x64/70/inst64x64_70_84.txt reduce vertex: 1221, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_84.txt : 360 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_85.txt reduce vertex: 1225, time: 0.270000
-benchmarks/INST_64x64/70/inst64x64_70_85.txt : 304 ms.
+benchmarks/INST_64x64/70/inst64x64_70_85.txt reduce vertex: 1225, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_85.txt : 351 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_86.txt reduce vertex: 1213, time: 0.270000
-benchmarks/INST_64x64/70/inst64x64_70_86.txt : 294 ms.
+benchmarks/INST_64x64/70/inst64x64_70_86.txt reduce vertex: 1213, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_86.txt : 359 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_87.txt reduce vertex: 1217, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_87.txt : 288 ms.
+benchmarks/INST_64x64/70/inst64x64_70_87.txt reduce vertex: 1217, time: 0.080000
+benchmarks/INST_64x64/70/inst64x64_70_87.txt : 949 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_88.txt reduce vertex: 1215, time: 0.280000
-benchmarks/INST_64x64/70/inst64x64_70_88.txt : 309 ms.
+benchmarks/INST_64x64/70/inst64x64_70_88.txt reduce vertex: 1215, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_88.txt : 361 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_89.txt reduce vertex: 1224, time: 0.270000
-benchmarks/INST_64x64/70/inst64x64_70_89.txt : 297 ms.
+benchmarks/INST_64x64/70/inst64x64_70_89.txt reduce vertex: 1224, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_89.txt : 354 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_8.txt reduce vertex: 1216, time: 0.270000
-benchmarks/INST_64x64/70/inst64x64_70_8.txt : 294 ms.
+benchmarks/INST_64x64/70/inst64x64_70_8.txt reduce vertex: 1216, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_8.txt : 352 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_90.txt reduce vertex: 1217, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_90.txt : 289 ms.
+benchmarks/INST_64x64/70/inst64x64_70_90.txt reduce vertex: 1217, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_90.txt : 362 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_91.txt reduce vertex: 1212, time: 0.270000
-benchmarks/INST_64x64/70/inst64x64_70_91.txt : 302 ms.
+benchmarks/INST_64x64/70/inst64x64_70_91.txt reduce vertex: 1212, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_91.txt : 354 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_92.txt reduce vertex: 1221, time: 0.250000
-benchmarks/INST_64x64/70/inst64x64_70_92.txt : 278 ms.
+benchmarks/INST_64x64/70/inst64x64_70_92.txt reduce vertex: 1221, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_92.txt : 358 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_93.txt reduce vertex: 1198, time: 0.270000
-benchmarks/INST_64x64/70/inst64x64_70_93.txt : 292 ms.
+benchmarks/INST_64x64/70/inst64x64_70_93.txt reduce vertex: 1198, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_93.txt : 356 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_94.txt reduce vertex: 1229, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_94.txt : 289 ms.
+benchmarks/INST_64x64/70/inst64x64_70_94.txt reduce vertex: 1229, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_94.txt : 348 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_95.txt reduce vertex: 1225, time: 0.270000
-benchmarks/INST_64x64/70/inst64x64_70_95.txt : 295 ms.
+benchmarks/INST_64x64/70/inst64x64_70_95.txt reduce vertex: 1225, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_95.txt : 352 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_96.txt reduce vertex: 1225, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_96.txt : 290 ms.
+benchmarks/INST_64x64/70/inst64x64_70_96.txt reduce vertex: 1225, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_96.txt : 354 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_97.txt reduce vertex: 1229, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_97.txt : 289 ms.
+benchmarks/INST_64x64/70/inst64x64_70_97.txt reduce vertex: 1229, time: 0.090000
+benchmarks/INST_64x64/70/inst64x64_70_97.txt : 347 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_98.txt reduce vertex: 1203, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_98.txt : 292 ms.
+benchmarks/INST_64x64/70/inst64x64_70_98.txt reduce vertex: 1203, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_98.txt : 1397 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_99.txt reduce vertex: 1225, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_99.txt : 280 ms.
+benchmarks/INST_64x64/70/inst64x64_70_99.txt reduce vertex: 1225, time: 0.110000
+benchmarks/INST_64x64/70/inst64x64_70_99.txt : 391 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/70/inst64x64_70_9.txt reduce vertex: 1211, time: 0.260000
-benchmarks/INST_64x64/70/inst64x64_70_9.txt : 294 ms.
+benchmarks/INST_64x64/70/inst64x64_70_9.txt reduce vertex: 1211, time: 0.100000
+benchmarks/INST_64x64/70/inst64x64_70_9.txt : 394 ms.

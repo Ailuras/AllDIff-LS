@@ -1504,9 +1504,9 @@ int main(int argc, char* argv[]) {
 	// time_limit = 60;
 	srand(seed);
 	mRead(filename);
+	mStartTime();
 	mReduceVertexes();
 
-	// mStartTime();
 	// mGenerate();
 	// if(check_finish()) return 0;
 	// for(int iter = 0; total_time < time_limit; iter++) {

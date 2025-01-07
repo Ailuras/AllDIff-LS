@@ -1,303 +1,300 @@
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_0.txt find answer: 2.470000
-benchmarks/INST_64x64/40/inst64x64_40_0.txt : 2844 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_0.txt find answer: 4.870000
+benchmarks_simp/INST_64x64/40/inst64x64_40_0.txt : 5232 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_10.txt find answer: 9.380000
-benchmarks/INST_64x64/40/inst64x64_40_10.txt : 9752 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_10.txt find answer: 4.800000
+benchmarks_simp/INST_64x64/40/inst64x64_40_10.txt : 5136 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_11.txt find answer: 5.330000
-benchmarks/INST_64x64/40/inst64x64_40_11.txt : 5685 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_11.txt find answer: 3.700000
+benchmarks_simp/INST_64x64/40/inst64x64_40_11.txt : 4667 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_12.txt find answer: 8.360000
-benchmarks/INST_64x64/40/inst64x64_40_12.txt : 8708 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_12.txt find answer: 2.740000
+benchmarks_simp/INST_64x64/40/inst64x64_40_12.txt : 3071 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_13.txt find answer: 8.230000
-benchmarks/INST_64x64/40/inst64x64_40_13.txt : 8584 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_13.txt find answer: 4.650000
+benchmarks_simp/INST_64x64/40/inst64x64_40_13.txt : 5049 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_14.txt find answer: 6.360000
-benchmarks/INST_64x64/40/inst64x64_40_14.txt : 6686 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_14.txt find answer: 2.200000
+benchmarks_simp/INST_64x64/40/inst64x64_40_14.txt : 2656 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_15.txt find answer: 3.350000
-benchmarks/INST_64x64/40/inst64x64_40_15.txt : 3668 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_15.txt find answer: 2.720000
+benchmarks_simp/INST_64x64/40/inst64x64_40_15.txt : 3047 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_16.txt find answer: 19.020000
-benchmarks/INST_64x64/40/inst64x64_40_16.txt : 19379 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_16.txt find answer: 2.770000
+benchmarks_simp/INST_64x64/40/inst64x64_40_16.txt : 3097 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_17.txt find answer: 3.410000
-benchmarks/INST_64x64/40/inst64x64_40_17.txt : 3728 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_17.txt find answer: 5.080000
+benchmarks_simp/INST_64x64/40/inst64x64_40_17.txt : 5398 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_18.txt find answer: 2.400000
-benchmarks/INST_64x64/40/inst64x64_40_18.txt : 2717 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_18.txt find answer: 1.810000
+benchmarks_simp/INST_64x64/40/inst64x64_40_18.txt : 2141 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_19.txt find answer: 2.890000
-benchmarks/INST_64x64/40/inst64x64_40_19.txt : 3201 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_19.txt find answer: 4.400000
+benchmarks_simp/INST_64x64/40/inst64x64_40_19.txt : 4728 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_1.txt find answer: 2.920000
-benchmarks/INST_64x64/40/inst64x64_40_1.txt : 3227 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_1.txt find answer: 2.050000
+benchmarks_simp/INST_64x64/40/inst64x64_40_1.txt : 2367 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_20.txt find answer: 9.090000
-benchmarks/INST_64x64/40/inst64x64_40_20.txt : 9440 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_20.txt find answer: 5.050000
+benchmarks_simp/INST_64x64/40/inst64x64_40_20.txt : 5381 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_21.txt find answer: 2.000000
-benchmarks/INST_64x64/40/inst64x64_40_21.txt : 2314 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_21.txt find answer: 2.190000
+benchmarks_simp/INST_64x64/40/inst64x64_40_21.txt : 2514 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_22.txt find answer: 4.870000
-benchmarks/INST_64x64/40/inst64x64_40_22.txt : 5199 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_22.txt find answer: 13.060000
+benchmarks_simp/INST_64x64/40/inst64x64_40_22.txt : 13386 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_23.txt find answer: 3.220000
-benchmarks/INST_64x64/40/inst64x64_40_23.txt : 3534 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_23.txt find answer: 3.550000
+benchmarks_simp/INST_64x64/40/inst64x64_40_23.txt : 3882 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_24.txt find answer: 7.250000
-benchmarks/INST_64x64/40/inst64x64_40_24.txt : 7547 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_24.txt find answer: 5.610000
+benchmarks_simp/INST_64x64/40/inst64x64_40_24.txt : 5933 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_25.txt find answer: 3.450000
-benchmarks/INST_64x64/40/inst64x64_40_25.txt : 3831 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_25.txt find answer: 2.980000
+benchmarks_simp/INST_64x64/40/inst64x64_40_25.txt : 3729 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_26.txt find answer: 4.060000
-benchmarks/INST_64x64/40/inst64x64_40_26.txt : 4383 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_26.txt find answer: 2.350000
+benchmarks_simp/INST_64x64/40/inst64x64_40_26.txt : 2670 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_27.txt find answer: 4.530000
-benchmarks/INST_64x64/40/inst64x64_40_27.txt : 4905 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_27.txt find answer: 4.240000
+benchmarks_simp/INST_64x64/40/inst64x64_40_27.txt : 4547 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_28.txt find answer: 3.850000
-benchmarks/INST_64x64/40/inst64x64_40_28.txt : 4208 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_28.txt find answer: 6.350000
+benchmarks_simp/INST_64x64/40/inst64x64_40_28.txt : 6669 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_29.txt find answer: 3.250000
-benchmarks/INST_64x64/40/inst64x64_40_29.txt : 3566 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_29.txt find answer: 4.650000
+benchmarks_simp/INST_64x64/40/inst64x64_40_29.txt : 4962 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_2.txt find answer: 12.250000
-benchmarks/INST_64x64/40/inst64x64_40_2.txt : 12585 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_2.txt find answer: 2.660000
+benchmarks_simp/INST_64x64/40/inst64x64_40_2.txt : 2976 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_30.txt find answer: 6.500000
-benchmarks/INST_64x64/40/inst64x64_40_30.txt : 6834 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_30.txt find answer: 2.990000
+benchmarks_simp/INST_64x64/40/inst64x64_40_30.txt : 3576 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_31.txt find answer: 0.750000
-benchmarks/INST_64x64/40/inst64x64_40_31.txt : 1067 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_31.txt find answer: 3.310000
+benchmarks_simp/INST_64x64/40/inst64x64_40_31.txt : 3627 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_32.txt find answer: 6.710000
-benchmarks/INST_64x64/40/inst64x64_40_32.txt : 7034 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_32.txt find answer: 5.320000
+benchmarks_simp/INST_64x64/40/inst64x64_40_32.txt : 5647 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_33.txt find answer: 11.810000
-benchmarks/INST_64x64/40/inst64x64_40_33.txt : 12153 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_33.txt find answer: 4.310000
+benchmarks_simp/INST_64x64/40/inst64x64_40_33.txt : 4631 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_34.txt find answer: 10.670000
-benchmarks/INST_64x64/40/inst64x64_40_34.txt : 11070 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_34.txt find answer: 3.510000
+benchmarks_simp/INST_64x64/40/inst64x64_40_34.txt : 3819 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_35.txt find answer: 5.360000
-benchmarks/INST_64x64/40/inst64x64_40_35.txt : 5716 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_35.txt find answer: 1.720000
+benchmarks_simp/INST_64x64/40/inst64x64_40_35.txt : 2539 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_36.txt find answer: 2.740000
-benchmarks/INST_64x64/40/inst64x64_40_36.txt : 3054 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_36.txt find answer: 5.170000
+benchmarks_simp/INST_64x64/40/inst64x64_40_36.txt : 5488 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_37.txt find answer: 3.020000
-benchmarks/INST_64x64/40/inst64x64_40_37.txt : 3308 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_37.txt find answer: 1.320000
+benchmarks_simp/INST_64x64/40/inst64x64_40_37.txt : 1622 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_38.txt find answer: 5.970000
-benchmarks/INST_64x64/40/inst64x64_40_38.txt : 6289 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_38.txt find answer: 14.870000
+benchmarks_simp/INST_64x64/40/inst64x64_40_38.txt : 15190 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_39.txt find answer: 1.730000
-benchmarks/INST_64x64/40/inst64x64_40_39.txt : 2047 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_39.txt find answer: 2.190000
+benchmarks_simp/INST_64x64/40/inst64x64_40_39.txt : 2504 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_3.txt find answer: 4.950000
-benchmarks/INST_64x64/40/inst64x64_40_3.txt : 5270 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_3.txt find answer: 2.630000
+benchmarks_simp/INST_64x64/40/inst64x64_40_3.txt : 2949 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_40.txt find answer: 3.700000
-benchmarks/INST_64x64/40/inst64x64_40_40.txt : 4014 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_40.txt find answer: 1.880000
+benchmarks_simp/INST_64x64/40/inst64x64_40_40.txt : 2181 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_41.txt find answer: 2.750000
-benchmarks/INST_64x64/40/inst64x64_40_41.txt : 3067 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_41.txt find answer: 7.020000
+benchmarks_simp/INST_64x64/40/inst64x64_40_41.txt : 7329 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_42.txt find answer: 3.800000
-benchmarks/INST_64x64/40/inst64x64_40_42.txt : 4126 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_42.txt find answer: 6.510000
+benchmarks_simp/INST_64x64/40/inst64x64_40_42.txt : 6807 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_43.txt find answer: 6.010000
-benchmarks/INST_64x64/40/inst64x64_40_43.txt : 6339 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_43.txt find answer: 3.380000
+benchmarks_simp/INST_64x64/40/inst64x64_40_43.txt : 3667 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_44.txt find answer: 1.920000
-benchmarks/INST_64x64/40/inst64x64_40_44.txt : 2223 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_44.txt find answer: 8.620000
+benchmarks_simp/INST_64x64/40/inst64x64_40_44.txt : 8909 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_45.txt find answer: 1.340000
-benchmarks/INST_64x64/40/inst64x64_40_45.txt : 1642 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_45.txt find answer: 3.230000
+benchmarks_simp/INST_64x64/40/inst64x64_40_45.txt : 3527 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_46.txt find answer: 1.530000
-benchmarks/INST_64x64/40/inst64x64_40_46.txt : 1845 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_46.txt find answer: 1.630000
+benchmarks_simp/INST_64x64/40/inst64x64_40_46.txt : 2261 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_47.txt find answer: 5.650000
-benchmarks/INST_64x64/40/inst64x64_40_47.txt : 5988 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_47.txt find answer: 2.680000
+benchmarks_simp/INST_64x64/40/inst64x64_40_47.txt : 3296 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_48.txt find answer: 10.740000
-benchmarks/INST_64x64/40/inst64x64_40_48.txt : 11076 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_48.txt find answer: 21.040000
+benchmarks_simp/INST_64x64/40/inst64x64_40_48.txt : 21346 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_49.txt find answer: 65.590000
-benchmarks/INST_64x64/40/inst64x64_40_49.txt : 66081 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_49.txt find answer: 4.410000
+benchmarks_simp/INST_64x64/40/inst64x64_40_49.txt : 4717 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_4.txt find answer: 9.850000
-benchmarks/INST_64x64/40/inst64x64_40_4.txt : 10191 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_4.txt find answer: 8.370000
+benchmarks_simp/INST_64x64/40/inst64x64_40_4.txt : 8653 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_50.txt find answer: 3.070000
-benchmarks/INST_64x64/40/inst64x64_40_50.txt : 3424 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_50.txt find answer: 1.650000
+benchmarks_simp/INST_64x64/40/inst64x64_40_50.txt : 1936 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_51.txt find answer: 6.390000
-benchmarks/INST_64x64/40/inst64x64_40_51.txt : 6734 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_51.txt find answer: 7.100000
+benchmarks_simp/INST_64x64/40/inst64x64_40_51.txt : 7391 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_52.txt find answer: 3.370000
-benchmarks/INST_64x64/40/inst64x64_40_52.txt : 3707 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_52.txt find answer: 2.120000
+benchmarks_simp/INST_64x64/40/inst64x64_40_52.txt : 2410 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_53.txt find answer: 10.550000
-benchmarks/INST_64x64/40/inst64x64_40_53.txt : 10963 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_53.txt find answer: 6.300000
+benchmarks_simp/INST_64x64/40/inst64x64_40_53.txt : 6602 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_54.txt find answer: 7.680000
-benchmarks/INST_64x64/40/inst64x64_40_54.txt : 8045 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_54.txt find answer: 8.420000
+benchmarks_simp/INST_64x64/40/inst64x64_40_54.txt : 8704 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_55.txt find answer: 7.000000
-benchmarks/INST_64x64/40/inst64x64_40_55.txt : 7355 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_55.txt find answer: 2.730000
+benchmarks_simp/INST_64x64/40/inst64x64_40_55.txt : 3033 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_56.txt find answer: 4.690000
-benchmarks/INST_64x64/40/inst64x64_40_56.txt : 5006 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_56.txt find answer: 4.420000
+benchmarks_simp/INST_64x64/40/inst64x64_40_56.txt : 4949 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_57.txt find answer: 4.570000
-benchmarks/INST_64x64/40/inst64x64_40_57.txt : 4876 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_57.txt find answer: 5.230000
+benchmarks_simp/INST_64x64/40/inst64x64_40_57.txt : 5535 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_58.txt find answer: 23.430000
-benchmarks/INST_64x64/40/inst64x64_40_58.txt : 23854 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_58.txt find answer: 2.010000
+benchmarks_simp/INST_64x64/40/inst64x64_40_58.txt : 2301 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_59.txt find answer: 5.290000
-benchmarks/INST_64x64/40/inst64x64_40_59.txt : 5615 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_59.txt find answer: 2.550000
+benchmarks_simp/INST_64x64/40/inst64x64_40_59.txt : 2828 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_5.txt find answer: 4.490000
-benchmarks/INST_64x64/40/inst64x64_40_5.txt : 4801 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_5.txt find answer: 3.950000
+benchmarks_simp/INST_64x64/40/inst64x64_40_5.txt : 4443 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_60.txt find answer: 15.090000
-benchmarks/INST_64x64/40/inst64x64_40_60.txt : 15455 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_60.txt find answer: 3.830000
+benchmarks_simp/INST_64x64/40/inst64x64_40_60.txt : 4131 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_61.txt find answer: 5.600000
-benchmarks/INST_64x64/40/inst64x64_40_61.txt : 5972 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_61.txt find answer: 7.260000
+benchmarks_simp/INST_64x64/40/inst64x64_40_61.txt : 7558 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_62.txt find answer: 4.010000
-benchmarks/INST_64x64/40/inst64x64_40_62.txt : 4408 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_62.txt find answer: 1.400000
+benchmarks_simp/INST_64x64/40/inst64x64_40_62.txt : 1696 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_63.txt find answer: 1.700000
-benchmarks/INST_64x64/40/inst64x64_40_63.txt : 1998 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_63.txt find answer: 2.080000
+benchmarks_simp/INST_64x64/40/inst64x64_40_63.txt : 2435 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_64.txt find answer: 2.920000
-benchmarks/INST_64x64/40/inst64x64_40_64.txt : 3268 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_64.txt find answer: 1.270000
+benchmarks_simp/INST_64x64/40/inst64x64_40_64.txt : 1566 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_65.txt find answer: 61.460000
-benchmarks/INST_64x64/40/inst64x64_40_65.txt : 61920 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_65.txt find answer: 5.220000
+benchmarks_simp/INST_64x64/40/inst64x64_40_65.txt : 5522 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_66.txt find answer: 17.850000
-benchmarks/INST_64x64/40/inst64x64_40_66.txt : 18209 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_66.txt find answer: 1.270000
+benchmarks_simp/INST_64x64/40/inst64x64_40_66.txt : 1559 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_67.txt find answer: 3.890000
-benchmarks/INST_64x64/40/inst64x64_40_67.txt : 4250 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_67.txt find answer: 8.830000
+benchmarks_simp/INST_64x64/40/inst64x64_40_67.txt : 9125 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_68.txt find answer: 6.400000
-benchmarks/INST_64x64/40/inst64x64_40_68.txt : 6758 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_68.txt find answer: 1.430000
+benchmarks_simp/INST_64x64/40/inst64x64_40_68.txt : 1706 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_69.txt find answer: 4.010000
-benchmarks/INST_64x64/40/inst64x64_40_69.txt : 4359 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_69.txt find answer: 1.300000
+benchmarks_simp/INST_64x64/40/inst64x64_40_69.txt : 1590 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_6.txt find answer: 6.770000
-benchmarks/INST_64x64/40/inst64x64_40_6.txt : 7117 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_6.txt find answer: 2.170000
+benchmarks_simp/INST_64x64/40/inst64x64_40_6.txt : 2455 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_70.txt find answer: 6.200000
-benchmarks/INST_64x64/40/inst64x64_40_70.txt : 6549 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_70.txt find answer: 1.250000
+benchmarks_simp/INST_64x64/40/inst64x64_40_70.txt : 1945 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_71.txt find answer: 4.890000
-benchmarks/INST_64x64/40/inst64x64_40_71.txt : 5208 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_71.txt find answer: 4.130000
+benchmarks_simp/INST_64x64/40/inst64x64_40_71.txt : 4919 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_72.txt find answer: 2.160000
-benchmarks/INST_64x64/40/inst64x64_40_72.txt : 2493 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_72.txt find answer: 2.370000
+benchmarks_simp/INST_64x64/40/inst64x64_40_72.txt : 2678 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_73.txt find answer: 5.930000
-benchmarks/INST_64x64/40/inst64x64_40_73.txt : 6258 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_73.txt find answer: 4.550000
+benchmarks_simp/INST_64x64/40/inst64x64_40_73.txt : 4838 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_74.txt find answer: 3.160000
-benchmarks/INST_64x64/40/inst64x64_40_74.txt : 3492 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_74.txt find answer: 3.140000
+benchmarks_simp/INST_64x64/40/inst64x64_40_74.txt : 3443 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_75.txt find answer: 7.130000
-benchmarks/INST_64x64/40/inst64x64_40_75.txt : 7470 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_75.txt find answer: 3.610000
+benchmarks_simp/INST_64x64/40/inst64x64_40_75.txt : 4122 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_76.txt find answer: 9.540000
-benchmarks/INST_64x64/40/inst64x64_40_76.txt : 9900 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_76.txt find answer: 1.440000
+benchmarks_simp/INST_64x64/40/inst64x64_40_76.txt : 1977 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_77.txt find answer: 6.180000
-benchmarks/INST_64x64/40/inst64x64_40_77.txt : 6513 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_77.txt find answer: 5.430000
+benchmarks_simp/INST_64x64/40/inst64x64_40_77.txt : 5731 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_78.txt find answer: 3.280000
-benchmarks/INST_64x64/40/inst64x64_40_78.txt : 3621 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_78.txt find answer: 2.270000
+benchmarks_simp/INST_64x64/40/inst64x64_40_78.txt : 2709 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_79.txt find answer: 12.070000
-benchmarks/INST_64x64/40/inst64x64_40_79.txt : 12426 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_79.txt find answer: 6.510000
+benchmarks_simp/INST_64x64/40/inst64x64_40_79.txt : 6809 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_7.txt find answer: 3.240000
-benchmarks/INST_64x64/40/inst64x64_40_7.txt : 3557 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_7.txt find answer: 12.370000
+benchmarks_simp/INST_64x64/40/inst64x64_40_7.txt : 12664 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_80.txt find answer: 17.770000
-benchmarks/INST_64x64/40/inst64x64_40_80.txt : 18126 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_80.txt find answer: 2.950000
+benchmarks_simp/INST_64x64/40/inst64x64_40_80.txt : 3250 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_81.txt find answer: 7.410000
-benchmarks/INST_64x64/40/inst64x64_40_81.txt : 7749 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_81.txt find answer: 3.500000
+benchmarks_simp/INST_64x64/40/inst64x64_40_81.txt : 4025 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_82.txt find answer: 4.030000
-benchmarks/INST_64x64/40/inst64x64_40_82.txt : 4371 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_82.txt find answer: 1.530000
+benchmarks_simp/INST_64x64/40/inst64x64_40_82.txt : 1839 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_83.txt find answer: 5.650000
-benchmarks/INST_64x64/40/inst64x64_40_83.txt : 5992 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_83.txt find answer: 3.380000
+benchmarks_simp/INST_64x64/40/inst64x64_40_83.txt : 3682 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_84.txt find answer: 4.160000
-benchmarks/INST_64x64/40/inst64x64_40_84.txt : 4525 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_84.txt find answer: 2.640000
+benchmarks_simp/INST_64x64/40/inst64x64_40_84.txt : 2929 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_85.txt find answer: 3.880000
-benchmarks/INST_64x64/40/inst64x64_40_85.txt : 4220 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_85.txt find answer: 7.700000
+benchmarks_simp/INST_64x64/40/inst64x64_40_85.txt : 7997 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_86.txt find answer: 3.620000
-benchmarks/INST_64x64/40/inst64x64_40_86.txt : 3937 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_86.txt find answer: 2.590000
+benchmarks_simp/INST_64x64/40/inst64x64_40_86.txt : 2887 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_87.txt find answer: 26.310000
-benchmarks/INST_64x64/40/inst64x64_40_87.txt : 26695 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_87.txt find answer: 4.530000
+benchmarks_simp/INST_64x64/40/inst64x64_40_87.txt : 4820 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_88.txt find answer: 2.260000
-benchmarks/INST_64x64/40/inst64x64_40_88.txt : 2578 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_88.txt find answer: 1.640000
+benchmarks_simp/INST_64x64/40/inst64x64_40_88.txt : 2561 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_89.txt find answer: 4.930000
-benchmarks/INST_64x64/40/inst64x64_40_89.txt : 5248 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_89.txt find answer: 7.450000
+benchmarks_simp/INST_64x64/40/inst64x64_40_89.txt : 7744 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_8.txt find answer: 2.610000
-benchmarks/INST_64x64/40/inst64x64_40_8.txt : 2966 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_8.txt find answer: 2.580000
+benchmarks_simp/INST_64x64/40/inst64x64_40_8.txt : 2869 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_90.txt find answer: 7.820000
-benchmarks/INST_64x64/40/inst64x64_40_90.txt : 8181 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_90.txt find answer: 3.170000
+benchmarks_simp/INST_64x64/40/inst64x64_40_90.txt : 3457 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_91.txt find answer: 1.630000
-benchmarks/INST_64x64/40/inst64x64_40_91.txt : 1956 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_91.txt find answer: 1.820000
+benchmarks_simp/INST_64x64/40/inst64x64_40_91.txt : 2115 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_92.txt find answer: 7.610000
-benchmarks/INST_64x64/40/inst64x64_40_92.txt : 7954 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_92.txt find answer: 1.870000
+benchmarks_simp/INST_64x64/40/inst64x64_40_92.txt : 2160 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_93.txt find answer: 6.560000
-benchmarks/INST_64x64/40/inst64x64_40_93.txt : 6904 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_93.txt find answer: 4.110000
+benchmarks_simp/INST_64x64/40/inst64x64_40_93.txt : 4406 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_94.txt find answer: 6.230000
-benchmarks/INST_64x64/40/inst64x64_40_94.txt : 6580 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_94.txt find answer: 2.960000
+benchmarks_simp/INST_64x64/40/inst64x64_40_94.txt : 3320 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_95.txt find answer: 4.140000
-benchmarks/INST_64x64/40/inst64x64_40_95.txt : 4477 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_95.txt find answer: 2.240000
+benchmarks_simp/INST_64x64/40/inst64x64_40_95.txt : 2531 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_96.txt find answer: 8.860000
-benchmarks/INST_64x64/40/inst64x64_40_96.txt : 9180 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_96.txt find answer: 1.840000
+benchmarks_simp/INST_64x64/40/inst64x64_40_96.txt : 2661 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_97.txt find answer: 5.290000
-benchmarks/INST_64x64/40/inst64x64_40_97.txt : 5639 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_97.txt find answer: 4.620000
+benchmarks_simp/INST_64x64/40/inst64x64_40_97.txt : 5298 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_98.txt find answer: 7.410000
-benchmarks/INST_64x64/40/inst64x64_40_98.txt : 7779 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_98.txt find answer: 4.010000
+benchmarks_simp/INST_64x64/40/inst64x64_40_98.txt : 5088 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_99.txt find answer: 6.650000
-benchmarks/INST_64x64/40/inst64x64_40_99.txt : 6974 ms.
+benchmarks_simp/INST_64x64/40/inst64x64_40_99.txt find answer: 4.460000
+benchmarks_simp/INST_64x64/40/inst64x64_40_99.txt : 4902 ms.
 --------------------------------------------------
-benchmarks/INST_64x64/40/inst64x64_40_9.txt find answer: 1.840000
-benchmarks/INST_64x64/40/inst64x64_40_9.txt : 2203 ms.
-run.sh: line 77: 3: command not found
-run.sh: line 78: syntax error near unexpected token `fi'
-run.sh: line 78: `    fi'
+benchmarks_simp/INST_64x64/40/inst64x64_40_9.txt find answer: 2.250000
+benchmarks_simp/INST_64x64/40/inst64x64_40_9.txt : 2539 ms.

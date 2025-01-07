@@ -1,300 +1,300 @@
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_0.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_0.txt : 11 ms.
+benchmarks/INST_25x25/40/inst25x25_40_0.txt : 33 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_10.txt reduce vertex: 4, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_10.txt : 17 ms.
+benchmarks/INST_25x25/40/inst25x25_40_10.txt : 35 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_11.txt reduce vertex: 5, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_11.txt : 15 ms.
+benchmarks/INST_25x25/40/inst25x25_40_11.txt : 35 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_12.txt reduce vertex: 6, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_12.txt : 18 ms.
+benchmarks/INST_25x25/40/inst25x25_40_12.txt reduce vertex: 6, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_12.txt : 36 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_13.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_13.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_13.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_13.txt : 33 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_14.txt reduce vertex: 6, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_14.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_14.txt reduce vertex: 6, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_14.txt : 28 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_15.txt reduce vertex: 2, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_15.txt : 35 ms.
+benchmarks/INST_25x25/40/inst25x25_40_15.txt reduce vertex: 2, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_15.txt : 33 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_16.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_16.txt : 38 ms.
+benchmarks/INST_25x25/40/inst25x25_40_16.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_16.txt : 33 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_17.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_17.txt : 30 ms.
+benchmarks/INST_25x25/40/inst25x25_40_17.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_17.txt : 32 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_18.txt reduce vertex: 7, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_18.txt : 31 ms.
+benchmarks/INST_25x25/40/inst25x25_40_18.txt reduce vertex: 7, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_18.txt : 27 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_19.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_19.txt : 34 ms.
+benchmarks/INST_25x25/40/inst25x25_40_19.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_19.txt : 32 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_1.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_1.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_1.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_1.txt : 46 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_20.txt reduce vertex: 12, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_20.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_20.txt reduce vertex: 12, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_20.txt : 37 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_21.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_21.txt : 30 ms.
+benchmarks/INST_25x25/40/inst25x25_40_21.txt reduce vertex: 6, time: 0.010000
+benchmarks/INST_25x25/40/inst25x25_40_21.txt : 43 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_22.txt reduce vertex: 4, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_22.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_22.txt : 31 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_23.txt reduce vertex: 5, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_23.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_23.txt : 41 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_24.txt reduce vertex: 7, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_24.txt : 25 ms.
+benchmarks/INST_25x25/40/inst25x25_40_24.txt : 64 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_25.txt reduce vertex: 5, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_25.txt : 25 ms.
+benchmarks/INST_25x25/40/inst25x25_40_25.txt : 42 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_26.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_26.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_26.txt : 39 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_27.txt reduce vertex: 1, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_27.txt : 24 ms.
+benchmarks/INST_25x25/40/inst25x25_40_27.txt reduce vertex: 1, time: 0.010000
+benchmarks/INST_25x25/40/inst25x25_40_27.txt : 38 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_28.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_28.txt : 34 ms.
+benchmarks/INST_25x25/40/inst25x25_40_28.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_28.txt : 35 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_29.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_29.txt : 30 ms.
+benchmarks/INST_25x25/40/inst25x25_40_29.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_29.txt : 44 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_2.txt reduce vertex: 3, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_2.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_2.txt : 33 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_30.txt reduce vertex: 2, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_30.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_30.txt : 39 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_31.txt reduce vertex: 8, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_31.txt : 32 ms.
+benchmarks/INST_25x25/40/inst25x25_40_31.txt : 38 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_32.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_32.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_32.txt : 31 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_33.txt reduce vertex: 7, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_33.txt : 30 ms.
+benchmarks/INST_25x25/40/inst25x25_40_33.txt : 38 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_34.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_34.txt : 24 ms.
+benchmarks/INST_25x25/40/inst25x25_40_34.txt reduce vertex: 3, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_34.txt : 38 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_35.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_35.txt : 27 ms.
+benchmarks/INST_25x25/40/inst25x25_40_35.txt : 38 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_36.txt reduce vertex: 9, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_36.txt : 29 ms.
+benchmarks/INST_25x25/40/inst25x25_40_36.txt reduce vertex: 9, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_36.txt : 32 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_37.txt reduce vertex: 15, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_37.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_37.txt reduce vertex: 15, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_37.txt : 37 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_38.txt reduce vertex: 5, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_38.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_38.txt : 37 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_39.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_39.txt : 27 ms.
+benchmarks/INST_25x25/40/inst25x25_40_39.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_39.txt : 39 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_3.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_3.txt : 26 ms.
+benchmarks/INST_25x25/40/inst25x25_40_3.txt reduce vertex: 3, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_3.txt : 39 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_40.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_40.txt : 28 ms.
+benchmarks/INST_25x25/40/inst25x25_40_40.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_40.txt : 41 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_41.txt reduce vertex: 2, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_41.txt : 27 ms.
+benchmarks/INST_25x25/40/inst25x25_40_41.txt : 40 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_42.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_42.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_42.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_42.txt : 42 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_43.txt reduce vertex: 2, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_43.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_43.txt reduce vertex: 2, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_43.txt : 39 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_44.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_44.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_44.txt : 32 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_45.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_45.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_45.txt reduce vertex: 3, time: 0.020000
+benchmarks/INST_25x25/40/inst25x25_40_45.txt : 41 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_46.txt reduce vertex: 9, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_46.txt : 28 ms.
+benchmarks/INST_25x25/40/inst25x25_40_46.txt reduce vertex: 9, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_46.txt : 43 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_47.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_47.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_47.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_47.txt : 41 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_48.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_48.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_48.txt : 39 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_49.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_49.txt : 27 ms.
+benchmarks/INST_25x25/40/inst25x25_40_49.txt reduce vertex: 3, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_49.txt : 37 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_4.txt reduce vertex: 7, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_4.txt : 30 ms.
+benchmarks/INST_25x25/40/inst25x25_40_4.txt : 40 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_50.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_50.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_50.txt : 37 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_51.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_51.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_51.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_51.txt : 40 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_52.txt reduce vertex: 1, time: 0.010000
+benchmarks/INST_25x25/40/inst25x25_40_52.txt reduce vertex: 1, time: 0.000000
 benchmarks/INST_25x25/40/inst25x25_40_52.txt : 35 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_53.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_53.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_53.txt reduce vertex: 3, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_53.txt : 37 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_54.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_54.txt : 18 ms.
+benchmarks/INST_25x25/40/inst25x25_40_54.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_54.txt : 44 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_55.txt reduce vertex: 8, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_55.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_55.txt reduce vertex: 8, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_55.txt : 38 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_56.txt reduce vertex: 6, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_56.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_56.txt reduce vertex: 6, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_56.txt : 38 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_57.txt reduce vertex: 2, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_57.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_57.txt reduce vertex: 2, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_57.txt : 39 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_58.txt reduce vertex: 6, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_58.txt : 30 ms.
+benchmarks/INST_25x25/40/inst25x25_40_58.txt reduce vertex: 6, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_58.txt : 38 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_59.txt reduce vertex: 8, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_59.txt : 25 ms.
+benchmarks/INST_25x25/40/inst25x25_40_59.txt reduce vertex: 8, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_59.txt : 39 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_5.txt reduce vertex: 2, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_5.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_5.txt reduce vertex: 2, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_5.txt : 37 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_60.txt reduce vertex: 8, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_60.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_60.txt reduce vertex: 8, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_60.txt : 39 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_61.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_61.txt : 25 ms.
+benchmarks/INST_25x25/40/inst25x25_40_61.txt reduce vertex: 3, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_61.txt : 47 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_62.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_62.txt : 24 ms.
+benchmarks/INST_25x25/40/inst25x25_40_62.txt reduce vertex: 3, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_62.txt : 41 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_63.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_63.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_63.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_63.txt : 42 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_64.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_64.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_64.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_64.txt : 40 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_65.txt reduce vertex: 12, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_65.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_65.txt : 45 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_66.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_66.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_66.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_66.txt : 44 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_67.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_67.txt : 26 ms.
+benchmarks/INST_25x25/40/inst25x25_40_67.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_67.txt : 43 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_68.txt reduce vertex: 1, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_68.txt : 17 ms.
+benchmarks/INST_25x25/40/inst25x25_40_68.txt : 36 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_69.txt reduce vertex: 11, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_69.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_69.txt reduce vertex: 11, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_69.txt : 42 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_6.txt reduce vertex: 8, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_6.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_6.txt : 43 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_70.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_70.txt : 31 ms.
+benchmarks/INST_25x25/40/inst25x25_40_70.txt : 40 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_71.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_71.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_71.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_71.txt : 39 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_72.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_72.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_72.txt : 32 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_73.txt reduce vertex: 6, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_73.txt : 25 ms.
+benchmarks/INST_25x25/40/inst25x25_40_73.txt reduce vertex: 6, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_73.txt : 35 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_74.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_74.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_74.txt : 35 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_75.txt reduce vertex: 3, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_75.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_75.txt : 38 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_76.txt reduce vertex: 2, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_76.txt : 16 ms.
+benchmarks/INST_25x25/40/inst25x25_40_76.txt : 35 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_77.txt reduce vertex: 10, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_77.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_77.txt : 40 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_78.txt reduce vertex: 8, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_78.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_78.txt reduce vertex: 8, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_78.txt : 30 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_79.txt reduce vertex: 1, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_79.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_79.txt reduce vertex: 1, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_79.txt : 36 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_7.txt reduce vertex: 5, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_7.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_7.txt : 36 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_80.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_80.txt : 18 ms.
+benchmarks/INST_25x25/40/inst25x25_40_80.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_80.txt : 35 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_81.txt reduce vertex: 5, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_81.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_81.txt reduce vertex: 5, time: 0.010000
+benchmarks/INST_25x25/40/inst25x25_40_81.txt : 28 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_82.txt reduce vertex: 7, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_82.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_82.txt reduce vertex: 7, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_82.txt : 31 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_83.txt reduce vertex: 7, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_83.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_83.txt : 34 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_84.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_84.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_84.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_84.txt : 30 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_85.txt reduce vertex: 5, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_85.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_85.txt : 37 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_86.txt reduce vertex: 12, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_86.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_86.txt : 39 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_87.txt reduce vertex: 1, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_87.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_87.txt : 35 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_88.txt reduce vertex: 6, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_88.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_88.txt reduce vertex: 6, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_88.txt : 36 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_89.txt reduce vertex: 14, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_89.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_89.txt reduce vertex: 14, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_89.txt : 35 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_8.txt reduce vertex: 3, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_8.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_8.txt : 35 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_90.txt reduce vertex: 4, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_90.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_90.txt : 37 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_91.txt reduce vertex: 4, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_91.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_91.txt reduce vertex: 4, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_91.txt : 35 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_92.txt reduce vertex: 6, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_92.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_92.txt : 31 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_93.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_93.txt : 21 ms.
+benchmarks/INST_25x25/40/inst25x25_40_93.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_93.txt : 34 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_94.txt reduce vertex: 6, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_94.txt : 22 ms.
+benchmarks/INST_25x25/40/inst25x25_40_94.txt : 38 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_95.txt reduce vertex: 3, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_95.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_95.txt : 32 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_96.txt reduce vertex: 4, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_96.txt : 23 ms.
+benchmarks/INST_25x25/40/inst25x25_40_96.txt : 37 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_97.txt reduce vertex: 10, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_97.txt : 20 ms.
+benchmarks/INST_25x25/40/inst25x25_40_97.txt reduce vertex: 10, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_97.txt : 41 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_98.txt reduce vertex: 3, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_98.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_98.txt : 31 ms.
 --------------------------------------------------
 benchmarks/INST_25x25/40/inst25x25_40_99.txt reduce vertex: 8, time: 0.000000
-benchmarks/INST_25x25/40/inst25x25_40_99.txt : 19 ms.
+benchmarks/INST_25x25/40/inst25x25_40_99.txt : 30 ms.
 --------------------------------------------------
-benchmarks/INST_25x25/40/inst25x25_40_9.txt reduce vertex: 5, time: 0.010000
-benchmarks/INST_25x25/40/inst25x25_40_9.txt : 18 ms.
+benchmarks/INST_25x25/40/inst25x25_40_9.txt reduce vertex: 5, time: 0.000000
+benchmarks/INST_25x25/40/inst25x25_40_9.txt : 30 ms.

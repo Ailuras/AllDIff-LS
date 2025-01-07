@@ -33,6 +33,9 @@ for file in $folder/*; do
     if [ "$solver"x = "sudoku_lt"x ]; then
         ./solvers/Sudoku/Sudoku-LS-lt $file $seed $time_t 0
     fi   
+    if [ "$solver"x = "sudoku_gac"x ]; then
+        timeout $time_t python ./solvers/Sudoku/Sudoku_GAC.py $file
+    fi
     if [ "$solver"x = "sudoku_ort9x9"x ]; then
         timeout $time_t python solvers/sudoku_ort/sudoku_9x9.py $file
     fi
@@ -55,7 +58,22 @@ for file in $folder/*; do
         ./solvers/sudoku_lsc/sudoku_lsc $file $seed $time_t
     fi
     if [ "$solver"x = "sudoku_ls"x ]; then
-        ./solvers/sudoku_test_ls/sudoku_ls $file $seed $time_t 0
+        ./solvers/Sudoku/Sudoku-LS $file $seed $time_t 0
+    fi
+    if [ "$solver"x = "sudoku_ls00"x ]; then
+        ./solvers/Sudoku/Sudoku-LS_00 $file $seed $time_t 0
+    fi
+    if [ "$solver"x = "sudoku_ls03"x ]; then
+        ./solvers/Sudoku/Sudoku-LS_03 $file $seed $time_t 0
+    fi
+    if [ "$solver"x = "sudoku_ls09"x ]; then
+        ./solvers/Sudoku/Sudoku-LS_09 $file $seed $time_t 0
+    fi
+    if [ "$solver"x = "sudoku_ls12"x ]; then
+        ./solvers/Sudoku/Sudoku-LS_12 $file $seed $time_t 0
+    fi
+    if [ "$solver"x = "sudoku_ls15"x ]; then
+        ./solvers/Sudoku/Sudoku-LS_15 $file $seed $time_t 0
     fi
     if [ "$solver"x = "sudoku_tie"x ]; then
         ./solvers/sudoku_test_tie/sudoku_ls $file $seed $time_t 0
