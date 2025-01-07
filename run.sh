@@ -39,6 +39,10 @@ for file in $folder/*; do
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t python solvers/nqueens_cpl/nqueens.py $number
     fi
+    if [ "$solver"x = "nqueens_ort"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t python solvers/nqueens_ort/nqueens.py $number
+    fi
 
     if [ "$solver"x = "MOLS_ls"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
@@ -68,6 +72,10 @@ for file in $folder/*; do
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t python solvers/MOLS_cpl/mols.py $number
     fi
+    if [ "$solver"x = "MOLS_ort"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t python solvers/MOLS_ort/mols.py $number
+    fi
 
     if [ "$solver"x = "AI_ls"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
@@ -85,13 +93,17 @@ for file in $folder/*; do
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t minizinc --solver choco solvers/AI_csp/allinterval.mzn -D "n=$number"
     fi
+    if [ "$solver"x = "AI_yuck"x ]; then
+        number=$(echo $file | grep -o -E '[0-9]+')
+        timeout $time_t minizinc --solver yuck solvers/AI_csp/allinterval.mzn -D "n=$number"
+    fi
     if [ "$solver"x = "AI_cpl"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
         timeout $time_t python solvers/AI_cpl/allinterval.py $number
     fi
-    if [ "$solver"x = "AI_yuck"x ]; then
+    if [ "$solver"x = "AI_ort"x ]; then
         number=$(echo $file | grep -o -E '[0-9]+')
-        timeout $time_t minizinc --solver yuck solvers/AI_csp/allinterval.mzn -D "n=$number"
+        timeout $time_t python solvers/AI_ort/allinterval.py $number
     fi
 
     end=$[$(date +%s%N)/1000000]
