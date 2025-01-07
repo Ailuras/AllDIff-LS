@@ -1,0 +1,27 @@
+--------------------------------------------------
+======================================================================
+current best clash: 2
+vertex(50, 42) and vertex(50, 80) same color: 65
+vertex(49, 27) and vertex(49, 67) same color: 20
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 0
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 0
+current squ clash: 0
+benchmarks_simp/INST_81x81/10/inst81x81_10_0.txt find answer: 8.940000
+benchmarks_simp/INST_81x81/10/inst81x81_10_0.txt : 12334 ms.
+--------------------------------------------------
+======================================================================
+current best clash: 0
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 0
+current squ clash: 0
+benchmarks_simp/INST_81x81/10/inst81x81_10_10.txt find answer: 5.530000
+benchmarks_simp/INST_81x81/10/inst81x81_10_10.txt : 8487 ms.
+--------------------------------------------------

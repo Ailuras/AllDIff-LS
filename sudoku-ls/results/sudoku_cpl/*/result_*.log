@@ -1,0 +1,6 @@
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 9, in <module>
+    SIZE = int(info[-1].split('_')[0].split('x')[-1])
+ValueError: invalid literal for int() with base 10: '*'
+benchmarks/sudoku/*/*/* : 3685 ms.

@@ -1,0 +1,1 @@
+./ilsSolver --instanceFile ../../../benchmarks/INST_25x25/40/inst25x25_40_0.txt --timeLimit 5

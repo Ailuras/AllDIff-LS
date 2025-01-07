@@ -1,0 +1,105 @@
+=============================================
+min_clash: -7, min_tabu_clash: 2147483647
+cnt: 3, tabu_cnt: 0
+choose vertex 74 change to 6, tabuV:1
+mClashEdges_length: 56, mClashVertexes_length: 44, mClashTabuVertexes_length: 0
+=============================================
+min_clash: -5, min_tabu_clash: 0
+cnt: 4, tabu_cnt: 1
+choose vertex 53 change to 3, tabuV:1
+mClashEdges_length: 49, mClashVertexes_length: 41, mClashTabuVertexes_length: 1
+=============================================
+min_clash: -5, min_tabu_clash: 0
+cnt: 3, tabu_cnt: 1
+choose vertex 56 change to 8, tabuV:1
+mClashEdges_length: 44, mClashVertexes_length: 40, mClashTabuVertexes_length: 1
+=============================================
+min_clash: -2, min_tabu_clash: 0
+cnt: 10, tabu_cnt: 2
+choose vertex 13 change to 1, tabuV:1
+mClashEdges_length: 39, mClashVertexes_length: 38, mClashTabuVertexes_length: 1
+=============================================
+min_clash: -2, min_tabu_clash: 0
+cnt: 6, tabu_cnt: 2
+choose vertex 47 change to 9, tabuV:1
+mClashEdges_length: 37, mClashVertexes_length: 37, mClashTabuVertexes_length: 1
+=============================================
+min_clash: -2, min_tabu_clash: 0
+cnt: 5, tabu_cnt: 1
+choose vertex 9 change to 3, tabuV:1
+mClashEdges_length: 35, mClashVertexes_length: 35, mClashTabuVertexes_length: 1
+=============================================
+min_clash: -2, min_tabu_clash: 0
+cnt: 3, tabu_cnt: 1
+choose vertex 59 change to 6, tabuV:1
+mClashEdges_length: 33, mClashVertexes_length: 32, mClashTabuVertexes_length: 1
+=============================================
+min_clash: -2, min_tabu_clash: 2147483647
+cnt: 2, tabu_cnt: 0
+choose vertex 80 change to 8, tabuV:1
+mClashEdges_length: 31, mClashVertexes_length: 29, mClashTabuVertexes_length: 0
+=============================================
+min_clash: -2, min_tabu_clash: 2147483647
+cnt: 2, tabu_cnt: 0
+choose vertex 76 change to 4, tabuV:1
+mClashEdges_length: 29, mClashVertexes_length: 29, mClashTabuVertexes_length: 0
+=============================================
+min_clash: -2, min_tabu_clash: 2147483647
+cnt: 1, tabu_cnt: 0
+choose vertex 17 change to 6, tabuV:1
+mClashEdges_length: 27, mClashVertexes_length: 27, mClashTabuVertexes_length: 0
+=============================================
+min_clash: -1, min_tabu_clash: 2147483647
+cnt: 11, tabu_cnt: 0
+choose vertex 81 change to 9, tabuV:1
+mClashEdges_length: 25, mClashVertexes_length: 24, mClashTabuVertexes_length: 0
+=============================================
+min_clash: -1, min_tabu_clash: 2147483647
+cnt: 12, tabu_cnt: 0
+choose vertex 16 change to 1, tabuV:1
+mClashEdges_length: 24, mClashVertexes_length: 21, mClashTabuVertexes_length: 0
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 8, tabu_cnt: 2
+choose vertex 78 change to 1, tabuV:1
+mClashEdges_length: 23, mClashVertexes_length: 18, mClashTabuVertexes_length: 1
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 8, tabu_cnt: 3
+choose vertex 50 change to 1, tabuV:1
+mClashEdges_length: 22, mClashVertexes_length: 18, mClashTabuVertexes_length: 2
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 7, tabu_cnt: 3
+choose vertex 23 change to 4, tabuV:1
+mClashEdges_length: 21, mClashVertexes_length: 16, mClashTabuVertexes_length: 2
+=============================================
+min_clash: -2, min_tabu_clash: 0
+cnt: 1, tabu_cnt: 3
+choose vertex 24 change to 3, tabuV:1
+mClashEdges_length: 20, mClashVertexes_length: 14, mClashTabuVertexes_length: 2
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 4, tabu_cnt: 3
+choose vertex 69 change to 2, tabuV:1
+mClashEdges_length: 18, mClashVertexes_length: 12, mClashTabuVertexes_length: 2
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 2, tabu_cnt: 4
+choose vertex 73 change to 5, tabuV:1
+mClashEdges_length: 17, mClashVertexes_length: 10, mClashTabuVertexes_length: 3
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 2, tabu_cnt: 4
+choose vertex 28 change to 2, tabuV:1
+mClashEdges_length: 16, mClashVertexes_length: 10, mClashTabuVertexes_length: 3
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 2, tabu_cnt: 4
+choose vertex 77 change to 9, tabuV:1
+mClashEdges_length: 15, mClashVertexes_length: 7, mClashTabuVertexes_length: 3
+=============================================
+min_clash: -1, min_tabu_clash: 0
+cnt: 1, tabu_cnt: 3
+choose vertex 29 change to 7, tabuV:1
+mClashEdges_length: 14, mClashVertexes_length: 5, mClashTabuVertexes_length: 2

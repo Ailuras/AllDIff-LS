@@ -1,0 +1,293 @@
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_0.txt find answer: 64.310000
+benchmarks_hard/INST_36x36/50/inst36x36_50_0.txt : 64527 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_10.txt find answer: 86.400000
+benchmarks_hard/INST_36x36/50/inst36x36_50_10.txt : 86664 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_11.txt find answer: 93.900000
+benchmarks_hard/INST_36x36/50/inst36x36_50_11.txt : 94189 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_12.txt find answer: 186.470000
+benchmarks_hard/INST_36x36/50/inst36x36_50_12.txt : 186982 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_13.txt find answer: 257.430000
+benchmarks_hard/INST_36x36/50/inst36x36_50_13.txt : 258099 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_14.txt find answer: 153.540000
+benchmarks_hard/INST_36x36/50/inst36x36_50_14.txt : 153974 ms.
+--------------------------------------------------
+run.sh: line 11: 240906 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_15.txt : 136923 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_16.txt find answer: 41.570000
+benchmarks_hard/INST_36x36/50/inst36x36_50_16.txt : 41732 ms.
+--------------------------------------------------
+run.sh: line 11: 241051 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_17.txt : 40358 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_18.txt find answer: 91.390000
+benchmarks_hard/INST_36x36/50/inst36x36_50_18.txt : 91653 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_19.txt find answer: 76.250000
+benchmarks_hard/INST_36x36/50/inst36x36_50_19.txt : 76485 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_1.txt find answer: 53.400000
+benchmarks_hard/INST_36x36/50/inst36x36_50_1.txt : 53587 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_20.txt find answer: 42.600000
+benchmarks_hard/INST_36x36/50/inst36x36_50_20.txt : 42761 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_21.txt find answer: 35.820000
+benchmarks_hard/INST_36x36/50/inst36x36_50_21.txt : 35963 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_22.txt : 1017205 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_23.txt find answer: 76.400000
+benchmarks_hard/INST_36x36/50/inst36x36_50_23.txt : 76657 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_24.txt find answer: 130.840000
+benchmarks_hard/INST_36x36/50/inst36x36_50_24.txt : 131213 ms.
+--------------------------------------------------
+run.sh: line 11: 241954 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_25.txt : 74268 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_26.txt find answer: 13.500000
+benchmarks_hard/INST_36x36/50/inst36x36_50_26.txt : 13591 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_27.txt find answer: 65.940000
+benchmarks_hard/INST_36x36/50/inst36x36_50_27.txt : 66171 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_28.txt find answer: 150.420000
+benchmarks_hard/INST_36x36/50/inst36x36_50_28.txt : 150837 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_29.txt find answer: 42.050000
+benchmarks_hard/INST_36x36/50/inst36x36_50_29.txt : 42225 ms.
+--------------------------------------------------
+run.sh: line 11: 242150 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_2.txt : 189436 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_30.txt find answer: 28.900000
+benchmarks_hard/INST_36x36/50/inst36x36_50_30.txt : 29031 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_31.txt find answer: 32.250000
+benchmarks_hard/INST_36x36/50/inst36x36_50_31.txt : 32395 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_32.txt find answer: 26.080000
+benchmarks_hard/INST_36x36/50/inst36x36_50_32.txt : 26218 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_33.txt find answer: 132.970000
+benchmarks_hard/INST_36x36/50/inst36x36_50_33.txt : 133350 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_34.txt find answer: 182.940000
+benchmarks_hard/INST_36x36/50/inst36x36_50_34.txt : 183442 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_35.txt find answer: 9.300000
+benchmarks_hard/INST_36x36/50/inst36x36_50_35.txt : 9390 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_36.txt find answer: 25.560000
+benchmarks_hard/INST_36x36/50/inst36x36_50_36.txt : 25707 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_37.txt find answer: 29.560000
+benchmarks_hard/INST_36x36/50/inst36x36_50_37.txt : 29674 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_38.txt find answer: 178.130000
+benchmarks_hard/INST_36x36/50/inst36x36_50_38.txt : 178617 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_39.txt find answer: 238.320000
+benchmarks_hard/INST_36x36/50/inst36x36_50_39.txt : 238947 ms.
+--------------------------------------------------
+run.sh: line 11: 242848 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_3.txt : 116143 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_40.txt find answer: 69.430000
+benchmarks_hard/INST_36x36/50/inst36x36_50_40.txt : 69646 ms.
+--------------------------------------------------
+run.sh: line 11: 242931 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_41.txt : 386792 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_42.txt find answer: 27.910000
+benchmarks_hard/INST_36x36/50/inst36x36_50_42.txt : 28049 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_43.txt find answer: 46.050000
+benchmarks_hard/INST_36x36/50/inst36x36_50_43.txt : 46239 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_44.txt find answer: 148.050000
+benchmarks_hard/INST_36x36/50/inst36x36_50_44.txt : 148461 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_45.txt find answer: 5.840000
+benchmarks_hard/INST_36x36/50/inst36x36_50_45.txt : 5922 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_46.txt : 1005121 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_47.txt : 1006279 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_48.txt find answer: 218.790000
+benchmarks_hard/INST_36x36/50/inst36x36_50_48.txt : 219369 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_49.txt find answer: 75.820000
+benchmarks_hard/INST_36x36/50/inst36x36_50_49.txt : 76078 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_4.txt find answer: 564.990000
+benchmarks_hard/INST_36x36/50/inst36x36_50_4.txt : 566399 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_50.txt find answer: 89.730000
+benchmarks_hard/INST_36x36/50/inst36x36_50_50.txt : 90004 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_51.txt find answer: 59.750000
+benchmarks_hard/INST_36x36/50/inst36x36_50_51.txt : 59945 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_52.txt find answer: 83.050000
+benchmarks_hard/INST_36x36/50/inst36x36_50_52.txt : 83308 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_53.txt find answer: 29.860000
+benchmarks_hard/INST_36x36/50/inst36x36_50_53.txt : 29988 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_54.txt find answer: 311.510000
+benchmarks_hard/INST_36x36/50/inst36x36_50_54.txt : 312295 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_55.txt find answer: 927.020000
+benchmarks_hard/INST_36x36/50/inst36x36_50_55.txt : 929254 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_56.txt find answer: 149.930000
+benchmarks_hard/INST_36x36/50/inst36x36_50_56.txt : 150374 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_57.txt find answer: 826.090000
+benchmarks_hard/INST_36x36/50/inst36x36_50_57.txt : 828095 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_58.txt find answer: 123.050000
+benchmarks_hard/INST_36x36/50/inst36x36_50_58.txt : 123401 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_59.txt find answer: 427.010000
+benchmarks_hard/INST_36x36/50/inst36x36_50_59.txt : 428070 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_5.txt find answer: 9.150000
+benchmarks_hard/INST_36x36/50/inst36x36_50_5.txt : 9229 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_60.txt find answer: 43.270000
+benchmarks_hard/INST_36x36/50/inst36x36_50_60.txt : 43437 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_61.txt find answer: 25.390000
+benchmarks_hard/INST_36x36/50/inst36x36_50_61.txt : 25518 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_62.txt find answer: 150.230000
+benchmarks_hard/INST_36x36/50/inst36x36_50_62.txt : 150642 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_63.txt find answer: 38.920000
+benchmarks_hard/INST_36x36/50/inst36x36_50_63.txt : 39086 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_64.txt find answer: 187.890000
+benchmarks_hard/INST_36x36/50/inst36x36_50_64.txt : 188383 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_65.txt : 1003465 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_66.txt find answer: 102.620000
+benchmarks_hard/INST_36x36/50/inst36x36_50_66.txt : 102931 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_67.txt find answer: 20.810000
+benchmarks_hard/INST_36x36/50/inst36x36_50_67.txt : 20918 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_68.txt find answer: 275.310000
+benchmarks_hard/INST_36x36/50/inst36x36_50_68.txt : 276016 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_69.txt find answer: 34.130000
+benchmarks_hard/INST_36x36/50/inst36x36_50_69.txt : 34272 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_6.txt find answer: 109.810000
+benchmarks_hard/INST_36x36/50/inst36x36_50_6.txt : 110117 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_70.txt find answer: 76.030000
+benchmarks_hard/INST_36x36/50/inst36x36_50_70.txt : 76265 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_71.txt find answer: 20.650000
+benchmarks_hard/INST_36x36/50/inst36x36_50_71.txt : 20760 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_72.txt find answer: 44.140000
+benchmarks_hard/INST_36x36/50/inst36x36_50_72.txt : 44309 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_73.txt find answer: 57.400000
+benchmarks_hard/INST_36x36/50/inst36x36_50_73.txt : 57618 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_74.txt find answer: 451.500000
+benchmarks_hard/INST_36x36/50/inst36x36_50_74.txt : 452686 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_75.txt find answer: 76.050000
+benchmarks_hard/INST_36x36/50/inst36x36_50_75.txt : 76324 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_76.txt find answer: 317.820000
+benchmarks_hard/INST_36x36/50/inst36x36_50_76.txt : 318665 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_77.txt find answer: 16.630000
+benchmarks_hard/INST_36x36/50/inst36x36_50_77.txt : 16746 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_78.txt find answer: 295.700000
+benchmarks_hard/INST_36x36/50/inst36x36_50_78.txt : 296460 ms.
+--------------------------------------------------
+run.sh: line 11: 246876 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_79.txt : 28325 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_7.txt find answer: 134.820000
+benchmarks_hard/INST_36x36/50/inst36x36_50_7.txt : 135210 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_80.txt find answer: 135.750000
+benchmarks_hard/INST_36x36/50/inst36x36_50_80.txt : 136136 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_81.txt find answer: 47.770000
+benchmarks_hard/INST_36x36/50/inst36x36_50_81.txt : 47961 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_82.txt find answer: 143.250000
+benchmarks_hard/INST_36x36/50/inst36x36_50_82.txt : 143649 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_83.txt find answer: 220.360000
+benchmarks_hard/INST_36x36/50/inst36x36_50_83.txt : 220962 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_84.txt find answer: 393.530000
+benchmarks_hard/INST_36x36/50/inst36x36_50_84.txt : 394636 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_85.txt find answer: 511.940000
+benchmarks_hard/INST_36x36/50/inst36x36_50_85.txt : 513361 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_86.txt find answer: 257.430000
+benchmarks_hard/INST_36x36/50/inst36x36_50_86.txt : 258157 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_87.txt find answer: 39.200000
+benchmarks_hard/INST_36x36/50/inst36x36_50_87.txt : 39370 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_88.txt find answer: 38.850000
+benchmarks_hard/INST_36x36/50/inst36x36_50_88.txt : 38999 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_89.txt find answer: 158.660000
+benchmarks_hard/INST_36x36/50/inst36x36_50_89.txt : 159104 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_8.txt find answer: 71.540000
+benchmarks_hard/INST_36x36/50/inst36x36_50_8.txt : 71775 ms.
+--------------------------------------------------
+run.sh: line 11: 247544 Segmentation fault      (core dumped) ./solvers/sudoku_test_step/sudoku_lsc $file $seed $time_t
+benchmarks_hard/INST_36x36/50/inst36x36_50_90.txt : 13905 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_91.txt : 1004738 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_92.txt find answer: 72.680000
+benchmarks_hard/INST_36x36/50/inst36x36_50_92.txt : 72924 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_93.txt find answer: 19.940000
+benchmarks_hard/INST_36x36/50/inst36x36_50_93.txt : 20060 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_94.txt find answer: 238.130000
+benchmarks_hard/INST_36x36/50/inst36x36_50_94.txt : 238748 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_95.txt : 1031899 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_96.txt : 1010236 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_97.txt find answer: 70.440000
+benchmarks_hard/INST_36x36/50/inst36x36_50_97.txt : 70685 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_98.txt find answer: 259.940000
+benchmarks_hard/INST_36x36/50/inst36x36_50_98.txt : 260703 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_99.txt find answer: 970.710000
+benchmarks_hard/INST_36x36/50/inst36x36_50_99.txt : 973095 ms.
+--------------------------------------------------
+benchmarks_hard/INST_36x36/50/inst36x36_50_9.txt find answer: 48.690000
+benchmarks_hard/INST_36x36/50/inst36x36_50_9.txt : 48884 ms.

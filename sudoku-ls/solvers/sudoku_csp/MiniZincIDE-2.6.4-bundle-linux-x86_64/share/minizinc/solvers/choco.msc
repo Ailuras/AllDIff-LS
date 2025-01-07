@@ -1,0 +1,16 @@
+{
+  "id": "org.choco.choco",
+  "name": "Choco-solver",
+  "description": "Choco FlatZinc executable",
+  "version": "4.10.13",
+  "mznlib": "../choco/mzn_lib/",
+  "executable": "../choco/fzn-choco",
+  "tags": ["cp","int"],
+  "stdFlags": ["-a","-f","-n","-p","-r","-s","-t"],
+  "supportsMzn": false,
+  "supportsFzn": true,
+  "needsSolns2Out": true,
+  "needsMznExecutable": false,
+  "needsStdlibDir": false,
+  "isGUIApplication": false
+}

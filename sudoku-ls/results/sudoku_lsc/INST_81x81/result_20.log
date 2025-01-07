@@ -1,0 +1,59 @@
+--------------------------------------------------
+======================================================================
+current best clash: 2
+vertex(7, 61) and vertex(7, 74) same color: 78
+vertex(4, 11) and vertex(4, 47) same color: 42
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(54, 35) and vertex(54, 50) same color: 57
+vertex(48, 37) and vertex(48, 80) same color: 35
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 0
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 0
+current squ clash: 0
+benchmarks_simp/INST_81x81/20/inst81x81_20_0.txt find answer: 7.000000
+benchmarks_simp/INST_81x81/20/inst81x81_20_0.txt : 10158 ms.
+--------------------------------------------------
+======================================================================
+current best clash: 7
+vertex(27, 42) and vertex(27, 66) same color: 77
+vertex(25, 8) and vertex(25, 20) same color: 13
+vertex(60, 44) and vertex(60, 70) same color: 24
+vertex(32, 30) and vertex(32, 69) same color: 9
+vertex(19, 3) and vertex(19, 59) same color: 48
+vertex(55, 42) and vertex(55, 76) same color: 52
+vertex(34, 6) and vertex(34, 58) same color: 19
+----------------------------------------------------------------------
+current col clash: 7
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 5
+vertex(55, 79) and vertex(64, 79) same color: 80
+vertex(1, 78) and vertex(29, 78) same color: 37
+vertex(10, 75) and vertex(61, 75) same color: 58
+vertex(35, 74) and vertex(46, 74) same color: 9
+vertex(7, 74) and vertex(28, 74) same color: 28
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 5
+current squ clash: 0
+======================================================================
+current best clash: 0
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 0
+current squ clash: 0
+benchmarks_simp/INST_81x81/20/inst81x81_20_10.txt find answer: 5.370000
+benchmarks_simp/INST_81x81/20/inst81x81_20_10.txt : 8279 ms.
+--------------------------------------------------

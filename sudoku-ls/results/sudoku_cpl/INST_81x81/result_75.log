@@ -1,0 +1,19 @@
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/75/inst81x81_75_0.txt : 35111 ms.
+--------------------------------------------------
+SAT
+benchmarks_1/INST_81x81/75/inst81x81_75_10.txt : 44510 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/75/inst81x81_75_11.txt'
+benchmarks_1/INST_81x81/75/inst81x81_75_11.txt : 5483 ms.
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hanrui/Sudoku-LS/solvers/sudoku_cpl/sudoku.py", line 15, in <module>
+    with open(file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmarks_1/INST_81x81/75/inst81x81_75_12.txt'
+benchmarks_1/INST_81x81/75/inst81x81_75_12.txt : 5802 ms.
+--------------------------------------------------

@@ -1,0 +1,10 @@
+nohup bash run.sh proportion 1000 sudoku_des 1 > results/sudoku_des/output1.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 2 > results/sudoku_des/output2.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 3 > results/sudoku_des/output3.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 4 > results/sudoku_des/output4.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 5 > results/sudoku_des/output5.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 6 > results/sudoku_des/output6.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 7 > results/sudoku_des/output7.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 8 > results/sudoku_des/output8.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 9 > results/sudoku_des/output9.log 2>&1 &
+nohup bash run.sh proportion 1000 sudoku_des 10 > results/sudoku_des/output10.log 2>&1 &

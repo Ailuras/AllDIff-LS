@@ -1,0 +1,457 @@
+--------------------------------------------------
+======================================================================
+current best clash: 18
+vertex(34, 28) and vertex(34, 34) same color: 8
+vertex(10, 23) and vertex(10, 59) same color: 52
+vertex(18, 6) and vertex(18, 44) same color: 17
+vertex(14, 33) and vertex(14, 64) same color: 3
+vertex(43, 1) and vertex(43, 59) same color: 4
+vertex(55, 14) and vertex(55, 52) same color: 54
+vertex(35, 17) and vertex(35, 53) same color: 7
+vertex(37, 5) and vertex(37, 63) same color: 32
+vertex(50, 23) and vertex(50, 46) same color: 63
+vertex(45, 16) and vertex(45, 60) same color: 9
+vertex(37, 8) and vertex(37, 10) same color: 52
+vertex(19, 35) and vertex(24, 35) same color: 20
+vertex(52, 11) and vertex(58, 11) same color: 53
+vertex(34, 4) and vertex(34, 18) same color: 10
+vertex(11, 1) and vertex(11, 46) same color: 13
+vertex(13, 15) and vertex(13, 16) same color: 53
+vertex(33, 19) and vertex(33, 46) same color: 18
+vertex(20, 41) and vertex(20, 52) same color: 20
+----------------------------------------------------------------------
+current col clash: 16
+current row clash: 2
+current squ clash: 2
+======================================================================
+current best clash: 11
+vertex(31, 23) and vertex(56, 23) same color: 3
+vertex(14, 13) and vertex(17, 13) same color: 55
+vertex(61, 45) and vertex(61, 50) same color: 4
+vertex(1, 14) and vertex(22, 14) same color: 61
+vertex(5, 37) and vertex(57, 37) same color: 17
+vertex(59, 27) and vertex(64, 27) same color: 4
+vertex(3, 21) and vertex(61, 21) same color: 53
+vertex(58, 31) and vertex(58, 40) same color: 15
+vertex(11, 34) and vertex(33, 34) same color: 8
+vertex(35, 39) and vertex(62, 39) same color: 38
+vertex(45, 32) and vertex(55, 32) same color: 15
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 9
+current squ clash: 1
+======================================================================
+current best clash: 9
+vertex(13, 40) and vertex(20, 40) same color: 58
+vertex(35, 22) and vertex(55, 22) same color: 9
+vertex(33, 13) and vertex(49, 13) same color: 48
+vertex(13, 6) and vertex(27, 6) same color: 14
+vertex(10, 23) and vertex(24, 23) same color: 56
+vertex(6, 1) and vertex(57, 1) same color: 58
+vertex(22, 9) and vertex(26, 9) same color: 23
+vertex(3, 16) and vertex(36, 16) same color: 36
+vertex(30, 39) and vertex(56, 39) same color: 30
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 9
+current squ clash: 0
+======================================================================
+current best clash: 9
+vertex(55, 21) and vertex(59, 21) same color: 62
+vertex(3, 16) and vertex(36, 16) same color: 36
+vertex(1, 18) and vertex(25, 18) same color: 18
+vertex(51, 6) and vertex(51, 40) same color: 30
+vertex(22, 9) and vertex(26, 9) same color: 23
+vertex(56, 27) and vertex(56, 39) same color: 13
+vertex(12, 22) and vertex(22, 22) same color: 55
+vertex(10, 23) and vertex(24, 23) same color: 56
+vertex(33, 13) and vertex(49, 13) same color: 48
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 7
+current squ clash: 0
+======================================================================
+current best clash: 9
+vertex(12, 22) and vertex(22, 22) same color: 55
+vertex(55, 21) and vertex(55, 22) same color: 18
+vertex(3, 16) and vertex(36, 16) same color: 36
+vertex(33, 13) and vertex(49, 13) same color: 48
+vertex(22, 9) and vertex(26, 9) same color: 23
+vertex(10, 23) and vertex(24, 23) same color: 56
+vertex(51, 7) and vertex(51, 40) same color: 30
+vertex(56, 27) and vertex(56, 39) same color: 13
+vertex(1, 18) and vertex(25, 18) same color: 18
+----------------------------------------------------------------------
+current col clash: 3
+current row clash: 6
+current squ clash: 1
+======================================================================
+current best clash: 6
+vertex(33, 12) and vertex(33, 54) same color: 40
+vertex(36, 43) and vertex(36, 53) same color: 58
+vertex(29, 31) and vertex(29, 50) same color: 9
+vertex(26, 14) and vertex(26, 18) same color: 22
+vertex(14, 59) and vertex(60, 59) same color: 13
+vertex(37, 58) and vertex(41, 58) same color: 15
+----------------------------------------------------------------------
+current col clash: 4
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 6
+vertex(4, 12) and vertex(4, 30) same color: 11
+vertex(14, 59) and vertex(60, 59) same color: 13
+vertex(26, 14) and vertex(26, 18) same color: 22
+vertex(29, 5) and vertex(29, 31) same color: 40
+vertex(7, 7) and vertex(7, 49) same color: 55
+vertex(37, 58) and vertex(41, 58) same color: 15
+----------------------------------------------------------------------
+current col clash: 4
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 6
+vertex(26, 14) and vertex(26, 18) same color: 22
+vertex(29, 31) and vertex(29, 50) same color: 9
+vertex(23, 37) and vertex(23, 52) same color: 40
+vertex(17, 7) and vertex(17, 11) same color: 55
+vertex(9, 1) and vertex(9, 53) same color: 26
+vertex(16, 14) and vertex(16, 43) same color: 41
+----------------------------------------------------------------------
+current col clash: 6
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 6
+vertex(5, 17) and vertex(5, 56) same color: 23
+vertex(23, 27) and vertex(23, 32) same color: 45
+vertex(7, 35) and vertex(7, 49) same color: 55
+vertex(20, 20) and vertex(20, 64) same color: 33
+vertex(48, 29) and vertex(50, 29) same color: 45
+vertex(18, 10) and vertex(18, 22) same color: 24
+----------------------------------------------------------------------
+current col clash: 5
+current row clash: 1
+current squ clash: 1
+======================================================================
+current best clash: 5
+vertex(26, 16) and vertex(26, 18) same color: 54
+vertex(62, 10) and vertex(62, 64) same color: 8
+vertex(29, 1) and vertex(31, 1) same color: 54
+vertex(21, 6) and vertex(55, 6) same color: 58
+vertex(57, 20) and vertex(57, 53) same color: 33
+----------------------------------------------------------------------
+current col clash: 3
+current row clash: 2
+current squ clash: 1
+======================================================================
+current best clash: 5
+vertex(42, 33) and vertex(46, 39) same color: 32
+vertex(43, 20) and vertex(43, 55) same color: 32
+vertex(49, 56) and vertex(57, 56) same color: 32
+vertex(5, 51) and vertex(47, 51) same color: 49
+vertex(7, 36) and vertex(28, 36) same color: 32
+----------------------------------------------------------------------
+current col clash: 1
+current row clash: 3
+current squ clash: 1
+======================================================================
+current best clash: 4
+vertex(5, 51) and vertex(47, 51) same color: 49
+vertex(64, 37) and vertex(64, 51) same color: 18
+vertex(63, 33) and vertex(63, 64) same color: 37
+vertex(49, 56) and vertex(57, 56) same color: 32
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(9, 33) and vertex(20, 33) same color: 4
+vertex(49, 35) and vertex(49, 56) same color: 12
+vertex(37, 40) and vertex(54, 40) same color: 29
+vertex(54, 7) and vertex(54, 29) same color: 19
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(52, 64) and vertex(63, 64) same color: 37
+vertex(4, 59) and vertex(47, 59) same color: 9
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(12, 46) and vertex(53, 46) same color: 20
+vertex(14, 45) and vertex(25, 45) same color: 3
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(14, 33) and vertex(46, 33) same color: 3
+vertex(29, 36) and vertex(29, 39) same color: 3
+----------------------------------------------------------------------
+current col clash: 1
+current row clash: 1
+current squ clash: 1
+======================================================================
+current best clash: 2
+vertex(20, 19) and vertex(57, 19) same color: 17
+vertex(8, 20) and vertex(21, 20) same color: 35
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(12, 46) and vertex(63, 46) same color: 59
+vertex(14, 45) and vertex(25, 45) same color: 3
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(53, 46) and vertex(60, 46) same color: 10
+vertex(14, 45) and vertex(25, 45) same color: 3
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(32, 33) and vertex(56, 33) same color: 22
+vertex(6, 36) and vertex(10, 36) same color: 18
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 0
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 0
+current squ clash: 0
+benchmarks_simp/INST_64x64/40/inst64x64_40_0.txt find answer: 8.990000
+benchmarks_simp/INST_64x64/40/inst64x64_40_0.txt : 10449 ms.
+--------------------------------------------------
+======================================================================
+current best clash: 13
+vertex(58, 19) and vertex(58, 20) same color: 6
+vertex(26, 61) and vertex(52, 61) same color: 39
+vertex(14, 11) and vertex(24, 11) same color: 38
+vertex(17, 62) and vertex(59, 62) same color: 27
+vertex(15, 59) and vertex(15, 60) same color: 39
+vertex(12, 63) and vertex(28, 63) same color: 16
+vertex(9, 44) and vertex(10, 44) same color: 61
+vertex(14, 33) and vertex(14, 55) same color: 61
+vertex(32, 42) and vertex(52, 42) same color: 33
+vertex(7, 12) and vertex(7, 16) same color: 38
+vertex(63, 19) and vertex(63, 36) same color: 51
+vertex(9, 21) and vertex(13, 24) same color: 19
+vertex(59, 25) and vertex(64, 25) same color: 51
+----------------------------------------------------------------------
+current col clash: 5
+current row clash: 7
+current squ clash: 6
+======================================================================
+current best clash: 3
+vertex(38, 11) and vertex(38, 13) same color: 22
+vertex(26, 32) and vertex(26, 36) same color: 62
+vertex(27, 15) and vertex(31, 15) same color: 62
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 1
+current squ clash: 2
+======================================================================
+current best clash: 3
+vertex(25, 12) and vertex(31, 15) same color: 58
+vertex(26, 31) and vertex(26, 55) same color: 58
+vertex(38, 11) and vertex(38, 13) same color: 22
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 2
+======================================================================
+current best clash: 3
+vertex(26, 31) and vertex(26, 55) same color: 58
+vertex(25, 12) and vertex(31, 15) same color: 58
+vertex(38, 11) and vertex(38, 13) same color: 22
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 2
+======================================================================
+current best clash: 3
+vertex(26, 45) and vertex(26, 55) same color: 58
+vertex(38, 11) and vertex(38, 13) same color: 22
+vertex(25, 12) and vertex(31, 15) same color: 58
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 2
+======================================================================
+current best clash: 0
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 0
+current squ clash: 0
+benchmarks_simp/INST_64x64/40/inst64x64_40_10.txt find answer: 3.110000
+benchmarks_simp/INST_64x64/40/inst64x64_40_10.txt : 4514 ms.
+--------------------------------------------------
+======================================================================
+current best clash: 9
+vertex(1, 24) and vertex(39, 24) same color: 23
+vertex(2, 27) and vertex(24, 27) same color: 32
+vertex(1, 31) and vertex(41, 31) same color: 56
+vertex(9, 48) and vertex(44, 48) same color: 55
+vertex(17, 41) and vertex(62, 41) same color: 7
+vertex(38, 30) and vertex(48, 30) same color: 12
+vertex(52, 29) and vertex(58, 29) same color: 43
+vertex(32, 25) and vertex(60, 25) same color: 31
+vertex(29, 23) and vertex(37, 23) same color: 57
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 9
+current squ clash: 0
+======================================================================
+current best clash: 5
+vertex(36, 32) and vertex(60, 32) same color: 22
+vertex(2, 27) and vertex(19, 27) same color: 45
+vertex(59, 29) and vertex(59, 59) same color: 49
+vertex(60, 8) and vertex(62, 8) same color: 49
+vertex(37, 30) and vertex(50, 30) same color: 31
+----------------------------------------------------------------------
+current col clash: 1
+current row clash: 4
+current squ clash: 1
+======================================================================
+current best clash: 4
+vertex(46, 18) and vertex(46, 38) same color: 31
+vertex(40, 53) and vertex(64, 53) same color: 7
+vertex(44, 1) and vertex(44, 37) same color: 40
+vertex(36, 56) and vertex(61, 56) same color: 11
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(48, 26) and vertex(48, 44) same color: 24
+vertex(42, 17) and vertex(42, 21) same color: 64
+vertex(8, 22) and vertex(19, 22) same color: 64
+vertex(31, 17) and vertex(38, 17) same color: 5
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 2
+current squ clash: 1
+======================================================================
+current best clash: 4
+vertex(46, 18) and vertex(46, 38) same color: 31
+vertex(14, 3) and vertex(14, 8) same color: 1
+vertex(25, 2) and vertex(63, 2) same color: 1
+vertex(44, 28) and vertex(44, 37) same color: 61
+----------------------------------------------------------------------
+current col clash: 3
+current row clash: 1
+current squ clash: 1
+======================================================================
+current best clash: 4
+vertex(31, 2) and vertex(31, 62) same color: 23
+vertex(27, 31) and vertex(27, 59) same color: 33
+vertex(40, 58) and vertex(49, 58) same color: 17
+vertex(28, 57) and vertex(53, 57) same color: 29
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(20, 36) and vertex(46, 36) same color: 19
+vertex(44, 1) and vertex(44, 37) same color: 40
+vertex(3, 34) and vertex(54, 34) same color: 63
+vertex(46, 18) and vertex(46, 38) same color: 31
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(38, 17) and vertex(38, 63) same color: 36
+vertex(48, 26) and vertex(48, 44) same color: 24
+vertex(34, 22) and vertex(34, 53) same color: 26
+vertex(42, 17) and vertex(42, 56) same color: 15
+----------------------------------------------------------------------
+current col clash: 4
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(34, 53) and vertex(34, 57) same color: 24
+vertex(48, 26) and vertex(48, 44) same color: 24
+vertex(42, 17) and vertex(42, 56) same color: 15
+vertex(38, 17) and vertex(38, 63) same color: 36
+----------------------------------------------------------------------
+current col clash: 4
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(8, 10) and vertex(46, 10) same color: 55
+vertex(28, 11) and vertex(61, 11) same color: 36
+vertex(28, 24) and vertex(28, 57) same color: 53
+vertex(30, 39) and vertex(30, 61) same color: 60
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 2
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(33, 15) and vertex(41, 15) same color: 50
+vertex(42, 37) and vertex(57, 37) same color: 41
+vertex(12, 35) and vertex(23, 35) same color: 8
+vertex(46, 12) and vertex(52, 12) same color: 61
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 4
+current squ clash: 0
+======================================================================
+current best clash: 4
+vertex(52, 13) and vertex(52, 43) same color: 37
+vertex(21, 8) and vertex(21, 36) same color: 63
+vertex(19, 24) and vertex(19, 38) same color: 41
+vertex(54, 19) and vertex(54, 32) same color: 48
+----------------------------------------------------------------------
+current col clash: 4
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(53, 8) and vertex(53, 9) same color: 19
+vertex(56, 6) and vertex(56, 48) same color: 43
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 2
+vertex(56, 6) and vertex(56, 48) same color: 43
+vertex(53, 8) and vertex(53, 9) same color: 19
+----------------------------------------------------------------------
+current col clash: 2
+current row clash: 0
+current squ clash: 0
+======================================================================
+current best clash: 0
+----------------------------------------------------------------------
+current col clash: 0
+current row clash: 0
+current squ clash: 0
+benchmarks_simp/INST_64x64/40/inst64x64_40_11.txt find answer: 6.250000
+benchmarks_simp/INST_64x64/40/inst64x64_40_11.txt : 7731 ms.
+--------------------------------------------------
