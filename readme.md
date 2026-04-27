@@ -1,22 +1,90 @@
-To compile AllDiff-LS, on Ubuntu simply type:
+# AllDiff-LS
+
+AllDiff-LS is a research prototype for solving CSPs with alldifferent constraints using local search.
+
+## What is in this repository?
+
+- C++ solvers for Sudoku, N-Queens, All-Interval, and 2-MOLS
+- benchmark instances under benchmarks/
+- experiment scripts under Scripts/ and experiment/
+
+## Current Status
+
+This project is still early-stage.
+
+- core algorithms are available
+- scripts are usable for quick experiments
+- interfaces and outputs may change in future updates
+
+## Implementation Path (Where to Start)
+
+If you want to trace from source code to runs:
+
+- Core solvers: Solvers/AllDiff-LS/Sudoku-LS.cpp, Solvers/AllDiff-LS/NQueen-LS.cpp, Solvers/AllDiff-LS/AllInterval-LS.cpp, Solvers/AllDiff-LS/MOLS-LS.cpp
+- Batch orchestration: Scripts/run.sh, Scripts/parallel.sh
+- Benchmarks: benchmarks/
+
+## Quick Start
+
+Run from repository root:
 
 ```bash
-./Scripts/pre.sh
+bash Scripts/pre.sh
+ln -sf AllInterval-LS Solvers/AllDiff-LS/AI-LS
+./Solvers/AllDiff-LS/Sudoku-LS benchmarks/Sudoku/INST_16x16/0/inst16x16_0_0.txt 1 30 0
 ```
 
-To use them separately, use the following command: 
+Optional quick checks:
 
 ```bash
-./Sudoku-LS $file $seed $time $display(0/1)
-./NQueen-LS $order $seed $time $display(0/1)
-./AllInterval-LS $order $seed $time $display(0/1)
-./MOLS-LS $order $seed $time $display(0/1)
+./Solvers/AllDiff-LS/NQueen-LS 1000 1 60 0
+./Solvers/AllDiff-LS/AllInterval-LS 20 1 60 0
+./Solvers/AllDiff-LS/MOLS-LS 7 1 60 0
 ```
-If you want to use tools such as ortools or cplex, you need to install the corresponding python package and apply for the corresponding license. If you want to use MiniZinc, you need to have it installed. Using the converter scripts in Scripts folder, you can convert examples such as Sudoku into input formats such as Minizinc and Kissat.
 
+## Reproduce Basic Batch Runs
 
-The batch run script can be found in the Scripts folder. For example, you can use the following command to batch solve Sudoku instances using Sudoku-LS, and the experimental results are saved in Results.
+Example (seed 1, time limit 1000s):
 
 ```bash
-./parallel.sh ../benchmarks/Sudoku 1000 sudoku_AllDiff-LS 1
+cd Scripts
+bash parallel.sh ../benchmarks/Sudoku 1000 sudoku_AllDiff-LS 1
+bash parallel.sh ../benchmarks/N-Queens 1000 nqueens_AllDiff-LS 1
+bash parallel.sh ../benchmarks/All-Interval 1000 allinterval_AllDiff-LS 1
+bash parallel.sh ../benchmarks/MOLS 1000 mols_AllDiff-LS 1
+```
+
+For paper-style statistics, run with seeds 1 to 10.
+
+## Results
+
+Batch outputs are stored under:
+
+- Results/{solver}/{benchmark_group}/
+
+Examples:
+
+- Results/sudoku_AllDiff-LS/INST_16x16/
+- Results/nqueens_AllDiff-LS/N-Queens/
+
+## Notes
+
+- Scripts/run.sh expects an All-Interval binary named AI-LS.
+- NQueen-LS, AllInterval-LS, and MOLS-LS expect an order number as input.
+- Use display flag 0 for cleaner logs on large runs.
+
+## Paper and Citation
+
+This repository accompanies the paper:
+
+AllDiff-LS: solving alldifferent constraints with efficient local search
+
+DOI: [https://doi.org/10.1007/s11704-025-41190-x](https://doi.org/10.1007/s11704-025-41190-x)
+
+Cite:
+
+```text
+Rui Han, Minghao Liu, Yuhang Dong, Fuqi Jia, Yiyuan Wang, Feifei Ma, Minghao Yin, Jian Zhang.
+AllDiff-LS: solving alldifferent constraints with efficient local search.
+Frontiers of Computer Science, 2026.
 ```
